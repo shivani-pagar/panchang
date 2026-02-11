@@ -44,70 +44,70 @@
 
 
 	<section class="slider-wrp position-relative" style="font-family: 'Mukta', sans-serif; overflow: hidden;">
-    <div class="swiper-container main-hero-slider">
-        <div class="swiper-wrapper">
-            
-            <div class="swiper-slide">
-                <div class="bg-img" style="background: linear-gradient(90deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.2) 100%), url(images/guruji/bg1.jpg); background-size:cover; background-position: center; min-height: 85vh; display: flex; align-items: center;">
-                    <div class="container">
-                        <div class="row align-items-center">
-                            <div class="col-12 col-md-7">
-                                <div class="banner-conn text-white">
-                                    <h1 style="font-size: clamp(2.5rem, 5vw, 4rem); font-weight: 800; line-height: 1.2; margin-bottom: 20px; color: #ffca28;">सनातन वैदिक परंपरा</h1>
-                                    <p style="font-size: 1.25rem; font-weight: 400; margin-bottom: 35px; opacity: 0.9;">आपल्या घरातूनच दैवी आशीर्वादाचा अनुभव घ्या. प्राचीन विधी आणि शुद्ध मंत्रोच्चार.</p>
-                                    <a href="#book" class="btn" style="background: #ff8c00; color: #fff; padding: 15px 40px; font-weight: 700; border-radius: 50px; text-transform: uppercase; letter-spacing: 1px; box-shadow: 0 4px 15px rgba(255,140,0,0.4);">आरक्षण करा</a>
-                                </div>
-                            </div>
-                            <div class="col-12 col-md-5 d-none d-md-block text-center">
-                                <img src="images/guruji/mock.png" class="img-fluid" style="max-height: 500px; filter: drop-shadow(0 10px 20px rgba(0,0,0,0.5));">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+		<div class="swiper-container main-hero-slider">
+			<div class="swiper-wrapper">
 
-            <div class="swiper-slide">
-                <div class="bg-img" style="background: linear-gradient(90deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.2) 100%), url(images/guruji/bg2.jpg); background-size:cover; background-position: center; min-height: 85vh; display: flex; align-items: center;">
-                    <div class="container">
-                        <div class="row align-items-center">
-                            <div class="col-12 col-md-7">
-                                <div class="banner-conn text-white">
-                                    <h1 style="font-size: clamp(2.5rem, 5vw, 4rem); font-weight: 800; line-height: 1.2; margin-bottom: 20px; color: #ffca28;">ज्योतिष व वास्तुने जीवन परिवर्तन</h1>
-                                    <p style="font-size: 1.25rem; font-weight: 400; margin-bottom: 35px; opacity: 0.9;">सकारात्मक ऊर्जा, सुख-समृद्धी आणि जीवनातील संतुलनासाठी अचूक मार्गदर्शन.</p>
-                                    <a href="contact.php" class="btn" style="background: #ff8c00; color: #fff; padding: 15px 40px; font-weight: 700; border-radius: 50px; text-transform: uppercase; letter-spacing: 1px;">संपर्क साधा</a>
-                                </div>
-                            </div>
-                            <div class="col-12 col-md-5 d-none d-md-block text-center">
-                                <img src="images/guruji/mock2.png" class="img-fluid" style="max-height: 500px; filter: drop-shadow(0 10px 20px rgba(0,0,0,0.5));">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+				<div class="swiper-slide">
+					<div class="bg-img" style="background: linear-gradient(90deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.2) 100%), url(images/guruji/bg1.jpg); background-size:cover; background-position: center; min-height: 85vh; display: flex; align-items: center;">
+						<div class="container">
+							<div class="row align-items-center">
+								<div class="col-12 col-md-7">
+									<div class="banner-conn text-white">
+										<h1 style="font-size: clamp(2.5rem, 5vw, 4rem); font-weight: 800; line-height: 1.2; margin-bottom: 20px; color: #ffca28;">सनातन वैदिक परंपरा</h1>
+										<p style="font-size: 1.25rem; font-weight: 400; margin-bottom: 35px; opacity: 0.9;">आपल्या घरातूनच दैवी आशीर्वादाचा अनुभव घ्या. प्राचीन विधी आणि शुद्ध मंत्रोच्चार.</p>
+										<a href="#book" class="btn" style="background: #ff8c00; color: #fff; padding: 15px 40px; font-weight: 700; border-radius: 50px; text-transform: uppercase; letter-spacing: 1px; box-shadow: 0 4px 15px rgba(255,140,0,0.4);">आरक्षण करा</a>
+									</div>
+								</div>
+								<div class="col-12 col-md-5 d-none d-md-block text-center">
+									<img src="images/guruji/mock.png" class="img-fluid" style="max-height: 500px; filter: drop-shadow(0 10px 20px rgba(0,0,0,0.5));">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 
-        </div>
-        <div class="swiper-pagination custom-dots"></div>
-    </div>
-</section>
+				<div class="swiper-slide">
+					<div class="bg-img" style="background: linear-gradient(90deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.2) 100%), url(images/guruji/bg2.jpg); background-size:cover; background-position: center; min-height: 85vh; display: flex; align-items: center;">
+						<div class="container">
+							<div class="row align-items-center">
+								<div class="col-12 col-md-7">
+									<div class="banner-conn text-white">
+										<h1 style="font-size: clamp(2.5rem, 5vw, 4rem); font-weight: 800; line-height: 1.2; margin-bottom: 20px; color: #ffca28;">ज्योतिष व वास्तुने जीवन परिवर्तन</h1>
+										<p style="font-size: 1.25rem; font-weight: 400; margin-bottom: 35px; opacity: 0.9;">सकारात्मक ऊर्जा, सुख-समृद्धी आणि जीवनातील संतुलनासाठी अचूक मार्गदर्शन.</p>
+										<a href="contact.php" class="btn" style="background: #ff8c00; color: #fff; padding: 15px 40px; font-weight: 700; border-radius: 50px; text-transform: uppercase; letter-spacing: 1px;">संपर्क साधा</a>
+									</div>
+								</div>
+								<div class="col-12 col-md-5 d-none d-md-block text-center">
+									<img src="images/guruji/mock2.png" class="img-fluid" style="max-height: 500px; filter: drop-shadow(0 10px 20px rgba(0,0,0,0.5));">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+			<div class="swiper-pagination custom-dots"></div>
+		</div>
+	</section>
 
 	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-<script>
-    var swiper = new Swiper(".main-hero-slider", {
-        slidesPerView: 1,
-        spaceBetween: 0,
-        loop: true,
-        effect: "fade", // Professional fade effect instead of slide
-        speed: 1000,
-        autoplay: {
-            delay: 5000, // 5 seconds per slide
-            disableOnInteraction: false,
-        },
-        pagination: {
-            el: ".swiper-pagination",
-            clickable: true,
-        },
-    });
-</script>
+	<script>
+		var swiper = new Swiper(".main-hero-slider", {
+			slidesPerView: 1,
+			spaceBetween: 0,
+			loop: true,
+			effect: "fade", // Professional fade effect instead of slide
+			speed: 1000,
+			autoplay: {
+				delay: 5000, // 5 seconds per slide
+				disableOnInteraction: false,
+			},
+			pagination: {
+				el: ".swiper-pagination",
+				clickable: true,
+			},
+		});
+	</script>
 
 	<!-- Icon Box Start -->
 	<section class="icon-box-six">
@@ -337,7 +337,7 @@
 										<div class="pbminfotech-box-category">
 											<a href="#">शांती व यशासाठी</a>
 										</div>
-										<h3><a href="contact.php">||  ज्योतिष शास्त्र  ||</a></h3>
+										<h3><a href="contact.php">|| ज्योतिष शास्त्र ||</a></h3>
 										<p>
 											जन्म तारखे नुसार आणि जन्माच्या योग्य वेळेनुसार आपली असणारी जन्म कुंडली आणि त्यानुसार आपल्या जीवनात होणारे सकारात्मक किंवा नकारात्मक बदल त्या सर्व परिस्थितींना समतोल करण्यासाठी लागणारे योग्य मार्गदर्शन.
 										</p>

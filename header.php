@@ -96,14 +96,14 @@
                         <li class="dropdown-submenu">
                             <a href="#" class="dropdown-item">वैदिक शास्त्र</a>
                             <ul class="dropdown-menu">
-                                <li><a href="http://localhost:3000/puja-vidhi.php" class="dropdown-item">पूजा विधी</a></li>
-                                <li><a href="http://localhost:3000/vaidik-vivah.php" class="dropdown-item">वैदिक विवाह</a></li>
-                                <li><a href="http://localhost:3000/upnayan-sanskar.php" class="dropdown-item">उपनयन संस्कार</a></li>
-                                <li><a href="http://localhost:3000/havan-karya.php" class="dropdown-item">हवन कार्य</a></li>
-                                <li><a href="http://localhost:3000/yadnya-karm.php" class="dropdown-item">यज्ञ कर्म</a></li>
-                                <li><a href="http://localhost:3000/upay.php" class="dropdown-item">उपाय</a></li>
-                                <li><a href="http://localhost:3000/adhyatm.php" class="dropdown-item">अध्यात्म</a></li>
-                                <li><a href="#" class="dropdown-item">उपासना</a></li>
+                                <li><a href="puja-vidhi.php" class="dropdown-item">पूजा विधी</a></li>
+                                <li><a href="vaidik-vivah.php" class="dropdown-item">वैदिक विवाह</a></li>
+                                <li><a href="upnayan-sanskar.php" class="dropdown-item">उपनयन संस्कार</a></li>
+                                <li><a href="havan-karya.php" class="dropdown-item">हवन कार्य</a></li>
+                                <li><a href="yadnya-karm.php" class="dropdown-item">यज्ञ कर्म</a></li>
+                                <li><a href="upay.php" class="dropdown-item">उपाय</a></li>
+                                <li><a href="adhyatm.php" class="dropdown-item">अध्यात्म</a></li>
+                                <li><a href="upasana.php" class="dropdown-item">उपासना</a></li>
                             </ul>
                         </li>
 
