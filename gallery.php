@@ -1,98 +1,102 @@
-<?php include'header.php';?>
-
-
-
-       <div class="pbmit-title-bar-wrapper " style="background-image:url(images/guruji/ser-img/aboubg.jpg);">
-            <div class="container paddcon"> 
-              <div class="row align-items-center">
-                  <div class="col-md-7 col-lg-7 order-md-2">
-                       <div class="pbmit-title-bar-content">
-                  <div class="pbmit-title-bar-content-inner">
-                     <div class="pbmit-tbar">
-                        <div class="pbmit-tbar-inner container">
-                           <h1 class="pbmit-tbar-title">Gallery</h1> 
+<?php include 'header.php'; ?>
+<div class="pbmit-title-bar-wrapper" style="background-image:url(images/guruji/ser-img/aboubg.jpg);">
+    <div class="container paddcon">
+        <div class="row align-items-center">
+            <div class="col-md-7 col-lg-7 order-md-2">
+                <div class="pbmit-title-bar-content">
+                    <div class="pbmit-title-bar-content-inner">
+                        <div class="pbmit-tbar">
+                            <div class="pbmit-tbar-inner container">
+                                <h1 class="pbmit-tbar-title">गॅलरी</h1>
+                            </div>
                         </div>
-                     </div>
-                     <div class="pbmit-breadcrumb">
-                        <div class="pbmit-breadcrumb-inner">
-                           <span><a title="" href="index.php" class="home"><span>Home</span></a></span>
-                           <span class="sep">-</span>
-                           <span><span class="post-root post post-post current-item">Gallery</span></span>
+                        <div class="pbmit-breadcrumb">
+                            <div class="pbmit-breadcrumb-inner">
+                                <span><a title="" href="index.php" class="home"><span>मुख्यपृष्ठ</span></a></span>
+                                <span class="sep">-</span>
+                                <span><span class="post-root post post-post current-item">गॅलरी</span></span>
+                            </div>
                         </div>
-                     </div>
-                  </div>
-               </div>
-               
-               <?php include'rakeshguruji.php';?>
-               
-            
-                  </div>
-                             <div class="col-md-5 col-lg-5">
-                   <div class="form-wrp">
-                       <form method="post" id="contact-form">
-									<div class="row"> 
-									<div class="col-md-12">
-									   <h2 class="pbmit-titlee">MAKE AN ENQUIRY</h2>
-									</div>
-										<div class="col-md-12">
-											<input type="text" name="name" class="form-control" placeholder="Your Name" required="">
-										</div>
-										<div class="col-md-12">
-											<input type="text" name="transport-type" class="form-control" placeholder="Phone" required="">
-										</div>
-										<div class="col-md-12">
-											<input type="date" name="subject" class="form-control" placeholder="Email" required="">
-										</div>
-										<div class="col-md-12">
-											<button type="submit" class="pbmit-btn w-100">
-												<i class="form-btn-loader fa fa-circle-o-notch fa-spin fa-fw margin-bottom d-none"></i>
-												Book Your Puja
-											</button>
-										</div>
-										
-									</div>
-								</form>
-                   </div>
-               </div>
-              </div>
+                    </div>
+                </div>
+                <?php include 'sachin_guruji.php'; ?>
             </div>
-         </div>
-         
-         
-         
-        <section class="" style="z-index:9999;">
+            <div class="col-md-5 col-lg-5">
+                <div class="form-wrp">
+                    <form method="post" id="contact-form">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h2 class="pbmit-titlee">चौकशी करा</h2>
+                            </div>
+                            <div class="col-md-12">
+                                <input type="text" name="name" class="form-control" placeholder="आपले नाव" required="">
+                            </div>
+                            <div class="col-md-12">
+                                <input type="tel" name="phone" class="form-control" placeholder="मोबाईल नंबर" required="">
+                            </div>
+                            <div class="col-md-12">
+                                <input type="email" name="email" class="form-control" placeholder="ईमेल" required="">
+                            </div>
+                            <div class="col-md-12">
+                                <button type="submit" class="pbmit-btn w-100">
+                                    <i class="form-btn-loader fa fa-circle-o-notch fa-spin fa-fw margin-bottom d-none"></i>
+                                    पूजा बुक करा
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section class="" style="z-index:9999;">
     <div class="container">
         <div class="row">
             <div class="col-12 text-center mb-3">
-					    <div class="pbmit-heading-subheading-style-1">
-									<h4 class="pbmit-subtitle">Gallery</h4>
-									<h2 class="pbmit-title">Our<strong>Gallery</strong></h2>
-								</div>
-					</div>
+                <div class="pbmit-heading-subheading-style-1">
+                    <h4 class="pbmit-subtitle">आमची गॅलरी</h4>
+                    <h2 class="pbmit-title">आमची <strong>वैदिक कार्ये</strong></h2>
+                </div>
+            </div>
         </div>
         <div class="row gallery">
-            
-            
-            <div class="col-md-4">
-                <img src="images/guruji/gallery/g01.jpg" alt="Image 1" onclick="openLightbox(0)">
+            <div class="col-md-4 mb-4">
+                <img src="images/images/img01.jpg" alt="श्री. सचिन जोशी गुरुजी - वैदिक यज्ञ" onclick="openLightbox(0)" class="img-fluid gallery-img" style="height: 300px; object-fit: cover;">
             </div>
-            <div class="col-md-4">
-                <img src="images/guruji/gallery/g02.jpg" alt="Image 2" onclick="openLightbox(1)">
+            <div class="col-md-4 mb-4">
+                <img src="images/images/img02.jpeg" alt="नवचंडी यज्ञ कर्म" onclick="openLightbox(1)" class="img-fluid gallery-img" style="height: 300px; object-fit: cover;">
             </div>
-            <div class="col-md-4">
-                <img src="images/guruji/gallery/g03.jpg" alt="Image 3" onclick="openLightbox(2)">
+            <div class="col-md-4 mb-4">
+                <img src="images/images/img03.jpg" alt="वास्तू शांती पूजा" onclick="openLightbox(2)" class="img-fluid gallery-img" style="height: 300px; object-fit: cover;">
             </div>
-            <div class="col-md-4">
-                <img src="images/guruji/gallery/g04.jpg" alt="Image 4" onclick="openLightbox(3)">
+            <div class="col-md-4 mb-4">
+                <img src="images/images/img04.png" alt="मंगल कार्ये" onclick="openLightbox(3)" class="img-fluid gallery-img" style="height: 300px; object-fit: cover;">
             </div>
-            <div class="col-md-4">
-                <img src="images/guruji/gallery/g05.jpg" alt="Image 5" onclick="openLightbox(4)">
+            <div class="col-md-4 mb-4">
+                <img src="images/images/img05.png" alt="ज्योतिष सल्लामसलत" onclick="openLightbox(4)" class="img-fluid gallery-img" style="height: 300px; object-fit: cover;">
             </div>
-             <div class="col-md-4">
-                <img src="images/guruji/gallery/g06.jpg" alt="Image 6" onclick="openLightbox(4)">
+            <div class="col-md-4 mb-4">
+                <img src="images/images/img06.png" alt="वैदिक कर्मकांड" onclick="openLightbox(5)" class="img-fluid gallery-img" style="height: 300px; object-fit: cover;">
             </div>
-             <div class="col-md-4">
-                <img src="images/guruji/gallery/g07.jpg" alt="Image 7" onclick="openLightbox(4)">
+            <div class="col-md-4 mb-4">
+                <img src="images/images/img07.png" alt="विवाह संस्कार" onclick="openLightbox(6)" class="img-fluid gallery-img" style="height: 300px; object-fit: cover;">
+            </div>
+            <div class="col-md-4 mb-4">
+                <img src="images/images/img08.png" alt="हवन यज्ञ" onclick="openLightbox(7)" class="img-fluid gallery-img" style="height: 300px; object-fit: cover;">
+            </div>
+            <div class="col-md-4 mb-4">
+                <img src="images/images/img09.jpeg" alt="ग्रह शांती पूजा" onclick="openLightbox(8)" class="img-fluid gallery-img" style="height: 300px; object-fit: cover;">
+            </div>
+            <div class="col-md-4 mb-4">
+                <img src="images/images/img10.png" alt="पितृ शांती पूजा" onclick="openLightbox(9)" class="img-fluid gallery-img" style="height: 300px; object-fit: cover;">
+            </div>
+            <div class="col-md-4 mb-4">
+                <img src="images/images/img11.png" alt="रुद्राभिषेक पूजा" onclick="openLightbox(10)" class="img-fluid gallery-img" style="height: 300px; object-fit: cover;">
+            </div>
+            <div class="col-md-4 mb-4">
+                <img src="images/images/img12.jpeg" alt="रुद्राभिषेक पूजा" onclick="openLightbox(10)" class="img-fluid gallery-img" style="height: 300px; object-fit: cover;">
             </div>
         </div>
     </div>
@@ -106,5 +110,95 @@
     <button class="next" onclick="changeImage(1)">&#10095;</button>
 </div>
 
+<script>
+    // JavaScript for Lightbox functionality
+    const images = [{
+            src: "images/guruji/gallery/g01.jpg",
+            alt: "श्री. सचिन जोशी गुरुजी - वैदिक यज्ञ"
+        },
+        {
+            src: "images/guruji/gallery/g02.jpg",
+            alt: "नवचंडी यज्ञ कर्म"
+        },
+        {
+            src: "images/guruji/gallery/g03.jpg",
+            alt: "वास्तू शांती पूजा"
+        },
+        {
+            src: "images/guruji/gallery/g04.jpg",
+            alt: "मंगल कार्ये"
+        },
+        {
+            src: "images/guruji/gallery/g05.jpg",
+            alt: "ज्योतिष सल्लामसलत"
+        },
+        {
+            src: "images/guruji/gallery/g06.jpg",
+            alt: "वैदिक कर्मकांड"
+        },
+        {
+            src: "images/guruji/gallery/g07.jpg",
+            alt: "विवाह संस्कार"
+        },
+        {
+            src: "images/guruji/gallery/g08.jpg",
+            alt: "हवन यज्ञ"
+        },
+        {
+            src: "images/guruji/gallery/g09.jpg",
+            alt: "ग्रह शांती पूजा"
+        }
+    ];
 
-<?php include'footer.php';?>
+    let currentIndex = 0;
+
+    function openLightbox(index) {
+        currentIndex = index;
+        document.getElementById("lightbox").style.display = "block";
+        updateLightboxImage();
+    }
+
+    function closeLightbox() {
+        document.getElementById("lightbox").style.display = "none";
+    }
+
+    function changeImage(direction) {
+        currentIndex += direction;
+        if (currentIndex < 0) {
+            currentIndex = images.length - 1;
+        } else if (currentIndex >= images.length) {
+            currentIndex = 0;
+        }
+        updateLightboxImage();
+    }
+
+    function updateLightboxImage() {
+        const lightboxImg = document.getElementById("lightbox-img");
+        lightboxImg.src = images[currentIndex].src;
+        lightboxImg.alt = images[currentIndex].alt;
+    }
+
+    // Close lightbox when clicking outside the image
+    document.getElementById("lightbox").addEventListener("click", function(e) {
+        if (e.target !== document.getElementById("lightbox-img") &&
+            !e.target.classList.contains("prev") &&
+            !e.target.classList.contains("next")) {
+            closeLightbox();
+        }
+    });
+
+    // Keyboard navigation
+    document.addEventListener("keydown", function(e) {
+        if (document.getElementById("lightbox").style.display === "block") {
+            if (e.key === "Escape") {
+                closeLightbox();
+            } else if (e.key === "ArrowLeft") {
+                changeImage(-1);
+            } else if (e.key === "ArrowRight") {
+                changeImage(1);
+            }
+        }
+    });
+</script>
+
+<?php include 'footer.php'; ?>

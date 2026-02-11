@@ -20,7 +20,7 @@
                      </div>
                   </div>
                </div>
-                <?php include'rakeshguruji.php';?>
+                <?php include'sachin_guruji.php';?>
                   </div>
                              <div class="col-md-5 col-lg-5">
                    <div class="form-wrp">
