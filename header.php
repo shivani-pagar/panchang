@@ -111,14 +111,14 @@
                         <li class="dropdown-submenu">
                             <a href="#" class="dropdown-item">ज्योतिष शास्त्र</a>
                             <ul class="dropdown-menu">
-                                <li><a href="#" class="dropdown-item">ज्योतिष</a></li>
-                                <li><a href="#" class="dropdown-item">अंकशास्त्र</a></li>
-                                <li><a href="#" class="dropdown-item">रेकी</a></li>
-                                <li><a href="#" class="dropdown-item">डाऊझिंग पेंडुलम</a></li>
-                                <li><a href="#" class="dropdown-item">क्रिस्टल हिलिंग</a></li>
-                                <li><a href="#" class="dropdown-item">रत्नशास्त्र</a></li>
-                                <li><a href="#" class="dropdown-item">रुद्राक्ष</a></li>
-                                <li><a href="#" class="dropdown-item">उपासना आणि उत्पादने</a></li>
+                                <li><a href="jyotish.php" class="dropdown-item">ज्योतिष</a></li>
+                                <li><a href="ankshastra.php" class="dropdown-item">अंकशास्त्र</a></li>
+                                <li><a href="reki.php" class="dropdown-item">रेकी</a></li>
+                                <li><a href="dong-pendulum.php" class="dropdown-item">डाऊझिंग पेंडुलम</a></li>
+                                <li><a href="kristal-hiling.php" class="dropdown-item">क्रिस्टल हिलिंग</a></li>
+                                <li><a href="ratna-shastr.php" class="dropdown-item">रत्नशास्त्र</a></li>
+                                <li><a href="rudraksh.php" class="dropdown-item">रुद्राक्ष</a></li>
+                                <li><a href="upasana_and_utpadane.php" class="dropdown-item">उपासना आणि उत्पादने</a></li>
                             </ul>
                         </li>
 
