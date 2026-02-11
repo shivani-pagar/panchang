@@ -126,13 +126,13 @@
                         <li class="dropdown-submenu">
                             <a href="#" class="dropdown-item">वास्तु शास्त्र</a>
                             <ul class="dropdown-menu">
-                                <li><a href="#" class="dropdown-item">वास्तु कन्सल्टिंग</a></li>
-                                <li><a href="#" class="dropdown-item">भूमि परिक्षण</a></li>
-                                <li><a href="#" class="dropdown-item">वास्तु परीक्षण</a></li>
-                                <li><a href="#" class="dropdown-item">वास्तु ऑरा स्कॅनर</a></li>
-                                <li><a href="#" class="dropdown-item">भू-उर्जा तणाव</a></li>
-                                <li><a href="#" class="dropdown-item">वास्तु योजना</a></li>
-                                <li><a href="#" class="dropdown-item">यंत्र आणि क्रिस्टल उपाय</a></li>
+                                <li><a href="vastu-consulting.php" class="dropdown-item">वास्तु कन्सल्टिंग</a></li>
+                                <li><a href="bhumi-parikshan.php" class="dropdown-item">भूमि परिक्षण</a></li>
+                                <li><a href="vastu-parikshan.php" class="dropdown-item">वास्तु परीक्षण</a></li>
+                                <li><a href="vastu-scanner.php" class="dropdown-item">वास्तु ऑरा स्कॅनर</a></li>
+                                <li><a href="bhu-urja-tanav.php" class="dropdown-item">भू-उर्जा तणाव</a></li>
+                                <li><a href="vastu-yojana.php" class="dropdown-item">वास्तु योजना</a></li>
+                                <li><a href="vastu-yantra.php" class="dropdown-item">यंत्र आणि क्रिस्टल उपाय</a></li>
                             </ul>
                         </li>
                     </ul>
