@@ -176,25 +176,140 @@
                             <ul style="list-style-type: disc; padding-left: 20px; color: black;">
                                 <li class="mb-3">पेंडुलम घरात किंवा नकाशावर वापरून हरवलेली वस्तू कुठे आहे ते शोधता येते.</li>
                                 <li>एखाद्या जागेची ऊर्जाशक्ती तपासण्यासाठी पेंडुलम फिरवले जाते — सकारात्मक ऊर्जेसाठी पेंडुलम सहजपणे फिरते, नकारात्मक ऊर्जेसाठी अनियमित हालचाल होते.</li>
-
                             </ul>
-
-
-
                         </div>
                     </div>
-
-
                     <div class="col-lg-6">
                         <div class="saptpadi-image-frame">
                             <img src="images/jyotish/pendulam3.jpg" class="img-fluid rounded-custom shadow-lg" alt="सप्तपदी विधी">
                             <div class="frame-decoration"></div>
                         </div>
                     </div>
-
                 </div>
             </div>
         </section>
+
+        <section class="saptpadi-dynamic-section">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="saptpadi-image-frame">
+                            <img src="images/jyotish/pendulam4.jpg" class="img-fluid rounded-custom shadow-lg" alt="सप्तपदी विधी">
+                            <div class="frame-decoration"></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="ritual-info-group">
+                            <h2 class="accent-title">चक्र संतुलन (Chakra Balancing):</h2>
+
+                            <ul style="list-style-type: disc; padding-left: 20px; color: black;">
+                                <li class="mb-3">शरीरावरील ७ चक्रांवर पेंडुलम धरून त्याची हालचाल पाहिली जाते.</li>
+                                <li class="mb-3">जर चक्राची ऊर्जा अडलेली असेल, तर पेंडुलम मंद किंवा अडकलेली हालचाल करेल.</li>
+                                <li class="mb-3">रेकी किंवा इतर ऊर्जा उपचारांसह पेंडुलम वापरून चक्र मुक्त करता येते.</li>
+                                <li class="mb-5">चक्र संतुलन म्हणजे शरीरातील सात प्रमुख ऊर्जा चक्रांचे संतुलन राखणे. ही चक्रे आपल्या शारीरिक, मानसिक व आध्यात्मिक आरोग्यावर थेट परिणाम करतात.</li>
+                            </ul>
+
+                            <h5>जेव्हा एखादे चक्र असंतुलित किंवा अवरोधित होते, तेव्हा
+                                तणाव, भीती, आजार किंवा नकारात्मक विचार निर्माण होतात.<br>चक्र संतुलन प्रक्रियेद्वारे —</h5>
+                            <ul style="list-style-type: disc; padding-left: 20px; color: black;">
+                                <li class="mb-3">ऊर्जा प्रवाह सुरळीत केला जातो</li>
+                                <li>मन शांत होते</li>
+                                <li>आत्मविश्वास व सकारात्मकता वाढते</li>
+                                <li>ध्यान, मंत्र, श्वसन, डाऊझिंग पेंडुलम, रेकी किंवा क्रिस्टल्स यांच्या सहाय्याने चक्र संतुलन केले जाते.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="saptpadi-dynamic-section">
+            <div class="container">
+                <div class="row align-items-center">
+
+                    <div class="col-lg-6">
+                        <div class="ritual-info-group">
+                            <h2 class="accent-title">
+                                डाऊझिंग पेंडुलमचा ज्योतिषाशी संबंध</h2>
+
+                            <ul style="list-style-type: disc; padding-left: 20px; color: black;">
+                                <li class="mb-3">ज्योतिषात ग्रहांचे दोष किंवा वाईट प्रभाव दूर करण्यासाठी पेंडुलमचा वापर ऊर्जा संतुलनासाठी केला जाऊ शकतो.</li>
+                                <li class="mb-3">उदाहरणार्थ, जर मुळाधार चक्र (Mars) कमजोर असेल, तर पेंडुलमच्या मदतीने त्या भागावर काम केले जाऊ शकते.</li>
+                                <li class="mb-3">काही लोक पेंडुलम वापरून रत्नशास्त्रातील (Gemstone) योग्य रत्न ठरवतात — कोणता रत्न तुमच्यासाठी अनुकूल आहे हे पाहण्यासाठी.</li>
+                                <li class="mb-5">पेंडुलमचा वापर योग्य पूजा, यज्ञ किंवा ग्रहशांती उपाय ठरवण्यासाठी मार्गदर्शन म्हणून केला जाऊ शकतो.</li>
+                            </ul>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="saptpadi-image-frame">
+                            <img src="images/jyotish/pendulam5.jpg" class="img-fluid rounded-custom shadow-lg" alt="सप्तपदी विधी">
+                            <div class="frame-decoration"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="saptpadi-dynamic-section">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="saptpadi-image-frame">
+                            <img src="images/jyotish/pendulam6.jpg" class="img-fluid rounded-custom shadow-lg" alt="सप्तपदी विधी">
+                            <div class="frame-decoration"></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="ritual-info-group">
+                            <h2 class="accent-title">डाऊझिंग पेंडुलम वापरताना काळजी</h2>
+
+                            <ul style="list-style-type: disc; padding-left: 20px; color: black;">
+                                <li class="mb-3">मन शांत व स्थिर ठेवणे महत्त्वाचे असते.</li>
+                                <li class="mb-3">स्पष्ट प्रश्न विचारणे — अस्पष्ट किंवा गोंधळात टाकणारे प्रश्न पेंडुलमला दिशाहीन करू शकतात.</li>
+                                <li class="mb-3">अभ्यास आणि सराव महत्त्वाचा असतो — सुरुवातीला सगळ्यांना लगेच अचूक परिणाम मिळत नाहीत.</li>
+                                <li class="mb-3">पेंडुलम एक पूरक साधन आहे, ते कोणत्याही गंभीर निर्णयाचा एकमेव आधार नसावा</li>
+                                <li class="mb-3">पेंडुलम वापरताना मन शांत व एकाग्र असावे.</li>
+                                <li class="mb-3">प्रश्न स्पष्ट आणि सकारात्मक स्वरूपात विचारा.</li>
+                                <li class="mb-3">थकवा, राग किंवा तणावाच्या अवस्थेत पेंडुलम वापरू नका.</li>
+                                <li class="mb-3">वापरापूर्वी पेंडुलम शुद्ध व स्वच्छ करणे आवश्यक आहे.</li>
+                                <li class="mb-5">मिळालेल्या उत्तरावर अंधविश्वास न ठेवता विवेकाने विचार करा.</li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="saptpadi-dynamic-section">
+            <div class="container">
+                <div class="row align-items-center">
+
+                    <div class="col-lg-6">
+                        <div class="ritual-info-group">
+                            <h2 class="accent-title">
+                                पेंडुलमचे प्रकार</h2>
+
+                            <ul style="list-style-type: disc; padding-left: 20px; color: black;">
+                                <li class="mb-3"> क्रिस्टल पेंडुलम (Rose Quartz, Amethyst, Clear Quartz)</li>
+                                <li class="mb-3">धातूचा पेंडुलम (ब्रास, कॉपर)</li>
+                                <li class="mb-3">लाकडी पेंडुलम</li>
+                                <li class="mb-5">दगडाचा पेंडुलम</li>
+                            </ul>
+                            <h5>प्रत्येक प्रकाराला विशिष्ट ऊर्जात्मक गुणधर्म दिले जातात.</h5>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="saptpadi-image-frame">
+                            <img src="images/jyotish/pendulam7.jpg" class="img-fluid rounded-custom shadow-lg" alt="सप्तपदी विधी">
+                            <div class="frame-decoration"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <section class="py-4">
             <div class="container">
                 <div class="row">
