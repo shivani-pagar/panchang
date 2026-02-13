@@ -8,14 +8,14 @@
                     <div class="pbmit-title-bar-content-inner">
                         <div class="pbmit-tbar">
                             <div class="pbmit-tbar-inner container">
-                                <h1 class="pbmit-tbar-title">वैदिक विवाह संस्कार</h1>
+                                <h1 class="pbmit-tbar-title">ज्योतिष</h1>
                             </div>
                         </div>
                         <div class="pbmit-breadcrumb">
                             <div class="pbmit-breadcrumb-inner">
                                 <span><a title="" href="index.php" class="home"><span>Home</span></a></span>
                                 <span class="sep">-</span>
-                                <span><span class="post-root post post-post current-item">वैदिक विवाह संस्कार</span></span>
+                                <span><span class="post-root post post-post current-item">ज्योतिष</span></span>
                             </div>
                         </div>
                     </div>
