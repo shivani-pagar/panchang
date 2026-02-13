@@ -94,7 +94,9 @@
                     <ul class="dropdown-menu">
                         <!-- Vedic Sciences -->
                         <li class="dropdown-submenu">
-                            <a href="#" class="dropdown-item">वैदिक शास्त्र</a>
+                            <a href="vedic-shastra.php" class="dropdown-item">
+                                <i class="fas fa-book-open me-2"></i> वैदिक शास्त्र
+                            </a>
                             <ul class="dropdown-menu">
                                 <li><a href="puja-vidhi.php" class="dropdown-item">पूजा विधी</a></li>
                                 <li><a href="vaidik-vivah.php" class="dropdown-item">वैदिक विवाह</a></li>
@@ -109,7 +111,9 @@
 
                         <!-- Astrology -->
                         <li class="dropdown-submenu">
-                            <a href="#" class="dropdown-item">ज्योतिष शास्त्र</a>
+                            <a href="jyotish-shastra.php" class="dropdown-item">
+                                <i class="fas fa-star me-2"></i> ज्योतिष शास्त्र
+                            </a>
                             <ul class="dropdown-menu">
                                 <li><a href="jyotish.php" class="dropdown-item">ज्योतिष</a></li>
                                 <li><a href="ankshastra.php" class="dropdown-item">अंकशास्त्र</a></li>
@@ -124,7 +128,9 @@
 
                         <!-- Vastu Shastra -->
                         <li class="dropdown-submenu">
-                            <a href="#" class="dropdown-item">वास्तु शास्त्र</a>
+                            <a href="vastu-shastra.php" class="dropdown-item">
+                                <i class="fas fa-home me-2"></i> वास्तु शास्त्र
+                            </a>
                             <ul class="dropdown-menu">
                                 <li><a href="vastu-consulting.php" class="dropdown-item">वास्तु कन्सल्टिंग</a></li>
                                 <li><a href="bhumi-parikshan.php" class="dropdown-item">भूमि परिक्षण</a></li>
