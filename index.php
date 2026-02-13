@@ -256,112 +256,158 @@
 	</section>
 
 	<!-- Service Start -->
-	<section class="service-slider-four" id="book">
-		<div class="container">
-			<div class="service-four-content">
-				<div class="row align-items-center">
-					<div class="col-md-5">
-						<div class="pbmit-heading-subheading-style-1">
-							<h4 class="pbmit-subtitle">आपल्या जीवनासाठी प्रामाणिक व वैदिक सेवा</h4>
-							<h2 class="pbmit-title">आमच्या पूजा सेवा – <strong>सचिन जोशी</strong></h2>
-						</div>
-					</div>
-					<div class="col-md-7">
-						<p>
-							कालसर्प दोष, पितृ दोष किंवा ग्रहदोष यामुळे जीवनात अडचणी, विलंब आणि मानसिक ताण येऊ शकतो.
-							योग्य पद्धतीने केलेली महा मृत्युंजय जप, नवग्रह शांती, रुद्राभिषेक यांसारखी पूजा
-							जीवनात सकारात्मक बदल, शांती आणि स्थैर्य आणते.
-						</p>
+<section class="service-slider-four" id="book" style="padding:60px 0; background:#f9f9f9;">
+	<div class="container">
+		
+		<div class="service-four-content" style="margin-bottom:40px;">
+			<div class="row align-items-center">
+				<div class="col-md-5">
+					<div class="pbmit-heading-subheading-style-1">
+						<h4 class="pbmit-subtitle">आपल्या जीवनासाठी प्रामाणिक व वैदिक सेवा</h4>
+						<h2 class="pbmit-title">आमच्या पूजा सेवा – <strong>सचिन जोशी</strong></h2>
 					</div>
 				</div>
-			</div>
-
-			<div class="swiper-slider pbmit-element-viewtype-carousel-1" data-autoplay="true" data-dots="true" data-arrows="false" data-columns="3" data-margin="30">
-				<div class="swiper-wrapper">
-
-					<!-- Pitru Dosh -->
-					<div class="swiper-slide">
-						<article class="pbminfotech-servicebox-style-3">
-							<div class="pbminfotech-post-item">
-								<span class="pbminfotech-item-thumbnail">
-									<img src="images/images/vastushastra.png" class="img-fluid" alt="">
-								</span>
-								<div class="pbminfotech-box-content">
-									<div class="pbminfotech-box-content-inner">
-										<div class="pbminfotech-box-category">
-											<a href="#">वास्तु संबंधित अडथळे</a>
-										</div>
-										<h3><a href="contact.php">|| वास्तुशास्त्र ||</a></h3>
-										<p>
-											वास्तूची अंतर्गत आणि बाह्य रचना, तसेच त्यामधील स्पंदने यांचा आपल्या जीवनावर मोठा परिणाम होतो. या स्पंदनांमुळे वास्तूमध्ये सकारात्मक किंवा नकारात्मक बदल घडून येतो, जो आपल्या दैनंदिन जीवनावर प्रभाव टाकतो.
-										</p>
-										<a href="contact.php">पूजा बुक करा</a>
-									</div>
-								</div>
-							</div>
-						</article>
-					</div>
-
-					<!-- Mahamrityunjay -->
-					<div class="swiper-slide">
-						<article class="pbminfotech-servicebox-style-3">
-							<div class="pbminfotech-post-item">
-								<span class="pbminfotech-item-thumbnail">
-									<img src="images/images/Vaidikshastra.png" class="img-fluid" alt="">
-								</span>
-								<div class="pbminfotech-box-content">
-									<div class="pbminfotech-box-content-inner">
-										<div class="pbminfotech-box-category">
-											<a href="#">आरोग्य व दीर्घायुष्यासाठी</a>
-										</div>
-										<h3><a href="contact.php">|| वैदिक शास्त्र ||</a></h3>
-										<p>
-											मनुष्य जन्माचा हेतू साध्य करण्यासाठी पवित्र हेतू सोबत नित्य ईश्वराची केलेली उपासना किंवा मंत्र जप याच्या माध्यमातून मिळणारा ईश्वरी आशीर्वाद हा कायमस्वरूपी प्रगतीपथावर माणसाला चालण्यासाठी प्रवृत्त करतो.
-										</p>
-										<a href="contact.php">पूजा बुक करा</a>
-									</div>
-								</div>
-							</div>
-						</article>
-					</div>
-
-					<!-- Rudrabhishek -->
-					<div class="swiper-slide">
-						<article class="pbminfotech-servicebox-style-3">
-							<div class="pbminfotech-post-item">
-								<span class="pbminfotech-item-thumbnail">
-									<img src="images/images/Jyotishshastra.png" class="img-fluid" alt="">
-								</span>
-								<div class="pbminfotech-box-content">
-									<div class="pbminfotech-box-content-inner">
-										<div class="pbminfotech-box-category">
-											<a href="#">शांती व यशासाठी</a>
-										</div>
-										<h3><a href="contact.php">|| ज्योतिष शास्त्र ||</a></h3>
-										<p>
-											जन्म तारखे नुसार आणि जन्माच्या योग्य वेळेनुसार आपली असणारी जन्म कुंडली आणि त्यानुसार आपल्या जीवनात होणारे सकारात्मक किंवा नकारात्मक बदल त्या सर्व परिस्थितींना समतोल करण्यासाठी लागणारे योग्य मार्गदर्शन.
-										</p>
-										<a href="contact.php">पूजा बुक करा</a>
-									</div>
-								</div>
-							</div>
-						</article>
-					</div>
-
-
-
+				<div class="col-md-7">
+					<p style="margin:0;">
+						कालसर्प दोष, पितृ दोष किंवा ग्रहदोष यामुळे जीवनात अडचणी, विलंब आणि मानसिक ताण येऊ शकतो.
+						योग्य पद्धतीने केलेली महा मृत्युंजय जप, नवग्रह शांती, रुद्राभिषेक यांसारखी पूजा
+						जीवनात सकारात्मक बदल, शांती आणि स्थैर्य आणते.
+					</p>
 				</div>
 			</div>
 		</div>
-	</section>
+
+		<div class="swiper-slider pbmit-element-viewtype-carousel-1"
+			data-autoplay="true" data-dots="true"
+			data-arrows="false" data-columns="3" data-margin="30">
+
+			<div class="swiper-wrapper">
+
+				<!-- Card 1 -->
+				<div class="swiper-slide" style="padding:10px;">
+					<article style="background:#fff; border-radius:12px; overflow:hidden; box-shadow:0 5px 20px rgba(0,0,0,0.08); height:100%;">
+						<div style="padding:20px;">
+
+							<span style="display:block; margin-bottom:20px;">
+								<img src="images/images/vastu.jpg"
+									class="img-fluid"
+									style="width:100%; border-radius:8px;"
+									alt="">
+							</span>
+
+							<div>
+								<div style="margin-bottom:10px; font-size:14px; color:#c39b2e;">
+									वास्तु संबंधित अडथळे
+								</div>
+
+								<h3 style="margin-bottom:15px;">
+									<a href="contact.php" style="text-decoration:none; color:#222;">
+										|| वास्तुशास्त्र ||
+									</a>
+								</h3>
+
+								<p style="margin-bottom:20px; font-size:14px; line-height:1.7;">
+									वास्तूची अंतर्गत आणि बाह्य रचना, तसेच त्यामधील स्पंदने यांचा आपल्या जीवनावर मोठा परिणाम होतो.
+									या स्पंदनांमुळे वास्तूमध्ये सकारात्मक किंवा नकारात्मक बदल घडून येतो.
+								</p>
+
+								<a href="contact.php"
+									style="display:inline-block; padding:8px 18px; background:#c39b2e; color:#fff; border-radius:5px; text-decoration:none;">
+									अधिक वाचा
+								</a>
+							</div>
+
+						</div>
+					</article>
+				</div>
+
+				<!-- Card 2 -->
+				<div class="swiper-slide" style="padding:10px;">
+					<article style="background:#fff; border-radius:12px; overflow:hidden; box-shadow:0 5px 20px rgba(0,0,0,0.08); height:100%;">
+						<div style="padding:20px;">
+
+							<span style="display:block; margin-bottom:20px;">
+								<img src="images/images/ved.jpg"
+									class="img-fluid"
+									style="width:100%; border-radius:8px;"
+									alt="">
+							</span>
+
+							<div>
+								<div style="margin-bottom:10px; font-size:14px; color:#c39b2e;">
+									आरोग्य व दीर्घायुष्यासाठी
+								</div>
+
+								<h3 style="margin-bottom:15px;">
+									<a href="contact.php" style="text-decoration:none; color:#222;">
+										|| वैदिक शास्त्र ||
+									</a>
+								</h3>
+
+								<p style="margin-bottom:20px; font-size:14px; line-height:1.7;">
+									मनुष्य जन्माचा हेतू साध्य करण्यासाठी पवित्र हेतू सोबत नित्य ईश्वराची केलेली उपासना
+									किंवा मंत्र जप यामुळे ईश्वरी आशीर्वाद लाभतो.
+								</p>
+
+								<a href="contact.php"
+									style="display:inline-block; padding:8px 18px; background:#c39b2e; color:#fff; border-radius:5px; text-decoration:none;">
+								अधिक वाचा
+								</a>
+							</div>
+
+						</div>
+					</article>
+				</div>
+
+				<!-- Card 3 -->
+				<div class="swiper-slide" style="padding:10px;">
+					<article style="background:#fff; border-radius:12px; overflow:hidden; box-shadow:0 5px 20px rgba(0,0,0,0.08); height:100%;">
+						<div style="padding:20px;">
+
+							<span style="display:block; margin-bottom:20px;">
+								<img src="images/images/jyoti.jpg"
+									class="img-fluid"
+									style="width:100%; border-radius:8px;"
+									alt="">
+							</span>
+
+							<div>
+								<div style="margin-bottom:10px; font-size:14px; color:#c39b2e;">
+									शांती व यशासाठी
+								</div>
+
+								<h3 style="margin-bottom:15px;">
+									<a href="contact.php" style="text-decoration:none; color:#222;">
+										|| ज्योतिष शास्त्र ||
+									</a>
+								</h3>
+
+								<p style="margin-bottom:20px; font-size:14px; line-height:1.7;">
+									जन्म तारखे नुसार आणि जन्म वेळेनुसार तयार होणारी कुंडली
+									जीवनातील सकारात्मक व नकारात्मक परिस्थिती संतुलित करण्यास मदत करते.
+								</p>
+
+								<a href="contact.php"
+									style="display:inline-block; padding:8px 18px; background:#c39b2e; color:#fff; border-radius:5px; text-decoration:none;">
+									अधिक वाचा
+								</a>
+							</div>
+
+						</div>
+					</article>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</section>
+
 
 	<!-- Service End -->
 
 
 
 	<!-- Testimonial Start -->
-
-
 	<section class="testimonial-six">
 		<div class="container-fluid">
 			<div class="row g-0">
@@ -473,13 +519,8 @@
 			</div>
 		</div>
 	</section>
+
 	<!-- Testimonial End -->
-
-
-
-
-
-
 
 </div>
 <!-- Page Content End -->

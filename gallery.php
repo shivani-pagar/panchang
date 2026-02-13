@@ -21,32 +21,7 @@
                 </div>
                 <?php include 'sachin_guruji.php'; ?>
             </div>
-            <div class="col-md-5 col-lg-5">
-                <div class="form-wrp">
-                    <form method="post" id="contact-form">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <h2 class="pbmit-titlee">चौकशी करा</h2>
-                            </div>
-                            <div class="col-md-12">
-                                <input type="text" name="name" class="form-control" placeholder="आपले नाव" required="">
-                            </div>
-                            <div class="col-md-12">
-                                <input type="tel" name="phone" class="form-control" placeholder="मोबाईल नंबर" required="">
-                            </div>
-                            <div class="col-md-12">
-                                <input type="email" name="email" class="form-control" placeholder="ईमेल" required="">
-                            </div>
-                            <div class="col-md-12">
-                                <button type="submit" class="pbmit-btn w-100">
-                                    <i class="form-btn-loader fa fa-circle-o-notch fa-spin fa-fw margin-bottom d-none"></i>
-                                    पूजा बुक करा
-                                </button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
+             <?php include 'inner-form.php'; ?>
         </div>
     </div>
 </div>
