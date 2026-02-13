@@ -379,6 +379,66 @@
         margin-top: 20px;
     }
 
+    /* Wedding Grid */
+    .wedding-steps-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 25px;
+        margin-top: 30px;
+    }
+
+    /* Wedding Card */
+    .wedding-step-card {
+        background: #fff;
+        border: 1px solid #e0e0e0;
+        border-top: 4px solid #8B4513;
+        border-radius: 12px;
+        padding: 30px;
+        text-align: center;
+        transition: all 0.3s ease;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    }
+
+    .wedding-step-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 10px 25px rgba(139, 69, 19, 0.15);
+        border-top-color: #FF9800;
+    }
+
+    /* Wedding Icon */
+    .wedding-step-icon {
+        font-size: 2.5rem;
+        color: #8B4513;
+        margin-bottom: 20px;
+    }
+
+    .wedding-step-card h3 {
+        font-size: 1.4rem;
+        color: #5D4037;
+        margin-bottom: 15px;
+        font-weight: 700;
+    }
+
+    .wedding-step-card p {
+        font-size: 0.95rem;
+        color: #666;
+        line-height: 1.6;
+    }
+
+    /* Responsive */
+    @media (max-width: 992px) {
+        .wedding-steps-grid {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+
+    @media (max-width: 600px) {
+        .wedding-steps-grid {
+            grid-template-columns: 1fr;
+        }
+    }
+
+
     .ritual-list li {
         font-size: 1.1rem;
         color: #5D4037;
@@ -656,54 +716,57 @@
             </div>
         </section>
 
-        <div class="content-section mt-5">
-            <h2 class="section-title text-center mb-5"><i class="fas fa-scroll"></i> उपनयन संस्कार विधी (Upanayan Rituals)</h2>
-            <div class="puja-steps-grid">
+        <div class="wedding-ritual-section mt-5">
+            <h2 class="wedding-section-title text-center mb-5">
+                <i class="fas fa-scroll"></i> उपनयन संस्कार विधी (Upanayan Rituals)
+            </h2>
 
-                <div class="step-card">
-                    <div class="step-icon"><i class="fas fa-pray"></i></div>
+            <div class="wedding-steps-grid">
+
+                <div class="wedding-step-card">
+                    <div class="wedding-step-icon"><i class="fas fa-pray"></i></div>
                     <h3>नंदी श्राद्ध</h3>
                     <p>विधी निर्विघ्न पार पडण्यासाठी आणि पूर्वजांची कृपा प्राप्त करण्यासाठी श्राद्ध विधी व पूजन करणे.</p>
                 </div>
 
-                <div class="step-card">
-                    <div class="step-icon"><i class="fas fa-place-of-worship"></i></div>
+                <div class="wedding-step-card">
+                    <div class="wedding-step-icon"><i class="fas fa-place-of-worship"></i></div>
                     <h3>मंडप स्थापना</h3>
                     <p>यज्ञ आणि मुख्य संस्कारासाठी पवित्र वेदी तयार करून शुद्ध स्थान निश्चित करणे.</p>
                 </div>
 
-                <div class="step-card">
-                    <div class="step-icon"><i class="fas fa-cut"></i></div>
+                <div class="wedding-step-card">
+                    <div class="wedding-step-icon"><i class="fas fa-cut"></i></div>
                     <h3>केशवपन विधी</h3>
                     <p>शिष्याचे केस काढून शुद्धी करणे (शिखा ठेवून), जे नवीन आध्यात्मिक जीवनाचे प्रतीक आहे.</p>
                 </div>
 
-                <div class="step-card">
-                    <div class="step-icon"><i class="fas fa-utensils"></i></div>
+                <div class="wedding-step-card">
+                    <div class="wedding-step-icon"><i class="fas fa-utensils"></i></div>
                     <h3>मातृ भोजन</h3>
                     <p>संस्कारापूर्वी बटूने आपल्या मातेसोबत केलेले शेवटचे कौटुंबिक जेवण, ज्यानंतर गुरुगृही प्रयाण होते.</p>
                 </div>
 
-                <div class="step-card">
-                    <div class="step-icon"><i class="fas fa-om"></i></div>
+                <div class="wedding-step-card">
+                    <div class="wedding-step-icon"><i class="fas fa-om"></i></div>
                     <h3>यज्ञोपवीतधारण</h3>
                     <p>वैदिक परंपरेनुसार तीन सुतांचे 'जानवे' परिधान करणे, जे कर्तव्य आणि ज्ञानाचे प्रतीक आहे.</p>
                 </div>
 
-                <div class="step-card">
-                    <div class="step-icon"><i class="fas fa-microphone-alt"></i></div>
+                <div class="wedding-step-card">
+                    <div class="wedding-step-icon"><i class="fas fa-microphone-alt"></i></div>
                     <h3>गायत्री मंत्र उपदेश</h3>
                     <p>गुरु शिष्याच्या कानात पवित्र गायत्री मंत्राचा उपदेश करून त्याला विद्याभ्यासास प्रवृत्त करतात.</p>
                 </div>
 
-                <div class="step-card">
-                    <div class="step-icon"><i class="fas fa-hand-holding-heart"></i></div>
+                <div class="wedding-step-card">
+                    <div class="wedding-step-icon"><i class="fas fa-hand-holding-heart"></i></div>
                     <h3>भिक्षाटन विधी</h3>
                     <p>शिष्य गुरुच्या आज्ञेनुसार भिक्षा मागतो, ज्यामुळे मनातील अहंकार शमून नम्रता निर्माण होते.</p>
                 </div>
 
-                <div class="step-card">
-                    <div class="step-icon"><i class="fas fa-user-shield"></i></div>
+                <div class="wedding-step-card">
+                    <div class="wedding-step-icon"><i class="fas fa-user-shield"></i></div>
                     <h3>गुरुसेवा व व्रतधारण</h3>
                     <p>ब्रह्मचर्य पालनाची प्रतिज्ञा घेऊन गुरुच्या मार्गदर्शनाखाली ज्ञानार्जन करण्याचा संकल्प करणे.</p>
                 </div>
@@ -711,48 +774,47 @@
             </div>
         </div>
 
-    </div>
 
 
 
-    <div class="compact-section-wrapper">
-        <div class="philosophy-card ritual-rules-card">
-            <div class="philosophy-flex">
+        <div class="compact-section-wrapper">
+            <div class="philosophy-card ritual-rules-card">
+                <div class="philosophy-flex">
 
-                <div class="phi-content-col rules-bg">
-                    <div class="content-padding">
-                        <h2 class="mini-title"><i class="fas fa-hand-holding-water"></i> महत्त्वाचे नियम</h2>
-                        <ul class="ritual-list">
-                            <li><i class="fas fa-check"></i> ब्रह्मचर्याचे पालन</li>
-                            <li><i class="fas fa-check"></i> सत्य बोलणे, संयम राखणे</li>
-                            <li><i class="fas fa-check"></i> गुरुचे वचन पाळणे</li>
-                            <li><i class="fas fa-check"></i> स्वाध्याय (स्वतःचा अभ्यास)</li>
-                            <li><i class="fas fa-check"></i> प्रातःस्मरण व संध्यावंदन</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="phi-content-col meaning-bg">
-                    <div class="content-padding">
-                        <h2 class="mini-title"><i class="fas fa-lightbulb"></i> आध्यात्मिक अर्थ</h2>
-                        <div class="meaning-item">
-                            <h4>मन, वाणी, शरीराची शुद्धी</h4>
-                            <p>हा संस्कार बटूला शारीरिक आणि मानसिक स्तरावर शुद्ध करून विद्यार्जनासाठी तयार करतो.</p>
-                        </div>
-                        <div class="meaning-item">
-                            <h4>आत्मसाक्षात्काराचा प्रारंभ</h4>
-                            <p>गायत्री मंत्राच्या उपदेशासह शिष्याच्या आध्यात्मिक प्रवासाची खरी सुरुवात होते.</p>
-                        </div>
-                        <div class="meaning-item">
-                            <h4>शिष्य आणि गुरु यांचे पवित्र नाते</h4>
-                            <p>गुरु शिष्याला अंधारातून प्रकाशाकडे (अज्ञानाकडून ज्ञानाकडे) नेण्याची जबाबदारी घेतात.</p>
+                    <div class="phi-content-col rules-bg">
+                        <div class="content-padding">
+                            <h2 class="mini-title"><i class="fas fa-hand-holding-water"></i> महत्त्वाचे नियम</h2>
+                            <ul class="ritual-list">
+                                <li><i class="fas fa-check"></i> ब्रह्मचर्याचे पालन</li>
+                                <li><i class="fas fa-check"></i> सत्य बोलणे, संयम राखणे</li>
+                                <li><i class="fas fa-check"></i> गुरुचे वचन पाळणे</li>
+                                <li><i class="fas fa-check"></i> स्वाध्याय (स्वतःचा अभ्यास)</li>
+                                <li><i class="fas fa-check"></i> प्रातःस्मरण व संध्यावंदन</li>
+                            </ul>
                         </div>
                     </div>
-                </div>
 
+                    <div class="phi-content-col meaning-bg">
+                        <div class="content-padding">
+                            <h2 class="mini-title"><i class="fas fa-lightbulb"></i> आध्यात्मिक अर्थ</h2>
+                            <div class="meaning-item">
+                                <h4>मन, वाणी, शरीराची शुद्धी</h4>
+                                <p>हा संस्कार बटूला शारीरिक आणि मानसिक स्तरावर शुद्ध करून विद्यार्जनासाठी तयार करतो.</p>
+                            </div>
+                            <div class="meaning-item">
+                                <h4>आत्मसाक्षात्काराचा प्रारंभ</h4>
+                                <p>गायत्री मंत्राच्या उपदेशासह शिष्याच्या आध्यात्मिक प्रवासाची खरी सुरुवात होते.</p>
+                            </div>
+                            <div class="meaning-item">
+                                <h4>शिष्य आणि गुरु यांचे पवित्र नाते</h4>
+                                <p>गुरु शिष्याला अंधारातून प्रकाशाकडे (अज्ञानाकडून ज्ञानाकडे) नेण्याची जबाबदारी घेतात.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
             </div>
         </div>
-    </div>
 
 </section>
 

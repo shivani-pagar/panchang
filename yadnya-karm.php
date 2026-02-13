@@ -464,6 +464,66 @@
         box-shadow: 0 5px 15px rgba(139, 69, 19, 0.1);
     }
 
+    /* Wedding Grid */
+    .wedding-steps-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 25px;
+        margin-top: 30px;
+    }
+
+    /* Wedding Card */
+    .wedding-step-card {
+        background: #fff;
+        border: 1px solid #e0e0e0;
+        border-top: 4px solid #8B4513;
+        border-radius: 12px;
+        padding: 30px;
+        text-align: center;
+        transition: all 0.3s ease;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    }
+
+    .wedding-step-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 10px 25px rgba(139, 69, 19, 0.15);
+        border-top-color: #FF9800;
+    }
+
+    /* Wedding Icon */
+    .wedding-step-icon {
+        font-size: 2.5rem;
+        color: #8B4513;
+        margin-bottom: 20px;
+    }
+
+    .wedding-step-card h3 {
+        font-size: 1.4rem;
+        color: #5D4037;
+        margin-bottom: 15px;
+        font-weight: 700;
+    }
+
+    .wedding-step-card p {
+        font-size: 0.95rem;
+        color: #666;
+        line-height: 1.6;
+    }
+
+    /* Responsive */
+    @media (max-width: 992px) {
+        .wedding-steps-grid {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+
+    @media (max-width: 600px) {
+        .wedding-steps-grid {
+            grid-template-columns: 1fr;
+        }
+    }
+
+
     .tag-title {
         font-weight: 800;
         color: #8B4513;
@@ -764,42 +824,45 @@
             </div>
         </section>
 
-        <div class="content-section mt-5">
-            <h2 class="section-title text-center mb-5"><i class="fas fa-fire"></i> यज्ञ विधीची प्रक्रिया आणि क्रम (Yagna Process)</h2>
-            <div class="puja-steps-grid">
+        <div class="wedding-ritual-section mt-5">
+            <h2 class="wedding-section-title text-center mb-5">
+                <i class="fas fa-fire"></i> यज्ञ विधीची प्रक्रिया आणि क्रम (Yagna Process)
+            </h2>
 
-                <div class="step-card">
-                    <div class="step-icon"><i class="fas fa-bullseye"></i></div>
+            <div class="wedding-steps-grid">
+
+                <div class="wedding-step-card">
+                    <div class="wedding-step-icon"><i class="fas fa-bullseye"></i></div>
                     <h3>संकल्प</h3>
                     <p>यज्ञाचा मुख्य हेतू, उद्देश आणि ज्यांच्यासाठी यज्ञ केला जात आहे, त्यांचे नाव उच्चारून विधीवत संकल्प करणे.</p>
                 </div>
 
-                <div class="step-card">
-                    <div class="step-icon"><i class="fas fa-igniting"></i></div>
+                <div class="wedding-step-card">
+                    <div class="wedding-step-icon"><i class="fas fa-igniting"></i></div>
                     <h3>अग्निप्रज्वलन</h3>
                     <p>पवित्र मंत्रांच्या पाठासह अरणी मंथन किंवा शुद्ध कापूर वापरून विधीपूर्वक यज्ञाचा अग्नी जागवणे.</p>
                 </div>
 
-                <div class="step-card">
-                    <div class="step-icon"><i class="fas fa-vihara"></i></div>
+                <div class="wedding-step-card">
+                    <div class="wedding-step-icon"><i class="fas fa-vihara"></i></div>
                     <h3>देवता आवाहन</h3>
                     <p>यज्ञाच्या विशिष्ट अधिष्ठाता देवतांना मंत्रांच्या साह्याने यज्ञात उपस्थित राहण्यासाठी सप्रेम आमंत्रण देणे.</p>
                 </div>
 
-                <div class="step-card">
-                    <div class="step-icon"><i class="fas fa-mortar-pestle"></i></div>
+                <div class="wedding-step-card">
+                    <div class="wedding-step-icon"><i class="fas fa-mortar-pestle"></i></div>
                     <h3>मंत्रोच्चारासह आहुती</h3>
                     <p>स्वाहाकारासह हविष्य (साजूक तूप, समिधा, धान्य) अग्नीमध्ये अर्पण करून देवतांना तृप्त करणे.</p>
                 </div>
 
-                <div class="step-card">
-                    <div class="step-icon"><i class="fas fa-sun"></i></div>
+                <div class="wedding-step-card">
+                    <div class="wedding-step-icon"><i class="fas fa-sun"></i></div>
                     <h3>पूर्णाहुती</h3>
                     <p>यज्ञाची सांगता म्हणून दिलेली अंतिम मुख्य आहुती, जी यज्ञाच्या यशाचे आणि फलप्राप्तीचे प्रतीक आहे.</p>
                 </div>
 
-                <div class="step-card">
-                    <div class="step-icon"><i class="fas fa-dove"></i></div>
+                <div class="wedding-step-card">
+                    <div class="wedding-step-icon"><i class="fas fa-dove"></i></div>
                     <h3>शांतिपाठ</h3>
                     <p>यज्ञाच्या अखेरीस संपूर्ण विश्वातील प्राणिमात्रांच्या सुखासाठी आणि कल्याणासाठी केलेली सामूहिक प्रार्थना.</p>
                 </div>
@@ -807,58 +870,57 @@
             </div>
         </div>
 
-    </div>
 
 
 
-    <div class="compact-section-wrapper">
-        <div class="philosophy-card ritual-rules-card">
-            <div class="philosophy-flex">
+        <div class="compact-section-wrapper">
+            <div class="philosophy-card ritual-rules-card">
+                <div class="philosophy-flex">
 
-                <div class="phi-content-col rules-bg">
-                    <div class="content-padding">
-                        <h2 class="mini-title"><i class="fas fa-hand-holding-water"></i>यज्ञाचे फायदे (वैदिक दृष्टीने)</h2>
-                        <ul class="ritual-list">
-                            <li><i class="fas fa-check"></i> आध्यात्मिक प्रगती व मोक्षमार्ग.</li>
-                            <li><i class="fas fa-check"></i> वातावरणातील दूषितता नष्ट होते.</li>
-                            <li><i class="fas fa-check"></i>सजीवांच्या कल्याणासाठी ऊर्जेचे प्रक्षेपण.</li>
-                            <li><i class="fas fa-check"></i> मानसिक, शारीरिक स्वास्थ्याची वृद्धी.</li>
-                            <li><i class="fas fa-check"></i> कर्मशुद्धी व ऋणमोचन.</li>
-                        </ul><br>
-                         <h2 class="mini-title"><i class="fas fa-hand-holding-water"></i>वैदिक महत्त्व</h2>
-                        <ul class="ritual-list">
-                            <li><i class="fas fa-check"></i>यज्ञो वै श्रेष्ठतमं कर्म — यज्ञ हे श्रेष्ठ कर्म आहे (भगवद्गीता ४.२३).</li>
-                            <li><i class="fas fa-check"></i> यज्ञाशिवाय देवता संतुष्ट होत नाहीत.</li>
-                            <li><i class="fas fa-check"></i>यज्ञातूनच वर्षा, अन्नवृद्धी, सृष्टीचक्र चालते (गीता ३.१४).</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="phi-content-col meaning-bg">
-                    <div class="content-padding">
-                        <h2 class="mini-title"><i class="fas fa-lightbulb"></i> यज्ञांचे प्रकार (वैदिक काळातील)</h2>
-                        <div class="meaning-item">
-                            <h4>नित्य यज्ञ—</h4>
-                            <p>दररोज करायचे यज्ञ (अग्निहोत्र, दर्शपौर्णमास, आग्रयण).</p>
-                        </div>
-                        <div class="meaning-item">
-                            <h4>काम्य यज्ञ —</h4>
-                            <p>विशिष्ट फलासाठी (पुत्रकामेष्ठी, सर्वकामेष्टी, राजसूय, अश्वमेध).</p>
-                        </div>
-                        <div class="meaning-item">
-                            <h4>प्रायश्चित्त यज्ञ —</h4>
-                            <p>पापपरिहारासाठी.</p>
-                        </div>
-                        <div class="meaning-item">
-                            <h4>सामाजिक यज्ञ —</h4>
-                            <p>जनकल्याणासाठी (सार्वजनिक सत्यनारायण यज्ञ, रुद्रयज्ञ, दुर्गायज्ञ).</p>
+                    <div class="phi-content-col rules-bg">
+                        <div class="content-padding">
+                            <h2 class="mini-title"><i class="fas fa-hand-holding-water"></i>यज्ञाचे फायदे (वैदिक दृष्टीने)</h2>
+                            <ul class="ritual-list">
+                                <li><i class="fas fa-check"></i> आध्यात्मिक प्रगती व मोक्षमार्ग.</li>
+                                <li><i class="fas fa-check"></i> वातावरणातील दूषितता नष्ट होते.</li>
+                                <li><i class="fas fa-check"></i>सजीवांच्या कल्याणासाठी ऊर्जेचे प्रक्षेपण.</li>
+                                <li><i class="fas fa-check"></i> मानसिक, शारीरिक स्वास्थ्याची वृद्धी.</li>
+                                <li><i class="fas fa-check"></i> कर्मशुद्धी व ऋणमोचन.</li>
+                            </ul><br>
+                            <h2 class="mini-title"><i class="fas fa-hand-holding-water"></i>वैदिक महत्त्व</h2>
+                            <ul class="ritual-list">
+                                <li><i class="fas fa-check"></i>यज्ञो वै श्रेष्ठतमं कर्म — यज्ञ हे श्रेष्ठ कर्म आहे (भगवद्गीता ४.२३).</li>
+                                <li><i class="fas fa-check"></i> यज्ञाशिवाय देवता संतुष्ट होत नाहीत.</li>
+                                <li><i class="fas fa-check"></i>यज्ञातूनच वर्षा, अन्नवृद्धी, सृष्टीचक्र चालते (गीता ३.१४).</li>
+                            </ul>
                         </div>
                     </div>
-                </div>
 
+                    <div class="phi-content-col meaning-bg">
+                        <div class="content-padding">
+                            <h2 class="mini-title"><i class="fas fa-lightbulb"></i> यज्ञांचे प्रकार (वैदिक काळातील)</h2>
+                            <div class="meaning-item">
+                                <h4>नित्य यज्ञ—</h4>
+                                <p>दररोज करायचे यज्ञ (अग्निहोत्र, दर्शपौर्णमास, आग्रयण).</p>
+                            </div>
+                            <div class="meaning-item">
+                                <h4>काम्य यज्ञ —</h4>
+                                <p>विशिष्ट फलासाठी (पुत्रकामेष्ठी, सर्वकामेष्टी, राजसूय, अश्वमेध).</p>
+                            </div>
+                            <div class="meaning-item">
+                                <h4>प्रायश्चित्त यज्ञ —</h4>
+                                <p>पापपरिहारासाठी.</p>
+                            </div>
+                            <div class="meaning-item">
+                                <h4>सामाजिक यज्ञ —</h4>
+                                <p>जनकल्याणासाठी (सार्वजनिक सत्यनारायण यज्ञ, रुद्रयज्ञ, दुर्गायज्ञ).</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
             </div>
         </div>
-    </div>
 
 </section>
 

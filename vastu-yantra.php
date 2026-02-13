@@ -327,6 +327,100 @@
         /* हलका सात्विक बॅकग्राउंड */
     }
 
+    /* Section Styling */
+    .wedding-ritual-section {
+        padding: 60px 20px;
+        background: #fffaf5;
+    }
+
+    .wedding-section-title {
+        font-size: 32px;
+        font-weight: 700;
+        color: #8b0000;
+        position: relative;
+    }
+
+    .wedding-section-title i {
+        color: #ff6f00;
+    }
+
+    /* Grid Layout */
+    .wedding-steps-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+        gap: 30px;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    /* Card Design */
+    .wedding-step-card {
+        background: #ffffff;
+        padding: 30px 20px;
+        border-radius: 15px;
+        text-align: center;
+        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+        transition: all 0.3s ease;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .wedding-step-card:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+    }
+
+    /* Image Styling */
+    .wedding-step-icon {
+        margin-bottom: 20px;
+    }
+
+    .wedding-yantra-img {
+        width: 120px;
+        height: 120px;
+        object-fit: cover;
+        border-radius: 50%;
+        border: 4px solid #ff6f00;
+        padding: 5px;
+        background: #fff;
+        transition: 0.3s;
+    }
+
+    .wedding-step-card:hover .wedding-yantra-img {
+        transform: scale(1.08);
+    }
+
+    /* Card Title */
+    .wedding-step-card h3 {
+        font-size: 20px;
+        color: #8b0000;
+        margin-bottom: 15px;
+        font-weight: 600;
+    }
+
+    /* Card Paragraph */
+    .wedding-step-card p {
+        font-size: 15px;
+        color: #555;
+        line-height: 1.6;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+        .wedding-section-title {
+            font-size: 24px;
+        }
+
+        .wedding-step-card {
+            padding: 20px 15px;
+        }
+
+        .wedding-yantra-img {
+            width: 100px;
+            height: 100px;
+        }
+    }
+
 
     .mini-title {
         font-size: 1.5rem;
@@ -811,18 +905,18 @@
 
             </div>
 
-            <div class="content-section mt-5">
+            <div class="wedding-ritual-section mt-5">
 
-                <h2 class="section-title text-center mb-5">
+                <h2 class="wedding-section-title text-center mb-5">
                     <i class="fas fa-fire me-2"></i> यंत्रांचे महत्त्व
                 </h2>
 
-                <div class="puja-steps-grid">
+                <div class="wedding-steps-grid">
 
                     <!-- Card 1 -->
-                    <div class="step-card">
-                        <div class="step-icon">
-                            <img src="images/images/vastu-yantra04.jpeg" alt="श्री यंत्र" class="yantra-img">
+                    <div class="wedding-step-card">
+                        <div class="wedding-step-icon">
+                            <img src="images/images/vastu-yantra04.jpeg" alt="श्री यंत्र" class="wedding-yantra-img">
                         </div>
                         <h3>श्री यंत्र</h3>
                         <p>
@@ -832,9 +926,9 @@
                     </div>
 
                     <!-- Card 2 -->
-                    <div class="step-card">
-                        <div class="step-icon">
-                            <img src="images/images/vastu-yantra05.webp" alt="आर्थिक समृद्धी यंत्र" class="yantra-img">
+                    <div class="wedding-step-card">
+                        <div class="wedding-step-icon">
+                            <img src="images/images/vastu-yantra05.webp" alt="आर्थिक समृद्धी यंत्र" class="wedding-yantra-img">
                         </div>
                         <h3>आर्थिक समृद्धी</h3>
                         <p>
@@ -844,9 +938,9 @@
                     </div>
 
                     <!-- Card 3 -->
-                    <div class="step-card">
-                        <div class="step-icon">
-                            <img src="images/images/vastu-yantra06.jpg" alt="सकारात्मक प्रभाव" class="yantra-img">
+                    <div class="wedding-step-card">
+                        <div class="wedding-step-icon">
+                            <img src="images/images/vastu-yantra06.jpg" alt="सकारात्मक प्रभाव" class="wedding-yantra-img">
                         </div>
                         <h3>व्यक्तिमत्वावर सकारात्मक प्रभाव</h3>
                         <p>
@@ -856,9 +950,9 @@
                     </div>
 
                     <!-- Card 4 -->
-                    <div class="step-card">
-                        <div class="step-icon">
-                            <img src="images/images/vastu-yantra07.jpg" alt="सुख-शांती" class="yantra-img">
+                    <div class="wedding-step-card">
+                        <div class="wedding-step-icon">
+                            <img src="images/images/vastu-yantra07.jpg" alt="सुख-शांती" class="wedding-yantra-img">
                         </div>
                         <h3>संपूर्ण जीवनात सुख-शांती</h3>
                         <p>
@@ -872,18 +966,18 @@
             </div>
 
 
-            <div class="content-section mt-5">
+            <div class="wedding-ritual-section mt-5">
 
-                <h2 class="section-title text-center mb-5">
+                <h2 class="wedding-section-title text-center mb-5">
                     <i class="fas fa-gem me-2"></i> क्रिस्टल्सचे महत्व
                 </h2>
 
-                <div class="puja-steps-grid">
+                <div class="wedding-steps-grid">
 
                     <!-- Card 1 -->
-                    <div class="step-card">
-                        <div class="step-icon">
-                            <img src="images/images/vastu-yantra08.jpg" alt="ॲमॅथिस्ट क्रिस्टल" class="yantra-img">
+                    <div class="wedding-step-card">
+                        <div class="wedding-step-icon">
+                            <img src="images/images/vastu-yantra08.jpg" alt="ॲमॅथिस्ट क्रिस्टल" class="wedding-yantra-img">
                         </div>
                         <h3>ॲमॅथिस्ट क्रिस्टल</h3>
                         <p>
@@ -893,9 +987,9 @@
                     </div>
 
                     <!-- Card 2 -->
-                    <div class="step-card">
-                        <div class="step-icon">
-                            <img src="images/images/vastu-yantra09.jpg" alt="रोझ क्वार्ट्ज क्रिस्टल" class="yantra-img">
+                    <div class="wedding-step-card">
+                        <div class="wedding-step-icon">
+                            <img src="images/images/vastu-yantra09.jpg" alt="रोझ क्वार्ट्ज क्रिस्टल" class="wedding-yantra-img">
                         </div>
                         <h3>रोझ क्वार्ट्ज क्रिस्टल</h3>
                         <p>
@@ -905,9 +999,9 @@
                     </div>
 
                     <!-- Card 3 -->
-                    <div class="step-card">
-                        <div class="step-icon">
-                            <img src="images/images/vastu-yantra10.jpg" alt="सिट्रीन क्रिस्टल" class="yantra-img">
+                    <div class="wedding-step-card">
+                        <div class="wedding-step-icon">
+                            <img src="images/images/vastu-yantra10.jpg" alt="सिट्रीन क्रिस्टल" class="wedding-yantra-img">
                         </div>
                         <h3>सिट्रीन क्रिस्टल</h3>
                         <p>
@@ -917,9 +1011,9 @@
                     </div>
 
                     <!-- Card 4 -->
-                    <div class="step-card">
-                        <div class="step-icon">
-                            <img src="images/images/vastu-yantra11.jpg" alt="टाईगर आय क्रिस्टल" class="yantra-img">
+                    <div class="wedding-step-card">
+                        <div class="wedding-step-icon">
+                            <img src="images/images/vastu-yantra11.jpg" alt="टाईगर आय क्रिस्टल" class="wedding-yantra-img">
                         </div>
                         <h3>टाईगर आय क्रिस्टल</h3>
                         <p>
@@ -929,9 +1023,9 @@
                     </div>
 
                     <!-- Card 5 -->
-                    <div class="step-card">
-                        <div class="step-icon">
-                            <img src="images/images/vastu-yantra12.jpg" alt="हॅलाइट क्रिस्टल" class="yantra-img">
+                    <div class="wedding-step-card">
+                        <div class="wedding-step-icon">
+                            <img src="images/images/vastu-yantra12.jpg" alt="हॅलाइट क्रिस्टल" class="wedding-yantra-img">
                         </div>
                         <h3>हॅलाइट क्रिस्टल</h3>
                         <p>
@@ -943,6 +1037,7 @@
                 </div>
 
             </div>
+
 
             <section class="ritual-elements-section">
                 <div class="container">
@@ -988,14 +1083,17 @@
             </section>
 
 
-            <div class="content-section mt-5">
-                <h2 class="section-title text-center mb-5">
+            <div class="wedding-ritual-section mt-5">
+                <h2 class="wedding-section-title text-center mb-5">
                     <i class="fas fa-fire"></i> यंत्र आणि क्रिस्टल उपाय योजनेचे फायदे
                 </h2>
-                <div class="puja-steps-grid">
 
-                    <div class="step-card">
-                        <div class="step-icon"><i class="fas fa-star"></i></div>
+                <div class="wedding-steps-grid">
+
+                    <div class="wedding-step-card">
+                        <div class="wedding-step-icon">
+                            <i class="fas fa-star fa-3x" style="color:#ff6f00;"></i>
+                        </div>
                         <h3>सकारात्मक उर्जा आकर्षित होणे</h3>
                         <p>
                             यंत्र आणि क्रिस्टल यांचा एकत्रित उपयोग घर आणि कार्यालयाच्या वातावरणात
@@ -1003,8 +1101,10 @@
                         </p>
                     </div>
 
-                    <div class="step-card">
-                        <div class="step-icon"><i class="fas fa-globe"></i></div>
+                    <div class="wedding-step-card">
+                        <div class="wedding-step-icon">
+                            <i class="fas fa-globe fa-3x" style="color:#ff6f00;"></i>
+                        </div>
                         <h3>ग्रह दोष निवारण</h3>
                         <p>
                             ज्योतिष शास्त्रानुसार, यंत्र आणि क्रिस्टल वापरून ग्रह दोष कमी केले जातात.
@@ -1012,17 +1112,21 @@
                         </p>
                     </div>
 
-                    <div class="step-card">
-                        <div class="step-icon"><i class="fas fa-heartbeat"></i></div>
+                    <div class="wedding-step-card">
+                        <div class="wedding-step-icon">
+                            <i class="fas fa-heartbeat fa-3x" style="color:#ff6f00;"></i>
+                        </div>
                         <h3>आरोग्य सुधारणे</h3>
                         <p>
                             क्रिस्टल्स आणि यंत्रांचा उपयोग मानसिक, शारीरिक आणि आत्मिक
-                            आरोग्य सुधारणे साठी केला जातो.
+                            आरोग्य सुधारण्यासाठी केला जातो.
                         </p>
                     </div>
 
-                    <div class="step-card">
-                        <div class="step-icon"><i class="fas fa-coins"></i></div>
+                    <div class="wedding-step-card">
+                        <div class="wedding-step-icon">
+                            <i class="fas fa-coins fa-3x" style="color:#ff6f00;"></i>
+                        </div>
                         <h3>आर्थिक समृद्धी</h3>
                         <p>
                             विशेष यंत्रांद्वारे आर्थिक समस्यांवर विजय मिळवता येतो.
@@ -1030,8 +1134,10 @@
                         </p>
                     </div>
 
-                    <div class="step-card">
-                        <div class="step-icon"><i class="fas fa-handshake"></i></div>
+                    <div class="wedding-step-card">
+                        <div class="wedding-step-icon">
+                            <i class="fas fa-handshake fa-3x" style="color:#ff6f00;"></i>
+                        </div>
                         <h3>विवाद निवारण</h3>
                         <p>
                             यंत्र आणि क्रिस्टल वापरून घरातील किंवा कार्यालयातील वाद-प्रतिवाद कमी करता येतात.
@@ -1041,6 +1147,7 @@
 
                 </div>
             </div>
+
 
 
             <div class="phi-content-col meaning-bg">

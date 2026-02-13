@@ -1,3 +1,63 @@
+<style>
+
+/* Wedding Grid */
+.wedding-steps-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    margin-top: 30px;
+}
+
+/* Wedding Card */
+.wedding-step-card {
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-top: 4px solid #8B4513;
+    border-radius: 12px;
+    padding: 30px;
+    text-align: center;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.wedding-step-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 25px rgba(139, 69, 19, 0.15);
+    border-top-color: #FF9800;
+}
+
+/* Wedding Icon */
+.wedding-step-icon {
+    font-size: 2.5rem;
+    color: #8B4513;
+    margin-bottom: 20px;
+}
+
+.wedding-step-card h3 {
+    font-size: 1.4rem;
+    color: #5D4037;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.wedding-step-card p {
+    font-size: 0.95rem;
+    color: #666;
+    line-height: 1.6;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+    .wedding-steps-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .wedding-steps-grid {
+        grid-template-columns: 1fr;
+    }
+}
 
 </style>
 <?php include 'header.php'; ?>
@@ -226,54 +286,57 @@
             </div>
         </section>
 
-        <div class="content-section mt-5">
-            <h2 class="section-title text-center mb-5"><i class="fas fa-fire"></i> हवन विधीचे टप्पे (Havan Ritual Steps)</h2>
-            <div class="puja-steps-grid">
+        <div class="wedding-ritual-section mt-5">
+            <h2 class="wedding-section-title text-center mb-5">
+                <i class="fas fa-fire"></i> हवन विधीचे टप्पे (Havan Ritual Steps)
+            </h2>
 
-                <div class="step-card">
-                    <div class="step-icon"><i class="fas fa-hand-sparkles"></i></div>
+            <div class="wedding-steps-grid">
+
+                <div class="wedding-step-card">
+                    <div class="wedding-step-icon"><i class="fas fa-hand-sparkles"></i></div>
                     <h3>शुद्धीकरण</h3>
                     <p>मंडप, हवनकुंड, पुरोहित आणि सहभागी व्यक्तींचे पवित्र मंत्रोच्चाराने आणि प्रोक्षणाने शुद्धीकरण करणे.</p>
                 </div>
 
-                <div class="step-card">
-                    <div class="step-icon"><i class="fas fa-bullseye"></i></div>
+                <div class="wedding-step-card">
+                    <div class="wedding-step-icon"><i class="fas fa-bullseye"></i></div>
                     <h3>संकल्प</h3>
                     <p>हवन कोणत्या विशिष्ट हेतूने किंवा कार्यासाठी केले जात आहे, त्याचे विधीपूर्वक देवापुढे उच्चार करणे.</p>
                 </div>
 
-                <div class="step-card">
-                    <div class="step-icon"><i class="fas fa-vihara"></i></div>
+                <div class="wedding-step-card">
+                    <div class="wedding-step-icon"><i class="fas fa-vihara"></i></div>
                     <h3>देवता आवाहन व पूजन</h3>
                     <p>यज्ञाच्या मुख्य देवतांचे आवाहन करून त्यांना हवनकुंडात विराजमान होण्यासाठी विधीवत पूजन करणे.</p>
                 </div>
 
-                <div class="step-card">
-                    <div class="step-icon"><i class="fas fa-igniting"></i></div>
+                <div class="wedding-step-card">
+                    <div class="wedding-step-icon"><i class="fas fa-igniting"></i></div>
                     <h3>अग्निप्रज्वलन</h3>
                     <p>विशिष्ट मंत्रांच्या पाठासह आणि शुद्ध साहित्याने हवनाच्या अग्नीची विधीपूर्वक स्थापना व प्रज्वलन करणे.</p>
                 </div>
 
-                <div class="step-card">
-                    <div class="step-icon"><i class="fas fa-mortar-pestle"></i></div>
+                <div class="wedding-step-card">
+                    <div class="wedding-step-icon"><i class="fas fa-mortar-pestle"></i></div>
                     <h3>आहुती</h3>
                     <p>मंत्रोच्चारासह हविष्याचे (साजूक तूप, समिधा, औषधी वनस्पती) अग्नीमध्ये भक्तिपूर्वक अर्पण करणे.</p>
                 </div>
 
-                <div class="step-card">
-                    <div class="step-icon"><i class="fas fa-sun"></i></div>
+                <div class="wedding-step-card">
+                    <div class="wedding-step-icon"><i class="fas fa-sun"></i></div>
                     <h3>पूर्णाहुती</h3>
                     <p>यज्ञाची अंतिम मोठी आहुती देणे आणि संकलित कार्याची सिद्धी होण्यासाठी ईश्वराकडे प्रार्थना करणे.</p>
                 </div>
 
-                <div class="step-card">
-                    <div class="step-icon"><i class="fas fa-hands-praying"></i></div>
+                <div class="wedding-step-card">
+                    <div class="wedding-step-icon"><i class="fas fa-hands-praying"></i></div>
                     <h3>आरती व मंत्रपुष्पांजली</h3>
                     <p>मुख्य देवतांची आरती करणे आणि विधीच्या सांगतेसाठी मंत्रपुष्पांजली अर्पण करून आशीर्वाद घेणे.</p>
                 </div>
 
-                <div class="step-card">
-                    <div class="step-icon"><i class="fas fa-box-open"></i></div>
+                <div class="wedding-step-card">
+                    <div class="wedding-step-icon"><i class="fas fa-box-open"></i></div>
                     <h3>प्रसाद वितरण</h3>
                     <p>यज्ञाचा पवित्र विभूती-प्रसाद कपाळाला लावणे आणि उपस्थित सर्वांना महाप्रसादाचे वाटप करणे.</p>
                 </div>
@@ -281,7 +344,6 @@
             </div>
         </div>
 
-    </div>
 
 </section>
 

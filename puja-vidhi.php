@@ -183,6 +183,66 @@
         line-height: 1.6;
     }
 
+    /* NEW Ritual Grid */
+    .ritual-steps-grid-new {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 25px;
+        margin-top: 30px;
+    }
+
+    /* NEW Card */
+    .ritual-step-card {
+        background: #fff;
+        border: 1px solid #e0e0e0;
+        border-top: 4px solid #8B4513;
+        border-radius: 12px;
+        padding: 30px;
+        text-align: center;
+        transition: all 0.3s ease;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    }
+
+    .ritual-step-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 10px 25px rgba(139, 69, 19, 0.15);
+        border-top-color: #FF9800;
+    }
+
+    /* NEW Icon */
+    .ritual-step-icon {
+        font-size: 2.5rem;
+        color: #8B4513;
+        margin-bottom: 20px;
+    }
+
+    .ritual-step-card h3 {
+        font-size: 1.4rem;
+        color: #5D4037;
+        margin-bottom: 15px;
+        font-weight: 700;
+    }
+
+    .ritual-step-card p {
+        font-size: 0.95rem;
+        color: #666;
+        line-height: 1.6;
+    }
+
+    /* Responsive */
+    @media (max-width: 992px) {
+        .ritual-steps-grid-new {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+
+    @media (max-width: 600px) {
+        .ritual-steps-grid-new {
+            grid-template-columns: 1fr;
+        }
+    }
+
+
     /* Control the overall width here */
     .compact-section-wrapper {
         max-width: 1200px;
@@ -402,8 +462,8 @@
 </section>
 
 
-<section class="py-5" 
-style="background-image: url(images/guruji/ser-img/ctcbgg.jpg);
+<section class="py-5"
+    style="background-image: url(images/guruji/ser-img/ctcbgg.jpg);
        height: 300px;
        width: 100%;
        background-size: cover;
@@ -511,92 +571,104 @@ style="background-image: url(images/guruji/ser-img/ctcbgg.jpg);
             </div>
         </div>
 
-        <div class="content-section mt-5">
-            <h2 class="section-title text-center mb-5"><i class="fas fa-dharmachakra"></i> पूजा विधीचे टप्पे (Ritual Steps)</h2>
-            <div class="puja-steps-grid">
-                <div class="step-card">
-                    <div class="step-icon"><i class="fas fa-bath"></i></div>
+        <div class="ritual-steps-section mt-5">
+            <h2 class="ritual-section-title text-center mb-5">
+                <i class="fas fa-dharmachakra"></i> पूजा विधीचे टप्पे (Ritual Steps)
+            </h2>
+
+            <div class="ritual-steps-grid-new">
+
+                <div class="ritual-step-card">
+                    <div class="ritual-step-icon"><i class="fas fa-bath"></i></div>
                     <h3>स्नान व वस्त्र अलंकार</h3>
                     <p>देवतेस स्नान घालणे (मंत्रात्मक पाण्याने) आणि वस्त्र व अलंकार अर्पण करणे.</p>
                 </div>
-                <div class="step-card">
-                    <div class="step-icon"><i class="fas fa-spa"></i></div>
+
+                <div class="ritual-step-card">
+                    <div class="ritual-step-icon"><i class="fas fa-spa"></i></div>
                     <h3>गंध, पुष्प, धूप, दीप</h3>
                     <p>गंध (चंदन), पुष्प (फुले), धूप (अगरबत्ती), दीप (दिवा) अर्पण करणे.</p>
                 </div>
-                <div class="step-card">
-                    <div class="step-icon"><i class="fas fa-apple-alt"></i></div>
+
+                <div class="ritual-step-card">
+                    <div class="ritual-step-icon"><i class="fas fa-apple-alt"></i></div>
                     <h3>नैवेद्य व तांबूल अर्पण</h3>
                     <p>अन्न, फळे, मिठाई (नैवेद्य) अर्पण करणे, नंतर पानसुपारी (तांबूल) देणे.</p>
                 </div>
-                <div class="step-card">
-                    <div class="step-icon"><i class="fas fa-om"></i></div>
+
+                <div class="ritual-step-card">
+                    <div class="ritual-step-icon"><i class="fas fa-om"></i></div>
                     <h3>मंत्रजप आणि स्तुती</h3>
-                    <p>देवतेच्या मंत्रांचे जप, स्तोत्रे, ऋचांचे पठण. उदा. "ॐ नमो भगवते वासुदेवाय".</p>
+                    <p>देवतेच्या मंत्रांचे जप, स्तोत्रे, ऋचांचे पठण.</p>
                 </div>
-                <div class="step-card">
-                    <div class="step-icon"><i class="fas fa-fire"></i></div>
+
+                <div class="ritual-step-card">
+                    <div class="ritual-step-icon"><i class="fas fa-fire"></i></div>
                     <h3>होम / यज्ञकर्म</h3>
                     <p>अग्निहोत्राच्या वेळी वैदिक मंत्र म्हणत घृत व समिधा आहुती (स्वाहा) देणे.</p>
                 </div>
-                <div class="step-card">
-                    <div class="step-icon"><i class="fas fa-hands-praying"></i></div>
+
+                <div class="ritual-step-card">
+                    <div class="ritual-step-icon"><i class="fas fa-hands-praying"></i></div>
                     <h3>आरती व प्रार्थना</h3>
                     <p>दिवा फिरवून आरती करणे व अखेरीस भक्तिपूर्वक प्रार्थना करणे.</p>
                 </div>
-                <div class="step-card">
-                    <div class="step-icon"><i class="fas fa-sync"></i></div>
+
+                <div class="ritual-step-card">
+                    <div class="ritual-step-icon"><i class="fas fa-sync"></i></div>
                     <h3>परिक्रमा व नमस्कार</h3>
                     <p>देवतेच्या भोवती प्रदक्षिणा (परिक्रमा) करणे आणि दंडवत नमस्कार घालणे.</p>
                 </div>
-                <div class="step-card">
-                    <div class="step-icon"><i class="fas fa-leaf"></i></div>
+
+                <div class="ritual-step-card">
+                    <div class="ritual-step-icon"><i class="fas fa-leaf"></i></div>
                     <h3>क्षमा याचना व विसर्जन</h3>
                     <p>पूजेतील त्रुटींसाठी क्षमा मागणे आणि देवतेस शांतीपूर्वक विसर्जित करणे.</p>
                 </div>
+
             </div>
         </div>
 
-    </div>
 
 
 
-    <div class="compact-section-wrapper">
-        <div class="philosophy-card">
-            <div class="philosophy-flex">
-                <div class="phi-img-col">
-                    <img src="images/images/mantrache-mahtv.png" alt="Vedic Ritual">
-                </div>
+        <div class="compact-section-wrapper">
+            <div class="philosophy-card">
+                <div class="philosophy-flex">
+                    <div class="phi-img-col">
+                        <img src="images/images/mantrache-mahtv.png" alt="Vedic Ritual">
+                    </div>
 
-                <div class="phi-content-col">
-                    <div class="content-padding">
-                        <h2 class="mini-title"><i class="fas fa-om"></i> मंत्रांचे महत्त्व</h2>
-                        <p class="phi-desc">
-                            वैदिक पूजेमध्ये मंत्रोच्चारण ही सर्वात महत्त्वाची गोष्ट आहे. हे मंत्र दैवतांना उद्देशून उच्चारले जातात.
-                            <strong>मंत्र हे ध्वनीच्या स्वरूपातील कंपन आहेत</strong>, ज्यामुळे विश्व आणि आपल्यातील संबंध गहिरा होतो.
-                        </p>
+                    <div class="phi-content-col">
+                        <div class="content-padding">
+                            <h2 class="mini-title"><i class="fas fa-om"></i> मंत्रांचे महत्त्व</h2>
+                            <p class="phi-desc">
+                                वैदिक पूजेमध्ये मंत्रोच्चारण ही सर्वात महत्त्वाची गोष्ट आहे. हे मंत्र दैवतांना उद्देशून उच्चारले जातात.
+                                <strong>मंत्र हे ध्वनीच्या स्वरूपातील कंपन आहेत</strong>, ज्यामुळे विश्व आणि आपल्यातील संबंध गहिरा होतो.
+                            </p>
 
-                        <h2 class="mini-title mt-4"><i class="fas fa-scroll"></i> तत्त्वज्ञान</h2>
-                        <div class="phi-steps">
-                            <div class="phi-step">
-                                <span class="step-bullet"><i class="fas fa-fire-alt"></i></span>
-                                <div>
-                                    <h4>यज्ञ म्हणजेच पूजाशुद्धी</h4>
-                                    <p>ही एक सखोल प्रक्रिया आहे जी ब्रह्मांडाच्या ऊर्जेशी आपल्याला जोडते.</p>
+                            <h2 class="mini-title mt-4"><i class="fas fa-scroll"></i> तत्त्वज्ञान</h2>
+                            <div class="phi-steps">
+                                <div class="phi-step">
+                                    <span class="step-bullet"><i class="fas fa-fire-alt"></i></span>
+                                    <div>
+                                        <h4>यज्ञ म्हणजेच पूजाशुद्धी</h4>
+                                        <p>ही एक सखोल प्रक्रिया आहे जी ब्रह्मांडाच्या ऊर्जेशी आपल्याला जोडते.</p>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="phi-step">
-                                <span class="step-bullet"><i class="fas fa-balance-scale"></i></span>
-                                <div>
-                                    <h4>सृष्टीच्या ऋताचा जतन</h4>
-                                    <p>अर्पण व विधी यामार्फत विश्वातील नैसर्गिक समतोल राखला जातो.</p>
+                                <div class="phi-step">
+                                    <span class="step-bullet"><i class="fas fa-balance-scale"></i></span>
+                                    <div>
+                                        <h4>सृष्टीच्या ऋताचा जतन</h4>
+                                        <p>अर्पण व विधी यामार्फत विश्वातील नैसर्गिक समतोल राखला जातो.</p>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="phi-step">
-                                <span class="step-bullet"><i class="fas fa-heart"></i></span>
-                                <div>
-                                    <h4>देवत्वाचा आदर</h4>
-                                    <p>प्रत्येक अर्पण म्हणजे आपल्या अहंकाराचा त्याग.</p>
+                                <div class="phi-step">
+                                    <span class="step-bullet"><i class="fas fa-heart"></i></span>
+                                    <div>
+                                        <h4>देवत्वाचा आदर</h4>
+                                        <p>प्रत्येक अर्पण म्हणजे आपल्या अहंकाराचा त्याग.</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -604,7 +676,6 @@ style="background-image: url(images/guruji/ser-img/ctcbgg.jpg);
                 </div>
             </div>
         </div>
-    </div>
 
 </section>
 

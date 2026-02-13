@@ -297,6 +297,66 @@
         max-height: 550px;
     }
 
+    /* Wedding Grid */
+    .wedding-steps-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 25px;
+        margin-top: 30px;
+    }
+
+    /* Wedding Card */
+    .wedding-step-card {
+        background: #fff;
+        border: 1px solid #e0e0e0;
+        border-top: 4px solid #8B4513;
+        border-radius: 12px;
+        padding: 30px;
+        text-align: center;
+        transition: all 0.3s ease;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    }
+
+    .wedding-step-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 10px 25px rgba(139, 69, 19, 0.15);
+        border-top-color: #FF9800;
+    }
+
+    /* Wedding Icon */
+    .wedding-step-icon {
+        font-size: 2.5rem;
+        color: #8B4513;
+        margin-bottom: 20px;
+    }
+
+    .wedding-step-card h3 {
+        font-size: 1.4rem;
+        color: #5D4037;
+        margin-bottom: 15px;
+        font-weight: 700;
+    }
+
+    .wedding-step-card p {
+        font-size: 0.95rem;
+        color: #666;
+        line-height: 1.6;
+    }
+
+    /* Responsive */
+    @media (max-width: 992px) {
+        .wedding-steps-grid {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+
+    @media (max-width: 600px) {
+        .wedding-steps-grid {
+            grid-template-columns: 1fr;
+        }
+    }
+
+
     .phi-img-col img {
         width: 100%;
         height: 100%;
@@ -839,53 +899,55 @@
         </div>
 
 
-        <div class="content-section mt-5">
-            <h2 class="section-title text-center mb-5"><i class="fas fa-scroll"></i> वास्तु कन्सल्टिंगचे फायदे <br></h2>
-            </i>
-            <div class="puja-steps-grid">
+        <div class="wedding-ritual-section mt-5">
+            <h2 class="wedding-section-title text-center mb-5">
+                <i class="fas fa-scroll"></i> वास्तु कन्सल्टिंगचे फायदे
+            </h2>
 
-                <div class="step-card">
-                    <div class="step-icon"><i class="fas fa-sun"></i></div>
+            <div class="wedding-steps-grid">
+
+                <div class="wedding-step-card">
+                    <div class="wedding-step-icon"><i class="fas fa-sun"></i></div>
                     <h3>सकारात्मक ऊर्जा निर्माण होते</h3>
                     <p>
                         योग्य वास्तु सल्ला घेतल्याने घरातील किंवा कार्यालयातील नकारात्मक ऊर्जा दूर होऊन सकारात्मक ऊर्जा प्रवेश करते.
                     </p>
                 </div>
 
-                <div class="step-card">
-                    <div class="step-icon"><i class="fas fa-balance-scale"></i></div>
+                <div class="wedding-step-card">
+                    <div class="wedding-step-icon"><i class="fas fa-balance-scale"></i></div>
                     <h3>मानसिक शांती आणि संतुलन</h3>
                     <p>
                         घरातील प्रत्येक क्षेत्राची योग्य रचना केल्याने मानसिक शांती आणि संतुलन मिळते. यामुळे घरातील लोक अधिक शांत आणि आनंदी राहतात.
                     </p>
                 </div>
 
-                <div class="step-card">
-                    <div class="step-icon"><i class="fas fa-coins"></i></div>
+                <div class="wedding-step-card">
+                    <div class="wedding-step-icon"><i class="fas fa-coins"></i></div>
                     <h3>आर्थिक समृद्धी आणि यश</h3>
                     <p>
                         योग्य वास्तु शास्त्राचे पालन केल्यामुळे आर्थिक प्रगती, व्यवसायात यश आणि समृद्धी प्राप्त होऊ शकते.
                     </p>
                 </div>
 
-                <div class="step-card">
-                    <div class="step-icon"><i class="fas fa-tools"></i></div>
+                <div class="wedding-step-card">
+                    <div class="wedding-step-icon"><i class="fas fa-tools"></i></div>
                     <h3>सुधारणा सुचना</h3>
                     <p>
                         जर वास्तु दोष असेल तर त्याचे उपाय सुचवले जातात. यामध्ये मुख्य दरवाजाचे स्थान बदलणे, नवा रंग वापरणे, नवीन तंत्र यंत्रांचा वापर करणे, घरात विशेष पूजेचा आयोजन करणे, किंवा त्यात रुद्राक्ष, यंत्रे, रत्न किंवा व्रतांचे पालन करणे यासारख्या उपायांचा समावेश होतो.
                     </p>
                 </div>
 
-                <div class="step-card">
-                    <div class="step-icon"><i class="fas fa-heartbeat"></i></div>
+                <div class="wedding-step-card">
+                    <div class="wedding-step-icon"><i class="fas fa-heartbeat"></i></div>
                     <h3>आरोग्य आणि भौतिक सुख</h3>
                     <p>
                         वास्तु शास्त्राच्या माध्यमातून घरातील उर्जा संतुलित होऊन लोकांचे शारीरिक आणि मानसिक आरोग्य सुधरते.
                     </p>
                 </div>
 
-                <div class="step-card">
-                    <div class="step-icon"><i class="fas fa-home"></i></div>
+                <div class="wedding-step-card">
+                    <div class="wedding-step-icon"><i class="fas fa-home"></i></div>
                     <h3>कुटुंबामध्ये प्रेम आणि सौहार्द</h3>
                     <p>
                         घराच्या रचनेचे संतुलन आणि योग्य दिशा कुटुंबातील सदस्यांमधील प्रेम आणि सौहार्द वाढवते.
@@ -894,6 +956,7 @@
 
             </div>
         </div>
+
 
         <br><br>
         <section class="saptpadi-dynamic-section">
@@ -963,6 +1026,6 @@
                     </div>
                 </div>
         </section>
-    </section>
+</section>
 
-    <?php include 'footer.php'; ?>
+<?php include 'footer.php'; ?>

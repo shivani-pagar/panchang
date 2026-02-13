@@ -1,3 +1,64 @@
+<style>
+    /* Wedding Grid */
+    .wedding-steps-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 25px;
+        margin-top: 30px;
+    }
+
+    /* Wedding Card */
+    .wedding-step-card {
+        background: #fff;
+        border: 1px solid #e0e0e0;
+        border-top: 4px solid #8B4513;
+        border-radius: 12px;
+        padding: 30px;
+        text-align: center;
+        transition: all 0.3s ease;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    }
+
+    .wedding-step-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 10px 25px rgba(139, 69, 19, 0.15);
+        border-top-color: #FF9800;
+    }
+
+    /* Wedding Icon */
+    .wedding-step-icon {
+        font-size: 2.5rem;
+        color: #8B4513;
+        margin-bottom: 20px;
+    }
+
+    .wedding-step-card h3 {
+        font-size: 1.4rem;
+        color: #5D4037;
+        margin-bottom: 15px;
+        font-weight: 700;
+    }
+
+    .wedding-step-card p {
+        font-size: 0.95rem;
+        color: #666;
+        line-height: 1.6;
+    }
+
+    /* Responsive */
+    @media (max-width: 992px) {
+        .wedding-steps-grid {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+
+    @media (max-width: 600px) {
+        .wedding-steps-grid {
+            grid-template-columns: 1fr;
+        }
+    }
+</style>
+
 <?php include 'header.php'; ?>
 <!-- Title Bar -->
 <div class="pbmit-title-bar-wrapper " style="background-image:url(images/guruji/ser-img/bgser.jpg);">
@@ -204,54 +265,57 @@
             </div>
         </section>
 
-        <div class="content-section mt-5">
-            <h2 class="section-title text-center mb-5"><i class="fas fa-gopuram"></i> विवाह विधीचे टप्पे (Wedding Rituals)</h2>
-            <div class="puja-steps-grid">
+        <div class="wedding-ritual-section mt-5">
+            <h2 class="wedding-section-title text-center mb-5">
+                <i class="fas fa-gopuram"></i> विवाह विधीचे टप्पे (Wedding Rituals)
+            </h2>
 
-                <div class="step-card">
-                    <div class="step-icon"><i class="fas fa-home"></i></div>
+            <div class="wedding-steps-grid">
+
+                <div class="wedding-step-card">
+                    <div class="wedding-step-icon"><i class="fas fa-home"></i></div>
                     <h3>मांगलिक कार्यांची तयारी</h3>
                     <p>विवाहापूर्वी वर आणि वधूच्या घरी मंगलकार्य: हल्दी, वरात स्वागत आणि कुलदेवता पूजन.</p>
                 </div>
 
-                <div class="step-card">
-                    <div class="step-icon"><i class="fas fa-place-of-worship"></i></div>
+                <div class="wedding-step-card">
+                    <div class="wedding-step-icon"><i class="fas fa-place-of-worship"></i></div>
                     <h3>विवाहमंडप शुद्धी</h3>
                     <p>मंडप आणि विवाहपीठ शुद्ध करून, कुंभ, मंगलकलश आणि यज्ञकुंड विधीवत सजवणे.</p>
                 </div>
 
-                <div class="step-card">
-                    <div class="step-icon"><i class="fas fa-user-check"></i></div>
+                <div class="wedding-step-card">
+                    <div class="wedding-step-icon"><i class="fas fa-user-check"></i></div>
                     <h3>वर पूजन आणि स्वागत</h3>
                     <p>वराला विष्णूरूप (देववत) मानून त्याचे पूजन आणि फुलांनी उत्साहात स्वागत करणे.</p>
                 </div>
 
-                <div class="step-card">
-                    <div class="step-icon"><i class="fas fa-hands-holding"></i></div>
+                <div class="wedding-step-card">
+                    <div class="wedding-step-icon"><i class="fas fa-hands-holding"></i></div>
                     <h3>कन्यादान</h3>
                     <p>वडील किंवा पालकांमार्फत कन्येचा हात अग्नी आणि देवाच्या उपस्थितीत वराला सोपवणे.</p>
                 </div>
 
-                <div class="step-card">
-                    <div class="step-icon"><i class="fas fa-fire-alt"></i></div>
+                <div class="wedding-step-card">
+                    <div class="wedding-step-icon"><i class="fas fa-fire-alt"></i></div>
                     <h3>अग्निपरिक्रमा</h3>
                     <p>यज्ञकुंडात अग्निस्थापन करून होम करणे, समिधा आणि पवित्र आहुती देऊन सप्तपदी पूर्ण करणे.</p>
                 </div>
 
-                <div class="step-card">
-                    <div class="step-icon"><i class="fas fa-heart"></i></div>
+                <div class="wedding-step-card">
+                    <div class="wedding-step-icon"><i class="fas fa-heart"></i></div>
                     <h3>मंगलसूत्र व सिंदूरधारण</h3>
                     <p>वर वधूच्या गळ्यात मंगलसूत्र घालतो आणि सौभाग्यवतीचे प्रतीक म्हणून मस्तकावर कुंकू लावतो.</p>
                 </div>
 
-                <div class="step-card">
-                    <div class="step-icon"><i class="fas fa-users"></i></div>
+                <div class="wedding-step-card">
+                    <div class="wedding-step-icon"><i class="fas fa-users"></i></div>
                     <h3>मंगलाष्टक</h3>
                     <p>उपस्थित पुरोहित आणि मंडळी मंगलाष्टक म्हणतात आणि नवदांपत्यावर अक्षता टाकून शुभ आशीर्वाद देतात.</p>
                 </div>
 
-                <div class="step-card">
-                    <div class="step-icon"><i class="fas fa-praying-hands"></i></div>
+                <div class="wedding-step-card">
+                    <div class="wedding-step-icon"><i class="fas fa-praying-hands"></i></div>
                     <h3>आशीर्वाद आणि विसर्जन</h3>
                     <p>वडिलधाऱ्यांचे आशीर्वाद घेणे आणि विधीची सांगता करून देवतेस शांतीपूर्वक विसर्जित करणे.</p>
                 </div>
@@ -259,29 +323,28 @@
             </div>
         </div>
 
-    </div>
 
 
 
-    <div class="compact-section-wrapper">
-        <div class="philosophy-card">
-            <div class="philosophy-flex">
-                <div class="phi-img-col">
-                    <img src="images/images/mantrache-mahtv.png" alt="Vedic Ritual">
-                </div>
+        <div class="compact-section-wrapper">
+            <div class="philosophy-card">
+                <div class="philosophy-flex">
+                    <div class="phi-img-col">
+                        <img src="images/images/mantrache-mahtv.png" alt="Vedic Ritual">
+                    </div>
 
-                <div class="phi-content-col">
-                    <div class="content-padding">
-                        <h2 class="mini-title"><i class=""></i> मंत्र आणि यज्ञाचे महत्त्व</h2>
-                        <p class="phi-desc">
-                            वैदिक विवाहात सर्व विधी यजुर्वेद व ऋग्वेद यांतील मंत्रांनी केले जातात. यज्ञाच्या साक्षीने हे कर्म पार पडल्यामुळे विवाह केवळ सामाजिक करार न राहता धार्मिक संलग्नता प्राप्त करतो. अग्नीला साक्षी मानून नवदांपत्याने आयुष्यभर एकमेकांचे सहचर होण्याचा संकल्प करणे हे मुख्य आहे.
-                            आज अनेक विवाह सोहळे थोडक्यात केले जातात, परंतु पारंपरिक वैदिक विवाह विधी अजूनही खूप मोठ्या प्रमाणावर ब्राह्मण, वैश्य, क्षत्रिय आणि अन्य हिंदू समाजांत पाहायला मिळतात, विशेषतः मोठ्या धार्मिक कुटुंबांत आणि गावांमध्ये.
-                        </p>
+                    <div class="phi-content-col">
+                        <div class="content-padding">
+                            <h2 class="mini-title"><i class=""></i> मंत्र आणि यज्ञाचे महत्त्व</h2>
+                            <p class="phi-desc">
+                                वैदिक विवाहात सर्व विधी यजुर्वेद व ऋग्वेद यांतील मंत्रांनी केले जातात. यज्ञाच्या साक्षीने हे कर्म पार पडल्यामुळे विवाह केवळ सामाजिक करार न राहता धार्मिक संलग्नता प्राप्त करतो. अग्नीला साक्षी मानून नवदांपत्याने आयुष्यभर एकमेकांचे सहचर होण्याचा संकल्प करणे हे मुख्य आहे.
+                                आज अनेक विवाह सोहळे थोडक्यात केले जातात, परंतु पारंपरिक वैदिक विवाह विधी अजूनही खूप मोठ्या प्रमाणावर ब्राह्मण, वैश्य, क्षत्रिय आणि अन्य हिंदू समाजांत पाहायला मिळतात, विशेषतः मोठ्या धार्मिक कुटुंबांत आणि गावांमध्ये.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
 
 </section>
 
