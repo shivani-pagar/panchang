@@ -74,14 +74,14 @@
                 <li class="nav-item active">
                     <a href="index.php" class="nav-link">
                         <i class="fas fa-home nav-icon"></i>
-                        <span>मुख्यपृष्ठ</span>
+                        <span>Home</span>
                     </a>
                 </li>
 
                 <li class="nav-item">
                     <a href="about.php" class="nav-link">
                         <i class="fas fa-info-circle nav-icon"></i>
-                        <span>आमच्या बद्दल</span>
+                        <span>About Us</span>
                     </a>
                 </li>
 
@@ -89,56 +89,56 @@
                 <li class="nav-item dropdown">
                     <a href="#" class="nav-link">
                         <i class="fas fa-hands-praying nav-icon"></i>
-                        <span>सेवा</span>
+                        <span>Best Services</span>
                     </a>
                     <ul class="dropdown-menu">
                         <!-- Vedic Sciences -->
                         <li class="dropdown-submenu">
                             <a href="vedic-shastra.php" class="dropdown-item">
-                                <i class="fas fa-book-open me-2"></i> वैदिक शास्त्र
+                                <i class="fas fa-book-open me-2"></i> Vedic Science
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a href="puja-vidhi.php" class="dropdown-item">पूजा विधी</a></li>
-                                <li><a href="vaidik-vivah.php" class="dropdown-item">वैदिक विवाह</a></li>
-                                <li><a href="upnayan-sanskar.php" class="dropdown-item">उपनयन संस्कार</a></li>
-                                <li><a href="havan-karya.php" class="dropdown-item">हवन कार्य</a></li>
-                                <li><a href="yadnya-karm.php" class="dropdown-item">यज्ञ कर्म</a></li>
-                                <li><a href="upay.php" class="dropdown-item">उपाय</a></li>
-                                <li><a href="adhyatm.php" class="dropdown-item">अध्यात्म</a></li>
-                                <li><a href="upasana.php" class="dropdown-item">उपासना</a></li>
+                                <li><a href="puja-vidhi.php" class="dropdown-item">Worship</a></li>
+                                <li><a href="vaidik-vivah.php" class="dropdown-item">Vedic Marriage Rituals</a></li>
+                                <li><a href="upnayan-sanskar.php" class="dropdown-item">Upnayan Sanskar</a></li>
+                                <li><a href="havan-karya.php" class="dropdown-item">Havan ceremony</a></li>
+                                <li><a href="yadnya-karm.php" class="dropdown-item">Sacrifice</a></li>
+                                <li><a href="upay.php" class="dropdown-item">Solution</a></li>
+                                <li><a href="adhyatm.php" class="dropdown-item">Spirituality</a></li>
+                                <li><a href="upasana.php" class="dropdown-item">Worship</a></li>
                             </ul>
                         </li>
 
                         <!-- Astrology -->
                         <li class="dropdown-submenu">
                             <a href="jyotish-shastra.php" class="dropdown-item">
-                                <i class="fas fa-star me-2"></i> ज्योतिष शास्त्र
+                                <i class="fas fa-star me-2"></i>Astrology
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a href="jyotish.php" class="dropdown-item">ज्योतिष</a></li>
-                                <li><a href="ankshastra.php" class="dropdown-item">अंकशास्त्र</a></li>
-                                <li><a href="reki.php" class="dropdown-item">रेकी</a></li>
-                                <li><a href="dong-pendulum.php" class="dropdown-item">डाऊझिंग पेंडुलम</a></li>
-                                <li><a href="kristal-hiling.php" class="dropdown-item">क्रिस्टल हिलिंग</a></li>
-                                <li><a href="ratna-shastr.php" class="dropdown-item">रत्नशास्त्र</a></li>
-                                <li><a href="rudraksh.php" class="dropdown-item">रुद्राक्ष</a></li>
-                                <li><a href="upasana_and_utpadane.php" class="dropdown-item">उपासना आणि उत्पादने</a></li>
+                                <li><a href="jyotish.php" class="dropdown-item">Astrology</a></li>
+                                <li><a href="ankshastra.php" class="dropdown-item">Numerology</a></li>
+                                <li><a href="reki.php" class="dropdown-item">Reiki</a></li>
+                                <li><a href="dong-pendulum.php" class="dropdown-item">Dowsing Pendulum</a></li>
+                                <li><a href="kristal-hiling.php" class="dropdown-item">Crystal Healing</a></li>
+                                <li><a href="ratna-shastr.php" class="dropdown-item">Gemology</a></li>
+                                <li><a href="rudraksh.php" class="dropdown-item">Rudraksh</a></li>
+                                <li><a href="upasana_and_utpadane.php" class="dropdown-item">Worship and products</a></li>
                             </ul>
                         </li>
 
                         <!-- Vastu Shastra -->
                         <li class="dropdown-submenu">
                             <a href="vastu-shastra.php" class="dropdown-item">
-                                <i class="fas fa-home me-2"></i> वास्तु शास्त्र
+                                <i class="fas fa-home me-2"></i> Vastu Consulting
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a href="vastu-consulting.php" class="dropdown-item">वास्तु कन्सल्टिंग</a></li>
-                                <li><a href="bhumi-parikshan.php" class="dropdown-item">भूमि परिक्षण</a></li>
-                                <li><a href="vastu-parikshan.php" class="dropdown-item">वास्तु परीक्षण</a></li>
-                                <li><a href="vastu-scanner.php" class="dropdown-item">वास्तु ऑरा स्कॅनर</a></li>
-                                <li><a href="bhu-urja-tanav.php" class="dropdown-item">भू-उर्जा तणाव</a></li>
-                                <li><a href="vastu-yojana.php" class="dropdown-item">वास्तु योजना</a></li>
-                                <li><a href="vastu-yantra.php" class="dropdown-item">यंत्र आणि क्रिस्टल उपाय</a></li>
+                                <li><a href="vastu-consulting.php" class="dropdown-item">Vastu Consulting</a></li>
+                                <li><a href="bhumi-parikshan.php" class="dropdown-item">Land Survey</a></li>
+                                <li><a href="vastu-parikshan.php" class="dropdown-item">Architectural Examination</a></li>
+                                <li><a href="vastu-scanner.php" class="dropdown-item">Vastu Aura Scanner</a></li>
+                                <li><a href="bhu-urja-tanav.php" class="dropdown-item">Geo energy stress</a></li>
+                                <li><a href="vastu-yojana.php" class="dropdown-item">Vastu Plan</a></li>
+                                <li><a href="vastu-yantra.php" class="dropdown-item">Yantra and Crystal Remedies</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -147,14 +147,14 @@
                 <li class="nav-item">
                     <a href="gallery.php" class="nav-link">
                         <i class="fas fa-images nav-icon"></i>
-                        <span>चित्र–चित्रीत</span>
+                        <span>Pictures </span>
                     </a>
                 </li>
 
                 <li class="nav-item">
                     <a href="contact.php" class="nav-link">
                         <i class="fas fa-address-book nav-icon"></i>
-                        <span>संपर्क साधा </span>
+                        <span>Contact Us</span>
                     </a>
                 </li>
                 <!-- Language Dropdown -->
@@ -165,10 +165,10 @@
                     </a>
                     <ul class="dropdown-menu">
                         <li>
-                            <a href="index.php" class="dropdown-item">Marathi (MR)</a>
+                            <a href="../index.php" class="dropdown-item">Marathi (MR)</a>
                         </li>
                         <li>
-                            <a href="english/Home.php" class="dropdown-item">English (EN)</a>
+                            <a href="Home.php" class="dropdown-item">English (EN)</a>
                         </li>
                     </ul>
                 </li>
