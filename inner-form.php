@@ -2,9 +2,11 @@
                 <div class="form-wrp">
                     <form method="post" id="myForm">
                         <div class="row">
+
                             <div class="col-md-12">
                                 <h2 class="pbmit-titlee">अधिक माहितीसाठी संपर्क साधा</h2>
                             </div>
+                                <div id="check1"></div>
                             <div class="col-md-12">
                                 <input type="text" name="name" id="name" class="form-control" placeholder="Your Name" >
                             </div>
@@ -12,7 +14,7 @@
                                 <input type="text" name="phone" id="phone"  class="form-control" placeholder="Phone" >
                             </div>
                             <div class="col-md-12">
-                                <input type="date" name="date" id="date" class="form-control" placeholder="Date" >
+                                <input type="text" name="subject" id="subject" class="form-control" placeholder="Subject" >
                             </div>
                             <div class="col-md-12">
                                 <button type="submit" id="btn_submit" class="pbmit-btn w-100">
@@ -38,9 +40,9 @@
             e.preventDefault();
             var name = $('#name').val();
           
-            var email = $('#email').val();
+           
             var phone = $('#phone').val();
-            var message = $('#message').val();
+            var subject = $('#subject').val();
             var error = false;
             var flg=1;
             // alert(name);alert(email);alert(subject);
@@ -56,13 +58,13 @@
         }
         
          
-         if (!email.match(email_regex)|| email == "") 
-        {
-          $('#check1').html('** Please Enter Your Email Id **').css( "color", "red");
-          $("#email").focus();
-          var error = true;
-          return false;
-        }
+        //  if (!email.match(email_regex)|| email == "") 
+        // {
+        //   $('#check1').html('** Please Enter Your Email Id **').css( "color", "red");
+        //   $("#email").focus();
+        //   var error = true;
+        //   return false;
+        // }
         
         if (!phone.match(mobile_regex)|| phone == "") 
         {
@@ -73,10 +75,10 @@
         }
         
      
-         if (message == "") 
+         if (subject == "") 
         {
-          $('#check1').html('** Please Enter Your Message **').css( "color", "red");
-          $("#message").focus();
+          $('#check1').html('** Please Enter Your Subject **').css( "color", "red");
+          $("#subject").focus();
           var error = true;
           return false;
         } 
@@ -86,7 +88,7 @@
                var form = $('#myForm')[0];
                 var formData = new FormData(form);
                 $.ajax({
-                    url: "contact_valid.php",
+                    url: "inner-valid.php",
 
                     type: "POST",             
                     data: formData,

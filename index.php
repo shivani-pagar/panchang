@@ -234,10 +234,12 @@
 							<div class="service-overlay"></div>
 							<span class="service-tag">वास्तु संबंधित अडथळे</span>
 						</div>
+
 						<div class="service-info text-center p-4">
 							<h3 class="fw-bold h4 mb-3">|| वास्तुशास्त्र ||</h3>
 							<p class="text-muted mb-4" style="font-size: 0.95rem; line-height: 1.6;">वास्तूची अंतर्गत आणि बाह्य रचना, तसेच त्यामधील स्पंदने यांचा आपल्या जीवनावर मोठा परिणाम होतो. या स्पंदनांमुळे वास्तूमध्ये सकारात्मक किंवा नकारात्मक बदल घडून येतो.</p>
 							<a href="contact.php" class="service-link-btn">अधिक वाचा <i class="fas fa-arrow-right ms-2"></i></a>
+
 						</div>
 					</div>
 				</div>

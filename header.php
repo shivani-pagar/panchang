@@ -157,6 +157,22 @@
                         <span>संपर्क साधा </span>
                     </a>
                 </li>
+                <!-- Language Dropdown -->
+                <li class="nav-item dropdown language-dropdown">
+                    <a href="#" class="nav-link">
+                        <i class="fas fa-globe nav-icon"></i>
+                        <span>MR</span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="index.php" class="dropdown-item">Marathi (MR)</a>
+                        </li>
+                        <li>
+                            <a href="english/Home.php" class="dropdown-item">English (EN)</a>
+                        </li>
+                    </ul>
+                </li>
+
             </ul>
 
             <!-- Call to Action Button -->

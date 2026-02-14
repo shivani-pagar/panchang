@@ -381,7 +381,19 @@
     </div>
 </div>
 <!-- Title Bar End-->
+<!-- Title Bar End-->
+<div class="mantra-ribbon-container">
+    <div class="mantra-ribbon">
+        <div class="mantra-icon-left"><i class="fas fa-om"></i></div>
+        <div class="mantra-text-content">
+            <p class="sanskrit-shlok">
+                पुष्टिपते नमस्तुभ्यं नमः शंकरसूनवे ॥ ब्रम्हभूताय देवाय सर्वसिद्धिप्रदाय ते ॥
+            </p>
 
+        </div>
+        <div class="mantra-icon-right"><i class="fas fa-om"></i></div>
+    </div>
+</div>
 
 <section class="mainsection">
     <div class="container">

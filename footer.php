@@ -82,6 +82,7 @@
                                 <strong>पंचांग वास्तु असोसिएट्स</strong><br>
                                 दुकान क्रमांक 1, कॉलेज रोड,<br>
                                 बायके सिग्नल, शेतकरी चहा मागील बाजू,<br>
+
                                 रुपाली अपार्टमेंट, नाशिक,<br>
                                 महाराष्ट्र - 422005
                             </div>
@@ -111,6 +112,7 @@
                         <span style="color: #9f8a63;">निर्मिती </span>
                         <a href="#" style="color: #dbb671; font-weight: 600; text-decoration: none; border-bottom: 1px dotted #b78c4a;">Dotphi</a>
                         <span style="color: #7a623b; margin-left: 6px;">◆  वैदिक तंत्र</span>
+
                     </div>
                 </div>
             </div>
