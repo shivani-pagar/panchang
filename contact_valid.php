@@ -34,7 +34,7 @@ if(!isset($_POST['message']) || trim($_POST['message'])=="")
 if($error=="")
 {
     $page1 = $_POST['page'];
-    $to = "sales@dotphi.com, backupilogicx@gmail.com, bhupendra.kalambe@googlemail.com";
+    $to = "backupilogicx@gmail.com";
     $subject = "Enquiry For ".$page1;
 
     $message = "
