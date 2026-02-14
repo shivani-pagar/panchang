@@ -101,11 +101,11 @@
                                 <li><a href="worship.php" class="dropdown-item">Worship</a></li>
                                 <li><a href="vedic_marriage.php" class="dropdown-item">Vedic Marriage Rituals</a></li>
                                 <li><a href="sacred_thread_ceremony.php" class="dropdown-item">Upnayan Sanskar</a></li>
-                                <li><a href="havan-karya.php" class="dropdown-item">Havan ceremony</a></li>
-                                <li><a href="yadnya-karm.php" class="dropdown-item">Sacrifice</a></li>
-                                <li><a href="upay.php" class="dropdown-item">Solution</a></li>
-                                <li><a href="adhyatm.php" class="dropdown-item">Spirituality</a></li>
-                                <li><a href="upasana.php" class="dropdown-item">Worship</a></li>
+                                <li><a href="sacred_fire_ritual.php" class="dropdown-item">Havan Ritual</a></li>
+                                <li><a href="sacrifice.php" class="dropdown-item">Sacrifice</a></li>
+                                <li><a href="solution.php" class="dropdown-item">Solution</a></li>
+                                <li><a href="spirituality.php" class="dropdown-item">Spirituality</a></li>
+                                <li><a href="devotional_practice.php" class="dropdown-item">Devotional Practice</a></li>
                             </ul>
                         </li>
 
