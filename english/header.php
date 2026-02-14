@@ -99,8 +99,8 @@
                             </a>
                             <ul class="dropdown-menu">
                                 <li><a href="worship.php" class="dropdown-item">Worship</a></li>
-                                <li><a href="vaidik-vivah.php" class="dropdown-item">Vedic Marriage Rituals</a></li>
-                                <li><a href="upnayan-sanskar.php" class="dropdown-item">Upnayan Sanskar</a></li>
+                                <li><a href="vedic_marriage.php" class="dropdown-item">Vedic Marriage Rituals</a></li>
+                                <li><a href="sacred_thread_ceremony.php" class="dropdown-item">Upnayan Sanskar</a></li>
                                 <li><a href="havan-karya.php" class="dropdown-item">Havan ceremony</a></li>
                                 <li><a href="yadnya-karm.php" class="dropdown-item">Sacrifice</a></li>
                                 <li><a href="upay.php" class="dropdown-item">Solution</a></li>
