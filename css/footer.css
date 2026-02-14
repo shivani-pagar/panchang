@@ -1,0 +1,274 @@
+.veda-footer {
+    position: relative;
+    background: linear-gradient(135deg, #2b1e0f 0%, #3f2e1a 100%);
+    /* background-image: radial-gradient(circle at 30% 40%, rgba(210, 170, 90, 0.08) 0%, transparent 40%),
+       url('../images/homepage-1/footer01.jpg'); */
+    /* subtle sacred geometry */
+    font-family: 'Mukta', sans-serif;
+    color: #e08c25;
+    border-top: 6px solid #b78c4a;
+    /* rich antique gold */
+    box-shadow: 0 -10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.footer-top-border {
+    height: 4px;
+    background: linear-gradient(90deg, #d4af37, #b78c4a, #8b6b41, #b78c4a, #d4af37);
+    width: 100%;
+}
+
+.container {
+    max-width: 1280px;
+}
+
+/* ---- logo area ---- */
+.footer-logo-simple {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    justify-items: center;
+    align-items: flex-start;
+}
+
+.footer-logo-simple img {
+    max-height: 70px;
+    width: auto;
+    margin-bottom: 10px;
+    filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.2));
+}
+
+.guruji-name {
+    font-size: 1.9rem;
+    font-weight: 900;
+    color: #e9c886;
+    line-height: 1.2;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    background: linear-gradient(135deg, #f5e6b0, #d4af37);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.guruji-title {
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: #cab58b;
+    margin-top: -5px;
+    letter-spacing: 1.5px;
+}
+
+.sanskrit-motto {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #f2d48b;
+    background: rgba(0, 0, 0, 0.25);
+    display: inline-block;
+    padding: 0.3rem 1.2rem;
+    border-radius: 40px;
+    border-left: 4px solid #c9a452;
+    margin-top: 12px;
+    backdrop-filter: blur(2px);
+}
+
+/* titles */
+.footer-widget .widget-title {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #dfc27d;
+    justify-content: center;
+    justify-items: center;
+    margin-bottom: 6px;
+    letter-spacing: 0.8px;
+}
+
+.classic-divider {
+    width: 70px;
+    height: 3px;
+    background: #a38148;
+    margin-bottom: 20px;
+    border-radius: 2px;
+    box-shadow: 0 1px 2px rgba(255, 215, 0, 0.3);
+}
+
+/* contact items — elegant */
+.contact-item-classic {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.contact-item-classic i {
+    font-size: 1.5rem;
+    color: #e6c275;
+    min-width: 30px;
+    margin-top: 4px;
+}
+
+.ci-text-classic span {
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: #bc9f6e;
+    letter-spacing: 0.5px;
+    display: block;
+    line-height: 1.3;
+}
+
+.ci-text-classic a {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #faf3e0;
+    text-decoration: none;
+    transition: color 0.2s;
+    word-break: break-word;
+}
+
+.ci-text-classic a:hover {
+    color: #f5c84e;
+}
+
+/* address */
+.address-elegant {
+    font-size: 1.05rem;
+    line-height: 1.75;
+    color: #f0e2ce;
+    font-weight: 400;
+}
+
+.address-elegant strong {
+    color: #e3b15a;
+    font-weight: 800;
+}
+
+/* important links — subtle gold markers */
+.veda-links-classic {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.veda-links-classic li {
+    margin-bottom: 12px;
+}
+
+.veda-links-classic li a {
+    color: #f0e2ce;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.1rem;
+    display: inline-block;
+    transition: 0.25s;
+    border-bottom: 1px solid transparent;
+}
+
+.veda-links-classic li a::before {
+    content: "◆";
+    color: #c6a15b;
+    margin-right: 12px;
+    font-size: 0.9rem;
+    font-weight: 300;
+    display: inline-block;
+    transition: transform 0.2s;
+}
+
+.veda-links-classic li a:hover {
+    color: #fad56b;
+    border-bottom-color: #b78c4a;
+    padding-left: 5px;
+}
+
+.veda-links-classic li a:hover::before {
+    transform: translateX(3px);
+    color: #f5c84e;
+}
+
+/* social — classic round with subtle border */
+.social-classic {
+    display: flex;
+    gap: 15px;
+    margin-top: 25px;
+}
+
+.social-classic a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.06);
+    color: #d9b777;
+    border: 2px solid #7a623b;
+    font-size: 1.4rem;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.social-classic a:hover {
+    background: #b78c4a;
+    border-color: #f5e3b3;
+    color: #1f180e;
+    transform: translateY(-5px);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.3);
+}
+
+/* bottom footer — deep charcoal */
+.footer-bottom-classic {
+    background: #16110a;
+    color: #a28f72;
+    font-size: 0.98rem;
+    border-top: 1px solid #4f3e28;
+    padding: 1.2rem 0;
+}
+
+.footer-bottom-classic a {
+    color: #dbb671;
+    text-decoration: none;
+    font-weight: 600;
+    border-bottom: 1px dotted #7a623b;
+}
+
+.footer-bottom-classic a:hover {
+    color: #f3cf87;
+}
+
+.copy-text-classic {
+    color: #c0a97a;
+}
+
+/* spacing & polish */
+.py-6 {
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+}
+
+.widget {
+    margin-bottom: 1rem;
+}
+
+hr.footer-hr-light {
+    opacity: 0.15;
+    background-color: #b99f6b;
+    height: 1px;
+}
+
+/* optional small glow for divider */
+.footer-divider {
+    width: 60px;
+    height: 2px;
+    background: linear-gradient(90deg, #cbaa5e, #f9e1a4, #cbaa5e);
+    margin: 12px 0 20px;
+}
+
+/* responsiveness */
+@media (max-width: 768px) {
+    .guruji-name {
+        font-size: 1.6rem;
+    }
+
+    .footer-logo-simple img {
+        max-height: 60px;
+    }
+}

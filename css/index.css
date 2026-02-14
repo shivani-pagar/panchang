@@ -1,266 +1,458 @@
-/* Custom pagination dots color */
-    .custom-dots .swiper-pagination-bullet { background: #fff; opacity: 0.5; width: 12px; height: 12px; }
-    .custom-dots .swiper-pagination-bullet-active { background: #ffca28 !important; opacity: 1; width: 30px; border-radius: 5px; }
-    
-    /* Smooth transition for text */
-    .swiper-slide-active h1 { animation: fadeInUp 0.8s both; }
-    .swiper-slide-active p { animation: fadeInUp 0.8s both 0.2s; }
-    .swiper-slide-active .btn { animation: fadeInUp 0.8s both 0.4s; }
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@400;600;700;800&family=Poppins:wght@400;700&display=swap');
 
-    @keyframes fadeInUp {
-        from { opacity: 0; transform: translateY(30px); }
-        to { opacity: 1; transform: translateY(0); }
+.hero-static-wrp {
+    font-family: 'Mukta', sans-serif;
+    background-color: #fff9f2;
+    overflow: hidden;
+}
+
+
+
+.hero-slide-bg-clean {
+    background-size: cover !important;
+    background-position: center right !important;
+    min-height: 85vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.slide-one {
+    background:
+        linear-gradient(90deg, rgba(255, 255, 255, 0.95) 30%, rgba(255, 255, 255, 0.4) 100%),
+        url('../images/homepage-1/bg05.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.slide-two {
+    background:
+        linear-gradient(90deg, rgba(255, 255, 255, 0.95) 30%, rgba(255, 255, 255, 0.4) 100%),
+        url('../images/homepage-1/bg01.jpeg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+/* Typography - Increased Sizes */
+.hero-title-clean {
+    color: #3E2723;
+    font-size: clamp(2.8rem, 6vw, 4.8rem);
+    /* मोठा आणि स्पष्ट फोंट */
+    font-weight: 800;
+    line-height: 1.1;
+    margin-bottom: 25px;
+    letter-spacing: -1px;
+}
+
+.highlight-text {
+    color: #E65100;
+    /* Deep Orange */
+}
+
+.hero-desc-clean {
+    font-size: 1.35rem;
+    /* मोठा फोंट */
+    color: #5D4037;
+    margin-bottom: 40px;
+    max-width: 650px;
+    line-height: 1.6;
+    font-weight: 500;
+}
+
+/* Badges & Buttons */
+.custom-badge {
+    background: #FFF3E0;
+    color: #E65100;
+    border: 1px solid #FFE0B2;
+    padding: 12px 25px;
+    border-radius: 50px;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.btn-orange {
+    background: linear-gradient(45deg, #FF8C00, #FFB300);
+    color: #fff !important;
+    padding: 18px 45px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    border-radius: 50px;
+    box-shadow: 0 10px 20px rgba(255, 140, 0, 0.3);
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.3s ease;
+}
+
+.btn-outline-orange {
+    background: #fff;
+    color: #FF8C00 !important;
+    padding: 16px 45px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    border-radius: 50px;
+    border: 3px solid #FF8C00;
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.3s ease;
+}
+
+.btn-orange:hover,
+.btn-outline-orange:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(255, 140, 0, 0.4);
+}
+
+/* Images & Badges */
+.main-img-clean {
+    max-height: 550px;
+    filter: drop-shadow(0 20px 40px rgba(0, 0, 0, 0.15));
+}
+
+.exp-badge-white {
+    position: absolute;
+    bottom: 50px;
+    left: -10px;
+    background: #fff;
+    padding: 20px 35px;
+    border-radius: 20px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+    border-left: 6px solid #FF8C00;
+}
+
+.exp-badge-white .num {
+    font-size: 2.2rem;
+    font-weight: 900;
+    color: #FF8C00;
+    display: block;
+}
+
+.exp-badge-white .txt {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #3E2723;
+}
+
+/* Dots */
+.custom-hero-dots-gold .swiper-pagination-bullet {
+    background: #FFB300;
+    width: 14px;
+    height: 14px;
+}
+
+.custom-hero-dots-gold .swiper-pagination-bullet-active {
+    width: 45px;
+    background: #FF8C00 !important;
+}
+
+/* THIS IS THE HERO SECTION CSS ---------------------------------------------------------------------------
+
+/* Heading Underline */
+.title-line {
+    width: 60px;
+    height: 3px;
+    background-color: #ff8c00;
+    margin-top: 15px;
+    border-radius: 2px;
+}
+
+/* Service Card Design */
+.service-icon-card {
+    background: #fff;
+    border-radius: 20px;
+    border: 1px solid #f0f0f0;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease-in-out;
+    height: 100%;
+}
+
+.service-icon-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(255, 140, 0, 0.1);
+    border-color: #ffd8b2;
+}
+
+/* Icon Circle */
+.icon-circle {
+    width: 100px;
+    height: 100px;
+    background-color: #fff9f2;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: 0.3s;
+    border: 1px solid #ffe0b2;
+}
+
+
+
+/* Typography */
+.service-card-body h3 {
+    color: #2c3e50;
+    font-size: 1.5rem;
+}
+
+.service-card-body p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .service-icon-card {
+        margin-bottom: 20px;
+    }
+}
+
+/* THIS IS THE SECOND SECTION CSS ---------------------------------------------------------------------------
+
+/* About Section Base */
+.about-section-premium {
+    background-color: #ffffff;
+    font-family: 'Mukta', sans-serif;
+    overflow: hidden;
+}
+
+/* Titles */
+.about-subtitle {
+    color: #FF8C00;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.about-main-title {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #3E2723;
+}
+
+.about-main-title .highlight {
+    color: #FF8C00;
+}
+
+.accent-line {
+    width: 60px;
+    height: 4px;
+    background: #FF8C00;
+    margin-top: 10px;
+    border-radius: 2px;
+}
+
+/* Image Styling */
+.about-img-wrapper {
+    position: relative;
+    padding: 15px;
+}
+
+.about-img {
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s ease;
+}
+
+.about-img:hover {
+    transform: scale(1.02);
+}
+
+/* Content Styling */
+.intro-para {
+    font-size: 1.15rem;
+    line-height: 1.8;
+    color: #555;
+    margin-bottom: 25px;
+}
+
+.focus-box {
+    background: #FFF3E0;
+    padding: 25px;
+    border-left: 5px solid #FF8C00;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    font-size: 1.05rem;
+    color: #5D4037;
+}
+
+.guruji-note {
+    font-size: 1.05rem;
+    color: #666;
+    margin-bottom: 25px;
+}
+
+.quote-box {
+    font-style: italic;
+    font-weight: 600;
+    color: #E65100;
+    border-top: 1px solid #FFE0B2;
+    padding-top: 20px;
+    margin-bottom: 35px;
+}
+
+/* Button */
+.btn-modern-about {
+    display: inline-block;
+    background: linear-gradient(45deg, #FF8C00, #FFA000);
+    color: #fff !important;
+    padding: 15px 40px;
+    font-weight: 700;
+    border-radius: 50px;
+    text-decoration: none;
+    box-shadow: 0 10px 20px rgba(255, 140, 0, 0.3);
+    transition: 0.3s;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.btn-modern-about:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 15px 30px rgba(255, 140, 0, 0.5);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .about-main-title {
+        font-size: 2rem;
     }
 
-
-/* Container styling */
-.swiper-slider-container {
-  width: 100%;
-  padding: 20px 10px 50px;
-  position: relative;
+    .about-content-box {
+        margin-top: 30px;
+    }
 }
 
-/* Swiper styling */
-.swiper {
-  width: 100%;
-  height: auto;
-  overflow: hidden;
+/* THIS IS THE Third SECTION CSS ---------------------------------------------------------------------------
+
+/* Card Base Design */
+.premium-service-card {
+    background: #ffffff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+    height: 100%;
+    border: 1px solid #f1f1f1;
 }
 
-.swiper-wrapper {
-  display: flex;
-  align-items: stretch;
+/* Image Container with Soft Overlay */
+.service-img-box {
+    position: relative;
+    height: 250px;
+    overflow: hidden;
 }
 
-/* Card styling */
-.swiper-slide {
-  display: flex;
-  justify-content: center;
-  padding: 15px;
-  height: auto;
-  transition: transform 0.3s ease;
+.service-img-box img {
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.8s ease;
 }
 
-.swiper-slide:hover {
-  transform: translateY(-10px);
+.service-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, transparent 60%, rgba(195, 155, 46, 0.25));
 }
 
-.service-card {
-  background: #ffffff;
-  border-radius: 20px;
-  border: 1px solid #f0f0f0;
-  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.08);
-  overflow: hidden;
-  transition: all 0.4s ease;
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  max-width: 380px;
-  width: 100%;
+.service-tag {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background: #ffffff;
+    color: #c39b2e;
+    padding: 6px 18px;
+    font-size: 0.85rem;
+    font-weight: 700;
+    border-radius: 50px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
-.service-card:hover {
-  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.12);
-  border-color: #ffd8b2;
+/* Professional Hover Animation */
+.premium-service-card:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 25px 60px rgba(195, 155, 46, 0.15);
+    border-color: #c39b2e;
 }
 
-/* Card header */
-.card-header {
-  padding: 40px 30px 20px;
-  text-align: center;
-  border-bottom: 5px solid #ff8c00;
-  position: relative;
-  min-height: 200px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.premium-service-card:hover .service-img-box img {
+    transform: scale(1.1);
 }
 
-.card-header img {
-  max-height: 150px;
-  filter: drop-shadow(0 8px 16px rgba(0, 0, 0, 0.15));
-  transition: transform 0.5s ease;
-  margin-bottom: 15px;
+/* Title and Description Styling */
+.service-info h3 {
+    color: #2c3e50;
+    transition: color 0.3s ease;
 }
 
-.service-card:hover .card-header img {
-  transform: scale(1.05);
+.premium-service-card:hover .service-info h3 {
+    color: #c39b2e;
 }
 
-.category-tag {
-  color: #ff8c00;
-  font-weight: 700;
-  font-size: 0.85rem;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  background: rgba(255, 255, 255, 0.9);
-  padding: 6px 15px;
-  border-radius: 50px;
-  display: inline-block;
-  margin-top: 10px;
-  box-shadow: 0 4px 8px rgba(255, 140, 0, 0.1);
+/* Button Styling */
+.service-link-btn {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: #fff;
+    color: #c39b2e;
+    border: 2px solid #c39b2e;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 700;
+    transition: all 0.3s ease;
 }
 
-/* Card content */
-.card-content {
-  padding: 30px;
-  text-align: center;
-  flex-grow: 1;
-  display: flex;
-  flex-direction: column;
+.service-link-btn:hover {
+    background-color: #c39b2e;
+    color: #fff;
+    box-shadow: 0 5px 15px rgba(195, 155, 46, 0.4);
 }
 
-.card-title {
-  font-weight: 800;
-  color: #2c3e50;
-  font-size: 1.7rem;
-  margin-bottom: 20px;
-  position: relative;
-  padding-bottom: 15px;
+/* THIS IS THE Third SECTION CSS ---------------------------------------------------------------------------
+
+/* Custom Input Styling */
+.custom-input {
+    background-color: #fff9f2 !important;
+    border: 1px solid #ffe0b2 !important;
+    padding: 12px 15px !important;
+    border-radius: 10px !important;
+    transition: all 0.3s ease;
 }
 
-.card-title::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 60px;
-  height: 3px;
-  background: linear-gradient(to right, #ff8c00, #ffaa44);
-  border-radius: 3px;
+.custom-input:focus {
+    box-shadow: 0 0 10px rgba(255, 140, 0, 0.2) !important;
+    border-color: #ff8c00 !important;
 }
 
-.card-description {
-  color: #5a6c7d;
-  font-size: 15px;
-  line-height: 1.7;
-  margin-bottom: 25px;
-  flex-grow: 1;
+/* Button Styling */
+.btn-orange {
+    background: linear-gradient(45deg, #ff8c00, #ffb300);
+    color: white !important;
+    border: none;
+    border-radius: 50px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* Button styling */
-.book-btn {
-  background: linear-gradient(45deg, #ff8c00, #e67e22);
-  color: white;
-  border-radius: 50px;
-  padding: 14px 30px;
-  font-weight: 600;
-  text-decoration: none;
-  box-shadow: 0 6px 20px rgba(230, 126, 34, 0.3);
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  transition: all 0.3s ease;
-  border: none;
-  cursor: pointer;
-  gap: 10px;
-  margin-top: auto;
+.btn-orange:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(255, 140, 0, 0.4);
 }
 
-.book-btn:hover {
-  background: linear-gradient(45deg, #e67e22, #ff8c00);
-  box-shadow: 0 10px 25px rgba(230, 126, 34, 0.5);
-  transform: translateY(-3px);
-  color: white;
-  text-decoration: none;
+/* Slide Animation */
+.testimonial-mini-card {
+    transition: transform 0.3s ease;
 }
 
-.book-btn:active {
-  transform: translateY(-1px);
+.testimonial-mini-card:hover {
+    transform: scale(1.02);
 }
 
-/* Pagination styling */
-.swiper-pagination {
-  position: relative;
-  margin-top: 30px;
+/* Swiper Adjustment */
+.testimonial-swiper-mini .swiper-pagination-bullet-active {
+    background: #ff8c00 !important;
 }
-
-.swiper-pagination-bullet {
-  width: 12px;
-  height: 12px;
-  background-color: #d0d0d0;
-  opacity: 1;
-}
-
-.swiper-pagination-bullet-active {
-  background-color: #ff8c00;
-  transform: scale(1.2);
-}
-
-/* Responsive adjustments */
-@media (max-width: 1200px) {
-  .swiper-slide {
-    flex: 0 0 50%;
-    max-width: 50%;
-  }
-}
-
-@media (max-width: 768px) {
-  .swiper-slide {
-    flex: 0 0 100%;
-    max-width: 100%;
-  }
-  
-  .service-card {
-    max-width: 450px;
-  }
-  
-  .card-header {
-    min-height: 180px;
-    padding: 30px 20px 15px;
-  }
-  
-  .card-header img {
-    max-height: 130px;
-  }
-  
-  .card-content {
-    padding: 25px;
-  }
-  
-  .card-title {
-    font-size: 1.5rem;
-  }
-}
-
-@media (max-width: 480px) {
-  .swiper-slider-container {
-    padding: 10px 5px 40px;
-  }
-  
-  .swiper-slide {
-    padding: 10px;
-  }
-  
-  .card-header {
-    padding: 25px 15px 15px;
-    min-height: 160px;
-  }
-  
-  .card-header img {
-    max-height: 110px;
-  }
-  
-  .card-content {
-    padding: 20px;
-  }
-  
-  .card-title {
-    font-size: 1.4rem;
-    margin-bottom: 15px;
-  }
-  
-  .card-description {
-    font-size: 14px;
-    line-height: 1.6;
-  }
-  
-  .book-btn {
-    padding: 12px 25px;
-    font-size: 15px;
-  }
-}
-
-
