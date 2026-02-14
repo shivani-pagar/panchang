@@ -359,14 +359,14 @@
                     <div class="pbmit-title-bar-content-inner">
                         <div class="pbmit-tbar">
                             <div class="pbmit-tbar-inner container">
-                                <h1 class="pbmit-tbar-title">पूजा विधी</h1>
+                                <h1 class="pbmit-tbar-title">Worship</h1>
                             </div>
                         </div>
                         <div class="pbmit-breadcrumb">
                             <div class="pbmit-breadcrumb-inner">
                                 <span><a title="" href="index.php" class="home"><span>Home</span></a></span>
                                 <span class="sep">-</span>
-                                <span><span class="post-root post post-post current-item">Puja Vidhi</span></span>
+                                <span><span class="post-root post post-post current-item">Worship</span></span>
                             </div>
                         </div>
                     </div>
@@ -376,18 +376,17 @@
 
 
             </div>
-              <?php include 'inner-form.php'; ?>
+            <?php include 'inner-form.php'; ?>
         </div>
     </div>
 </div>
-<!-- Title Bar End-->
 <!-- Title Bar End-->
 <div class="mantra-ribbon-container">
     <div class="mantra-ribbon">
         <div class="mantra-icon-left"><i class="fas fa-om"></i></div>
         <div class="mantra-text-content">
             <p class="sanskrit-shlok">
-                पुष्टिपते नमस्तुभ्यं नमः शंकरसूनवे ॥ ब्रम्हभूताय देवाय सर्वसिद्धिप्रदाय ते ॥
+                Pushtipate Namastubhya Namah Shankarasoonve ॥ Brahmabhutaya Devaya Sarvasiddhipradaya to ॥
             </p>
 
         </div>
@@ -437,8 +436,16 @@
             </div>
             <div class="col-md-6 col-lg-6">
                 <div class="service-details">
-                    <h3 class="pbmit-title">पूजा विधी – वैदिक शास्त्रानुसार सविस्तर माहिती</h3>
-                    <p>वैदिक परंपरेमध्ये पूजा ही फक्त एक धार्मिक विधी नसून, ती परमेश्वराशी नाते जोडण्याचा, आपल्या कर्तव्यातून ऋत (सृष्टीसमतोल) राखण्याचा आणि आत्मशुद्धी साधण्याचा मार्ग आहे. आधुनिक उपासनांपेक्षा वैदिक पूजेमध्ये मंत्र, होम, यज्ञ, आणि अग्निसंस्कार यांना फार मोठे महत्त्व दिले गेले आहे. वैदिक पूजेचा उद्देश केवळ मूर्तीपूजेत नव्हे, तर मंत्रशक्ती, यज्ञकर्म, आणि अग्निहोत्र या मार्फत दैवी शक्तींना आवाहन करणे, त्यांना अर्पण करणे, आणि अखेरीस त्यांचे विसर्जन करणे असा असतो. प्रत्येक कृती विशिष्ट मंत्रांच्या पाठासह केली जाते..</p>
+                    <h3 class="pbmit-title">Puja Rituals – Detailed information according to Vedic scriptures</h3>
+                    <p>In the Vedic tradition, worship is not just a religious ritual, but a way to connect with God,
+                        maintain the rhythm (balance of creation) through one's duties, and achieve self-purification.
+                        Mantras, sacrifices, yagnas, and fire rituals are given much greater importance in Vedic worship
+                        than in modern worship.
+                        <br><br>
+                        The purpose of Vedic worship is not only to worship idols, but also to invoke divine powers through mantras,
+                        yajnakarma, and agnihotra, to offer them, and finally to immerse them. Each act is accompanied by the recitation
+                        of specific mantras.
+                    </p>
 
 
                 </div>
@@ -459,9 +466,9 @@
         <div class="row justify-content-end">
             <div class="col-md-6">
                 <div>
-                    <h2>तुमची पूजा आजच बुक करा</h2>
-                    <p>तुमच्या पवित्र कार्यासाठी सुलभतेने नोंदणी करा आणि ईश्वरी आशीर्वादाचा लाभ घ्या.</p>
-                    <a href="contact.php" class="pbmit-btnn pbmit-btn-lg">पूजेसाठी नोंदणी करा</a>
+                    <h2>Book Your Puja Today</h2>
+                    <p>Book your sacred rituals easily and receive divine blessings.</p>
+                    <a href="contact.php" class="pbmit-btnn pbmit-btn-lg">Book Puja</a>
                 </div>
             </div>
         </div>
@@ -480,8 +487,11 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="principle-content">
-                        <h3 class="accent-title">पूजा विधीचे मुख्य तत्त्व</h3>
-                        <p>वैदिक पूजेचा उद्देश केवळ मूर्तीपूजेत नव्हे, तर मंत्रशक्ती, यज्ञकर्म, आणि अग्निहोत्र या मार्फत दैवी शक्तींना आवाहन करणे, त्यांना अर्पण करणे, आणि अखेरीस त्यांचे विसर्जन करणे असा असतो. प्रत्येक कृती विशिष्ट मंत्रांच्या पाठासह केली जाते.</p>
+                        <h3 class="accent-title">Main Principle of Puja Ritual</h3>
+                        <p>The purpose of Vedic worship is not only to worship idols, but also to
+                            invoke divine powers through mantras, yajnakarma, and agnihotra, to offer
+                            them, and finally to immerse them. Each act is accompanied by the recitation
+                            of specific mantras.</p>
                     </div>
                 </div>
             </div>
@@ -492,34 +502,35 @@
         <div class="row">
             <div class="col-lg-5">
                 <div class="ritual-info-group">
-                    <h2 class="ritual-header"><i class="fas fa-clipboard-list"></i> पूजेची पूर्वतयारी</h2>
+                    <h2 class="ritual-header"><i class="fas fa-clipboard-list"></i>Preparations for worship</h2>
 
                     <div class="info-item">
                         <div class="info-icon"><i class="fas fa-check-circle"></i></div>
                         <div class="info-text">
-                            <h4>शरीर आणि स्थानाची शुद्धता</h4>
-                            <p>स्नान करून शुद्ध वस्त्रे परिधान करणे, पूजेचे स्थान (मंडप किंवा यज्ञशाळा) गंगाजल किंवा शुद्ध पाण्याने शुद्ध करणे.</p>
+                            <h4>Purity of body and location:</h4>
+                            <p>Bathing and wearing clean clothes, purifying the place of worship (mandap or yajnashala)
+                                with Ganga water or pure water.</p>
                         </div>
                     </div>
 
                     <div class="info-item">
                         <div class="info-icon"><i class="fas fa-check-circle"></i></div>
                         <div class="info-text">
-                            <h4>पूजा सामग्री (Puja Samagri)</h4>
+                            <h4>Pooja Content:</h4>
                             <div class="samagri-container">
-                                <span class="samagri-box">पुष्प</span>
-                                <span class="samagri-box">अक्षता</span>
-                                <span class="samagri-box">कुंकू</span>
-                                <span class="samagri-box">तिळ</span>
-                                <span class="samagri-box">दुर्वा</span>
-                                <span class="samagri-box">जल</span>
-                                <span class="samagri-box">गंध</span>
-                                <span class="samagri-box">दीप</span>
-                                <span class="samagri-box">धूप</span>
-                                <span class="samagri-box">नैवेद्य</span>
-                                <span class="samagri-box">समिधा</span>
-                                <span class="samagri-box">घृत</span>
-                                <span class="samagri-box">यज्ञकुंड</span>
+                                <span class="samagri-box">flowers</span>
+                                <span class="samagri-box">akshata</span>
+                                <span class="samagri-box">kumkum</span>
+                                <span class="samagri-box">sesame</span>
+                                <span class="samagri-box">durva</span>
+                                <span class="samagri-box">water</span>
+                                <span class="samagri-box">fragrance</span>
+                                <span class="samagri-box">lamp</span>
+                                <span class="samagri-box">incense</span>
+                                <span class="samagri-box">offerings</span>
+                                <span class="samagri-box">samidha </span>
+                                <span class="samagri-box">ghee </span>
+                                <span class="samagri-box">yajna kund</span>
                             </div>
                         </div>
                     </div>
@@ -528,29 +539,29 @@
 
             <div class="col-lg-7">
                 <div class="ritual-info-group">
-                    <h2 class="ritual-header"><i class="fas fa-vihara"></i> मुख्य विधी प्रक्रिया</h2>
+                    <h2 class="ritual-header"><i class="fas fa-vihara"></i>Main Ritual Process</h2>
 
                     <div class="process-step">
-                        <span class="step-num">०१</span>
+                        <span class="step-num">०1</span>
                         <div class="step-body">
-                            <h4>संकल्प (संकल्प घेणे)</h4>
-                            <p>पूजेचा हेतू स्पष्ट करणे. <span class="mantra-text">"मम सर्वकार्यसिद्ध्यर्थं श्रीपरमेश्वर प्रीत्यर्थं संकल्पमाहे"</span></p>
+                            <h4>Resolution (making a resolution)</h4>
+                            <p>Explaining the purpose of worship.<span class="mantra-text">"I resolve to please Sri Parameshwara for the accomplishment of all my works"</span></p>
                         </div>
                     </div>
 
                     <div class="process-step">
-                        <span class="step-num">०२</span>
+                        <span class="step-num">०2</span>
                         <div class="step-body">
-                            <h4>आवाहन व आसन प्रदान</h4>
-                            <p>देवतेस आवाहन करणे. <span class="mantra-text">"आवाहयामि, स्थापयामि, आसनं समर्पयामि"</span></p>
+                            <h4>Invocation and provision of seats</h4>
+                            <p>Invoking the deity.<span class="mantra-text">"I invoke, I place, I offer the seat"</span></p>
                         </div>
                     </div>
 
                     <div class="process-step">
-                        <span class="step-num">०३</span>
+                        <span class="step-num">०3</span>
                         <div class="step-body">
-                            <h4>पाद्य, अर्घ्य, आचमन</h4>
-                            <p>पाद्य (पाय धुणे), अर्घ्य (हस्तपाद धुणे) आणि आचमन (मुख शुद्धी) अर्पण करणे.</p>
+                            <h4>Padya, Arghya, Achamana</h4>
+                            <p>Offering Padya (foot washing), Arghya (hand and foot washing) and Achaman (mouth cleansing).</p>
                         </div>
                     </div>
                 </div>
@@ -559,57 +570,59 @@
 
         <div class="ritual-steps-section mt-5">
             <h2 class="ritual-section-title text-center mb-5">
-                <i class="fas fa-dharmachakra"></i> पूजा विधीचे टप्पे (Ritual Steps)
+                <i class="fas fa-dharmachakra"></i>Process of worship
             </h2>
 
             <div class="ritual-steps-grid-new">
 
                 <div class="ritual-step-card">
                     <div class="ritual-step-icon"><i class="fas fa-bath"></i></div>
-                    <h3>स्नान व वस्त्र अलंकार</h3>
-                    <p>देवतेस स्नान घालणे (मंत्रात्मक पाण्याने) आणि वस्त्र व अलंकार अर्पण करणे.</p>
+                    <h3>Bath and Garment Ornaments —</h3>
+                    <p>Bathing the deity (with mantra water) and offering clothes and ornaments.</p>
                 </div>
 
                 <div class="ritual-step-card">
                     <div class="ritual-step-icon"><i class="fas fa-spa"></i></div>
-                    <h3>गंध, पुष्प, धूप, दीप</h3>
-                    <p>गंध (चंदन), पुष्प (फुले), धूप (अगरबत्ती), दीप (दिवा) अर्पण करणे.</p>
+                    <h3>Offerings of odors, flowers, incense, lamps —</h3>
+                    <p>Carrying incense (sandalwood), flowers (flowers), incense sticks (incense sticks), and lamps (lamps).</p>
                 </div>
 
                 <div class="ritual-step-card">
                     <div class="ritual-step-icon"><i class="fas fa-apple-alt"></i></div>
-                    <h3>नैवेद्य व तांबूल अर्पण</h3>
-                    <p>अन्न, फळे, मिठाई (नैवेद्य) अर्पण करणे, नंतर पानसुपारी (तांबूल) देणे.</p>
+                    <h3>Sacrifice and tambul offering —</h3>
+                    <p>Offering food, fruits, sweets (naivedya), then giving betel leaves (tambul).</p>
                 </div>
 
                 <div class="ritual-step-card">
                     <div class="ritual-step-icon"><i class="fas fa-om"></i></div>
-                    <h3>मंत्रजप आणि स्तुती</h3>
-                    <p>देवतेच्या मंत्रांचे जप, स्तोत्रे, ऋचांचे पठण.</p>
+                    <h3>Chanting and praise —</h3>
+                    <p>Chanting of deity's mantras, hymns, recitation of Richas. E.g.
+                        “Om Namo Bhagvate Vasudevai” or “Om Trimbakam Yajamhe”.</p>
                 </div>
 
                 <div class="ritual-step-card">
                     <div class="ritual-step-icon"><i class="fas fa-fire"></i></div>
-                    <h3>होम / यज्ञकर्म</h3>
-                    <p>अग्निहोत्राच्या वेळी वैदिक मंत्र म्हणत घृत व समिधा आहुती (स्वाहा) देणे.</p>
+                    <h3>Home / Yagya Karma —</h3>
+                    <p>During Agnihotra, offer ghrita and samidha offerings while chanting Vedic mantras.
+                        For each offering: It is important to say “Swaha”.</p>
                 </div>
 
                 <div class="ritual-step-card">
                     <div class="ritual-step-icon"><i class="fas fa-hands-praying"></i></div>
-                    <h3>आरती व प्रार्थना</h3>
-                    <p>दिवा फिरवून आरती करणे व अखेरीस भक्तिपूर्वक प्रार्थना करणे.</p>
+                    <h3>Aarti and prayer —</h3>
+                    <p>Perform aarti by lighting the lamp and finally pray with devotion.</p>
                 </div>
 
                 <div class="ritual-step-card">
                     <div class="ritual-step-icon"><i class="fas fa-sync"></i></div>
-                    <h3>परिक्रमा व नमस्कार</h3>
-                    <p>देवतेच्या भोवती प्रदक्षिणा (परिक्रमा) करणे आणि दंडवत नमस्कार घालणे.</p>
+                    <h3>Parikrama and Salutation —</h3>
+                    <p>To circumambulate (circumambulate) around the deity and offer obeisance.</p>
                 </div>
 
                 <div class="ritual-step-card">
                     <div class="ritual-step-icon"><i class="fas fa-leaf"></i></div>
-                    <h3>क्षमा याचना व विसर्जन</h3>
-                    <p>पूजेतील त्रुटींसाठी क्षमा मागणे आणि देवतेस शांतीपूर्वक विसर्जित करणे.</p>
+                    <h3>Apology and Absolution —</h3>
+                    <p>Asking for forgiveness for any mistakes made during worship and peacefully disposing of the deity.</p>
                 </div>
 
             </div>
@@ -627,33 +640,36 @@
 
                     <div class="phi-content-col">
                         <div class="content-padding">
-                            <h2 class="mini-title"><i class="fas fa-om"></i> मंत्रांचे महत्त्व</h2>
+                            <h2 class="mini-title"><i class="fas fa-om"></i>Importance of mantras</h2>
                             <p class="phi-desc">
-                                वैदिक पूजेमध्ये मंत्रोच्चारण ही सर्वात महत्त्वाची गोष्ट आहे. हे मंत्र दैवतांना उद्देशून उच्चारले जातात.
-                                <strong>मंत्र हे ध्वनीच्या स्वरूपातील कंपन आहेत</strong>, ज्यामुळे विश्व आणि आपल्यातील संबंध गहिरा होतो.
+                                Mantracharan is the most important thing in Vedic worship. These mantras
+                                are chanted to gods like Agni, Vayu, Surya, Indra, Varuna, because it is
+                                through fire that offerings reach the gods. Mantras are vibrations in the
+                                form of sound, which deepen the connection between the worshipper and the universe.
                             </p>
 
-                            <h2 class="mini-title mt-4"><i class="fas fa-scroll"></i> तत्त्वज्ञान</h2>
+                            <h2 class="mini-title mt-4"><i class="fas fa-scroll"></i> Philosophy behind Vedic worship</h2>
                             <div class="phi-steps">
                                 <div class="phi-step">
                                     <span class="step-bullet"><i class="fas fa-fire-alt"></i></span>
                                     <div>
-                                        <h4>यज्ञ म्हणजेच पूजाशुद्धी</h4>
-                                        <p>ही एक सखोल प्रक्रिया आहे जी ब्रह्मांडाच्या ऊर्जेशी आपल्याला जोडते.</p>
+                                        <h4>Sacrifice means purification of worship —</h4>
+                                        <p>This is not just a belief, but a deep process that connects us
+                                            to the energy of the universe.</p>
                                     </div>
                                 </div>
                                 <div class="phi-step">
                                     <span class="step-bullet"><i class="fas fa-balance-scale"></i></span>
                                     <div>
-                                        <h4>सृष्टीच्या ऋताचा जतन</h4>
-                                        <p>अर्पण व विधी यामार्फत विश्वातील नैसर्गिक समतोल राखला जातो.</p>
+                                        <h4>Preserving the seasons of creation —</h4>
+                                        <p>The natural balance in the universe is maintained through offerings, mantras, and rituals.</p>
                                     </div>
                                 </div>
                                 <div class="phi-step">
                                     <span class="step-bullet"><i class="fas fa-heart"></i></span>
                                     <div>
-                                        <h4>देवत्वाचा आदर</h4>
-                                        <p>प्रत्येक अर्पण म्हणजे आपल्या अहंकाराचा त्याग.</p>
+                                        <h4>Respect for divinity —</h4>
+                                        <p>Every offering is a sacrifice of our ego.</p>
                                     </div>
                                 </div>
                             </div>

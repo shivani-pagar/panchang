@@ -98,7 +98,7 @@
                                 <i class="fas fa-book-open me-2"></i> Vedic Science
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a href="puja-vidhi.php" class="dropdown-item">Worship</a></li>
+                                <li><a href="worship.php" class="dropdown-item">Worship</a></li>
                                 <li><a href="vaidik-vivah.php" class="dropdown-item">Vedic Marriage Rituals</a></li>
                                 <li><a href="upnayan-sanskar.php" class="dropdown-item">Upnayan Sanskar</a></li>
                                 <li><a href="havan-karya.php" class="dropdown-item">Havan ceremony</a></li>
