@@ -31,26 +31,6 @@
 	</div>
 </div>
 
-<!--<div class="pbmit-title-bar-wrapper"style="background-image:url(images/guruji/ser-img/aboubg.jpg); height:400px;">-->
-<!--           <div class="container">-->
-<!--              <div class="pbmit-title-bar-content">-->
-<!--                 <div class="pbmit-title-bar-content-inner">-->
-<!--                    <div class="pbmit-tbar">-->
-<!--                       <div class="pbmit-tbar-inner container">-->
-<!--                          <h1 class="pbmit-tbar-title">Contact Us</h1>-->
-<!--                       </div>-->
-<!--                    </div>-->
-<!--                    <div class="pbmit-breadcrumb">-->
-<!--                       <div class="pbmit-breadcrumb-inner">-->
-<!--                          <span><a title="" href="index.php" class="home"><span>Home</span></a></span>-->
-<!--                          <span class="sep">-</span>-->
-<!--                          <span><span class="post-root post post-post current-item">Contact Us</span></span>-->
-<!--                       </div>-->
-<!--                    </div>-->
-<!--                 </div>-->
-<!--              </div> -->
-<!--           </div>-->
-<!--        </div>-->
 
 
 <section class="confr">
@@ -62,22 +42,22 @@
                         <h4 class="pbmit-subtitle">संपर्कात रहा</h4>
                         <h2 class="pbmit-title">आमच्याशी <strong>संपर्क साधा</strong></h2>
                     </div>
-                    <form method="post" id="contact-form">
+                    <form method="post" id="myForm">
                         <div class="row">
                             <div class="col-md-12">
-                                <input type="text" name="name" id ="name"class="form-control" placeholder="आपले नाव" required="">
+                                <input type="text" name="name" id ="name"class="form-control" placeholder="आपले नाव" >
                             </div>
                             <div class="col-md-6">
-                                <input type="tel" name="phone" id="phone"class="form-control" placeholder="मोबाईल नंबर" required="">
+                                <input type="tel" name="phone" id="phone"class="form-control" placeholder="मोबाईल नंबर" >
                             </div>
                             <div class="col-md-6">
-                                <input type="email" name="email" id="class="form-control" placeholder="ईमेल" required="">
+                                <input type="email" name="email" id="email" class="form-control" placeholder="ईमेल" >
                             </div>
                             <div class="col-md-12">
-                                <textarea name="message" cols="40" rows="5" class="form-control" placeholder="आपला संदेश" required=""></textarea>
+                                <textarea name="message"  id="message" cols="40" rows="5" class="form-control" placeholder="आपला संदेश" ></textarea>
                             </div>
                             <div class="col-md-12">
-                                <button type="submit" class="pbmit-btn">
+                                <button type="submit" id="btn_submit" class="pbmit-btn">
                                     <i class="form-btn-loader fa fa-circle-o-notch fa-spin fa-fw margin-bottom d-none"></i>
                                     संदेश पाठवा
                                 </button>
@@ -258,7 +238,7 @@
                var form = $('#myForm')[0];
                 var formData = new FormData(form);
                 $.ajax({
-                    url: "contact_valid1.php",
+                    url: "contact_valid.php",
 
                     type: "POST",             
                     data: formData,
