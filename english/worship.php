@@ -454,26 +454,7 @@
     </div>
 </section>
 
-
-<section class="py-5"
-    style="background-image: url(images/guruji/ser-img/ctcbgg.jpg);
-       height: 300px;
-       width: 100%;
-       background-size: cover;
-       background-position: center;">
-
-    <div class="container">
-        <div class="row justify-content-end">
-            <div class="col-md-6">
-                <div>
-                    <h2>Book Your Puja Today</h2>
-                    <p>Book your sacred rituals easily and receive divine blessings.</p>
-                    <a href="contact.php" class="pbmit-btnn pbmit-btn-lg">Book Puja</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+<?php include 'book-now.php'; ?>
 
 <section class="puja-details-section">
     <div class="container">
