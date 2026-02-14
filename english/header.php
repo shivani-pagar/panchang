@@ -115,12 +115,12 @@
                                 <i class="fas fa-star me-2"></i>Astrology
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a href="jyotish.php" class="dropdown-item">Astrology</a></li>
-                                <li><a href="ankshastra.php" class="dropdown-item">Numerology</a></li>
-                                <li><a href="reki.php" class="dropdown-item">Reiki</a></li>
-                                <li><a href="dong-pendulum.php" class="dropdown-item">Dowsing Pendulum</a></li>
-                                <li><a href="kristal-hiling.php" class="dropdown-item">Crystal Healing</a></li>
-                                <li><a href="ratna-shastr.php" class="dropdown-item">Gemology</a></li>
+                                <li><a href="astrology.php" class="dropdown-item">Astrology</a></li>
+                                <li><a href="numerology.php" class="dropdown-item">Numerology</a></li>
+                                <li><a href="reiki.php" class="dropdown-item">Reiki</a></li>
+                                <li><a href="dowsing_pendulum.php" class="dropdown-item">Dowsing Pendulum</a></li>
+                                <li><a href="crystal-hiling.php" class="dropdown-item">Crystal Healing</a></li>
+                                <li><a href="gemology.php" class="dropdown-item">Gemology</a></li>
                                 <li><a href="rudraksh.php" class="dropdown-item">Rudraksh</a></li>
                                 <li><a href="upasana_and_utpadane.php" class="dropdown-item">Worship and products</a></li>
                             </ul>
