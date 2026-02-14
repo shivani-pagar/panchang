@@ -18,44 +18,38 @@
                     </div>
                 </div>
                 
-                <div class="col-md-4 col-lg-4">
-                    <div class="widget">
-                        <h2 class="widget-title text-white">संपर्क</h2>
-                        <div class="pbmit-footer-contact-info">
-                            <div class="pbmit-footer-contact-info-inner">
-                                <i class="themifyicon ti-mobile"></i>
-                            </div>
-                            <div class="pbmit-footer-contact-info-wrap text-white">
-                                <strong>फोन:</strong><br>
-                                <a href="tel:+919552095159" class="text-white">(+91) 95520 95159</a>
-                            </div>
-                        </div>
-                        <div class="pbmit-social-links-wrapper mt-4">
-                            <ul class="social-icons">
-                                <li class="pbmit-social-linkedin">
-                                    <a class="tooltip-top" target="_blank" href="#">
-                                        <i class="pbmit-base-icon-linkedin"></i>
-                                    </a>
-                                </li>
-                                <li class="pbmit-social-facebook">
-                                    <a class="tooltip-top" target="_blank" href="#">
-                                        <i class="pbmit-base-icon-facebook"></i>
-                                    </a>
-                                </li>
-                                <li class="pbmit-social-instagram">
-                                    <a class="tooltip-top" target="_blank" href="#">
-                                        <i class="pbmit-base-icon-instagram"></i>
-                                    </a>
-                                </li>
-                                <li class="pbmit-social-youtube">
-                                    <a class="tooltip-top" target="_blank" href="#">
-                                        <i class="pbmit-base-icon-youtube"></i>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+                <div class="col-md-4 col-lg-4 text-center">
+    <div class="widget">
+        <h2 class="widget-title text-white">संपर्क</h2>
+
+        <div class="pbmit-footer-contact-info justify-content-center d-flex">
+            <div class="pbmit-footer-contact-info-inner">
+                <i class="themifyicon ti-mobile"></i>
+            </div>
+            <div class="pbmit-footer-contact-info-wrap text-white ms-2">
+                <strong>फोन:</strong><br>
+                <a href="tel:+919552095159" class="text-white">(+91) 95520 95159</a>
+            </div>
+        </div>
+
+        <div class="pbmit-social-links-wrapper mt-4">
+            <ul class="social-icons justify-content-center d-flex p-0">
+                <li class="mx-2"><a target="_blank" href="#"><i class="pbmit-base-icon-linkedin"></i></a></li>
+                <li class="mx-2"><a target="_blank" href="#"><i class="pbmit-base-icon-facebook"></i></a></li>
+                <li class="mx-2"><a target="_blank" href="#"><i class="pbmit-base-icon-instagram"></i></a></li>
+                <li class="mx-2"><a target="_blank" href="#"><i class="pbmit-base-icon-youtube"></i></a></li>
+            </ul>
+        </div>
+
+        <!-- Center Text -->
+        <div class="mt-4">
+            <p class="text-white mb-1 fw-bold">संकल्पात् जायते सिद्धि</p>
+            <p class="text-white">Panchang Vastu</p>
+        </div>
+
+    </div>
+</div>
+
                 
                 <div class="col-md-4 col-lg-4">
                     <div class="widget">
@@ -68,10 +62,7 @@
                                 <li><a href="#" class="text-white">वास्तु शास्त्र</a></li>
                             </ul>
                         </div>
-                        <div class="mt-4">
-                            <p class="text-white mb-1"><strong>संकल्पात् जायते सिद्धि</strong></p>
-                            <p class="text-white">Panchang Vastu</p>
-                        </div>
+                        
                     </div>
                 </div>
             </div>
