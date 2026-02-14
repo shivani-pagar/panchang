@@ -417,10 +417,7 @@
 							<div class="pbmit-heading-subheading-style-1">
 								<h4 class="pbmit-subtitle">Testimonial</h4>
 								<h2 class="pbmit-title text-dark"><strong>We are trusted 15+ countries worldwide</strong></h2>
-							</div>
-							<div class="swiper-buttons"></div>
-							<div class="swiper-button-next swiper-button-next-2" tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-3a7bcacf97c77126"></div>
-							<div class="swiper-button-prev swiper-button-prev-2" tabindex="0" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-3a7bcacf97c77126"></div>
+							</div>	
 						</div>
 					</div>
 				</div>

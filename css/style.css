@@ -3276,4 +3276,15 @@ textarea.form-control{
         width: 100%;
     }
 }
+.footer .social-icons {
+    list-style: none;
+}
+
+.footer .social-icons li {
+    display: inline-block;
+}
+.swiper-button-next,
+.swiper-button-prev {
+    display: none !important;
+}
 
