@@ -780,7 +780,7 @@
                 </div>
 
                <div class="content-section mt-5">
-    <h2 class="section-title text-center mb-5"><i class="fas fa-fire"></i> Benefits of Vastu Plan Designing</h2>
+    <h2 class="section-title text-center mb-5"><i class="fas fa-fire"></i> Benefits of Vastu Plan  </h2>
     <div class="puja-steps-grid">
 
         <div class="step-card">
