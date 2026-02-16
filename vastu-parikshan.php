@@ -877,47 +877,9 @@
             <div class="philosophy-card ritual-rules-card shadow-lg" style="border-radius: 20px; overflow: hidden;">
                 <div class="philosophy-flex">
 
-                    <div class="phi-content-col rules-bg" style="background-color: #fff9f2;">
-                        <div class="content-padding">
-                            <h2 class="mini-title"><i class="fas fa-seedling"></i> भूमीपूजन का करावे?</h2>
-                            <ul class="ritual-list">
-                                <li><i class="fas fa-check"></i> <strong>धरती मातेचा आशीर्वाद:</strong> नवीन कामाची सुरुवात करताना जमिनीचा सन्मान करणे आणि तिची अनुमती घेणे.</li>
-                                <li><i class="fas fa-check"></i> <strong>वास्तुदोष निवारण:</strong> जागेतील नकारात्मक ऊर्जा दूर होऊन तिथे सात्विकता निर्माण होते.</li>
-                                <li><i class="fas fa-check"></i> <strong>कामात निर्विघ्नता:</strong> बांधकामादरम्यान कोणतेही संकट येऊ नये आणि काम वेळेत पूर्ण व्हावे यासाठी प्रार्थना.</li>
-                                <li><i class="fas fa-check"></i> <strong>सुख-समृद्धी:</strong> त्या वास्तूत राहणाऱ्या लोकांना दीर्घायुष्य, आरोग्य आणि धनसंपदा लाभते.</li>
-                            </ul>
-                            <hr class="my-4" style="opacity: 0.1;">
-                            <h2 class="mini-title"><i class="fas fa-vihara"></i> शास्त्राधार</h2>
-                            <ul class="ritual-list">
-                                <li><i class="fas fa-check"></i> जमीन ही केवळ माती नसून ती 'अनंत' शक्तीचे केंद्र आहे.</li>
-                                <li><i class="fas fa-check"></i> गृहनिर्माण करण्यापूर्वी भूमीचे पूजन करणे हे गृहस्थाचे परम कर्तव्य मानले जाते.</li>
-                                <li><i class="fas fa-check"></i> पूजनामुळे वास्तू पुरुष प्रसन्न होतात आणि घराला 'घरपण' लाभते.</li>
-                            </ul>
-                        </div>
-                    </div>
+             
 
-                    <div class="phi-content-col meaning-bg" style="background-color: #ffffff;">
-                        <div class="content-padding">
-                            <h2 class="mini-title"><i class="fas fa-quote-left"></i> सारांश आणि निष्कर्ष</h2>
-
-                            <div class="meaning-item mb-4">
-                                <p style="font-size: 1.1rem; line-height: 1.8; color: #444; text-align: justify;">
-                                    वास्तु परीक्षण ही केवळ एक पद्धत नसून, ती आपल्या राहत्या जागेला **'चैतन्यमय'** करण्याची प्रक्रिया आहे. घर, कार्यालय किंवा व्यावसायिक इमारत असो, तिथल्या ऊर्जेचा समतोल राखल्यास जीवनाच्या प्रत्येक क्षेत्रात समृद्धी येते.
-                                </p>
-                            </div>
-
-                            <div class="conclusion-highlight-box p-4" style="background: #FFF3E0; border-left: 5px solid #FF9800; border-radius: 10px;">
-                                <h4 style="color: #8B4513; font-weight: 800; margin-bottom: 10px;">महत्त्वाची गोष्ट:</h4>
-                                <p style="margin-bottom: 0; color: #5D4037; font-size: 0.95rem;">
-                                    योग्य वास्तु परीक्षणामुळे मनातील भीती आणि घरातील नकारात्मकता दूर होते. जेव्हा वास्तू निसर्गाच्या नियमांशी जुळते, तेव्हा तिथे **सकारात्मकता, शांती आणि यशाचा** मार्ग आपोआप मोकळा होतो. तुमच्या स्वप्नातील घर हे केवळ विटा-मातीचे नसून ते तुमच्या आनंदाचे केंद्र व्हावे, हाच या विधींचा मुख्य उद्देश आहे.
-                                </p>
-                            </div>
-
-                            <div class="mt-4 text-center">
-                                <p style="font-style: italic; color: #888;">"शुभास्ते पन्थानः सन्तु" - आपला प्रवास मंगलमय होवो.</p>
-                            </div>
-                        </div>
-                    </div>
+                
 
                 </div>
             </div>

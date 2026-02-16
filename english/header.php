@@ -6,7 +6,7 @@
     <!-- IMPORTANT: Add FontAwesome for icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Kalsarp Dosh Nivaran Puja at Trimbakeshwar - Hire a Kalsarp Yog Puja Pandit</title>
+    <title>Panchang Vastu – Expert Vastu Shastra Consultant in India</title>
     <meta name="robots" content="noindex, follow">
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
