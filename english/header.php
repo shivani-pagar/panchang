@@ -170,6 +170,9 @@
                         <li>
                             <a href="home.php" class="dropdown-item">English (EN)</a>
                         </li>
+                         <li>
+                            <a href="index1.php" class="dropdown-item">Hindi (Hi)</a>
+                        </li>
                     </ul>
                 </li>
 

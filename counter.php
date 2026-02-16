@@ -90,7 +90,7 @@
                             <span class="numinate" data-to="2500">0</span><span class="plus">+</span>
                         </div>
                         <h3 class="counter-title">|| ज्योतिष शास्त्र ||</h3>
-                        <p class="counter-desc">अचूक कुंडली विश्लेषण आणि मार्गदर्शन</p>
+                        <p class="counter-desc">सटीक कुंडली विश्लेषण और मार्गदर्शन</p>
                     </div>
                 </div>
 
