@@ -94,11 +94,11 @@
                     <ul class="dropdown-menu">
                         <!-- Vedic Sciences -->
                         <li class="dropdown-submenu">
-                            <a href="vedic_science.php" class="dropdown-item">
+                            <a href="vaidik-science.php" class="dropdown-item">
                                 <i class="fas fa-book-open me-2"></i> वैदिक विज्ञान
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a href="worship.php" class="dropdown-item">पूजा</a></li>
+                                <li><a href="pooja.php" class="dropdown-item">पूजा</a></li>
                                 <li><a href="vedic_marriage.php" class="dropdown-item">वैदिक विवाह अभिषेक</a></li>
                                 <li><a href="sacred_thread_ceremony.php" class="dropdown-item">उपनयन संस्कार</a></li>
                                 <li><a href="sacred_fire_ritual.php" class="dropdown-item">हवन अभिषेक</a></li>
