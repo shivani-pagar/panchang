@@ -526,6 +526,6 @@
         </div>
     </div>
 </section>
-<?php include 'counter.php'; ?>
+<?php include 'counter_en.php'; ?>
 
 <?php include 'english/footer.php'; ?>  
