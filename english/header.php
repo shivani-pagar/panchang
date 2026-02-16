@@ -72,14 +72,14 @@
             <!-- Navigation Menu -->
             <ul class="nav-menu" id="nav-menu">
                 <li class="nav-item active">
-                    <a href="index.php" class="nav-link">
+                    <a href="home.php" class="nav-link">
                         <i class="fas fa-home nav-icon"></i>
                         <span>Home</span>
                     </a>
                 </li>
 
                 <li class="nav-item">
-                    <a href="about.php" class="nav-link">
+                    <a href="about_en.php" class="nav-link">
                         <i class="fas fa-info-circle nav-icon"></i>
                         <span>About Us</span>
                     </a>
@@ -145,14 +145,14 @@
                 </li>
 
                 <li class="nav-item">
-                    <a href="gallery.php" class="nav-link">
+                    <a href="pictures.php" class="nav-link">
                         <i class="fas fa-images nav-icon"></i>
                         <span>Pictures </span>
                     </a>
                 </li>
 
                 <li class="nav-item">
-                    <a href="contact.php" class="nav-link">
+                    <a href="contact-us.php" class="nav-link">
                         <i class="fas fa-address-book nav-icon"></i>
                         <span>Contact Us</span>
                     </a>
@@ -161,7 +161,7 @@
                 <li class="nav-item dropdown language-dropdown">
                     <a href="#" class="nav-link">
                         <i class="fas fa-globe nav-icon"></i>
-                        <span>MR</span>
+                        <span>EN</span>
                     </a>
                     <ul class="dropdown-menu">
                         <li>
