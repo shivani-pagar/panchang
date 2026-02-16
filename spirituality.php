@@ -417,80 +417,6 @@
         margin: 0;
     }
 
-    /* Table Wrapper */
-    .vedic-table-wrapper {
-        background: #ffffff;
-        border-radius: 15px;
-        padding: 10px;
-        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
-    }
-
-    .vedic-no-border-table {
-        width: 100%;
-        border-collapse: collapse;
-        border: none;
-        /* Borders Removed */
-    }
-
-    /* Header Styling */
-    .vedic-no-border-table thead th {
-        background-color: #FFF3E0;
-        color: #8B4513;
-        padding: 15px;
-        text-align: left;
-        font-size: 1.1rem;
-        font-weight: 800;
-        border-radius: 8px;
-        border: none;
-    }
-
-    .vedic-no-border-table thead th i {
-        margin-right: 8px;
-        color: #FF9800;
-    }
-
-    /* Rows Styling */
-    .vedic-no-border-table tbody td {
-        padding: 12px 15px;
-        color: #444;
-        font-size: 1rem;
-        border-bottom: 1px solid #f1f1f1;
-        /* Subtle divider instead of border */
-    }
-
-    .vedic-no-border-table tbody tr:last-child td {
-        border-bottom: none;
-    }
-
-    .vedic-no-border-table tbody td strong {
-        color: #E65100;
-        font-weight: 700;
-    }
-
-    /* Hover Effect for Professional Feel */
-    .vedic-no-border-table tbody tr {
-        transition: all 0.2s ease;
-    }
-
-    .vedic-no-border-table tbody tr:hover {
-        background-color: #fdf5e6;
-        transform: scale(1.01);
-    }
-
-    /* Adjustments for Image Frame on Left */
-    .rounded-custom {
-        border-radius: 20px;
-        border-left: 8px solid #FF9800;
-    }
-
-    /* Mobile Responsive */
-    @media (max-width: 991px) {
-        .ritual-info-group {
-            margin-top: 40px;
-            padding-left: 0 !important;
-        }
-    }
-
     /* मोबाईल रिस्पॉन्सिव्ह */
     @media (max-width: 768px) {
         .rules-bg {
@@ -519,7 +445,7 @@
         }
     }
 </style>
-<?php include 'header.php'; ?>
+<?php include 'english/header.php'; ?>
 <!-- Title Bar -->
 <div class="pbmit-title-bar-wrapper " style="background-image:url(images/guruji/ser-img/bgser.jpg);">
     <div class="container paddcon">
@@ -529,14 +455,14 @@
                     <div class="pbmit-title-bar-content-inner">
                         <div class="pbmit-tbar">
                             <div class="pbmit-tbar-inner container">
-                                <h1 class="pbmit-tbar-title">Devotional Practice</h1>
+                                <h1 class="pbmit-tbar-title">Spirituality</h1>
                             </div>
                         </div>
                         <div class="pbmit-breadcrumb">
                             <div class="pbmit-breadcrumb-inner">
                                 <span><a title="" href="index.php" class="home"><span>Home</span></a></span>
                                 <span class="sep">-</span>
-                                <span><span class="post-root post post-post current-item">Devotional Practice</span></span>
+                                <span><span class="post-root post post-post current-item">Spirituality</span></span>
                             </div>
                         </div>
                     </div>
@@ -594,40 +520,31 @@
                     <div class="mantra-icon-left"><i class="fas fa-om"></i></div>
                     <div class="mantra-text-content">
                         <p class="sanskrit-shlok">
-                            सर्वधर्मान्परित्यज्य मामेकं शरणं व्रज ।
-                            अहं त्वां सर्वपापेभ्यो मोक्षयिष्यामि मा शुचः ॥
+                            अनन्तं कृष्णगोपालं जपतो नास्ति पातकम् ।
+                            गवां कोटिप्रदानस्य अश्वमेधशतस्य च ॥ ५॥
+                            कन्यादानसहस्राणां फलं प्राप्नोति मानवः ।
                         </p>
                         <p class="shlok-meaning">
-                            अर्थ: सर्व धर्मांचा (कर्तव्यांचा आणि बंधनांचा) आश्रय सोडून तू केवळ मला एकालाच शरण ये. मी तुला सर्व पापांतून मुक्त करीन, तू शोक करू नकोस.
+                            अर्थ: अनंत अशा भगवान श्रीकृष्ण-गोपालाच्या नामाचा जप करणाऱ्या मनुष्याला कोणत्याही पापाची बाधा होत नाही. केवळ या नामाच्या जपाने मनुष्याला एक कोटी गायींचे दान, शंभर अश्वमेध यज्ञ आणि हजारो कन्यादान केल्याने जे महापुण्य मिळते, ते सर्व फळ प्राप्त होते.
                         </p>
                     </div>
                     <div class="mantra-icon-right"><i class="fas fa-om"></i></div>
                 </div>
             </div>
-            <div class="service-page-infobox">
-                <div class="row align-items-center">
+            <div class="col-lg-6 col-md-6  order-1">
+                <img src="images/images/adhyatm01.webp" class="w-100" alt="">
 
-                    <div class="col-lg-6">
-                        <div class="principle-content">
-                            <h2 class="accent-title">What is Vedic worship?</h2><br>
-                            <p>Vedic worship means the practice of worship, sacrifice, chanting, meditation, praising the gods,
-                                etc. as prescribed in the Vedas.
-                                This worship was done through ancient sages, sages, yajna kunds, mantras, and Agnihotra,
-                                and its main purpose was to unite with God, maintain the balance of nature, and purify
-                                the mind. <br> <br>
-                                Vedic worship is <b>the worship of God and the forces of nature through the mantras, sacrifices and rituals mentioned in the Vedas . </b>
-                                The purpose of this worship is to achieve <b>mental purification, spiritual upliftment and balance in life .</b> <br><br>
-                                <b>Vedic worship is an ancient spiritual tradition</b> based on faith, discipline, and practice .
-                            </p>
-                            <div class="samagri-container">
+            </div>
+            <div class="col-md-6 col-lg-6">
+                <div class="service-details">
+                    <h2 style="font-size: 34px" class="sanskrit-shlok">What is spiritual life?</h2>
 
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="image-wrapper">
-                            <img src="images/images/upasana01.png" class="img-fluid main-ritual-img" alt="Vedic Ritual">
-                        </div>
+                    <div style="line-height: 1.9; font-size: 17px" class="ritual-intro-text  ">
+                        <p>Spiritual life is a deep process of connecting with our inner self, soul and Brahman.
+                            This life is not only about religious behavior, worship or ethics, but its main goal
+                            is to live with peace, love, courage and understanding in every aspect of our life.
+                            Spiritual life shows a person the direction of his inner peace, mental clarity and higher purpose.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -643,18 +560,17 @@
             <div class="row align-items-center">
                 <div class="col-lg-6">
                     <div class="image-wrapper">
-                        <img src="images/images/mantrache-mahtv.png" class="img-fluid main-ritual-img" alt="Vedic Ritual">
+                        <img src="images/images/upay02.webp" class="img-fluid main-ritual-img" alt="Vedic Ritual">
                     </div>
                 </div>
                 <div class="col-lg-6">
                     <div class="principle-content">
-                        <h2 class="accent-title">Characteristics of Vedic worship</h2>
-                        <p>Vedic worship is based on chanting, yajna, havan and rituals performed according to the scriptures. It emphasizes purification of the mind, body and environment through the worship of nature, gods and Brahman. Special importance is given to faith, discipline and spiritual advancement in this worship.</p>
+                        <h2 class="accent-title">The importance of spiritual life</h2>
+                        <p>Spiritual life is very important for our physical, mental and emotional health. Every person needs spiritual guidance to achieve a higher purpose in life, to awaken their inner power. This life is not just about chasing moments of happiness, but an eternal turn towards the mystery of the essence, the divine and the truth of life.</p>
                         <div class="samagri-container">
-                            <span class="samagri-box"> 🧘‍♂️ Idol worship is of lesser importance (Yagya, Agnihotra, Mantra are important)</span>
-                            <span class="samagri-box">🧠Use of mantras from Rigveda, Yajurveda, Samaveda, Atharvaveda</span>
-                            <span class="samagri-box">🌱 Worship of gods like Agni (Agnihotra), Soma, Indra, Varuna, Mitra, Surya, Vayu, Ashwini Kumar etc.</span>
-                            <span class="samagri-box">🌱 Based on Shruti (heard knowledge), Smriti (written rules) and Samhita </span>
+                            <span class="samagri-box"> 🧘‍♂️ Awareness of inner power: Spiritual life achieves self-development by awakening the inner power of a person.</span>
+                            <span class="samagri-box">🧠 Mental and emotional balance: Spirituality brings peace of mind and reduces stress and negativity.</span>
+                            <span class="samagri-box">🌱 The higher purpose of life: This life is not limited to just happiness but helps in understanding truth, philosophy and divine meaning.</span>
                         </div>
                     </div>
                 </div>
@@ -669,55 +585,48 @@
 
                     <div class="col-lg-6">
                         <div class="ritual-info-group">
-                            <h2 class="accent-title">Types of Vedic worship</h2>
+                            <h2 class="accent-title">Main principles of spiritual life</h2>
 
                             <div class="saptpadi-intro-text">
-                                <h3>Yagna (Agnihotra, Homa)</h3>
+                                <h3>Self-research and self-knowledge</h3>
                             </div>
 
                             <div class="vows-container">
-                                <span class=""><i class=""></i>Invoking the deity by offering offerings (grains, ghee, samidha) in the fire.</span>
-                                <span class=""><i class=""></i><b> For collective or individual fruits </b> health, rain, prosperity, peace.</span>
+                                <span class=""><i class=""></i>The first step in spiritual life is self-inquiry. In this,
+                                    a person examines his thoughts, feelings, and behavior. To achieve self-knowledge,
+                                    he practices meditation, spiritual development, and insight.</span>
+                                <span class=""><i class="fas fa-smile-beam"></i>This gives him a chance to free himself
+                                    from his other thoughts.</span>
                             </div>
 
                             <div class="saptpadi-intro-text">
-                                <h3>Chanting and praise</h3>
+                                <h3>Meditation and Sadhana</h3>
                             </div>
 
                             <div class="vows-container">
-                                <span class=""><i class=""></i>Gain peace of mind and positive energy by chanting specific mantras.</span>
-                                <span class=""><i class=""></i>E.g. Gayatri Mantra, Rudrashtadhyayi, Purushukta, Srisukta.</span>
+                                <span class=""><i class=""></i>Meditation and sadhana are the main practices of spiritual life.
+                                    Meditation is sitting quietly in a certain posture, controlling the mind, and experiencing
+                                    inner peace.</span>
+                                <span class=""><i class="fas fa-smile-beam"></i>Sadhana is regular spiritual practice
+                                    such as prayer, mantra chanting, meditation, etc., which improves a person's state of mind
+                                    and attains philosophical knowledge.</span>
                             </div>
 
                             <div class="saptpadi-intro-text">
-                                <h3>Meditation and penance</h3>
+                                <h3>Ethics and philanthropy</h3>
                             </div>
 
                             <div class="vows-container">
-                                <span class=""><i class=""></i>Meditation on the deity with a concentrated mind, penance (asceticism, fasting) for self-purification.</span>
-                            </div>
-
-                            <div class="saptpadi-intro-text">
-                                <h3>Worship in Samaveda music</h3>
-                            </div>
-
-                            <div class="vows-container">
-                                <span class=""><i class=""></i>Samagan (musical praise from the Samaveda) – for the pleasure of the deity.</span>
-                            </div>
-
-                            <div class="saptpadi-intro-text">
-                                <h3>Fasting and discipline</h3>
-                            </div>
-
-                            <div class="vows-container">
-                                <span class=""><i class=""></i>Maintain fasting, abstinence, and regularity according to special dates, constellations, and seasons.</span>
+                                <span class=""><i class=""></i>Moral values ​​play an important role in spiritual life. Truth, non-violence, love,
+                                    compassion and other sacred qualities must be fully manifested in a person's life.</span>
+                                <span class=""><i class="fas fa-smile-beam"></i>Dedicating your life to charity and service to humanity is a highly spiritual process.</span>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-lg-6">
                         <div class="saptpadi-image-frame">
-                            <img src="images/images/upasana03.jpg" class="img-fluid rounded-custom shadow-lg" alt="सप्तपदी विधी">
+                            <img src="images/images/adhyatm03.jpg" class="img-fluid rounded-custom shadow-lg" alt="सप्तपदी विधी">
                             <div class="frame-decoration"></div>
                         </div>
                     </div>
@@ -727,19 +636,22 @@
         </section>
 
         <div class="content-section mt-5">
-            <h2 class="section-title text-center mb-5"><i class="fas fa-scroll"></i> Spiritual path and faith</h2>
+            <h2 class="section-title text-center mb-5"><i class="fas fa-scroll"></i>Spiritual path and faith</h2>
             <div class="puja-steps-grid">
 
                 <div class="step-card">
                     <div class="step-icon"><i class="fas fa-pray"></i></div>
                     <h3>Guidance of seekers</h3>
-                    <p>A Guru or guide is important for seekers. A Guru provides spiritual guidance, practice, and the highest meaning of life to that person. Their spiritual knowledge and perspective provide a deeper experience of life for the seeker.</p>
+                    <p>A Guru or guide is important for seekers. A Guru provides spiritual guidance, practice, and the
+                        highest meaning of life to that person. Their spiritual knowledge and perspective provide a deeper
+                        experience of life for the seeker.</p>
                 </div>
 
                 <div class="step-card">
                     <div class="step-icon"><i class="fas fa-place-of-worship"></i></div>
                     <h3>Devotion and faith</h3>
-                    <p>Devotion is an important aspect of spiritual life. When we believe in a higher power, a deity or Brahman, and connect with it with our heart's content, life can become more peaceful and stable.</p>
+                    <p>Devotion is an important aspect of spiritual life. When we believe in a higher power, a deity or Brahman,
+                        and connect with it with the sweetness of our heart, life can become more peaceful and stable.</p>
                 </div>
 
 
@@ -750,96 +662,77 @@
         <section class="saptpadi-dynamic-section">
             <div class="container">
                 <div class="row align-items-center">
-
-                    <div class="col-lg-5">
+                    <div class="col-lg-6">
                         <div class="saptpadi-image-frame">
-                            <img src="images/images/mantrache-mahtv.png" class="img-fluid rounded-custom shadow-lg" alt="आध्यात्मिक जीवन">
+                            <img src="images/images/adhyatm02.webp" class="img-fluid rounded-custom shadow-lg" alt="आध्यात्मिक जीवन">
                             <div class="frame-decoration"></div>
                         </div>
                     </div>
 
-                    <div class="col-lg-7">
-                        <div class="ritual-info-group ps-lg-4">
-                            <h2 class="accent-title mb-4">Important deities in Vedic worship</h2>
+                    <div class="col-lg-6">
+                        <div class="ritual-info-group">
+                            <h2 class="accent-title">Benefits of spiritual life</h2>
 
-                            <div class="vedic-table-wrapper">
-                                <table class="vedic-no-border-table">
-                                    <thead>
-                                        <tr>
-                                            <th><i class="fas fa-om"></i> God</th>
-                                            <th><i class="fas fa-bullseye"></i> Purpose / Fruit</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td><strong>Fire</strong></td>
-                                            <td>Medium to reach all deities in the sacrifice</td>
-                                        </tr>
-                                        <tr>
-                                            <td><strong>Indra</strong></td>
-                                            <td>Victorious power, rain, strength</td>
-                                        </tr>
-                                        <tr>
-                                            <td><strong>Varun</strong></td>
-                                            <td>Forgiveness of sins, water power, moral purity</td>
-                                        </tr>
-                                        <tr>
-                                            <td><strong>Friend</strong></td>
-                                            <td>Kindness, affection, friendship</td>
-                                        </tr>
-                                        <tr>
-                                            <td><strong>Sun</strong></td>
-                                            <td>Health, strength, intelligence, light</td>
-                                        </tr>
-                                        <tr>
-                                            <td><strong>Vayu</strong></td>
-                                            <td>Prana-shakti, Jeevan-shakti</td>
-                                        </tr>
-                                        <tr>
-                                            <td><strong>Ashwini Kumar</strong></td>
-                                            <td>Health, medicine, youth</td>
-                                        </tr>
-                                        <tr>
-                                            <td><strong>Mon</strong></td>
-                                            <td>Bliss, nectar, energy</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
+                            <div class="saptpadi-intro-text">
+                                <h3>Spiritual peace and contentment</h3>
                             </div>
+
+                            <div class="vows-container">
+                                <span><i class="fas fa-fire-alt me-2"></i>
+                                    Spiritual life provides a person with inner peace. When we understand the highest purpose of life, we are free from unnecessary worries and daily stresses.
+                                </span>
+
+                            </div>
+
+                            <div class="saptpadi-intro-text">
+                                <h3>Mental clarity and positive attitude</h3>
+                            </div>
+
+                            <div class="vows-container">
+                                <span><i class="fas fa-balance-scale me-2"></i>
+                                    Regular practice and meditation can help you gain mental clarity and a positive outlook.
+                                    You can also think about difficult situations in life in a calm and civilized way.
+                                </span>
+
+                            </div>
+
+                            <div class="saptpadi-intro-text">
+                                <h3>positive energy</h3>
+                            </div>
+
+                            <div class="vows-container">
+                                <span><i class="fas fa-heart me-2"></i>
+                                    A person living a spiritual life experiences positive energy and spiritual power.
+                                    This also affects the people around him.
+                                </span>
+
+                            </div>
+
                         </div>
                     </div>
+
+
 
                 </div>
             </div>
         </section>
 
         <div class="content-section mt-5">
-            <h2 class="section-title text-center mb-5"><i class="fas fa-scroll"></i>Books and sources</h2>
+            <h2 class="section-title text-center mb-5"><i class="fas fa-scroll"></i> Health</h2>
             <div class="puja-steps-grid">
 
                 <div class="step-card">
                     <div class="step-icon"><i class="fas fa-pray"></i></div>
-                    <h3>Main texts and sources of Vedic worship</h3>
-                    <div class="samagri-container" style="display: flex; flex-wrap: wrap; justify-content: center;">
-                        <span class="samagri-box"> Chitta Shuddhi <br>(cleanliness of mind) </span>
-                        <span class="samagri-box"> religion <br> (observance of duty)</span>
-                        <span class="samagri-box"> Meaning <br> (prosperity, social welfare)</span>
-                        <span class="samagri-box"> Work (pure willpower)</span>
-                        <span class="samagri-box"> moksha (spiritual liberation)</span>
-                    </div>
+                    <h3>Health</h3>
+                    <p>Spiritual life plays a significant role in improving mental and physical
+                        health. Proper meditation, yoga, and sadhana improve the state of the body and mind.</p>
                 </div>
 
                 <div class="step-card">
                     <div class="step-icon"><i class="fas fa-place-of-worship"></i></div>
-                    <h3>Main texts and sources of Vedic worship</h3>
-                    <div class="samagri-container" style="display: flex; flex-wrap: wrap; justify-content: center;">
-                        <span class="samagri-box"> Rigveda Samhita</span>
-                        <span class="samagri-box"> Yajurveda Samhita</span>
-                        <span class="samagri-box"> Samveda Samhita</span>
-                        <span class="samagri-box">Atharvaveda Samhita</span>
-                        <span class="samagri-box"> Brahmin texts</span>
-                        <span class="samagri-box"> Aranyakas and Upanishads</span>
-                    </div>
+                    <h3>Relationship improvement</h3>
+                    <p>Gaining a positive outlook through spiritual life improves our relationships.
+                        Peace of mind and spirit helps us to develop love and cooperation with other people.</p>
                 </div>
             </div>
         </div>
@@ -860,10 +753,11 @@
 
                         <div class="vows-container">
                             <span class=""><i class=""></i>Sit quietly and meditate for a few minutes every day. Focus on your breathing. The mind will calm down and the process of introspection will begin.</span>
-                            <span class=""><i></i> Spiritual life is a deep process of connecting with our inner self, soul
-                                and Brahman. This life is not only about religious behavior, worship or ethics, but its main goal
-                                is to live with peace, love, courage and understanding in every aspect of our life. Spiritual life
-                                shows a person the direction of his inner peace, mental clarity and higher purpose.</span>
+                            <span class=""><i></i> Spiritual life is a deep process of connecting with our inner self,
+                                soul and Brahman. This life is not only about religious behavior, worship or ethics,
+                                but its main goal is to live with peace, love, courage and understanding in every
+                                aspect of our life. Spiritual life shows a person the direction of his inner peace,
+                                mental clarity and higher purpose.</span>
                         </div>
 
                         <div class="saptpadi-intro-text">
@@ -871,7 +765,7 @@
                         </div>
 
                         <div class="vows-container">
-                            <span class=""><i class=""></i>Practice your religious rituals or prayers throughout the day. Worship the deity according to your faith and fill your mind with peace.</span>
+                            <span class=""><i class=""></i>Practice your religious puja or prayer throughout the day. Worship the deity according to your faith and fill your mind with peace.</span>
                         </div>
 
                         <div class="saptpadi-intro-text">
@@ -897,14 +791,14 @@
                 <div class="puja-steps-grid">
                     <div class="step-card">
                         <div class="step-icon"><i class="fas fa-pray"></i></div>
-                        <h3>Practice ethics and compassion</h3>
-                        <p>Follow truth, non-violence, compassion and love in your life. This helps you respect the feelings of others.</p>
+                        <h3>Follow morality and compassion.</h3>
+                        <p>Follow truth, non-violence, compassion and love in your life. This teaches you to respect the feelings of others.</p>
                     </div>
 
                     <div class="step-card">
                         <div class="step-icon"><i class="fas fa-place-of-worship"></i></div>
-                        <h3>Search for a guru</h3>
-                        <p>Look for a guru or spiritual guide who can provide proper guidance. The presence of a guru helps you find the direction of spiritual life.</p>
+                        <h3>The search for a guru</h3>
+                        <p>Find a guru or mentor for proper guidance. The presence of a guru gives us direction in spiritual life.</p>
                     </div>
                 </div>
             </div><br><br>
@@ -915,4 +809,4 @@
 
     </section>
 
-    <?php include 'footer.php'; ?>
+<?php include 'english/footer.php'; ?>
