@@ -14,7 +14,7 @@
                     <div class="widget footer-widget">
                         <div class="footer-logo-simple">
                             <!-- replace with your logo – we use a placeholder but style it classically -->
-                            <img src="\images\guruji\panchang-vastu-logo.webp" alt="Panchang Vastu Logo" class="img-fluid">
+                            <img src="images\guruji\panchang-vastu-logo.webp" alt="Panchang Vastu Logo" class="img-fluid">
                             <div class="guruji-name">सचिन जोशी</div>
                             <div class="guruji-title">ज्योतिष · वास्तु तज्ज्ञ</div>
                             <div class="sanskrit-motto">“संकल्पात् जायते सिद्धि”</div>

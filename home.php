@@ -89,63 +89,6 @@
 		});
 	</script>
 
-
-	<!-- <section class="services-icon-section py-5" style="background-color: #ffffff; font-family: 'Mukta', sans-serif;">
-		<div class="container">
-			<div class="row mb-5">
-				<div class="col-12 text-center">
-					<div class="heading-wrapper">
-						<h4 class="text-orange fw-bold text-uppercase" style="letter-spacing: 2px; color: #ff8c00;">आमच्या सेवा</h4>
-						<h2 class="display-6 fw-bold text-dark">संपूर्ण सेवा मार्गदर्शन</h2>
-						<div class="title-line mx-auto"></div>
-					</div>
-				</div>
-			</div>
-
-			<div class="row g-4">
-				<div class="col-md-4">
-					<div class="service-icon-card text-center p-4">
-						<div class="icon-circle mb-4">
-							<img src="images/homepage-1/section03.jpg" class="img-fluid" alt="वैदिक शास्त्र">
-						</div>
-						<div class="service-card-body">
-							<h3 class="h4 fw-bold mb-3">वैदिक शास्त्र</h3>
-							<p class="text-muted mb-0">यज्ञ, मंत्र व प्राचीन ज्ञानातून जीवनशुद्धी</p>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-md-4">
-					<div class="service-icon-card text-center p-4">
-						<div class="icon-circle mb-4">
-							<img src="images/homepage-1/section02.jpg" class="img-fluid" alt="ज्योतिष शास्त्र">
-						</div>
-						<div class="service-card-body">
-							<h3 class="h4 fw-bold mb-3">ज्योतिष शास्त्र</h3>
-							<p class="text-muted mb-0">ग्रह-नक्षत्रांद्वारे अचूक भविष्य मार्गदर्शन</p>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-md-4">
-					<div class="service-icon-card text-center p-4">
-						<div class="icon-circle mb-4">
-							<img src="images/homepage-1/section01.png" class="img-fluid" alt="वास्तुशास्त्र">
-						</div>
-						<div class="service-card-body">
-							<h3 class="h4 fw-bold mb-3">वास्तुशास्त्र</h3>
-							<p class="text-muted mb-0">सकारात्मक ऊर्जा व समृद्धीसाठी वास्तु उपाय</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<br><br> -->
-
-
-	<!-- Icon Box End -->
-
 	<!-- About Start -->
 	<section class="about-section-premium py-5">
 		<div class="container">
@@ -163,7 +106,7 @@
 
 				<div class="col-md-12 col-lg-6 mb-5 mb-lg-0 animate__animated animate__fadeInLeft">
 					<div class="about-img-wrapper">
-						<img src="\images\About images/img02.png" class="img-fluid about-img" alt="सचिन जोशी">
+						<img src="images/About images/img02.png" class="img-fluid about-img" alt="सचिन जोशी">
 					</div>
 				</div>
 
