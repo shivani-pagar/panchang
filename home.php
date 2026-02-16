@@ -2,44 +2,8 @@
 <!-- Page Content -->
 <div class="page-content demo-five">
 
-
-	<!--<section class="position-relative">-->
-	<!--    <div class="swiper-container demo">-->
-	<!--        <div class="swiper-wrapper">-->
-	<!--            <div class="swiper-slide">-->
-	<!--                      <div class="bg-img" style="background-image:url(images/guruji/arti.jpg); background-size:cover;">-->
-	<!--                         <div class="container">-->
-	<!--                      <div class="row"> -->
-	<!--                          <div class="col-12">-->
-	<!--                              <div class="banner-con">-->
-	<!--                                  <h1>Book Your Personalized Puja Online...</h1>-->
-	<!--                                  <p>Experience Divine Blessings from the Comfort of Your Home</p>-->
-	<!--                                  <a href="our-team.html" class="pbmit-btnn pbmit-btn-lg">Book Now</a>-->
-	<!--                              </div>-->
-	<!--                          </div>   -->
-	<!--                      </div>-->
-	<!--                  </div>-->
-	<!--              </div>-->
-	<!--            </div>-->
-	<!--                 <div class="swiper-slide">-->
-	<!--                      <div class="bg-img" style="background-image:url(images/guruji/arti.jpg); background-size:cover;">-->
-	<!--                         <div class="container">-->
-	<!--                      <div class="row"> -->
-	<!--                          <div class="col-12">-->
-	<!--                              <div class="banner-con">-->
-	<!--                                  <h1> Your Personalized Puja Online...</h1>-->
-	<!--                                  <p>Experience Divine Blessings from the Comfort of Your Home</p>-->
-	<!--                                  <a href="our-team.html" class="pbmit-btnn pbmit-btn-lg">Book Now</a>-->
-	<!--                              </div>-->
-	<!--                          </div>   -->
-	<!--                      </div>-->
-	<!--                  </div>-->
-	<!--              </div>-->
-	<!--            </div>-->
-	<!--        </div>-->
-	<!--         <div class="swiper-pagination text-center"></div>-->
-	<!--    </div>-->
-	<!--</section>-->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
 	<section class="hero-static-wrp position-relative">
 		<div class="swiper-container main-hero-slider">
@@ -51,12 +15,12 @@
 							<div class="row align-items-center min-vh-85">
 								<div class="col-12 col-md-8 col-lg-7">
 									<div class="hero-content">
-										<span class="badge mb-3 custom-badge animate__animated animate__fadeInDown">प्राचीन भारतीय विद्या</span>
-										<h1 class="hero-title-clean animate__animated animate__fadeInLeft">सनातन वैदिक <br><span class="highlight-text">परंपरा व आशीर्वाद</span></h1>
-										<p class="hero-desc-clean animate__animated animate__fadeInLeft animate__delay-1s">तुमच्या आयुष्यातील संकटांचे निवारण शुद्ध मंत्रोच्चार आणि प्राचीन वैदिक विधींद्वारे करा. अनुभवा दैवी चैतन्य तुमच्याच घरी.</p>
+										<span class="badge mb-3 custom-badge animate__animated animate__fadeInDown">Ancient Indian knowledge</span>
+										<h1 class="hero-title-clean animate__animated animate__fadeInLeft">Sanatana Vedic <br><span class="highlight-text">Traditions and blessings</span></h1>
+										<p class="hero-desc-clean animate__animated animate__fadeInLeft animate__delay-1s">Resolve the problems in your life through pure mantra chanting and ancient Vedic rituals. Experience the divine consciousness in your own home.</p>
 										<div class="hero-btns-clean animate__animated animate__fadeInUp animate__delay-1s">
-											<a href="#book" class="btn-orange">विधी बुक करा</a>
-											<a href="tel:+91XXXXXXXXXX" class="btn-outline-orange ml-md-3">चर्चा करा</a>
+											<a href="#book" class="btn-orange">Book a ritual</a>
+											<a href="tel:+91XXXXXXXXXX" class="btn-outline-orange ml-md-3">Talk to us</a>
 										</div>
 									</div>
 								</div>
@@ -64,8 +28,8 @@
 									<div class="image-frame-gold animate__animated animate__zoomIn animate__delay-1s">
 										<img src="images/homepage-1/bg03.png" class="img-fluid main-img-clean" alt="Vedic Guru">
 										<div class="exp-badge-white">
-											<span class="num">१५+</span>
-											<span class="txt">वर्षांचा अनुभव</span>
+											<span class="num">15+</span>
+											<span class="txt">Years of experience</span>
 										</div>
 									</div>
 								</div>
@@ -80,12 +44,12 @@
 							<div class="row align-items-center min-vh-85">
 								<div class="col-12 col-md-8 col-lg-7">
 									<div class="hero-content">
-										<span class="badge mb-3 custom-badge">ज्योतिष व वास्तु कन्सल्टिंग</span>
-										<h1 class="hero-title-clean">ज्योतिष व वास्तुने <br><span class="highlight-text">जीवनात बदल घडवा</span></h1>
-										<p class="hero-desc-clean">ग्रहदोष आणि वास्तुदोषांवर शास्त्राधारित अचूक उपाय. सुख-समृद्धी आणि प्रगतीचा नवा मार्ग शोधा.</p>
+										<span class="badge mb-3 custom-badge">Astrology and Vastu Consulting</span>
+										<h1 class="hero-title-clean">Astrology and Vastu <br><span class="highlight-text">Transform Your Life</span></h1>
+										<p class="hero-desc-clean">Resolve planetary and Vastu doshas with scientifically accurate remedies. Find a new path to happiness, prosperity, and progress.</p>
 										<div class="hero-btns-clean">
-											<a href="contact.php" class="btn-orange">संपर्क साधा</a>
-											<a href="#services" class="btn-outline-orange ml-md-3">आमच्या सेवा</a>
+											<a href="contact.php" class="btn-orange">Contact Us</a>
+											<a href="#services" class="btn-outline-orange ml-md-3">Our Services</a>
 										</div>
 									</div>
 								</div>
@@ -125,411 +89,218 @@
 		});
 	</script>
 
+	<!-- About Start -->
+	<section class="about-section-premium py-5">
+		<div class="container">
 
-	<!-- Icon Box Start -->
-	<section class="icon-box-six">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-12 text-center mb-3">
-					<div class="pbmit-heading-subheading-style-1">
-						<h4 class="pbmit-subtitle">आमच्या सेवा </h4>
-						<h2 class="pbmit-title"><strong>संपूर्ण सेवा मार्गदर्शन</strong></h2>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="pbminfotech-ihbox-style-11">
-						<div class="pbminfotech-ihbox-inner">
-							<div class="pbminfotech-ihbox-icon pbminfotech-large-icon">
-								<div class="pbminfotech-ihbox-icon-wrapper">
-									<img src="images/guruji/vedic-icon.png" class="img-fluid">
-								</div>
-							</div>
-							<div class="pbminfotech-ihbox-contents">
-								<div class="pbminfotech-vc_general pbminfotech-vc_cta3">
-									<div class="pbminfotech-vc_cta3_content-container">
-										<div class="pbminfotech-vc_cta3-content">
-											<div class="pbminfotech-vc_cta3-content-header pbminfotech-wrap">
-												<div class="pbminfotech-vc_cta3-headers pbminfotech-wrap-cell">
-													<h2 class="pbminfotech-custom-heading">वैदिक शास्त्र</h2>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="pbminfotech-cta3-content-wrapper">यज्ञ, मंत्र व प्राचीन ज्ञानातून जीवनशुद्धी</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="pbminfotech-ihbox-style-11">
-						<div class="pbminfotech-ihbox-inner">
-							<div class="pbminfotech-ihbox-icon pbminfotech-large-icon">
-								<div class="pbminfotech-ihbox-icon-wrapper">
-									<img src="images/guruji/astrology-icon.png" class="img-fluid">
-								</div>
-							</div>
-							<div class="pbminfotech-ihbox-contents">
-								<div class="pbminfotech-vc_general pbminfotech-vc_cta3">
-									<div class="pbminfotech-vc_cta3_content-container">
-										<div class="pbminfotech-vc_cta3-content">
-											<div class="pbminfotech-vc_cta3-content-header pbminfotech-wrap">
-												<div class="pbminfotech-vc_cta3-headers pbminfotech-wrap-cell">
-													<h2 class="pbminfotech-custom-heading">ज्योतिष शास्त्र</h2>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="pbminfotech-cta3-content-wrapper">ग्रह-नक्षत्रांद्वारे अचूक भविष्य मार्गदर्शन</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="pbminfotech-ihbox-style-11">
-						<div class="pbminfotech-ihbox-inner">
-							<div class="pbminfotech-ihbox-icon pbminfotech-large-icon">
-								<div class="pbminfotech-ihbox-icon-wrapper">
-									<img src="images/guruji/vastu-icon.png" class="img-fluid">
-								</div>
-							</div>
-							<div class="pbminfotech-ihbox-contents">
-								<div class="pbminfotech-vc_general pbminfotech-vc_cta3">
-									<div class="pbminfotech-vc_cta3_content-container">
-										<div class="pbminfotech-vc_cta3-content">
-											<div class="pbminfotech-vc_cta3-content-header pbminfotech-wrap">
-												<div class="pbminfotech-vc_cta3-headers pbminfotech-wrap-cell">
-													<h2 class="pbminfotech-custom-heading">वास्तुशास्त्र</h2>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="pbminfotech-cta3-content-wrapper">सकारात्मक ऊर्जा व समृद्धीसाठी वास्तु उपाय</div>
-							</div>
-						</div>
+			<div class="row mb-5">
+				<div class="col-12 text-center">
+					<div class="heading-wrapper">
+
+						<h2 class="display-6 fw-bold text-dark">About Us</h2>
+						<div class="title-line mx-auto"></div>
 					</div>
 				</div>
 			</div>
-		</div>
-	</section>
-	<!-- Icon Box End -->
-	<?php include 'counter.php'; ?>
-	<!-- About Start -->
-	<section>
-		<div class="container">
-			<div class="about-five-box">
-				<div class="row align-items-center">
+			<div class="row align-items-center">
 
-					<div class="col-md-12 col-lg-6">
-						<div class="pbmit-heading-subheading-style-1">
-							<h4 class="pbmit-subtitle">आमच्याबद्दल</h4>
-							<h2 class="pbmit-title">
-								पञ्चाङ्ग वास्तु – <strong>सचिन जोशी</strong>
-							</h2>
-						</div>
-						<img src="images/guruji/rgab.jpg" class="img-fluid brad" alt="">
+				<div class="col-md-12 col-lg-6 mb-5 mb-lg-0 animate__animated animate__fadeInLeft">
+					<div class="about-img-wrapper">
+						<img src="images/About images/img02.png" class="img-fluid about-img" alt="सचिन जोशी">
 					</div>
-
-					<div class="col-md-12 col-lg-6">
-						<div class="about-five-content">
-							<p>
-								मानवी जीवनाचा पाया आणि निसर्गाचा संतुलन हे पंचतत्त्वांवर आधारित आहे.
-								अग्नी, पृथ्वी, वायू, जल आणि आकाश ही पंचतत्त्वे जीवनात योग्य प्रमाणात
-								संतुलित असणे अत्यंत आवश्यक आहे. पंचतत्त्वांमध्ये कमतरता किंवा अतिरेक
-								झाल्यास जीवनात विविध अडचणी निर्माण होतात.
-							</p>
-
-							<p>
-								आपले <strong>पंचांग वास्तु असोसिएट्स</strong> हे पंचतत्त्व संतुलित
-								करण्यासाठी प्राचीन ग्रंथांच्या आधारे प्रामाणिक प्रयत्न करते.
-								त्या शास्त्रीय मार्गदर्शनाच्या मदतीने आम्ही मानवी जीवन अधिक
-								सकारात्मक, संतुलित आणि समृद्ध बनवण्यासाठी कार्य करतो.
-							</p>
-
-							<p>
-								<strong>सचिन जोशी</strong> यांच्या मार्गदर्शनाखाली आमचे ध्येय
-								वास्तुशास्त्र आणि जीवनातील इतर प्रमुख घटक यांचा योग्य समतोल साधणे
-								आणि तुमच्या जीवनात सकारात्मक बदल घडवून आणणे हे आहे.
-							</p>
-
-							<p>
-								<strong>“संकल्पात जायते सिद्धी”</strong> — यश हे दृढनिश्चयातूनच
-								जन्माला येते. तुमच्या जीवनाच्या प्रत्येक पैलूमध्ये सुसंवाद,
-								शांती आणि यशाच्या मार्गावर योग्य मार्गदर्शन करण्यासाठी
-								आम्ही पूर्णपणे समर्पित आहोत.
-							</p>
-
-							<a href="about.php" class="pbmit-btnn pbmit-btn-lg mt-4">
-								अधिक वाचा
-							</a>
-						</div>
-					</div>
-
 				</div>
+
+				<div class="col-md-12 col-lg-6 animate__animated animate__fadeInRight">
+					<div class="about-content-box ps-lg-4">
+
+						<div class="about-header mb-4">
+							<h4 class="about-subtitle"></h4>
+							<h2 class="about-main-title">
+								Panchang Vastu – <span class="highlight">Sachin Joshi</span>
+							</h2>
+							<div class="accent-line"></div>
+						</div>
+						<p class="intro-para">
+							The foundation of human life and the balance of <strong>nature</strong> are based on the five elements. It is very important to have the five elements of fire, earth, air, water and sky in proper balance in life. If there is a deficiency or excess in the five elements, various problems arise in life.
+						</p>
+
+						<div class="focus-box">
+							<p>
+								Our <strong>Panchang Vastu Associates</strong> makes sincere efforts based on ancient texts to balance the Panchatattva. With the help of that classical guidance, we work to make human life more positive, balanced and prosperous.
+							</p>
+						</div>
+
+						<p class="guruji-note">
+							Under the guidance of <strong>Sachin Joshi</strong>, our goal is to strike the right balance between Vastu Shastra and other key elements of life and bring about positive changes in your life. </p>
+
+						<div class="quote-box">
+							<p>
+								“Sankalpāt jayate siddhi” — Success is born from determination. We are fully dedicated to guiding you on the path to harmony, peace and success in every aspect of your life.
+							</p>
+						</div>
+
+						<a href="about.php" class="btn-modern-about">
+							Read More <i class="fas fa-arrow-right ms-2"></i>
+						</a>
+					</div>
+				</div>
+
 			</div>
 		</div>
 	</section>
 
 	<!-- Service Start -->
-<section class="service-slider-four" id="book" style="padding:60px 0; background:#f9f9f9;">
-	<div class="container">
-		
-		<div class="service-four-content" style="margin-bottom:40px;">
-			<div class="row align-items-center">
-				<div class="col-md-5">
-					<div class="pbmit-heading-subheading-style-1">
-						<h4 class="pbmit-subtitle">आपल्या जीवनासाठी प्रामाणिक व वैदिक सेवा</h4>
-						<h2 class="pbmit-title">आमच्या पूजा सेवा – <strong>सचिन जोशी</strong></h2>
+
+	<section class="service-slider-section py-5" id="book" style="background-color: #fdfdfd; font-family: 'Mukta', sans-serif;">
+		<div class="container">
+
+			<div class="row align-items-center mb-5">
+				<div class="col-lg-5">
+					<div class="section-title-area">
+						<h4 class="text-uppercase fw-bold mb-2" style="color: #c39b2e; letter-spacing: 1px; font-size: 0.9rem;">Honest and Vedic service</h4>
+						<h2 class="display-6 fw-bold text-dark">Our worship services –<span style="color: #c39b2e;">Sachin Joshi</span></h2>
+						<div style="width: 50px; height: 3px; background: #c39b2e; margin-top: 10px;"></div>
 					</div>
 				</div>
-				<div class="col-md-7">
-					<p style="margin:0;">
-						कालसर्प दोष, पितृ दोष किंवा ग्रहदोष यामुळे जीवनात अडचणी, विलंब आणि मानसिक ताण येऊ शकतो.
-						योग्य पद्धतीने केलेली महा मृत्युंजय जप, नवग्रह शांती, रुद्राभिषेक यांसारखी पूजा
-						जीवनात सकारात्मक बदल, शांती आणि स्थैर्य आणते.
-					</p>
+				<div class="col-lg-7">
+					<p class="text-muted fs-5 mb-0" style="border-left: 3px solid #c39b2e; padding-left: 20px;">
+						Kaal Sarp Dosha, Pitru Dosha or Graha Dosha can cause difficulties, delays and mental stress in life. Properly performed pujas like Maha Mrityunjay Japa, Navagraha Shanti, Rudrabhishek bring positive changes, peace and stability in life. </p>
 				</div>
 			</div>
-		</div>
 
-		<div class="swiper-slider pbmit-element-viewtype-carousel-1"
-			data-autoplay="true" data-dots="true"
-			data-arrows="false" data-columns="3" data-margin="30">
+			<div class="row g-4">
 
-			<div class="swiper-wrapper">
+				<div class="col-md-4">
+					<div class="premium-service-card">
+						<div class="service-img-box">
+							<img src="images/images/vastu.jpg" alt="वास्तुशास्त्र" class="w-100">
+							<div class="service-overlay"></div>
+							<span class="service-tag">Vastu related obstacles</span>
+						</div>
 
-				<!-- Card 1 -->
-				<div class="swiper-slide" style="padding:10px;">
-					<article style="background:#fff; border-radius:12px; overflow:hidden; box-shadow:0 5px 20px rgba(0,0,0,0.08); height:100%;">
-						<div style="padding:20px;">
-
-							<span style="display:block; margin-bottom:20px;">
-								<img src="images/images/vastu.jpg"
-									class="img-fluid"
-									style="width:100%; border-radius:8px;"
-									alt="">
-							</span>
-
-							<div>
-								<div style="margin-bottom:10px; font-size:14px; color:#c39b2e;">
-									वास्तु संबंधित अडथळे
-								</div>
-
-								<h3 style="margin-bottom:15px;">
-									<a href="contact.php" style="text-decoration:none; color:#222;">
-										|| वास्तुशास्त्र ||
-									</a>
-								</h3>
-
-								<p style="margin-bottom:20px; font-size:14px; line-height:1.7;">
-									वास्तूची अंतर्गत आणि बाह्य रचना, तसेच त्यामधील स्पंदने यांचा आपल्या जीवनावर मोठा परिणाम होतो.
-									या स्पंदनांमुळे वास्तूमध्ये सकारात्मक किंवा नकारात्मक बदल घडून येतो.
-								</p>
-
-								<a href="contact.php"
-									style="display:inline-block; padding:8px 18px; background:#c39b2e; color:#fff; border-radius:5px; text-decoration:none;">
-									अधिक वाचा
-								</a>
-							</div>
+						<div class="service-info text-center p-4">
+							<h3 class="fw-bold h4 mb-3">|| Vastu Consulting ||</h3>
+							<p class="text-muted mb-4" style="font-size: 0.95rem; line-height: 1.6;">The internal and external structure of a building, as well as the vibrations within it, have a major impact on our lives. These vibrations can bring about positive or negative changes in the building.</p>
+							<a href="contact.php" class="service-link-btn">Read More <i class="fas fa-arrow-right ms-2"></i></a>
 
 						</div>
-					</article>
+					</div>
 				</div>
 
-				<!-- Card 2 -->
-				<div class="swiper-slide" style="padding:10px;">
-					<article style="background:#fff; border-radius:12px; overflow:hidden; box-shadow:0 5px 20px rgba(0,0,0,0.08); height:100%;">
-						<div style="padding:20px;">
-
-							<span style="display:block; margin-bottom:20px;">
-								<img src="images/images/ved.jpg"
-									class="img-fluid"
-									style="width:100%; border-radius:8px;"
-									alt="">
-							</span>
-
-							<div>
-								<div style="margin-bottom:10px; font-size:14px; color:#c39b2e;">
-									आरोग्य व दीर्घायुष्यासाठी
-								</div>
-
-								<h3 style="margin-bottom:15px;">
-									<a href="contact.php" style="text-decoration:none; color:#222;">
-										|| वैदिक शास्त्र ||
-									</a>
-								</h3>
-
-								<p style="margin-bottom:20px; font-size:14px; line-height:1.7;">
-									मनुष्य जन्माचा हेतू साध्य करण्यासाठी पवित्र हेतू सोबत नित्य ईश्वराची केलेली उपासना
-									किंवा मंत्र जप यामुळे ईश्वरी आशीर्वाद लाभतो.
-								</p>
-
-								<a href="contact.php"
-									style="display:inline-block; padding:8px 18px; background:#c39b2e; color:#fff; border-radius:5px; text-decoration:none;">
-								अधिक वाचा
-								</a>
-							</div>
-
+				<div class="col-md-4">
+					<div class="premium-service-card">
+						<div class="service-img-box">
+							<img src="images/images/ved.jpg" alt="वैदिक शास्त्र" class="w-100">
+							<div class="service-overlay"></div>
+							<span class="service-tag">For Health and Longevity</span>
 						</div>
-					</article>
+						<div class="service-info text-center p-4">
+							<h3 class="fw-bold h4 mb-3">|| Vedic Science||</h3>
+							<p class="text-muted mb-4" style="font-size: 0.95rem; line-height: 1.6;">To achieve the purpose of human birth, proper worship of the holy deity along with daily worship of the Lord or chanting of mantras brings divine blessings.</p>
+							<a href="contact.php" class="service-link-btn">Read More <i class="fas fa-arrow-right ms-2"></i></a>
+						</div>
+					</div>
 				</div>
 
-				<!-- Card 3 -->
-				<div class="swiper-slide" style="padding:10px;">
-					<article style="background:#fff; border-radius:12px; overflow:hidden; box-shadow:0 5px 20px rgba(0,0,0,0.08); height:100%;">
-						<div style="padding:20px;">
-
-							<span style="display:block; margin-bottom:20px;">
-								<img src="images/images/jyoti.jpg"
-									class="img-fluid"
-									style="width:100%; border-radius:8px;"
-									alt="">
-							</span>
-
-							<div>
-								<div style="margin-bottom:10px; font-size:14px; color:#c39b2e;">
-									शांती व यशासाठी
-								</div>
-
-								<h3 style="margin-bottom:15px;">
-									<a href="contact.php" style="text-decoration:none; color:#222;">
-										|| ज्योतिष शास्त्र ||
-									</a>
-								</h3>
-
-								<p style="margin-bottom:20px; font-size:14px; line-height:1.7;">
-									जन्म तारखे नुसार आणि जन्म वेळेनुसार तयार होणारी कुंडली
-									जीवनातील सकारात्मक व नकारात्मक परिस्थिती संतुलित करण्यास मदत करते.
-								</p>
-
-								<a href="contact.php"
-									style="display:inline-block; padding:8px 18px; background:#c39b2e; color:#fff; border-radius:5px; text-decoration:none;">
-									अधिक वाचा
-								</a>
-							</div>
-
+				<div class="col-md-4">
+					<div class="premium-service-card">
+						<div class="service-img-box">
+							<img src="images/images/jyoti.jpg" alt="ज्योतिष शास्त्र" class="w-100">
+							<div class="service-overlay"></div>
+							<span class="service-tag">For Peace and Prosperity</span>
 						</div>
-					</article>
+						<div class="service-info text-center p-4">
+							<h3 class="fw-bold h4 mb-3">|| Astrology ||</h3>
+							<p class="text-muted mb-4" style="font-size: 0.95rem; line-height: 1.6;">Birth date and time based horoscope helps in balancing positive and negative conditions in life.</p>
+							<a href="contact.php" class="service-link-btn">Read More <i class="fas fa-arrow-right ms-2"></i></a>
+						</div>
+					</div>
 				</div>
 
 			</div>
 		</div>
-	</div>
-</section>
-
+	</section>
 
 	<!-- Service End -->
 
-
-
 	<!-- Testimonial Start -->
-	<section class="testimonial-six">
-		<div class="container-fluid">
-			<div class="row g-0">
-				<div class="col-md-12 col-xl-5">
-					<div class="testimonial-six-title">
-						<div class="testimonial-arrow swiper-btn-custom d-flex flex-row-reverse">
-							<div class="pbmit-heading-subheading-style-1">
-								<h4 class="pbmit-subtitle">Testimonial</h4>
-								<h2 class="pbmit-title text-dark"><strong>We are trusted 15+ countries worldwide</strong></h2>
-							</div>	
-						</div>
-					</div>
-				</div>
-				<div class="col-md-12 col-xl-7">
-					<div class="testimonial-six-slider">
-						<div class="swiper-slider pbmit-element-viewtype-carousel-2 swiper-initialized swiper-horizontal swiper-pointer-events" data-arrows-class="testimonial-arrow" data-loop="true" data-autoplay="true" data-dots="false" data-arrows="true" data-columns="3" data-margin="0" data-effect="slide">
-							<div class="swiper-wrapper" id="swiper-wrapper-3a7bcacf97c77126" aria-live="off" style="transform: translate3d(-2496px, 0px, 0px); transition-duration: 1500ms;">
-								<!-- Testimonial 1 -->
-								<div class="swiper-slide">
-									<article class="pbminfotech-testimonialbox-style-6">
-										<div class="pbminfotech-post-item">
-											<div class="pbminfotech-box-content">
-												<div class="pbminfotech-box-star">
-													<i class="pbmit-base-icon-star pbmit-active"></i>
-													<i class="pbmit-base-icon-star pbmit-active"></i>
-													<i class="pbmit-base-icon-star pbmit-active"></i>
-													<i class="pbmit-base-icon-star pbmit-active"></i>
-													<i class="pbmit-base-icon-star pbmit-active"></i>
-												</div>
-												<blockquote class="pbminfotech-testimonial-text">
-													सचिन गुरुजींचे मी मनापासून आभार मानतो. त्यांनी आमच्या घराच्या वास्तुचा अचूक आढावा घेतला
-													आणि आवश्यक बदल सुचवले. काही दिवसांतच घरात सकारात्मक ऊर्जा जाणवू लागली.
-												</blockquote>
-												<div class="pbminfotech-box-author">
-													<img src="images/homepage-6/testimonial/testimonial-01.jpg" class="img-fluid" alt="">
-													<h3 class="pbminfotech-author-name">अमोल सोनवणे</h3>
-													<span>पुणे</span>
-												</div>
-											</div>
-										</div>
-									</article>
-								</div>
+	<section class="testimonial-contact-section py-5" style="background-color: #fffaf5; font-family: 'Mukta', sans-serif;">
+		<div class="container">
+			<div class="row g-5 align-items-center">
 
-								<!-- Testimonial 2 -->
-								<div class="swiper-slide">
-									<article class="pbminfotech-testimonialbox-style-6">
-										<div class="pbminfotech-post-item">
-											<div class="pbminfotech-box-content">
-												<div class="pbminfotech-box-star">
-													<i class="pbmit-base-icon-star pbmit-active"></i>
-													<i class="pbmit-base-icon-star pbmit-active"></i>
-													<i class="pbmit-base-icon-star pbmit-active"></i>
-													<i class="pbmit-base-icon-star pbmit-active"></i>
-													<i class="pbmit-base-icon-star pbmit-active"></i>
-												</div>
-												<blockquote class="pbminfotech-testimonial-text">
-													आमच्या कन्या व जावई यांच्या साखरपुडा, हळदी व विवाहाचे सर्व विधी
-													सचिन गुरुजी व त्यांच्या टीमने अत्यंत विधीवत पार पाडले.
-													मंत्रोच्चार व विधी सजावट अतिशय सुंदर होती.
-												</blockquote>
-												<div class="pbminfotech-box-author">
-													<img src="images/homepage-6/testimonial/testimonial-02.jpg" class="img-fluid" alt="">
-													<h3 class="pbminfotech-author-name">
-														प्रा. के. डी. चौधरी पाटील<br>
-														सौ. आशालता चौधरी पाटील
-													</h3>
-													<span>नाशिक</span>
-												</div>
-											</div>
-										</div>
-									</article>
-								</div>
+				<div class="col-lg-6">
+					<div class="testimonial-side pe-lg-4">
+						<h4 class="text-orange fw-bold text-uppercase mb-2" style="color: #ff8c00; letter-spacing: 2px;">Testimonials</h4>
+						<h2 class="display-6 fw-bold mb-4">Our Trusted <br><span style="color: #ff8c00;">Satisfied Clients</span></h2>
 
-								<!-- Testimonial 3 -->
+						<div class="swiper testimonial-swiper-mini">
+							<div class="swiper-wrapper">
 								<div class="swiper-slide">
-									<article class="pbminfotech-testimonialbox-style-6">
-										<div class="pbminfotech-post-item">
-											<div class="pbminfotech-box-content">
-												<div class="pbminfotech-box-star">
-													<i class="pbmit-base-icon-star pbmit-active"></i>
-													<i class="pbmit-base-icon-star pbmit-active"></i>
-													<i class="pbmit-base-icon-star pbmit-active"></i>
-													<i class="pbmit-base-icon-star pbmit-active"></i>
-													<i class="pbmit-base-icon-star pbmit-active"></i>
-												</div>
-												<blockquote class="pbminfotech-testimonial-text">
-													वास्तु मार्गदर्शनासाठी आम्ही सचिन गुरुजींना भेटलो.
-													लहान बदलांमुळे घरातील वातावरण अधिक शांत व सकारात्मक झाले.
-													आम्हाला पूर्ण समाधान मिळाले.
-												</blockquote>
-												<div class="pbminfotech-box-author">
-													<img src="images/homepage-6/testimonial/testimonial-03.jpg" class="img-fluid" alt="">
-													<h3 class="pbminfotech-author-name">सौरभ देशमुख</h3>
-													<span>मुंबई</span>
-												</div>
-											</div>
+									<div class="testimonial-mini-card p-4 bg-white shadow-sm" style="border-radius: 15px; border-left: 5px solid #ff8c00;">
+										<div class="star-rating mb-2" style="color: #ffc107; font-size: 0.8rem;">
+											<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
 										</div>
-									</article>
+										<p class="fs-6 italic" style="color: #555;">"The Vastu changes suggested by Sachin Guruji have brought a lot of positivity to our house. The non-destructive solutions were extremely effective."</p>
+										<div class="d-flex align-items-center mt-3">
+											<img src="images/homepage-1/avatar/img-01.png" class="rounded-circle me-3" width="110" height="100">
+											<h3 class="fw-bold mb-0">Amol Sonawane, <span class="fw-normal text-muted">Pune</span></h3>
+										</div>
+									</div>
 								</div>
-
+								<div class="swiper-slide">
+									<div class="testimonial-mini-card p-4 bg-white shadow-sm" style="border-radius: 15px; border-left: 5px solid #ff8c00;">
+										<div class="star-rating mb-2" style="color: #ffc107; font-size: 0.8rem;">
+											<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+										</div>
+										<p class="fs-6 italic" style="color: #555;">"The wedding rituals of my daughter were performed perfectly by Guruji. The importance of mantras and rituals was explained in a very clear and understandable way."</p>
+										<div class="d-flex align-items-center mt-3">
+											<img src="images/homepage-1/avatar/img-02.png" class="rounded-circle me-3" width="110" height="100">
+											<h3 class="fw-bold mb-0">Smt. Ashalata Patil, <span class="fw-normal text-muted">Nashik</span></h3>
+										</div>
+									</div>
+								</div>
 							</div>
-							<span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+							<div class="swiper-pagination mt-4 position-relative"></div>
 						</div>
 					</div>
 				</div>
+
+				<div class="col-lg-6">
+					<div class="contact-form-card p-5 bg-white shadow-lg" style="border-radius: 25px; border-top: 8px solid #ff8c00;">
+						<h3 class="fw-bold mb-2">Contact Us For Discussion</h3>
+						<p class="text-muted mb-4">Connect with us today to resolve your challenges.</p>
+
+						<form action="contact-process.php" method="POST">
+							<div class="row g-3">
+								<div class="col-md-6">
+									<label class="form-label fw-bold">Name</label>
+									<input type="text" name="name" class="form-control custom-input" placeholder="Your Name" required>
+								</div>
+								<div class="col-md-6">
+									<label class="form-label fw-bold">Mobile Number</label>
+									<input type="tel" name="phone" class="form-control custom-input" placeholder="91XXXXXXXX" required>
+								</div>
+								<div class="col-12">
+									<label class="form-label fw-bold">Service Type</label>
+									<select name="service" class="form-select custom-input">
+										<option selected>Select...</option>
+										<option>Vastu Consulting</option>
+										<option>Jyotish Guidance</option>
+										<option>Puja Vidhi</option>
+									</select>
+								</div>
+								<div class="col-12">
+									<label class="form-label fw-bold">Message</label>
+									<textarea name="message" class="form-control custom-input" rows="3" placeholder="Briefly describe your problem..."></textarea>
+								</div>
+								<div class="col-12">
+									<button type="submit" class="btn btn-orange w-100 py-3 mt-2 fw-bold text-uppercase">Send Message</button>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+
 			</div>
 		</div>
 	</section>
@@ -539,4 +310,18 @@
 </div>
 <!-- Page Content End -->
 
+<script>
+	var testimonialSwiperMini = new Swiper(".testimonial-swiper-mini", {
+		slidesPerView: 1,
+		spaceBetween: 20,
+		loop: true,
+		autoplay: {
+			delay: 4500,
+		},
+		pagination: {
+			el: ".swiper-pagination",
+			clickable: true,
+		},
+	});
+</script>
 <?php include 'english/footer.php'; ?>

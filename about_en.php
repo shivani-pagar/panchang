@@ -101,6 +101,206 @@
         --white: #FFFFFF;
     }
 
+
+    .guruji-full-profile {
+        padding: 100px 0;
+        background: linear-gradient(to bottom, #fffaf5, #ffffff);
+        font-family: 'Mukta', sans-serif;
+    }
+
+    /* Image Side */
+    .profile-image-box {
+        position: relative;
+        text-align: center;
+    }
+
+    .image-wrapper {
+        position: relative;
+        border-radius: 25px;
+        overflow: hidden;
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    }
+
+    .image-wrapper img {
+        width: 100%;
+        border-radius: 25px;
+    }
+
+    .experience-badge {
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+        background: #D32F2F;
+        color: #fff;
+        padding: 10px 20px;
+        font-weight: 700;
+        border-radius: 30px;
+        font-size: 14px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    .motto-box {
+        margin-top: 25px;
+        padding: 12px;
+        border: 2px dashed #D32F2F;
+        border-radius: 12px;
+        font-weight: 700;
+        color: #D32F2F;
+        background: #fff;
+    }
+
+    /* Content Side */
+    .section-subtitle {
+        color: #E65100;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+
+    .guruji-name {
+        font-size: 2.4rem;
+        font-weight: 800;
+        margin-top: 10px;
+    }
+
+    .section-line {
+        width: 70px;
+        height: 4px;
+        background: #D32F2F;
+        margin: 15px 0 30px;
+    }
+
+    .profile-content p {
+        color: #555;
+        line-height: 1.9;
+        margin-bottom: 20px;
+        text-align: justify;
+    }
+
+    .mini-title {
+        font-weight: 700;
+        margin-top: 40px;
+        color: #3E2723;
+    }
+
+    /* Container to control width */
+    .mantra-ribbon-container {
+        max-width: 950px;
+        /* रुंदी कमी केली */
+        margin: 20px auto;
+        padding: 0 15px;
+    }
+
+    /* Slim Ribbon Styling */
+    .mantra-ribbon-slim {
+        background: linear-gradient(45deg, #ffddab, #ffd6a7);
+        /* सात्विक लाल रंग */
+        color: #ffffff;
+        border-radius: 12px;
+        padding: 12px 25px;
+        /* उंची कमी केली */
+        box-shadow: 0 4px 15px rgba(211, 47, 47, 0.2);
+        border: 2px solid #FFD700;
+        /* सोनेरी बॉर्डर */
+    }
+
+    .mantra-inner-wrap {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 15px;
+    }
+
+    /* Icon Size */
+    .mantra-icon {
+        font-size: 1.5rem;
+        color: #FFD700;
+    }
+
+    /* Text Content Alignment */
+    .mantra-content {
+        text-align: center;
+        flex: 1;
+    }
+
+    /* Sanskrit Text - Smaller & Bold */
+    .sanskrit-shlok-small {
+        font-size: 1.1rem;
+        font-weight: 700;
+        margin-bottom: 3px;
+        /* अंतर कमी केले */
+
+        color: #FFF9C4;
+    }
+
+    /* Meaning Text - Smaller */
+    .shlok-meaning-small {
+        font-size: 0.85rem;
+        margin-bottom: 0;
+        opacity: 0.9;
+        line-height: 1.4;
+    }
+
+    /* Mobile Responsive */
+    @media (max-width: 768px) {
+        .mantra-inner-wrap {
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .mantra-icon {
+            display: none;
+            /* मोबाईलवर आयकॉन लपवले जेणेकरून उंची वाचेल */
+        }
+
+        .sanskrit-shlok-small {
+            font-size: 1rem;
+        }
+    }
+
+    /* Responsive */
+    @media (max-width: 991px) {
+        .guruji-full-profile {
+            padding: 60px 0;
+        }
+
+        .guruji-name {
+            font-size: 1.8rem;
+        }
+    }
+
+
+    /* Sacred Quote */
+    .sacred-quote {
+        background: #fff;
+        border-radius: 15px;
+        border: 1px solid #FFE0B2;
+    }
+
+    .sanskrit-text {
+        font-size: 1.1rem;
+        font-weight: 700;
+        color: #D32F2F;
+    }
+
+    .marathi-meaning {
+        font-size: 0.9rem;
+        color: #5D4037;
+        font-weight: 600;
+    }
+
+    /* Responsive */
+    @media (max-width: 991px) {
+        .profile-image-frame {
+            min-height: 400px;
+            margin-bottom: 30px;
+        }
+
+        .profile-main-title {
+            font-size: 2.2rem;
+        }
+    }
+
     /* Section Background */
     .about-profile-section {
         background-color: var(--ivory-light);
@@ -252,7 +452,7 @@
                         </div>
                         <div class="pbmit-breadcrumb">
                             <div class="pbmit-breadcrumb-inner">
-                                <span><a title="" href="index.php" class="home"><span>मुख्यपृष्ठ</span></a></span>
+                                <span><a title="" href="index.php" class="home"><span>Home</span></a></span>
                                 <span class="sep">-</span>
                                 <span><span class="post-root post post-post current-item">About us</span></span>
                             </div>
@@ -282,7 +482,7 @@
                     </div>
                     <div class="experience-seal bg-gold">
                         <span class="count">२५+</span>
-                        <span class="text">वर्षांचा <br> समृद्ध अनुभव</span>
+                        <span class="text">years <br> Experience</span>
                     </div>
                 </div>
             </div>
@@ -337,46 +537,74 @@
     </div>
 </section>
 
-<section class="section-md bg-light">
+<section class="guruji-full-profile">
     <div class="container">
-        <div class="row align-items-center">
-            <div class="col-md-6 order-md-2">
-                <div class="about-us-right-img mb-4">
-                    <img src="images/About images/img02.png" class="img-fluid w-100 rounded shadow" alt="श्री. सचिन जोशी गुरुजी">
+        <div class="row align-items-center g-5">
+
+            <!-- LEFT IMAGE SIDE -->
+            <div class="col-lg-5">
+                <div class="profile-image-box">
+                    <div class="image-wrapper">
+                        <img src="images/About images/img02.png" alt="श्री सचिन जोशी गुरुजी">
+                        <div class="experience-badge">25+ years of experience</div>
+                    </div>
+
+                    <div class="motto-box">
+                        "Achievement in Resolution"
+                    </div>
                 </div>
             </div>
-            <div class="col-md-6 order-md-1">
-                <div class="pbmit-heading-subheading-style-1 mb-4">
-                    <h2 class="pbmit-title mb-3">Mr. Sachin Joshi Guruji</h2>
-                    <h4 class="pbmit-subtitle">Vastu and Astrological Guide</h4>
-                </div>
-                <div class="about-content">
-                    <p class="text-justify">
-                        Sachin Joshi Panchang Vastu Associates has been working for the last 25 years in the three fields of Vedic rituals, Astrology, and Vastu Shastra. Through various types of Yajna rituals, marriages, Navchandi, Vastu Shanti, and with accurate knowledge of Astrology and Vastu Shastra, he has consistently provided proper guidance to many families in India and abroad to help them overcome physical, mental, and financial difficulties. By the grace of a great Guru, he acquired knowledge of the Vedas at Gurugangeshwar Ved Mandir in Nashik and gained expertise in Vastu and Astrology from Nashik, Kashi, Karnataka, and Dharwad. In the future, the work of knowledge donation continues so that Astrology and Vastu Shastra may spread widely and everyone may experience this ancient science.
+
+            <!-- RIGHT CONTENT SIDE -->
+            <div class="col-lg-7">
+                <div class="profile-content">
+
+                    <span class="section-subtitle">Vastu Consultant and Astrologer</span>
+                    <h2 class="">Shri Sachin Joshi Guruji</h2>
+                    <div class="section-line"></div>
+
+                    <p>
+                        <strong>Sachin Joshi Panchnag Vastu Associates</strong> has been working in all three fields of Vedic work, astrology and Vastu Shastra for the last
+                        25 years. Through various types of Yajnakarma, marriage,
+                        Navchandi, Vastu Shanti as well as accurate astrology and Vastu guidance,
+                        they have helped many families in India and abroad overcome physical, mental and
+                        financial difficulties.
                     </p>
 
-                    <h5 class="mt-4 mb-3">Shri Sachin Joshi Guruji – Vastu Shastra and Solutions</h5>
-                    <p class="text-justify">
-                        Shri Sachin Joshi Guruji is an experienced Vastu consultant in Nashik who provides accurate guidance in Vastu Shastra through his organization, 'Sachin Joshi Panchang Vastu Associates'. Using his knowledge and experience, he creates positive energy in people’s homes and commercial spaces, bringing happiness, prosperity, and peace.
+                    <p>
+                        He studied Vedas at <strong>Gurugangeshwar Veda Mandir</strong> in Nashik
+                        and also acquired Vastu and Astrology knowledge from Nashik, Kashi and Karnataka (Dharwad).
+                        He is continuously engaged in the work of imparting knowledge so that the ancient Indian knowledge tradition is propagated and the society gets the benefit of this knowledge
                     </p>
 
-                    <p class="text-justify">
-                        By utilizing Shri Sachin Joshi Guruji’s knowledge and experience in Vastu Shastra, many people have brought positive changes into their lives.
+                    <h4 class="mini-title">Vastu Shastra and Solutions</h4>
+
+                    <p>
+                        Shri Sachin Joshi Guruji is an experienced Vastu consultant who provides accurate guidance to create positive energy in homes, offices and commercial spaces and achieve
+                        happiness, peace and prosperity. Due to his experience, many have experienced positive transformation in their lives.
                     </p>
 
-                    <blockquote class="blockquote text-center mt-4 mb-4 p-3 bg-white rounded shadow-sm">
-                        <p class="mb-2"><em>
-                                "Na tvaham kamaye rajyam, na svarga na punarbhavam.
-                                Kamaye dukhataptanam, praninam artinashanam."
-                            </em></p>
-                        <footer class="blockquote-footer">
-                            Meaning: "I do not desire a kingdom, nor heaven, nor rebirth (liberation). I have only one wish – to remove the suffering of all those who are afflicted by pain."
-                        </footer>
-                    </blockquote>
+                    <div class="mantra-ribbon-container">
+                        <div class="mantra-ribbon-slim">
+                            <div class="mantra-inner-wrap">
+                                <div class="mantra-icon"><i class="fas fa-om"></i></div>
+                                <div class="mantra-content">
+                                    <p class="sanskrit-shlok-small">
+                                        “I do not desire a kingdom nor heaven nor rebirth I desire the destruction of the sufferings of living beings tormented by misery
+                                    </p>
+                                    <p class="shlok-meaning-small">
+                                        <strong>Meaning:</strong> "I have no desire for the kingdom, nor for heaven nor for rebirth (salvation). I have only one desire – to remove the suffering of all human beings who are suffering."
+                                    </p>
+                                </div>
+                                <div class="mantra-icon"><i class="fas fa-om"></i></div>
+                            </div>
+                        </div>
+                    </div>
 
-                    <p class="text-justify">
-                        In accordance with this saying, Shri Sachin Joshi Guruji works for the welfare of humanity. He uses his knowledge to remove people’s suffering and bring happiness and prosperity into their lives. As per the saying “Sankalpat Jayate Siddhi,” with strong determination, Shri Sachin Joshi Guruji helps people achieve success in their lives by providing proper guidance according to Vastu Shastra.
+                    <p>
+                        According to this ideology, Shri Sachin Joshi Guruji is working for human welfare. They are dedicated to creating positivity, success and satisfaction in people’s lives through their knowledge and experience.
                     </p>
+
                 </div>
             </div>
 
@@ -526,6 +754,6 @@
         </div>
     </div>
 </section>
-<?php include 'counter.php'; ?>
+<?php include 'counter_en.php'; ?>
 
-<?php include 'english/footer.php'; ?>  
+<?php include 'english/footer.php'; ?>

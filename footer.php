@@ -14,7 +14,7 @@
                     <div class="widget footer-widget">
                         <div class="footer-logo-simple">
                             <!-- replace with your logo – we use a placeholder but style it classically -->
-                            <img src="\images\guruji\panchang-vastu-logo.webp" alt="Panchang Vastu Logo" class="img-fluid">
+                            <img src="images\guruji\panchang-vastu-logo.webp" alt="Panchang Vastu Logo" class="img-fluid">
                             <div class="guruji-name">सचिन जोशी</div>
                             <div class="guruji-title">ज्योतिष · वास्तु तज्ज्ञ</div>
                             <div class="sanskrit-motto">“संकल्पात् जायते सिद्धि”</div>
@@ -50,9 +50,9 @@
 
                         <!-- classic social icons -->
                         <div class="social-classic">
-                            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-                            <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                            <a href="https://www.facebook.com/profile.php?id=100092190630759" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://www.instagram.com/panchangvastuassociate/" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/sachin-joshi-729335240/" aria-label="Linkedin"><i class="fab fa-linkedin-in"></i></a>
                         </div>
                     </div>
                 </div>

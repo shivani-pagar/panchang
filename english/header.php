@@ -94,7 +94,7 @@
                     <ul class="dropdown-menu">
                         <!-- Vedic Sciences -->
                         <li class="dropdown-submenu">
-                            <a href="vedic-shastra.php" class="dropdown-item">
+                            <a href="vedic_science.php" class="dropdown-item">
                                 <i class="fas fa-book-open me-2"></i> Vedic Science
                             </a>
                             <ul class="dropdown-menu">
@@ -111,7 +111,7 @@
 
                         <!-- Astrology -->
                         <li class="dropdown-submenu">
-                            <a href="jyotish-shastra.php" class="dropdown-item">
+                            <a href="astrologies.php" class="dropdown-item">
                                 <i class="fas fa-star me-2"></i>Astrology
                             </a>
                             <ul class="dropdown-menu">
@@ -128,11 +128,11 @@
 
                         <!-- Vastu Shastra -->
                         <li class="dropdown-submenu">
-                            <a href="vastu-shastra.php" class="dropdown-item">
+                            <a href="consulting.php" class="dropdown-item">
                                 <i class="fas fa-home me-2"></i> Vastu Consulting
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a href="vastu-consulting.php" class="dropdown-item">Vastu Consulting</a></li>
+                                <li><a href="vaastu-consulting.php" class="dropdown-item">Vastu Consulting</a></li>
                                 <li><a href="land-survey.php" class="dropdown-item">Land Survey</a></li>
                                 <li><a href="architectural-examination.php" class="dropdown-item">Architectural Examination</a></li>
                                 <li><a href="vaastu-aura-scanner.php" class="dropdown-item">Vastu Aura Scanner</a></li>
@@ -169,6 +169,9 @@
                         </li>
                         <li>
                             <a href="home.php" class="dropdown-item">English (EN)</a>
+                        </li>
+                         <li>
+                            <a href="index1.php" class="dropdown-item">Hindi (Hi)</a>
                         </li>
                     </ul>
                 </li>

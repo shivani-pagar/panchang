@@ -662,4 +662,4 @@
 
 </section>
 
-<?php include 'footer.php'; ?>
+<?php include 'english/footer.php'; ?>

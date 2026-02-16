@@ -21,7 +21,7 @@
                 </div>
                 <?php include 'sachin_guruji.php'; ?>
             </div>
-             <?php include 'inner-form.php'; ?>
+            <?php include 'inner-form.php'; ?>
         </div>
     </div>
 </div>
@@ -88,40 +88,52 @@
 <script>
     // JavaScript for Lightbox functionality
     const images = [{
-            src: "images/guruji/gallery/g01.jpg",
+            src: "images/images/img01.jpg",
             alt: "श्री. सचिन जोशी गुरुजी - वैदिक यज्ञ"
         },
         {
-            src: "images/guruji/gallery/g02.jpg",
+            src: "images/images/img02.jpeg",
             alt: "नवचंडी यज्ञ कर्म"
         },
         {
-            src: "images/guruji/gallery/g03.jpg",
+            src: "images/images/img03.jpg",
             alt: "वास्तू शांती पूजा"
         },
         {
-            src: "images/guruji/gallery/g04.jpg",
+            src: "images/images/img04.png",
             alt: "मंगल कार्ये"
         },
         {
-            src: "images/guruji/gallery/g05.jpg",
+            src: "images/images/img05.png",
             alt: "ज्योतिष सल्लामसलत"
         },
         {
-            src: "images/guruji/gallery/g06.jpg",
+            src: "images/images/img06.png",
             alt: "वैदिक कर्मकांड"
         },
         {
-            src: "images/guruji/gallery/g07.jpg",
+            src: "images/images/img07.png",
             alt: "विवाह संस्कार"
         },
         {
-            src: "images/guruji/gallery/g08.jpg",
+            src: "images/images/img08.png",
             alt: "हवन यज्ञ"
         },
         {
-            src: "images/guruji/gallery/g09.jpg",
+            src: "images/images/img09.jpeg",
             alt: "ग्रह शांती पूजा"
+        },
+        {
+            src: "images/images/img10.png",
+            alt: "पितृ शांती पूजा"
+        },
+        {
+            src: "images/images/img11.png",
+            alt: "रुद्राभिषेक पूजा"
+        },
+        {
+            src: "images/images/img12.jpeg",
+            alt: "रुद्राभिषेक पूजा"
         }
     ];
 
