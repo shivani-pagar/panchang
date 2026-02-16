@@ -6,25 +6,33 @@
 
 
 
-
-
-	<section class="slider-wrp position-relative" style="font-family: 'Mukta', sans-serif; overflow: hidden;">
+	<section class="hero-static-wrp position-relative">
 		<div class="swiper-container main-hero-slider">
 			<div class="swiper-wrapper">
 
 				<div class="swiper-slide">
-					<div class="bg-img" style="background: linear-gradient(90deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.2) 100%), url(images/guruji/bg1.jpg); background-size:cover; background-position: center; min-height: 85vh; display: flex; align-items: center;">
+					<div class="hero-slide-bg-clean slide-one">
 						<div class="container">
-							<div class="row align-items-center">
-								<div class="col-12 col-md-7">
-									<div class="banner-conn text-white">
-										<h1 style="font-size: clamp(2.5rem, 5vw, 4rem); font-weight: 800; line-height: 1.2; margin-bottom: 20px; color: #ffca28;">सनातन वैदिक परंपरा</h1>
-										<p style="font-size: 1.25rem; font-weight: 400; margin-bottom: 35px; opacity: 0.9;">आपल्या घरातूनच दैवी आशीर्वादाचा अनुभव घ्या. प्राचीन विधी आणि शुद्ध मंत्रोच्चार.</p>
-										<a href="#book" class="btn" style="background: #ff8c00; color: #fff; padding: 15px 40px; font-weight: 700; border-radius: 50px; text-transform: uppercase; letter-spacing: 1px; box-shadow: 0 4px 15px rgba(255,140,0,0.4);">आरक्षण करा</a>
+							<div class="row align-items-center min-vh-85">
+								<div class="col-12 col-md-8 col-lg-7">
+									<div class="hero-content">
+										<span class="badge mb-3 custom-badge animate__animated animate__fadeInDown">प्राचीन भारतीय विद्या</span>
+										<h1 class="hero-title-clean animate__animated animate__fadeInLeft">सनातन वैदिक <br><span class="highlight-text">परंपरा व आशीर्वाद</span></h1>
+										<p class="hero-desc-clean animate__animated animate__fadeInLeft animate__delay-1s">तुमच्या आयुष्यातील संकटांचे निवारण शुद्ध मंत्रोच्चार आणि प्राचीन वैदिक विधींद्वारे करा. अनुभवा दैवी चैतन्य तुमच्याच घरी.</p>
+										<div class="hero-btns-clean animate__animated animate__fadeInUp animate__delay-1s">
+											<a href="#book" class="btn-orange">विधी बुक करा</a>
+											<a href="tel:+91XXXXXXXXXX" class="btn-outline-orange ml-md-3">चर्चा करा</a>
+										</div>
 									</div>
 								</div>
-								<div class="col-12 col-md-5 d-none d-md-block text-center">
-									<img src="images/guruji/mock.png" class="img-fluid" style="max-height: 500px; filter: drop-shadow(0 10px 20px rgba(0,0,0,0.5));">
+								<div class="col-12 col-md-4 col-lg-5 d-none d-md-block text-center">
+									<div class="image-frame-gold animate__animated animate__zoomIn animate__delay-1s">
+										<img src="images/homepage-1/bg03.png" class="img-fluid main-img-clean" alt="Vedic Guru">
+										<div class="exp-badge-white">
+											<span class="num">१५+</span>
+											<span class="txt">वर्षांचा अनुभव</span>
+										</div>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -32,18 +40,24 @@
 				</div>
 
 				<div class="swiper-slide">
-					<div class="bg-img" style="background: linear-gradient(90deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.2) 100%), url(images/guruji/bg2.jpg); background-size:cover; background-position: center; min-height: 85vh; display: flex; align-items: center;">
+					<div class="hero-slide-bg-clean slide-two">
 						<div class="container">
-							<div class="row align-items-center">
-								<div class="col-12 col-md-7">
-									<div class="banner-conn text-white">
-										<h1 style="font-size: clamp(2.5rem, 5vw, 4rem); font-weight: 800; line-height: 1.2; margin-bottom: 20px; color: #ffca28;">ज्योतिष व वास्तुने जीवन परिवर्तन</h1>
-										<p style="font-size: 1.25rem; font-weight: 400; margin-bottom: 35px; opacity: 0.9;">सकारात्मक ऊर्जा, सुख-समृद्धी आणि जीवनातील संतुलनासाठी अचूक मार्गदर्शन.</p>
-										<a href="contact.php" class="btn" style="background: #ff8c00; color: #fff; padding: 15px 40px; font-weight: 700; border-radius: 50px; text-transform: uppercase; letter-spacing: 1px;">संपर्क साधा</a>
+							<div class="row align-items-center min-vh-85">
+								<div class="col-12 col-md-8 col-lg-7">
+									<div class="hero-content">
+										<span class="badge mb-3 custom-badge">ज्योतिष व वास्तु कन्सल्टिंग</span>
+										<h1 class="hero-title-clean">ज्योतिष व वास्तुने <br><span class="highlight-text">जीवनात बदल घडवा</span></h1>
+										<p class="hero-desc-clean">ग्रहदोष आणि वास्तुदोषांवर शास्त्राधारित अचूक उपाय. सुख-समृद्धी आणि प्रगतीचा नवा मार्ग शोधा.</p>
+										<div class="hero-btns-clean">
+											<a href="contact.php" class="btn-orange">संपर्क साधा</a>
+											<a href="#services" class="btn-outline-orange ml-md-3">आमच्या सेवा</a>
+										</div>
 									</div>
 								</div>
-								<div class="col-12 col-md-5 d-none d-md-block text-center">
-									<img src="images/guruji/mock2.png" class="img-fluid" style="max-height: 500px; filter: drop-shadow(0 10px 20px rgba(0,0,0,0.5));">
+								<div class="col-12 col-md-4 col-lg-5 d-none d-md-block text-center">
+									<div class="image-frame-gold">
+										<img src="images/homepage-1/bg03.png" class="img-fluid main-img-clean" alt="Astrology Expert">
+									</div>
 								</div>
 							</div>
 						</div>
@@ -51,7 +65,7 @@
 				</div>
 
 			</div>
-			<div class="swiper-pagination custom-dots"></div>
+			<div class="swiper-pagination custom-hero-dots-gold"></div>
 		</div>
 	</section>
 
@@ -59,20 +73,23 @@
 	<script>
 		var swiper = new Swiper(".main-hero-slider", {
 			slidesPerView: 1,
-			spaceBetween: 0,
 			loop: true,
-			effect: "fade", // Professional fade effect instead of slide
-			speed: 1000,
+			effect: "fade",
+			fadeEffect: {
+				crossFade: true
+			},
+			speed: 1500,
 			autoplay: {
-				delay: 5000, // 5 seconds per slide
+				delay: 6000,
 				disableOnInteraction: false,
 			},
 			pagination: {
-				el: ".swiper-pagination",
+				el: ".custom-hero-dots-gold",
 				clickable: true,
 			},
 		});
 	</script>
+
 
 	<!-- Icon Box Start -->
 	<section class="icon-box-six">
