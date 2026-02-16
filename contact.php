@@ -173,104 +173,139 @@ include 'header.php';
     </div>
 </div>
 
-<section class="contact-section-classic py-5" style="background-color: #fffaf5; font-family: 'Mukta', sans-serif;">
+<section class="testimonial-contact-section py-5" style="background-color: #fffaf5; font-family: 'Mukta', sans-serif;">
     <div class="container">
-        <div class="row g-5">
-            <div class="col-lg-8">
-                <div class="contact-form-wrapper p-4 p-md-5 bg-white shadow-sm" style="border-radius: 20px; border-top: 5px solid #D32F2F;">
-                    <div class="pbmit-heading-subheading mb-4">
-                        <h4 class="pbmit-subtitle text-orange fw-bold text-uppercase" style="color: #ff8c00; letter-spacing: 2px;">संपर्कात रहा</h4>
-                        <h2 class="pbmit-title display-6 fw-bold">आमच्याशी <strong style="color: #D32F2F;">संपर्क साधा</strong></h2>
+        <div class="row g-5 align-items-center">
+            
+            <!-- Left Column: Testimonial -->
+            <div class="col-lg-6">
+                <div class="testimonial-side pe-lg-4">
+                    <h4 class="text-orange fw-bold text-uppercase mb-2" style="color: #ff8c00; letter-spacing: 2px;">अभिप्राय</h4>
+                    <h2 class="display-6 fw-bold mb-4">आमच्यावर विश्वास ठेवणारे <br><span style="color: #ff8c00;">समाधानी ग्राहक</span></h2>
+                    
+                    <div class="swiper testimonial-swiper-mini">
+                        <div class="swiper-wrapper">
+                            <!-- Testimonial 1 -->
+                            <div class="swiper-slide">
+                                <div class="testimonial-mini-card p-4 bg-white shadow-sm" style="border-radius: 15px; border-left: 5px solid #ff8c00;">
+                                    <div class="star-rating mb-2" style="color: #ffc107; font-size: 0.8rem;">
+                                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                    </div>
+                                    <p class="fs-6 italic" style="color: #555;">"सचिन गुरुजींनी सुचवलेल्या वास्तु बदलांमुळे आमच्या घरात खूप सकारात्मकता आली आहे. विना तोडफोड केलेले उपाय अत्यंत प्रभावी ठरले."</p>
+                                    <div class="d-flex align-items-center mt-3">
+                                        <img src="images/homepage-1/avatar/img-01.png" class="rounded-circle me-3" width="60" height="60" alt="avatar">
+                                        <h3 class="fw-bold mb-0">अमोल सोनवणे, <span class="fw-normal text-muted">पुणे</span></h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Testimonial 2 -->
+                            <div class="swiper-slide">
+                                <div class="testimonial-mini-card p-4 bg-white shadow-sm" style="border-radius: 15px; border-left: 5px solid #ff8c00;">
+                                    <div class="star-rating mb-2" style="color: #ffc107; font-size: 0.8rem;">
+                                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                    </div>
+                                    <p class="fs-6 italic" style="color: #555;">"मुलीच्या लग्नाचे सर्व विधी गुरुजींनी अत्यंत शास्त्रोक्त पद्धतीने पार पाडले. मंत्रोच्चार आणि विधींचे महत्त्व त्यांनी खूप छान समजावून सांगितले."</p>
+                                    <div class="d-flex align-items-center mt-3">
+                                        <img src="images/homepage-1/avatar/img-02.png" class="rounded-circle me-3" width="60" height="60" alt="avatar">
+                                        <h3 class="fw-bold mb-0">सौ. आशालता पाटील, <span class="fw-normal text-muted">नाशिक</span></h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Swiper pagination -->
+                        <div class="swiper-pagination mt-4 position-relative"></div>
                     </div>
+                </div>
+            </div>
 
-
+            <!-- Right Column: Contact Form (exactly as second example) -->
+            <div class="col-lg-6">
+                <div class="contact-form-card p-5 bg-white shadow-lg" style="border-radius: 25px; border-top: 8px solid #ff8c00;">
+                    <h3 class="fw-bold mb-2">चर्चा करण्यासाठी संपर्क साधा</h3>
+                    <p class="text-muted mb-4">तुमच्या अडचणी सोडवण्यासाठी आजच आमच्याशी संपर्क साधा.</p>
+                    
                     <form method="post" id="contactForm">
                         <div class="row g-3">
                             <div id="form_response" class="col-md-12"></div>
 
-                            <div class="col-md-12">
-                                <input type="text" name="name" id="name" class="form-control classic-input" placeholder="आपले नाव" required="">
+                            <div class="col-md-6">
+                                <label class="form-label fw-bold">नाव</label>
+                                <input type="text" name="name" id="name" class="form-control classic-input" placeholder="तुमचे नाव" required>
                             </div>
                             <div class="col-md-6">
-                                <input type="tel" name="phone" id="phone" class="form-control classic-input" placeholder="मोबाईल नंबर" required="">
+                                <label class="form-label fw-bold">ईमेल</label>
+                                <input type="email" name="email" id="email" class="form-control classic-input" placeholder="तुमचा ईमेल" required>
                             </div>
                             <div class="col-md-6">
-                                <input type="email" name="email" id="email" class="form-control classic-input" placeholder="ईमेल" required="">
+                                <label class="form-label fw-bold">मोबाईल नंबर</label>
+                                <input type="tel" name="phone" id="phone" class="form-control classic-input" placeholder="९१XXXXXXXX" required>
                             </div>
-                            <div class="col-md-12">
-                                <textarea name="message" id="message" cols="40" rows="4" class="form-control classic-input" placeholder="आपला संदेश" required=""></textarea>
+                            <div class="col-md-6">
+                                <label class="form-label fw-bold">सेवेचा प्रकार</label>
+                                <select name="service" id="service" class="form-select classic-input" required>
+                                    <option value="" selected disabled>निवडा...</option>
+                                    <option>वास्तु कन्सल्टिंग</option>
+                                    <option>ज्योतिष मार्गदर्शन</option>
+                                    <option>पूजा विधी</option>
+                                </select>
+                            </div>
+                            <div class="col-12">
+                                <label class="form-label fw-bold">संदेश</label>
+                                <textarea name="message" id="message" class="form-control classic-input" rows="3" placeholder="तुमची समस्या थोडक्यात लिहा..." required></textarea>
                             </div>
 
-                            <!-- Hidden fields for complete URL information -->
+                            <!-- Hidden fields for complete URL information (same as second section) -->
                             <input type="hidden" name="Full_Domain" id="full_domain" value="<?php echo $fullDomain; ?>">
                             <input type="hidden" name="Full_URL" id="full_url" value="<?php echo $fullURL; ?>">
                             <input type="hidden" name="Page_Name" id="page_name" value="<?php echo $curPageName; ?>">
                             <input type="hidden" name="Protocol" id="protocol" value="<?php echo $protocol; ?>">
 
-                            <div class="col-md-12 text-center text-md-start">
-                                <button type="submit" id="submit_btn" class="pbmit-btn btn-classic-submit">
-
-
+                            <div class="col-12">
+                                <button type="submit" id="submit_btn" class="btn btn-orange w-100 py-3 mt-2 fw-bold text-uppercase" style="background: linear-gradient(45deg, #D32F2F, #B71C1C); border: none; color: white; border-radius: 50px; box-shadow: 0 10px 20px rgba(211, 47, 47, 0.2);">
                                     <i class="form-btn-loader fa fa-circle-o-notch fa-spin fa-fw margin-bottom d-none"></i>
-                                    <span class="btn-text">संदेश पाठवा</span>
+                                    <span class="btn-text">माहिती पाठवा</span>
                                     <i class="fas fa-paper-plane ms-2"></i>
                                 </button>
                             </div>
                         </div>
                     </form>
-
-                    <div class="ifram mt-5 overflow-hidden shadow-sm" style="border-radius: 15px; border: 1px solid #eee;">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3749.123456789!2d73.7654321!3d19.9876543!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTnCsDU5JzE1LjYiTiA3M8KwNDUnNTUuNiJF!5e0!3m2!1sen!2sin!4v1620000000000!5m2!1sen!2sin" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                    </div>
                 </div>
             </div>
 
-            <div class="col-lg-4">
-                <div class="contact-info-sidebar h-100 d-flex flex-column gap-4 py-md-2">
-                    <div class="classic-info-card p-4 bg-white shadow-sm">
-                        <div class="d-flex align-items-start gap-3">
-                            <div class="info-icon-box">
-                                <i class="fas fa-envelope-open-text"></i>
-                            </div>
-                            <div class="info-details">
-                                <h5 class="fw-bold mb-1" style="color: #D32F2F;">ईमेल</h5>
-                                <a href="mailto:panchangvaastu@gmail.com" class="text-decoration-none text-muted">panchangvaastu@gmail.com</a>
-                                <div class="mt-3">
-                                    <a href="mailto:panchangvaastu@gmail.com" class="pbmit-btn-sm-classic">मेल करा</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+        </div>
+    </div>
+</section>
 
-                    <div class="classic-info-card p-4 bg-white shadow-sm">
-                        <div class="d-flex align-items-start gap-3">
-                            <div class="info-icon-box">
-                                <i class="fas fa-phone-volume"></i>
-                            </div>
-                            <div class="info-details">
-                                <h5 class="fw-bold mb-1" style="color: #D32F2F;">फोन</h5>
-                                <a href="tel:+919552095159" class="text-decoration-none text-muted">(+91) 95520 95159</a>
-                                <div class="mt-3">
-                                    <a href="tel:+919552095159" class="pbmit-btn-sm-classic">कॉल करा</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+<section class="map-section-premium py-5" style="background-color: #ffffff; font-family: 'Mukta', sans-serif;">
+    <div class="container">
+        <div class="row mb-4">
+            <div class="col-12 text-center">
+                <div class="section-title-wrapper">
+                    <h4 class="text-orange fw-bold text-uppercase mb-2" style="color: #ff8c00; letter-spacing: 2px; font-size: 0.9rem;">आमचे स्थान</h4>
+                    <h2 class="display-6 fw-bold text-dark">नकाशावर आम्हाला <strong style="color: #D32F2F;">शोधा</strong></h2>
+                    <div class="divider-line mx-auto" style="width: 60px; height: 3px; background: #D32F2F; margin-top: 10px;"></div>
+                </div>
+            </div>
+        </div>
 
-                    <div class="classic-info-card p-4 bg-white shadow-sm border-gold-left">
-                        <div class="d-flex align-items-start gap-3">
-                            <div class="info-icon-box">
-                                <i class="fas fa-map-marker-alt"></i>
-                            </div>
-                            <div class="info-details">
-                                <h5 class="fw-bold mb-1" style="color: #D32F2F;">पत्ता</h5>
-                                <p class="text-muted mb-0" style="font-size: 0.95rem; line-height: 1.6;">
-                                    पंचांग वास्तु असोसिएट्स, रुपाली अपार्टमेंट, दुकान क्र. 1, कॉलेज रोड, बी.वाय.के. सिग्नल मागे, नाशिक - 422005
-                                </p>
-                                <div class="mt-3">
-                                    <a href="#map" class="pbmit-btn-sm-classic">पत्ता पहा</a>
-                                </div>
-                            </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-12">
+                <div class="map-outer-frame shadow-lg p-2 bg-white" style="border-radius: 25px; border: 1px solid #ffe0b2;">
+                    <div class="map-inner-container overflow-hidden" style="border-radius: 20px; position: relative; height: 450px;">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d468.63026350080673!2d73.76316220000001!3d20.006747353011278!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdded41effaacb3%3A0xfc8bd65d5e7b070d!2sSachin%20Joshi%20Panchang%20Vaastu!5e0!3m2!1sen!2sin!4v1771239458484!5m2!1sen!2sin" 
+                            width="100%" 
+                            height="100%" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                        
+                        <div class="map-floating-card d-none d-lg-block">
+                            <h5 class="fw-bold mb-2" style="color: #D32F2F;">पंचांग वास्तु असोसिएट्स</h5>
+                            <p class="small text-muted mb-0"><i class="fas fa-map-marker-alt me-2 text-warning"></i> नाशिक, महाराष्ट्र - ४२२००५</p>
+                            <a href="https://goo.gl/maps/YOUR_LINK" target="_blank" class="btn-get-directions mt-3">मार्ग पहा</a>
                         </div>
                     </div>
                 </div>

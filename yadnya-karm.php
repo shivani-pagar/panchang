@@ -789,7 +789,7 @@
 
                     <div class="col-lg-6">
                         <div class="ritual-image-frame">
-                            <img src="images/images/mantrache-mahtv.png" class="img-fluid rounded-custom shadow-lg" alt="यज्ञाची प्रमुख अंगे">
+                            <img src="images/images/mantrache-mahtv.jpg" class="img-fluid rounded-custom shadow-lg" alt="यज्ञाची प्रमुख अंगे">
                             <div class="frame-decoration"></div>
                         </div>
                     </div>
