@@ -94,7 +94,7 @@
                     <ul class="dropdown-menu">
                         <!-- Vedic Sciences -->
                         <li class="dropdown-submenu">
-                            <a href="vedic-shastra.php" class="dropdown-item">
+                            <a href="vedic_science.php" class="dropdown-item">
                                 <i class="fas fa-book-open me-2"></i> Vedic Science
                             </a>
                             <ul class="dropdown-menu">
@@ -111,7 +111,7 @@
 
                         <!-- Astrology -->
                         <li class="dropdown-submenu">
-                            <a href="jyotish-shastra.php" class="dropdown-item">
+                            <a href="astrologies.php" class="dropdown-item">
                                 <i class="fas fa-star me-2"></i>Astrology
                             </a>
                             <ul class="dropdown-menu">
@@ -128,7 +128,7 @@
 
                         <!-- Vastu Shastra -->
                         <li class="dropdown-submenu">
-                            <a href="vastu-shastra.php" class="dropdown-item">
+                            <a href="consulting.php" class="dropdown-item">
                                 <i class="fas fa-home me-2"></i> Vastu Consulting
                             </a>
                             <ul class="dropdown-menu">
