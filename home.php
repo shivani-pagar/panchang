@@ -237,8 +237,8 @@
 
 						<div class="service-info text-center p-4">
 							<h3 class="fw-bold h4 mb-3">|| Vastu Consulting ||</h3>
-							<p class="text-muted mb-4" style="font-size: 0.95rem; line-height: 1.6;">वास्तूची अंतर्गत आणि बाह्य रचना, तसेच त्यामधील स्पंदने यांचा आपल्या जीवनावर मोठा परिणाम होतो. या स्पंदनांमुळे वास्तूमध्ये सकारात्मक किंवा नकारात्मक बदल घडून येतो.</p>
-							<a href="contact.php" class="service-link-btn">अधिक वाचा <i class="fas fa-arrow-right ms-2"></i></a>
+							<p class="text-muted mb-4" style="font-size: 0.95rem; line-height: 1.6;">The internal and external structure of a building, as well as the vibrations within it, have a major impact on our lives. These vibrations can bring about positive or negative changes in the building.</p>
+							<a href="contact.php" class="service-link-btn">Read More <i class="fas fa-arrow-right ms-2"></i></a>
 
 						</div>
 					</div>
@@ -249,12 +249,12 @@
 						<div class="service-img-box">
 							<img src="images/images/ved.jpg" alt="वैदिक शास्त्र" class="w-100">
 							<div class="service-overlay"></div>
-							<span class="service-tag">आरोग्य व दीर्घायुष्यासाठी</span>
+							<span class="service-tag">For Health and Longevity</span>
 						</div>
 						<div class="service-info text-center p-4">
 							<h3 class="fw-bold h4 mb-3">|| Vedic Science||</h3>
-							<p class="text-muted mb-4" style="font-size: 0.95rem; line-height: 1.6;">मनुष्य जन्माचा हेतू साध्य करण्यासाठी पवित्र हेतू सोबत नित्य ईश्वराची केलेली उपासना किंवा मंत्र जप यामुळे ईश्वरी आशीर्वाद लाभतो.</p>
-							<a href="contact.php" class="service-link-btn">अधिक वाचा <i class="fas fa-arrow-right ms-2"></i></a>
+							<p class="text-muted mb-4" style="font-size: 0.95rem; line-height: 1.6;">To achieve the purpose of human birth, proper worship of the holy deity along with daily worship of the Lord or chanting of mantras brings divine blessings.</p>
+							<a href="contact.php" class="service-link-btn">Read More <i class="fas fa-arrow-right ms-2"></i></a>
 						</div>
 					</div>
 				</div>
@@ -264,12 +264,12 @@
 						<div class="service-img-box">
 							<img src="images/images/jyoti.jpg" alt="ज्योतिष शास्त्र" class="w-100">
 							<div class="service-overlay"></div>
-							<span class="service-tag">शांती व यशासाठी</span>
+							<span class="service-tag">For Peace and Prosperity</span>
 						</div>
 						<div class="service-info text-center p-4">
-							<h3 class="fw-bold h4 mb-3">|| ज्योतिष शास्त्र ||</h3>
-							<p class="text-muted mb-4" style="font-size: 0.95rem; line-height: 1.6;">जन्म तारखे नुसार आणि जन्म वेळेनुसार तयार होणारी कुंडली जीवनातील सकारात्मक व नकारात्मक परिस्थिती संतुलित करण्यास मदत करते.</p>
-							<a href="contact.php" class="service-link-btn">अधिक वाचा <i class="fas fa-arrow-right ms-2"></i></a>
+							<h3 class="fw-bold h4 mb-3">|| Astrology ||</h3>
+							<p class="text-muted mb-4" style="font-size: 0.95rem; line-height: 1.6;">Birth date and time based horoscope helps in balancing positive and negative conditions in life.</p>
+							<a href="contact.php" class="service-link-btn">Read More <i class="fas fa-arrow-right ms-2"></i></a>
 						</div>
 					</div>
 				</div>
@@ -287,8 +287,8 @@
 
 				<div class="col-lg-6">
 					<div class="testimonial-side pe-lg-4">
-						<h4 class="text-orange fw-bold text-uppercase mb-2" style="color: #ff8c00; letter-spacing: 2px;">अभिप्राय</h4>
-						<h2 class="display-6 fw-bold mb-4">आमच्यावर विश्वास ठेवणारे <br><span style="color: #ff8c00;">समाधानी ग्राहक</span></h2>
+						<h4 class="text-orange fw-bold text-uppercase mb-2" style="color: #ff8c00; letter-spacing: 2px;">Testimonials</h4>
+						<h2 class="display-6 fw-bold mb-4">Our Trusted <br><span style="color: #ff8c00;">Satisfied Clients</span></h2>
 
 						<div class="swiper testimonial-swiper-mini">
 							<div class="swiper-wrapper">
@@ -297,10 +297,10 @@
 										<div class="star-rating mb-2" style="color: #ffc107; font-size: 0.8rem;">
 											<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
 										</div>
-										<p class="fs-6 italic" style="color: #555;">"सचिन गुरुजींनी सुचवलेल्या वास्तु बदलांमुळे आमच्या घरात खूप सकारात्मकता आली आहे. विना तोडफोड केलेले उपाय अत्यंत प्रभावी ठरले."</p>
+										<p class="fs-6 italic" style="color: #555;">"The Vastu changes suggested by Sachin Guruji have brought a lot of positivity to our house. The non-destructive solutions were extremely effective."</p>
 										<div class="d-flex align-items-center mt-3">
 											<img src="images/homepage-1/avatar/img-01.png" class="rounded-circle me-3" width="110" height="100">
-											<h3 class="fw-bold mb-0">अमोल सोनवणे, <span class="fw-normal text-muted">पुणे</span></h3>
+											<h3 class="fw-bold mb-0">Amol Sonawane, <span class="fw-normal text-muted">Pune</span></h3>
 										</div>
 									</div>
 								</div>
@@ -309,10 +309,10 @@
 										<div class="star-rating mb-2" style="color: #ffc107; font-size: 0.8rem;">
 											<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
 										</div>
-										<p class="fs-6 italic" style="color: #555;">"मुलीच्या लग्नाचे सर्व विधी गुरुजींनी अत्यंत शास्त्रोक्त पद्धतीने पार पाडले. मंत्रोच्चार आणि विधींचे महत्त्व त्यांनी खूप छान समजावून सांगितले."</p>
+										<p class="fs-6 italic" style="color: #555;">"The wedding rituals of my daughter were performed perfectly by Guruji. The importance of mantras and rituals was explained in a very clear and understandable way."</p>
 										<div class="d-flex align-items-center mt-3">
 											<img src="images/homepage-1/avatar/img-02.png" class="rounded-circle me-3" width="110" height="100">
-											<h3 class="fw-bold mb-0">सौ. आशालता पाटील, <span class="fw-normal text-muted">नाशिक</span></h3>
+											<h3 class="fw-bold mb-0">Smt. Ashalata Patil, <span class="fw-normal text-muted">Nashik</span></h3>
 										</div>
 									</div>
 								</div>
@@ -324,34 +324,34 @@
 
 				<div class="col-lg-6">
 					<div class="contact-form-card p-5 bg-white shadow-lg" style="border-radius: 25px; border-top: 8px solid #ff8c00;">
-						<h3 class="fw-bold mb-2">चर्चा करण्यासाठी संपर्क साधा</h3>
-						<p class="text-muted mb-4">तुमच्या अडचणी सोडवण्यासाठी आजच आमच्याशी संपर्क साधा.</p>
+						<h3 class="fw-bold mb-2">Contact Us For Discussion</h3>
+						<p class="text-muted mb-4">Connect with us today to resolve your challenges.</p>
 
 						<form action="contact-process.php" method="POST">
 							<div class="row g-3">
 								<div class="col-md-6">
-									<label class="form-label fw-bold">नाव</label>
-									<input type="text" name="name" class="form-control custom-input" placeholder="तुमचे नाव" required>
+									<label class="form-label fw-bold">Name</label>
+									<input type="text" name="name" class="form-control custom-input" placeholder="Your Name" required>
 								</div>
 								<div class="col-md-6">
-									<label class="form-label fw-bold">मोबाईल नंबर</label>
-									<input type="tel" name="phone" class="form-control custom-input" placeholder="९१XXXXXXXX" required>
+									<label class="form-label fw-bold">Mobile Number</label>
+									<input type="tel" name="phone" class="form-control custom-input" placeholder="91XXXXXXXX" required>
 								</div>
 								<div class="col-12">
-									<label class="form-label fw-bold">सेवेचा प्रकार</label>
+									<label class="form-label fw-bold">Service Type</label>
 									<select name="service" class="form-select custom-input">
-										<option selected>निवडा...</option>
-										<option>वास्तु कन्सल्टिंग</option>
-										<option>ज्योतिष मार्गदर्शन</option>
-										<option>पूजा विधी</option>
+										<option selected>Select...</option>
+										<option>Vastu Consulting</option>
+										<option>Jyotish Guidance</option>
+										<option>Puja Vidhi</option>
 									</select>
 								</div>
 								<div class="col-12">
-									<label class="form-label fw-bold">संदेश</label>
-									<textarea name="message" class="form-control custom-input" rows="3" placeholder="तुमची समस्या थोडक्यात लिहा..."></textarea>
+									<label class="form-label fw-bold">Message</label>
+									<textarea name="message" class="form-control custom-input" rows="3" placeholder="Briefly describe your problem..."></textarea>
 								</div>
 								<div class="col-12">
-									<button type="submit" class="btn btn-orange w-100 py-3 mt-2 fw-bold text-uppercase">माहिती पाठवा</button>
+									<button type="submit" class="btn btn-orange w-100 py-3 mt-2 fw-bold text-uppercase">Send Message</button>
 								</div>
 							</div>
 						</form>
