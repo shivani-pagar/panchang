@@ -121,8 +121,8 @@
                                 <li><a href="dowsing_pendulum.php" class="dropdown-item">Dowsing Pendulum</a></li>
                                 <li><a href="crystal-hiling.php" class="dropdown-item">Crystal Healing</a></li>
                                 <li><a href="gemology.php" class="dropdown-item">Gemology</a></li>
-                                <li><a href="rudraksh.php" class="dropdown-item">Rudraksh</a></li>
-                                <li><a href="upasana_and_utpadane.php" class="dropdown-item">Worship and products</a></li>
+                                <li><a href="rudrakshh.php" class="dropdown-item">Rudraksh</a></li>
+                                <li><a href="worship_products.php" class="dropdown-item">Worship and products</a></li>
                             </ul>
                         </li>
 
