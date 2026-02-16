@@ -132,7 +132,7 @@
                                 <i class="fas fa-home me-2"></i> Vastu Consulting
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a href="vastu-consulting.php" class="dropdown-item">Vastu Consulting</a></li>
+                                <li><a href="vaastu-consulting.php" class="dropdown-item">Vastu Consulting</a></li>
                                 <li><a href="land-survey.php" class="dropdown-item">Land Survey</a></li>
                                 <li><a href="architectural-examination.php" class="dropdown-item">Architectural Examination</a></li>
                                 <li><a href="vaastu-aura-scanner.php" class="dropdown-item">Vastu Aura Scanner</a></li>
