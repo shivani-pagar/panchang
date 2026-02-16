@@ -101,11 +101,11 @@
                                 <li><a href="pooja.php" class="dropdown-item">पूजा</a></li>
                                 <li><a href="vedic_vivah.php" class="dropdown-item">वैदिक विवाह अभिषेक</a></li>
                                 <li><a href="upanayan_sanskar.php" class="dropdown-item">उपनयन संस्कार</a></li>
-                                <li><a href="sacred_fire_ritual.php" class="dropdown-item">हवन अभिषेक</a></li>
-                                <li><a href="sacrifice.php" class="dropdown-item">अर्थ अभिषेक</a></li>
-                                <li><a href="solution.php" class="dropdown-item">समाधान</a></li>
-                                <li><a href="spirituality.php" class="dropdown-item">ध्यात्मिकता</a></li>
-                                <li><a href="devotional_practice.php" class="dropdown-item">पूजा</a></li>
+                                <li><a href="havan_samaroh.php" class="dropdown-item">हवन समारोह</a></li>
+                                <li><a href="tyag.php" class="dropdown-item">त्याग करना</a></li>
+                                <li><a href="samadhan.php" class="dropdown-item">समाधान</a></li>
+                                <li><a href="dhatmikta.php" class="dropdown-item">ध्यात्मिकता</a></li>
+                                <li><a href="puja.php" class="dropdown-item">पूजा</a></li>
                             </ul>
                         </li>
 
