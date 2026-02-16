@@ -13,7 +13,7 @@
                 <div class="col-lg-3 col-md-6">
                     <div class="widget footer-widget">
                         <div class="footer-logo-simple">
-                            <img src="/images/guruji/panchang-vastu-logo.webp" alt="Panchang Vastu Logo" class="img-fluid">
+                            <img src="images/guruji/panchang-vastu-logo.webp" alt="Panchang Vastu Logo" class="img-fluid">
                             <div class="guruji-name">Sachin Joshi</div>
                             <div class="guruji-title">Astrology · Vastu Expert</div>
                             <div class="sanskrit-motto">“Success is born from determination”</div>
