@@ -1,123 +1,205 @@
- <div class="col-md-5 col-lg-5">
-                <div class="form-wrp">
-                    <form method="post" id="myForm">
-                        <div class="row">
+<div class="col-md-5 col-lg-5">
+    <div class="form-wrp">
+        <form method="post" id="innerForm">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="pbmit-titlee">for more information contact us</h2>
+                </div>
 
-                            <div class="col-md-12">
-                                <h2 class="pbmit-titlee">for more information contact us</h2>
-                            </div>
-                                <div id="check1"></div>
-                            <div class="col-md-12">
-                                <input type="text" name="name" id="name" class="form-control" placeholder="Your Name" >
-                            </div>
-                            <div class="col-md-12">
-                                <input type="text" name="phone" id="phone"  class="form-control" placeholder="Phone" >
-                            </div>
-                            <div class="col-md-12">
-                                <input type="text" name="subject" id="subject" class="form-control" placeholder="Subject" >
-                            </div>
-                            <div class="col-md-12">
-                                <button type="submit" id="btn_submit" class="pbmit-btn w-100">
-                                    <i class="form-btn-loader fa fa-circle-o-notch fa-spin fa-fw margin-bottom d-none"></i>
-                                    send message
-                                </button>
-                            </div>
+                <div id="inner_check" class="col-md-12"></div>
 
-                        </div>
-                    </form>
+                <div class="col-md-12">
+                    <input type="text" name="inner_name" id="inner_name" class="form-control" placeholder="Your Name" required>
+                </div>
+
+                <div class="col-md-12">
+                    <input type="tel" name="inner_phone" id="inner_phone" class="form-control" placeholder="Phone" required>
+                </div>
+
+                <div class="col-md-12">
+                    <input type="email" name="inner_email" id="inner_email" class="form-control" placeholder="Email" required>
+                </div>
+
+                <div class="col-md-12">
+                    <input type="text" name="inner_subject" id="inner_subject" class="form-control" placeholder="Subject" required>
+                </div>
+
+                <div class="col-md-12">
+                    <textarea name="inner_message" id="inner_message" rows="3" class="form-control" placeholder="Your Message" style="display:none;">Enquiry from inner form</textarea>
+                </div>
+
+                <!-- Hidden fields for Google Sheets (matching your Apps Script expectations) -->
+                <input type="hidden" name="Name" id="Name" value="">
+                <input type="hidden" name="Email" id="Email" value="">
+                <input type="hidden" name="Phone" id="Phone" value="">
+                <input type="hidden" name="Subject" id="Subject" value="">
+                <input type="hidden" name="Message" value="Inner Form Enquiry">
+                <input type="hidden" name="Comments" id="Comments" value="Inner form submission">
+                <input type="hidden" name="Domain" value="<?php echo $_SERVER['SERVER_NAME']; ?>">
+                <input type="hidden" name="URL" value="<?php echo substr($_SERVER["SCRIPT_NAME"], strrpos($_SERVER["SCRIPT_NAME"], "/") + 1); ?>">
+                <input type="hidden" name="Project_Unique_Code" value="panchangvastu180">
+
+                <div class="col-md-12">
+                    <button type="submit" id="inner_btn_submit" class="pbmit-btn w-100">
+                        <i class="form-btn-loader fa fa-circle-o-notch fa-spin fa-fw margin-bottom d-none"></i>
+                        Send Message
+                    </button>
                 </div>
             </div>
-
+        </form>
+    </div>
+</div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script type="text/javascript">
+<script>
+$(document).ready(function(){
 
+    $('#innerForm').submit(function(e){
+        e.preventDefault();
 
-    $(document).ready(function(){
-      
-        $('#myForm').submit(function(e){
-            
-            e.preventDefault();
-            var name = $('#name').val();
-          
-           
-            var phone = $('#phone').val();
-            var subject = $('#subject').val();
-            var error = false;
-            var flg=1;
-            // alert(name);alert(email);alert(subject);
-             var name_regex="^[a-zA-Z\\s]*$";
-            var email_regex =/\b(^(\S+@).+((\.com)|(\.net)|(\.edu)|(\.mil)|(\.gov)|(\.org)|(\.info)|(\.in)|(\.biz)|(\.aero)|(\.coop)|(\.museum)|(\.name)|(\.pro)|(\..{2,2}))$)\b/gi;
-            var mobile_regex=/\d{10}/;
-        if(!name.match(name_regex) || name == "")
-        {
-          $('#check1').html('** Please Enter your Name **').css( "color", "red");
-          $("#name").focus();
-          var error = true;
-          return false;
+        // Get form values
+        var name = $('#inner_name').val().trim();
+        var phone = $('#inner_phone').val().trim();
+        var email = $('#inner_email').val().trim();
+        var subject = $('#inner_subject').val().trim();
+
+        // Validation patterns
+        var name_regex = /^[a-zA-Z\s]*$/;
+        var mobile_regex = /^\d{10}$/;
+        var email_regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+        // Clear previous messages
+        $('#inner_check').html('');
+
+        // Validation
+        if(name == "" || !name.match(name_regex)) {
+            $('#inner_check').html('** Please Enter your Name **').css("color", "red");
+            $("#inner_name").focus();
+            return false;
         }
-        
-         
-        //  if (!email.match(email_regex)|| email == "") 
-        // {
-        //   $('#check1').html('** Please Enter Your Email Id **').css( "color", "red");
-        //   $("#email").focus();
-        //   var error = true;
-        //   return false;
-        // }
-        
-        if (!phone.match(mobile_regex)|| phone == "") 
-        {
-          $('#check1').html('** Please Enter Your Phone No **').css( "color", "red");
-          $("#phone").focus();
-          var error = true;
-          return false;
-        }
-        
-     
-         if (subject == "") 
-        {
-          $('#check1').html('** Please Enter Your Subject **').css( "color", "red");
-          $("#subject").focus();
-          var error = true;
-          return false;
-        } 
-        if(error!=true)
-            {
-                $('#btn_submit').attr({'disabled' : 'true', 'value' : 'Sending...' });  
-               var form = $('#myForm')[0];
-                var formData = new FormData(form);
-                $.ajax({
-                    url: "inner-valid.php",
 
-                    type: "POST",             
-                    data: formData,
-                    contentType: false,       
-                    cache: false,             
-                    processData:false, 
-                    success: function(data) {
+        if(phone == "" || !phone.match(mobile_regex)) {
+            $('#inner_check').html('** Please Enter Valid 10-digit Phone No **').css("color", "red");
+            $("#inner_phone").focus();
+            return false;
+        }
+
+        if(email == "" || !email_regex.test(email)) {
+            $('#inner_check').html('** Please Enter Valid Email **').css("color", "red");
+            $("#inner_email").focus();
+            return false;
+        }
+
+        if(subject == "") {
+            $('#inner_check').html('** Please Enter Subject **').css("color", "red");
+            $("#inner_subject").focus();
+            return false;
+        }
+
+        // Disable button and show loading
+        $('#inner_btn_submit').prop('disabled', true);
+        $('.form-btn-loader').removeClass('d-none');
+        $('#inner_btn_submit').text('Sending...');
+
+        // Set hidden fields for Google Sheets
+        $('#Name').val(name);
+        $('#Email').val(email);
+        $('#Phone').val(phone);
+        $('#Subject').val(subject);
+        $('#Comments').val('Inner form enquiry: ' + subject);
+
+        // Prepare form data
+        var form = $('#innerForm')[0];
+        var formData = new FormData(form);
+
+        // Log what we're sending
+        console.log("Sending inner form data:", {
+            name: name,
+            phone: phone,
+            email: email,
+            subject: subject
+        });
+
+        // 1) FIRST send to PHP email script
+        $.ajax({
+            url: "inner-valid.php",
+            type: "POST",
+            data: formData,
+            contentType: false,
+            processData: false,
+            timeout: 30000,
+
+            success: function(response) {
+                console.log("PHP Response:", response);
+
+                if(response.trim() == 'sent') {
                     
-                       
-                        if(data=='sent')
-                        {
-                            $('#btn_submit').removeAttr('disabled').attr('value', 'Sent')
-                            $('#check1').html('** Thank You For Contacting Us,We Will Contact You Soon.. **').css( "color", "green");
-                             $("#myForm").get(0).reset();
-                            
+                    // 2) THEN send to Google Sheets
+                    var sheetFormData = new FormData();
+                    
+                    // Add fields with EXACT names that Apps Script expects (from testDoPost)
+                    sheetFormData.append("Name", name);                    // Capital N
+                    sheetFormData.append("Email", email);                  // Capital E
+                    sheetFormData.append("Phone", phone);                  // Capital P
+                    sheetFormData.append("Subject", subject);              // Capital S
+                    sheetFormData.append("Message", "Inner Form Enquiry"); // Capital M
+                    sheetFormData.append("Comments", "Inner form enquiry: " + subject); // Capital C
+                    sheetFormData.append("Domain", "<?php echo $_SERVER['SERVER_NAME']; ?>");
+                    sheetFormData.append("URL", "<?php echo substr($_SERVER["SCRIPT_NAME"], strrpos($_SERVER["SCRIPT_NAME"], "/") + 1); ?>");
+                    sheetFormData.append("Project_Unique_Code", "panchangvastu180");
+
+                    console.log("Sending to Google Sheets:", {
+                        "Name": name,
+                        "Email": email,
+                        "Phone": phone,
+                        "Subject": subject,
+                        "Comments": "Inner form enquiry: " + subject
+                    });
+
+                    $.ajax({
+                        url: "https://script.google.com/macros/s/AKfycbz2r7iZUb-qftS2jZRSwtPUv6avKzx2cW7A80_XLpLuxK2SW8qwT8wARCP3uvQ3-dgX/exec",
+                        type: "POST",
+                        data: sheetFormData,
+                        contentType: false,
+                        processData: false,
+                        timeout: 30000,
+
+                        success: function(sheetResponse) {
+                            console.log("Sheet Response:", sheetResponse);
+                            $('#inner_btn_submit').prop('disabled', false).text('Send Message');
+                            $('#inner_check').html('** Thank You! We Will Contact You Soon **').css("color", "green");
+                            $("#innerForm")[0].reset();
+                        },
+
+                        error: function(xhr, status, error) {
+                            console.error("Sheet Error:", error);
+                            // Still show success since PHP email was sent
+                            $('#inner_btn_submit').prop('disabled', false).text('Send Message');
+                            $('#inner_check').html('** Thank You! We Will Contact You Soon **').css("color", "green");
+                            $("#innerForm")[0].reset();
+                        },
+
+                        complete: function() {
+                            $('.form-btn-loader').addClass('d-none');
                         }
-                        else
-                        {
-                                $('#btn_submit').removeAttr('disabled').attr('value', 'Retry');
-                            $('#check1').html(data).css("color","red");
-                        }
-                    }
-                });
-                return false;
-            }
-            else
-            {
-                alert("error");
+                    });
+
+                } else {
+                    $('#inner_check').html(response).css("color", "red");
+                    $('#inner_btn_submit').prop('disabled', false).text('Send Message');
+                    $('.form-btn-loader').addClass('d-none');
+                }
+            },
+
+            error: function(xhr, status, error) {
+                console.error("PHP Error:", error);
+                $('#inner_check').html('** Server error. Please try again. **').css("color", "red");
+                $('#inner_btn_submit').prop('disabled', false).text('Send Message');
+                $('.form-btn-loader').addClass('d-none');
             }
         });
+
     });
+
+});
 </script>

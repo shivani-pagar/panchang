@@ -38,7 +38,7 @@
         box-shadow: 0 15px 25px rgba(211, 47, 47, 0.4);
         background: linear-gradient(45deg, #B71C1C, #D32F2F);
     }
-    
+
     .btn-classic-submit:disabled {
         opacity: 0.7;
         cursor: not-allowed;
@@ -96,17 +96,17 @@
         font-weight: 500;
         display: none;
     }
-    
+
     #form_response.show {
         display: block;
     }
-    
+
     #form_response.success {
         background-color: #d4edda;
         color: #155724;
         border: 1px solid #c3e6cb;
     }
-    
+
     #form_response.error {
         background-color: #f8d7da;
         color: #721c24;
@@ -124,11 +124,23 @@
         }
     }
 </style>
+<?php
+// Detect if using HTTPS or HTTP
+$protocol = isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? 'https://' : 'http://';
+$domain = $_SERVER['SERVER_NAME'];
+$fullDomain = $protocol . $domain; // This gives https://yourdomain.com
+
+$curPageName = substr($_SERVER["SCRIPT_NAME"], strrpos($_SERVER["SCRIPT_NAME"], "/") + 1);
+$fullURL = $protocol . $domain . $_SERVER["REQUEST_URI"]; // This gives complete URL
+
+include 'header.php';
+?>
+
 
 <?php
-$domain = $_SERVER['SERVER_NAME']; 
-$curPageName = substr($_SERVER["SCRIPT_NAME"], strrpos($_SERVER["SCRIPT_NAME"], "/") + 1); 
-include 'header.php'; 
+$domain = $_SERVER['SERVER_NAME'];
+$curPageName = substr($_SERVER["SCRIPT_NAME"], strrpos($_SERVER["SCRIPT_NAME"], "/") + 1);
+include 'header.php';
 ?>
 
 <div class="pbmit-title-bar-wrapper" style="background-image:url(images/guruji/ser-img/aboubg.jpg);">
@@ -172,7 +184,7 @@ include 'header.php';
                     </div>
 
 
-                    <form method="post" id="contactForm" onsubmit="return false;">
+                    <form method="post" id="contactForm">
                         <div class="row g-3">
                             <div id="form_response" class="col-md-12"></div>
 
@@ -189,17 +201,16 @@ include 'header.php';
                                 <textarea name="message" id="message" cols="40" rows="4" class="form-control classic-input" placeholder="आपला संदेश" required=""></textarea>
                             </div>
 
-                            <!-- Hidden fields for PHP email script and Google Sheets -->
-                            <input type="hidden" name="Subject" value="मराठी संपर्क फॉर्म">
-                            <input type="hidden" name="Comments" id="comments-hidden" value="">
-                            <input type="hidden" name="Domain" value="<?php echo $domain; ?>">
-                            <input type="hidden" name="URL" value="<?php echo $curPageName; ?>">
-                            <input type="hidden" name="Project_Unique_Code" value="panchangvastu180">
+                            <!-- Hidden fields for complete URL information -->
+                            <input type="hidden" name="Full_Domain" id="full_domain" value="<?php echo $fullDomain; ?>">
+                            <input type="hidden" name="Full_URL" id="full_url" value="<?php echo $fullURL; ?>">
+                            <input type="hidden" name="Page_Name" id="page_name" value="<?php echo $curPageName; ?>">
+                            <input type="hidden" name="Protocol" id="protocol" value="<?php echo $protocol; ?>">
 
                             <div class="col-md-12 text-center text-md-start">
                                 <button type="submit" id="submit_btn" class="pbmit-btn btn-classic-submit">
 
-                   
+
                                     <i class="form-btn-loader fa fa-circle-o-notch fa-spin fa-fw margin-bottom d-none"></i>
                                     <span class="btn-text">संदेश पाठवा</span>
                                     <i class="fas fa-paper-plane ms-2"></i>
@@ -274,225 +285,249 @@ include 'header.php';
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script type="text/javascript">
-// Wait for jQuery to be fully loaded
-(function($) {
-    "use strict";
-    
-    $(document).ready(function() {
-        console.log("Document ready - Contact form initialized");
-        
-        // Make sure we're targeting the correct form
-        var $contactForm = $('#contactForm');
-        var $submitBtn = $('#submit_btn');
-        var $formResponse = $('#form_response');
-        
-        if (!$contactForm.length) {
-            console.error("Contact form not found!");
-            return;
-        }
+    // Wait for jQuery to be fully loaded
+    (function($) {
+        "use strict";
 
-        // Remove any existing event handlers and attach new one
-        $contactForm.off('submit').on('submit', function(e) {
-            e.preventDefault();
-            console.log("Form submitted - processing...");
-            
-            // Get form values
-            var name = $('#name').val().trim();
-            var phone = $('#phone').val().trim();
-            var email = $('#email').val().trim();
-            var message = $('#message').val().trim();
-            
-            console.log("Form values:", {name: name, phone: phone, email: email, message: message});
-            
-            // Project specific variables
-            var project_unique_code = "panchangvastu180";
-            var domain = "<?php echo $domain; ?>";
-            var url = "<?php echo $curPageName; ?>";
-            
-            // SIMPLE VALIDATION - No complex regex for name
-            var email_regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-            var mobile_regex = /^\d{10}$/;
-            
-            // Clear previous messages
-            $formResponse.removeClass('show success error').empty();
-            
-            // SIMPLE NAME VALIDATION - Just check if not empty
-            if (name === "") {
-                showMessage('** कृपया आपले नाव प्रविष्ट करा **', 'error');
-                $("#name").focus();
+        $(document).ready(function() {
+            console.log("Document ready - Contact form initialized");
 
-                return false;
+            // Make sure we're targeting the correct form
+            var $contactForm = $('#contactForm');
+            var $submitBtn = $('#submit_btn');
+            var $formResponse = $('#form_response');
+
+            if (!$contactForm.length) {
+                console.error("Contact form not found!");
+                return;
             }
-            
-            // Optional: Check if name has at least 2 characters
-            if (name.length < 2) {
-                showMessage('** नाव किमान 2 अक्षरे असावी **', 'error');
-                $("#name").focus();
-                return false;
-            }
-            
-            // Phone validation
-            if (phone === "") {
-                showMessage('** कृपया मोबाईल नंबर प्रविष्ट करा **', 'error');
-                $("#phone").focus();
-                return false;
-            }
-            
-            if (!mobile_regex.test(phone)) {
-                showMessage('** कृपया वैध 10-अंकी मोबाईल नंबर प्रविष्ट करा **', 'error');
-                $("#phone").focus();
-                return false;
-            }
-            
-            // Email validation
-            if (email === "") {
-                showMessage('** कृपया ईमेल प्रविष्ट करा **', 'error');
-                $("#email").focus();
-                return false;
-            }
-            
-            if (!email_regex.test(email)) {
-                showMessage('** कृपया वैध ईमेल प्रविष्ट करा **', 'error');
-                $("#email").focus();
-                return false;
-            }
-            
-            // Message validation
-            if (message === "") {
-                showMessage('** कृपया आपला संदेश प्रविष्ट करा **', 'error');
-                $("#message").focus();
-                return false;
-            }
-            
-            if (message.length < 3) {
-                showMessage('** संदेश किमान 3 अक्षरे असावा **', 'error');
-                $("#message").focus();
-                return false;
-            }
-            
-            // Disable button and show loading
-            $submitBtn.prop('disabled', true);
-            $('.form-btn-loader').removeClass('d-none');
-            $submitBtn.find('.btn-text').text('पाठवत आहे...');
-            
-            // Copy message to Comments field
-            $('#comments-hidden').val(message);
-            
-            // Prepare form data
-            var form = $('#contactForm')[0];
-            var formData = new FormData(form);
-            
-            // Add extra required fields
-            formData.append("Project_Unique_Code", project_unique_code);
-            formData.append("Domain", domain);
-            formData.append("URL", url);
-            
-            // Log what we're sending
-            console.log("Sending data:", {
-                name: name,
-                phone: phone,
-                email: email,
-                message: message
-            });
-            
-            // 1) FIRST send to PHP email script
-            console.log("Sending to PHP email script...");
-            
-            $.ajax({
-                url: "contact_valid.php",
-                type: "POST",
-                data: formData,
-                contentType: false,
-                processData: false,
-                timeout: 30000,
-                
-                success: function(response) {
-                    console.log("PHP Response:", response);
-                    console.log("Response type:", typeof response);
-                    console.log("Response trimmed:", response.trim());
-                    
-                    // Check if PHP script returned success
-                    if(response.trim() === 'sent') {
-                        console.log("PHP success, now sending to Google Sheets...");
-                        
-                        // 2) THEN send to Google Sheets
-                        $.ajax({
-                            url: "https://script.google.com/macros/s/AKfycbz2r7iZUb-qftS2jZRSwtPUv6avKzx2cW7A80_XLpLuxK2SW8qwT8wARCP3uvQ3-dgX/exec",
-                            type: "POST",
-                            data: formData,
-                            contentType: false,
-                            processData: false,
-                            timeout: 30000,
-                            
-                            success: function(sheetResponse) {
-                                console.log("Sheet Response:", sheetResponse);
-                                showMessage('** धन्यवाद! आम्ही लवकरच तुमच्याशी संपर्क साधू **', 'success');
-                                $contactForm[0].reset();
-                            },
-                            
-                            error: function(xhr, status, error) {
-                                console.error("Sheet Error:", error, status);
-                                console.error("Sheet XHR:", xhr);
-                                // Still show success since PHP email was sent
-                                showMessage('** धन्यवाद! तुमचा संदेश पाठवला गेला आहे **', 'success');
-                                $contactForm[0].reset();
-                            },
-                            
-                            complete: function() {
-                                // Re-enable button after Google Sheets completes
-                                $submitBtn.prop('disabled', false);
-                                $('.form-btn-loader').addClass('d-none');
-                                $submitBtn.find('.btn-text').text('संदेश पाठवा');
-                            }
-                        });
-                        
-                    } else {
-                        // PHP script returned an error
-                        console.error("PHP Error Response:", response);
-                        showMessage('** त्रुटी: ' + response + ' **', 'error');
-                        
+
+            // Remove any existing event handlers and attach new one
+            $contactForm.off('submit').on('submit', function(e) {
+                e.preventDefault();
+                console.log("Form submitted - processing...");
+
+                // Get form values
+                var name = $('#name').val().trim();
+                var phone = $('#phone').val().trim();
+                var email = $('#email').val().trim();
+                var message = $('#message').val().trim();
+
+                console.log("Form values:", {
+                    name: name,
+                    phone: phone,
+                    email: email,
+                    message: message
+                });
+
+                // Project specific variables
+                var project_unique_code = "panchangvastu180";
+                var domain = "<?php echo $domain; ?>";
+                var url = "<?php echo $curPageName; ?>";
+
+                // Validation patterns
+                var email_regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+                var mobile_regex = /^\d{10}$/;
+
+                // Clear previous messages
+                $formResponse.removeClass('show success error').empty();
+
+                // SIMPLE NAME VALIDATION
+                if (name === "") {
+                    showMessage('** कृपया आपले नाव प्रविष्ट करा **', 'error');
+                    $("#name").focus();
+                    return false;
+                }
+
+                if (name.length < 2) {
+                    showMessage('** नाव किमान 2 अक्षरे असावी **', 'error');
+                    $("#name").focus();
+                    return false;
+                }
+
+                // Phone validation
+                if (phone === "") {
+                    showMessage('** कृपया मोबाईल नंबर प्रविष्ट करा **', 'error');
+                    $("#phone").focus();
+                    return false;
+                }
+
+                if (!mobile_regex.test(phone)) {
+                    showMessage('** कृपया वैध 10-अंकी मोबाईल नंबर प्रविष्ट करा **', 'error');
+                    $("#phone").focus();
+                    return false;
+                }
+
+                // Email validation
+                if (email === "") {
+                    showMessage('** कृपया ईमेल प्रविष्ट करा **', 'error');
+                    $("#email").focus();
+                    return false;
+                }
+
+                if (!email_regex.test(email)) {
+                    showMessage('** कृपया वैध ईमेल प्रविष्ट करा **', 'error');
+                    $("#email").focus();
+                    return false;
+                }
+
+                // Message validation
+                if (message === "") {
+                    showMessage('** कृपया आपला संदेश प्रविष्ट करा **', 'error');
+                    $("#message").focus();
+                    return false;
+                }
+
+                if (message.length < 3) {
+                    showMessage('** संदेश किमान 3 अक्षरे असावा **', 'error');
+                    $("#message").focus();
+                    return false;
+                }
+
+                // Disable button and show loading
+                $submitBtn.prop('disabled', true);
+                $('.form-btn-loader').removeClass('d-none');
+                $submitBtn.find('.btn-text').text('पाठवत आहे...');
+
+                // Prepare form data for PHP
+                var form = $('#contactForm')[0];
+                var formData = new FormData(form);
+
+                // Add extra required fields for PHP
+                formData.append("Project_Unique_Code", project_unique_code);
+                formData.append("Domain", domain);
+                formData.append("URL", url);
+
+                // Log what we're sending to PHP
+                console.log("Sending data to PHP:", {
+                    name: name,
+                    phone: phone,
+                    email: email,
+                    message: message
+                });
+
+                // 1) FIRST send to PHP email script
+                console.log("Sending to PHP email script...");
+
+                $.ajax({
+                    url: "contact_valid.php",
+                    type: "POST",
+                    data: formData,
+                    contentType: false,
+                    processData: false,
+                    timeout: 30000,
+
+                    success: function(response) {
+                        console.log("PHP Response:", response);
+
+                        // Check if PHP script returned success
+                        if (response.trim() === 'sent') {
+                            console.log("PHP success, now sending to Google Sheets...");
+
+                            // 2) THEN send to Google Sheets
+                            // Create a NEW FormData for Google Sheets with EXACT field names that Apps Script expects
+                            var sheetFormData = new FormData();
+
+                            // IMPORTANT: Use EXACT field names from your testDoPost function
+                            sheetFormData.append("Name", name); // Capital N
+                            sheetFormData.append("Email", email); // Capital E
+                            sheetFormData.append("Phone", phone); // Capital P
+                            sheetFormData.append("Comments", message); // Capital C - actual message
+                            sheetFormData.append("Subject", "Contact Form"); // Capital S
+                            sheetFormData.append("Message", "Contact Form"); // Capital M - fixed value
+                            sheetFormData.append("Domain", domain); // Capital D
+                            sheetFormData.append("URL", url); // URL (all caps)
+                            sheetFormData.append("Project_Unique_Code", project_unique_code); // Exact
+
+                            console.log("Sending to Google Sheets with EXACT field names:", {
+                                "Name": name,
+                                "Email": email,
+                                "Phone": phone,
+                                "Comments": message,
+                                "Subject": "Contact Form",
+                                "Message": "Contact Form",
+                                "Domain": domain,
+                                "URL": url,
+                                "Project_Unique_Code": project_unique_code
+                            });
+
+                            $.ajax({
+                                url: "https://script.google.com/macros/s/AKfycbz2r7iZUb-qftS2jZRSwtPUv6avKzx2cW7A80_XLpLuxK2SW8qwT8wARCP3uvQ3-dgX/exec",
+                                type: "POST",
+                                data: sheetFormData,
+                                contentType: false,
+                                processData: false,
+                                timeout: 30000,
+
+                                success: function(sheetResponse) {
+                                    console.log("Sheet Response:", sheetResponse);
+                                    showMessage('** धन्यवाद! आम्ही लवकरच तुमच्याशी संपर्क साधू **', 'success');
+                                    $contactForm[0].reset();
+                                },
+
+                                error: function(xhr, status, error) {
+                                    console.error("Sheet Error:", error, status);
+                                    console.error("Sheet XHR:", xhr);
+                                    // Still show success since PHP email was sent
+                                    showMessage('** धन्यवाद! तुमचा संदेश पाठवला गेला आहे **', 'success');
+                                    $contactForm[0].reset();
+                                },
+
+                                complete: function() {
+                                    // Re-enable button after Google Sheets completes
+                                    $submitBtn.prop('disabled', false);
+                                    $('.form-btn-loader').addClass('d-none');
+                                    $submitBtn.find('.btn-text').text('संदेश पाठवा');
+                                }
+                            });
+
+                        } else {
+                            // PHP script returned an error
+                            console.error("PHP Error Response:", response);
+                            showMessage('** त्रुटी: ' + response + ' **', 'error');
+
+                            // Re-enable button
+                            $submitBtn.prop('disabled', false);
+                            $('.form-btn-loader').addClass('d-none');
+                            $submitBtn.find('.btn-text').text('संदेश पाठवा');
+                        }
+                    },
+
+                    error: function(xhr, status, error) {
+                        console.error("PHP AJAX Error:", error, status);
+                        console.error("XHR Details:", xhr);
+                        showMessage('** सर्व्हर त्रुटी. कृपया पुन्हा प्रयत्न करा. **', 'error');
+
                         // Re-enable button
                         $submitBtn.prop('disabled', false);
                         $('.form-btn-loader').addClass('d-none');
                         $submitBtn.find('.btn-text').text('संदेश पाठवा');
                     }
-                },
-                
-                error: function(xhr, status, error) {
-                    console.error("PHP AJAX Error:", error, status);
-                    console.error("XHR Details:", xhr);
-                    showMessage('** सर्व्हर त्रुटी. कृपया पुन्हा प्रयत्न करा. **', 'error');
-                    
-                    // Re-enable button
-                    $submitBtn.prop('disabled', false);
-                    $('.form-btn-loader').addClass('d-none');
-                    $submitBtn.find('.btn-text').text('संदेश पाठवा');
-                }
+                });
+
+                return false;
             });
-            
-            return false;
+
+            // Helper function to show messages
+            function showMessage(text, type) {
+                $formResponse
+                    .text(text)
+                    .removeClass('success error')
+                    .addClass('show ' + type);
+
+                // Auto hide after 10 seconds
+                setTimeout(function() {
+                    $formResponse.removeClass('show');
+                }, 10000);
+            }
+
+            // Also handle any other forms on the page
+            $('form').not('#contactForm').on('submit', function() {
+                console.log("Other form submitted - ignoring");
+                return true; // Allow other forms to submit normally
+            });
+
         });
-        
-        // Helper function to show messages
-        function showMessage(text, type) {
-            $formResponse
-                .text(text)
-                .removeClass('success error')
-                .addClass('show ' + type);
-            
-            // Auto hide after 10 seconds
-            setTimeout(function() {
-                $formResponse.removeClass('show');
-            }, 10000);
-        }
-        
-        // Also handle any other forms on the page
-        $('form').not('#contactForm').on('submit', function() {
-            console.log("Other form submitted - ignoring");
-            return true; // Allow other forms to submit normally
-        });
-        
-    });
-    
-})(jQuery);
+
+    })(jQuery);
 </script>
