@@ -4,7 +4,7 @@
                         <div class="row">
 
                             <div class="col-md-12">
-                                <h2 class="pbmit-titlee">अधिक माहितीसाठी संपर्क साधा</h2>
+                                <h2 class="pbmit-titlee">for more information contact us</h2>
                             </div>
                                 <div id="check1"></div>
                             <div class="col-md-12">
@@ -19,7 +19,7 @@
                             <div class="col-md-12">
                                 <button type="submit" id="btn_submit" class="pbmit-btn w-100">
                                     <i class="form-btn-loader fa fa-circle-o-notch fa-spin fa-fw margin-bottom d-none"></i>
-                                    संदेश पाठवा
+                                    send message
                                 </button>
                             </div>
 

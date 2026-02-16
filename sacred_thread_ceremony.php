@@ -379,6 +379,66 @@
         margin-top: 20px;
     }
 
+    /* Wedding Grid */
+    .wedding-steps-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 25px;
+        margin-top: 30px;
+    }
+
+    /* Wedding Card */
+    .wedding-step-card {
+        background: #fff;
+        border: 1px solid #e0e0e0;
+        border-top: 4px solid #8B4513;
+        border-radius: 12px;
+        padding: 30px;
+        text-align: center;
+        transition: all 0.3s ease;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    }
+
+    .wedding-step-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 10px 25px rgba(139, 69, 19, 0.15);
+        border-top-color: #FF9800;
+    }
+
+    /* Wedding Icon */
+    .wedding-step-icon {
+        font-size: 2.5rem;
+        color: #8B4513;
+        margin-bottom: 20px;
+    }
+
+    .wedding-step-card h3 {
+        font-size: 1.4rem;
+        color: #5D4037;
+        margin-bottom: 15px;
+        font-weight: 700;
+    }
+
+    .wedding-step-card p {
+        font-size: 0.95rem;
+        color: #666;
+        line-height: 1.6;
+    }
+
+    /* Responsive */
+    @media (max-width: 992px) {
+        .wedding-steps-grid {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+
+    @media (max-width: 600px) {
+        .wedding-steps-grid {
+            grid-template-columns: 1fr;
+        }
+    }
+
+
     .ritual-list li {
         font-size: 1.1rem;
         color: #5D4037;
@@ -417,90 +477,6 @@
         margin: 0;
     }
 
-    .ritual-elements-section {
-        padding: 80px 0;
-        background-color: #ffffff;
-    }
-
-    .accent-title {
-        color: #8B4513;
-        font-weight: 800;
-        font-size: 2.5rem;
-        margin-bottom: 20px;
-    }
-
-    .accent-title i {
-        color: #FF9800;
-        margin-right: 15px;
-    }
-
-    .ritual-intro-text p {
-        font-size: 1.1rem;
-        line-height: 1.8;
-        color: #555;
-        margin-bottom: 35px;
-    }
-
-    /* Element Tags Design */
-    .vows-container {
-        display: flex;
-        flex-direction: column;
-        gap: 15px;
-    }
-
-    .element-tag {
-        background: #FFF8F0;
-        border-left: 4px solid #8B4513;
-        padding: 15px 20px;
-        border-radius: 0 10px 10px 0;
-        transition: all 0.3s ease;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .element-tag:hover {
-        transform: translateX(10px);
-        background: #FFF3E0;
-        box-shadow: 0 5px 15px rgba(139, 69, 19, 0.1);
-    }
-
-    .tag-title {
-        font-weight: 800;
-        color: #8B4513;
-        font-size: 1.1rem;
-        margin-bottom: 4px;
-    }
-
-    .tag-desc {
-        color: #444;
-        font-size: 1rem;
-        font-weight: 500;
-    }
-
-    /* Image Decoration */
-    .ritual-image-frame {
-        position: relative;
-        padding: 20px;
-    }
-
-    .rounded-custom {
-        border-radius: 30px;
-        z-index: 2;
-        position: relative;
-    }
-
-    .frame-decoration {
-        position: absolute;
-        top: 0;
-        right: 0;
-        width: 90%;
-        height: 90%;
-        border: 10px solid #FF9800;
-        border-radius: 30px;
-        z-index: 1;
-        opacity: 0.15;
-    }
-
     /* मोबाईल रिस्पॉन्सिव्ह */
     @media (max-width: 768px) {
         .rules-bg {
@@ -529,7 +505,7 @@
         }
     }
 </style>
-<?php include 'header.php'; ?>
+<?php include 'english/header.php'; ?>
 <!-- Title Bar -->
 <div class="pbmit-title-bar-wrapper " style="background-image:url(images/guruji/ser-img/bgser.jpg);">
     <div class="container paddcon">
@@ -539,14 +515,14 @@
                     <div class="pbmit-title-bar-content-inner">
                         <div class="pbmit-tbar">
                             <div class="pbmit-tbar-inner container">
-                                <h1 class="pbmit-tbar-title">Solution</h1>
+                                <h1 class="pbmit-tbar-title">Sacred Thread Ceremony</h1>
                             </div>
                         </div>
                         <div class="pbmit-breadcrumb">
                             <div class="pbmit-breadcrumb-inner">
                                 <span><a title="" href="index.php" class="home"><span>Home</span></a></span>
                                 <span class="sep">-</span>
-                                <span><span class="post-root post post-post current-item">Solution</span></span>
+                                <span><span class="post-root post post-post current-item">Sacred Thread Ceremony</span></span>
                             </div>
                         </div>
                     </div>
@@ -599,52 +575,44 @@
             <!--		</aside>-->
             <!--	</aside>-->
             <!--</div>-->
-
             <div class="mantra-ribbon-container">
                 <div class="mantra-ribbon">
                     <div class="mantra-icon-left"><i class="fas fa-om"></i></div>
                     <div class="mantra-text-content">
                         <p class="sanskrit-shlok">
-                            गुरुर ब्रह्मा गुरुर विष्णुः गुरूर्देवो महेश्वरः ।
-                            गुरूर्साक्षात परब्रह्म तस्मै श्री गुरवे नमः ॥
+                            "जन्मना जायते शूद्रः संस्कारैर्द्विज उच्यते ।
+                            वैदिकैः कर्मभिः पुण्यैर्निषेकादिद्विजन्मनाम् ॥"
                         </p>
                         <p class="shlok-meaning">
-                            <strong>अर्थ:</strong> गुरु हेच ब्रह्मा, विष्णू आणि महेश आहेत. गुरु हेच आपल्या समोर असलेले साक्षात परब्रह्म आहेत. अशा महान गुरूंना मी आदरपूर्वक नमस्कार करतो.
+                            अर्थ: जन्माने प्रत्येक जण शूद्र असतो, संस्कारांनी तो 'द्विज' (दुसरा जन्म) प्राप्त करतो.
                         </p>
                     </div>
                     <div class="mantra-icon-right"><i class="fas fa-om"></i></div>
                 </div>
             </div>
             <div class="col-lg-6 col-md-6  order-1">
-                <img src="images/images/upay03.webp" class="w-100" alt="">
+                <img src="images/images/UPANAYAN-SANSKAR.png" class="w-100" alt="">
 
             </div>
             <div class="col-md-6 col-lg-6">
                 <div class="service-details">
-                    <h3 class="pbmit-title">What is the remedy in Vedic scriptures?</h3>
-
-                    <div class="ritual-intro-text">
-                        <p>According to Vedic scriptures, human life is deeply affected by the position
-                            of planets, constellations, pre-ordained deeds and rituals. When the
-                            influence of planets becomes adverse or various troubles arise in life,
-                            specific 'peace remedies' have been suggested to alleviate those problems
-                            and remove negativity. These remedies are mainly based on the powerful
-                            mantras, yajnas, and ritualistic worship of the Vedas. These include
-                            not only external rituals, but also spiritual means such as charity,
-                            vows, fasting, chanting, and meditation. In addition, wearing gemstones,
-                            taking holy dips, and chanting mantras of specific deities to gain the
-                            favor of the planets are also considered important parts of Vedic remedies.
-                            Through all these means, a person gets mental peace, physical health, and
-                            the strength to overcome obstacles in life.
-                        </p>
-                    </div>
+                    <h3 class="pbmit-title">Upanayana Sanskar</h3>
+                    <p>Upanayana Sanskar (Upanayana = to bring near; Sanskar = purification and formation)
+                        is an important rite in the Vedic tradition, also known as the Yajnopavit Sanskar or
+                        the Munibrahman Sanskar. This rite confers on the child the right to study the Vedas
+                        and is believed to grant him Dwijatva (second birth).</p>
+                </div>
+                <div class="service-details">
+                    <h3 class="pbmit-title">Meaning and importance of Upanayana Sanskar</h3>
+                    <p>Up + Nayan = To bring closer to the Guru.</p>
+                    <p>A rite of passage that allows a disciple to study the Vedas and enter the Brahmacharya Ashram.</p>
+                    <p>‘Dwija’ means second-born — first born from parents, second born from Guru (of knowledge).</p>
+                    <p>After completing the Upanayana, the disciple observes celibacy, engages in self-study, and serves the Guru.</p>
                 </div>
             </div>
         </div>
     </div>
 </section>
-
-
 <?php include 'book-now.php'; ?>
 
 <section class="puja-details-section">
@@ -654,22 +622,18 @@
             <div class="row align-items-center">
                 <div class="col-lg-6">
                     <div class="image-wrapper">
-                        <img src="images/images/upay02.webp" class="img-fluid main-ritual-img" alt="Vedic Ritual">
+                        <img src="images/images/matrubhojan.jpeg" class="img-fluid main-ritual-img" alt="Vedic Ritual">
                     </div>
                 </div>
                 <div class="col-lg-6">
                     <div class="principle-content">
-                        <h2 class="pbmit-title">Main types of Vedic remedies</h2>
+                        <h2 class="accent-title">The right age for Upanayana Sanskar</h2>
+                        <p>There are many methods in Vedic marriage rituals (e.g. Brahma marriage, Gandharva marriage),
+                            but the main parts of a Brahminical marriage are the yajna and the Saptapadi.</p>
                         <div class="samagri-container">
-                            <h3>Mantra therapy (mantra remedy)</h3><b>By chanting the mantra of a particular deity or performing a sacrifice, one achieves success in one's work or achieves peace on the planet.<br><br>
-                                <b>For example, for the peace of the sun</b> – Aditya Hridaya Stotra, Gayatri Mantra<br><br>
-                                <b>For Shani </b>– Shani Mantra, Navagraha Mantra, Hanuman Chalisa</b>
-                        </div><br>
-                        <h3 class="color-primary">Donation (Donation Measures)</h3>
-                        <div class="samagri-container">
-                            <b>Donation of specific items for planetary peace is mentioned, <br><br>
-                                <b>For example, black clothes, iron, sesame seeds for Saturn; copper utensils, red clothes for Mars.<br><br>
-                                    <b>Donation is right</b>
+                            <span class="samagri-box"> Brahmin – 8 years (8th year from conception) </span>
+                            <br><span class="samagri-box">Kshatriya – 11 years</span>
+                            <br><span class="samagri-box"> Vaishya – 12 years (as per Manusmriti 2.36)</span>
                         </div>
                     </div>
                 </div>
@@ -678,8 +642,124 @@
 
         <hr class="section-divider">
 
+        <section class="saptpadi-dynamic-section">
+            <div class="container">
+                <div class="row align-items-center">
 
+                    <div class="col-lg-6">
+                        <div class="ritual-info-group">
+                            <h2 class="accent-title">References from Vedic scriptures</h2>
+
+
+                            <div class="vows-container">
+                                <span class="samagri-box"><i class="fas fa-leaf"></i>The Upanayana Sanskar is mentioned in Manusmriti, Grihya Sutras, and Dharma Shastras.</span>
+                                <span class="samagri-box"><i class="fas fa-heartbeat"></i> By wearing the Yajnopavit (Janeu), one obtains the right to chant the 'Gayatri Mantra'.</span>
+                                <span class="samagri-box"><i class="fas fa-coins"></i> Samaveda, Rigveda, Yajurveda – it is decided which branch to study.</span>
+                                <span class="samagri-box"><i class="fas fa-smile-beam"></i>The Guru gives the 'Savitri Upadesha' (Gayatri Mantra) to the disciple.</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="saptpadi-image-frame">
+                            <img src="images/images/upnayan02.png" class="img-fluid rounded-custom shadow-lg" alt="सप्तपदी विधी">
+                            <div class="frame-decoration"></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <div class="wedding-ritual-section mt-5">
+            <h2 class="wedding-section-title text-center mb-5">
+                <i class="fas fa-scroll"></i>The process of ordination
+            </h2>
+
+            <div class="wedding-steps-grid">
+
+                <div class="wedding-step-card">
+                    <div class="wedding-step-icon"><i class="fas fa-pray"></i></div>
+                    <h3>Nandi Shraddha </h3>
+                    <p>To seek the grace of ancestors.</p>
+                </div>
+
+                <div class="wedding-step-card">
+                    <div class="wedding-step-icon"><i class="fas fa-place-of-worship"></i></div>
+                    <h3>Pavilion installation </h3>
+                    <p>Preparing a pure place for the sacrifice.</p>
+                </div>
+
+                <div class="wedding-step-card">
+                    <div class="wedding-step-icon"><i class="fas fa-cut"></i></div>
+                    <h3>Child's hairiness </h3>
+                    <p>Cutting the hair of the disciple (or just keeping the crest).</p>
+                </div>
+
+                <div class="wedding-step-card">
+                    <div class="wedding-step-icon"><i class="fas fa-utensils"></i></div>
+                    <h3>Sacrifice</h3>
+                    <p>To wear a janve (three threads).</p>
+                </div>
+
+                <div class="wedding-step-card">
+                    <div class="wedding-step-icon"><i class="fas fa-om"></i></div>
+                    <h3>Gayatri Mantra Preaching </h3>
+                    <p>The Guru teaches the disciple the mantra.</p>
+                </div>
+
+                <div class="wedding-step-card">
+                    <div class="wedding-step-icon"><i class="fas fa-microphone-alt"></i></div>
+                    <h3>Almshouse </h3>
+                    <p>The disciple asks for alms at the behest of the Guru, to appease his ego.</p>
+                </div>
+
+                <div class="wedding-step-card">
+                    <div class="wedding-step-icon"><i class="fas fa-hand-holding-heart"></i></div>
+                    <h3>Guru service and fasting –</h3>
+                    <p>A vow of celibacy.</p>
+                </div>
+
+
+            </div>
+        </div>
+
+
+
+
+        <div class="compact-section-wrapper">
+            <div class="philosophy-card ritual-rules-card">
+                <div class="philosophy-flex">
+
+                    <div class="phi-content-col rules-bg">
+                        <div class="content-padding">
+                            <h2 class="mini-title"><i class="fas fa-hand-holding-water"></i>Important rules</h2>
+                            <ul class="ritual-list">
+                                <li><i class="fas fa-check"></i> Observance of celibacy.</li>
+                                <li><i class="fas fa-check"></i> Speak the truth, exercise patience.</li>
+                                <li><i class="fas fa-check"></i> Obeying the Guru's word.</li>
+                                <li><i class="fas fa-check"></i>Swadhyaya (self-study).</li>
+                                <li><i class="fas fa-check"></i>Morning Remembrance, Evening Prayer.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="phi-content-col meaning-bg">
+                        <div class="content-padding">
+                            <h2 class="mini-title"><i class="fas fa-lightbulb"></i> spiritual meaning</h2>
+                           <ul class="ritual-list">
+                        <li><i class="fas fa-check"></i> Purity of mind, speech, and body.</li>
+                        <li><i class="fas fa-check"></i> The beginning of self-realization.</li>
+                        <li><i class="fas fa-check"></i> The sacred relationship between disciple and guru.</li>
+
+                    </ul>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
 
 </section>
 
-<?php include 'footer.php'; ?>
+<?php include 'english/footer.php'; ?>

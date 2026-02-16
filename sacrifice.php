@@ -379,6 +379,91 @@
         margin-top: 20px;
     }
 
+    .ritual-list li {
+        font-size: 1.1rem;
+        color: #5D4037;
+        margin-bottom: 15px;
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        font-weight: 600;
+    }
+
+    .ritual-list li i {
+        color: #FF9800;
+        font-size: 0.9rem;
+    }
+
+    /* अर्थ स्टाईल */
+    .meaning-item {
+        margin-bottom: 20px;
+        padding-bottom: 15px;
+        border-bottom: 1px dashed #eee;
+    }
+
+    .meaning-item:last-child {
+        border-bottom: none;
+    }
+
+    .meaning-item h4 {
+        color: #8B4513;
+        font-weight: 700;
+        margin-bottom: 5px;
+    }
+
+    .meaning-item p {
+        color: #666;
+        font-size: 0.95rem;
+        margin: 0;
+    }
+
+    .ritual-elements-section {
+        padding: 80px 0;
+        background-color: #ffffff;
+    }
+
+    .accent-title {
+        color: #8B4513;
+        font-weight: 800;
+        font-size: 2.5rem;
+        margin-bottom: 20px;
+    }
+
+    .accent-title i {
+        color: #FF9800;
+        margin-right: 15px;
+    }
+
+    .ritual-intro-text p {
+        font-size: 1.1rem;
+        line-height: 1.8;
+        color: #555;
+        margin-bottom: 35px;
+    }
+
+    /* Element Tags Design */
+    .vows-container {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .element-tag {
+        background: #FFF8F0;
+        border-left: 4px solid #8B4513;
+        padding: 15px 20px;
+        border-radius: 0 10px 10px 0;
+        transition: all 0.3s ease;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .element-tag:hover {
+        transform: translateX(10px);
+        background: #FFF3E0;
+        box-shadow: 0 5px 15px rgba(139, 69, 19, 0.1);
+    }
+
     /* Wedding Grid */
     .wedding-steps-grid {
         display: grid;
@@ -439,42 +524,41 @@
     }
 
 
-    .ritual-list li {
-        font-size: 1.1rem;
-        color: #5D4037;
-        margin-bottom: 15px;
-        display: flex;
-        align-items: center;
-        gap: 12px;
-        font-weight: 600;
-    }
-
-    .ritual-list li i {
-        color: #FF9800;
-        font-size: 0.9rem;
-    }
-
-    /* अर्थ स्टाईल */
-    .meaning-item {
-        margin-bottom: 20px;
-        padding-bottom: 15px;
-        border-bottom: 1px dashed #eee;
-    }
-
-    .meaning-item:last-child {
-        border-bottom: none;
-    }
-
-    .meaning-item h4 {
+    .tag-title {
+        font-weight: 800;
         color: #8B4513;
-        font-weight: 700;
-        margin-bottom: 5px;
+        font-size: 1.1rem;
+        margin-bottom: 4px;
     }
 
-    .meaning-item p {
-        color: #666;
-        font-size: 0.95rem;
-        margin: 0;
+    .tag-desc {
+        color: #444;
+        font-size: 1rem;
+        font-weight: 500;
+    }
+
+    /* Image Decoration */
+    .ritual-image-frame {
+        position: relative;
+        padding: 20px;
+    }
+
+    .rounded-custom {
+        border-radius: 30px;
+        z-index: 2;
+        position: relative;
+    }
+
+    .frame-decoration {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 90%;
+        height: 90%;
+        border: 10px solid #FF9800;
+        border-radius: 30px;
+        z-index: 1;
+        opacity: 0.15;
     }
 
     /* मोबाईल रिस्पॉन्सिव्ह */
@@ -505,7 +589,7 @@
         }
     }
 </style>
-<?php include 'header.php'; ?>
+<?php include 'english/header.php'; ?>
 <!-- Title Bar -->
 <div class="pbmit-title-bar-wrapper " style="background-image:url(images/guruji/ser-img/bgser.jpg);">
     <div class="container paddcon">
@@ -515,14 +599,14 @@
                     <div class="pbmit-title-bar-content-inner">
                         <div class="pbmit-tbar">
                             <div class="pbmit-tbar-inner container">
-                                <h1 class="pbmit-tbar-title">Sacred Thread Ceremony</h1>
+                                <h1 class="pbmit-tbar-title">Sacrifice</h1>
                             </div>
                         </div>
                         <div class="pbmit-breadcrumb">
                             <div class="pbmit-breadcrumb-inner">
                                 <span><a title="" href="index.php" class="home"><span>Home</span></a></span>
                                 <span class="sep">-</span>
-                                <span><span class="post-root post post-post current-item">Sacred Thread Ceremony</span></span>
+                                <span><span class="post-root post post-post current-item">Sacrifice</span></span>
                             </div>
                         </div>
                     </div>
@@ -575,44 +659,39 @@
             <!--		</aside>-->
             <!--	</aside>-->
             <!--</div>-->
+
             <div class="mantra-ribbon-container">
                 <div class="mantra-ribbon">
                     <div class="mantra-icon-left"><i class="fas fa-om"></i></div>
                     <div class="mantra-text-content">
                         <p class="sanskrit-shlok">
-                            "जन्मना जायते शूद्रः संस्कारैर्द्विज उच्यते ।
-                            वैदिकैः कर्मभिः पुण्यैर्निषेकादिद्विजन्मनाम् ॥"
+                            अन्नाद्भवन्ति भूतानि पर्जन्यादन्नसंभवः ।
+                            यज्ञाद्भवति पर्जन्यो यज्ञः कर्मसमुद्भवः ॥
                         </p>
                         <p class="shlok-meaning">
-                            अर्थ: जन्माने प्रत्येक जण शूद्र असतो, संस्कारांनी तो 'द्विज' (दुसरा जन्म) प्राप्त करतो.
+                            <strong>अर्थ:</strong> संपूर्ण सजीव सृष्टी अन्नावर अवलंबून आहे, अन्नाची निर्मिती पावसापासून होते, पाऊस यज्ञाद्वारे प्राप्त होतो आणि यज्ञ विहित कर्मातून निर्माण होतो.
                         </p>
                     </div>
                     <div class="mantra-icon-right"><i class="fas fa-om"></i></div>
                 </div>
             </div>
             <div class="col-lg-6 col-md-6  order-1">
-                <img src="images/images/UPANAYAN-SANSKAR.png" class="w-100" alt="">
+                <img src="images/images/yadnya-karm01.jpg" class="w-100" alt="">
 
             </div>
             <div class="col-md-6 col-lg-6">
                 <div class="service-details">
-                    <h3 class="pbmit-title">Upanayana Sanskar</h3>
-                    <p>Upanayana Sanskar (Upanayana = to bring near; Sanskar = purification and formation)
-                        is an important rite in the Vedic tradition, also known as the Yajnopavit Sanskar or
-                        the Munibrahman Sanskar. This rite confers on the child the right to study the Vedas
-                        and is believed to grant him Dwijatva (second birth).</p>
-                </div>
-                <div class="service-details">
-                    <h3 class="pbmit-title">Meaning and importance of Upanayana Sanskar</h3>
-                    <p>Up + Nayan = To bring closer to the Guru.</p>
-                    <p>A rite of passage that allows a disciple to study the Vedas and enter the Brahmacharya Ashram.</p>
-                    <p>‘Dwija’ means second-born — first born from parents, second born from Guru (of knowledge).</p>
-                    <p>After completing the Upanayana, the disciple observes celibacy, engages in self-study, and serves the Guru.</p>
+                    <h3 class="pbmit-title">What is a sacrifice?</h3>
+                    <p>The meaning of the metal 'Yaj' is worship, association (coming together), donation. <br><br>
+                        A sacrifice is an offering (sacrifice) made in front of a fire by invoking the gods with specific mantras, thereby satisfying the gods, sages, and ancestors and achieving public welfare.<br><br>
+                        Yajna is the sacred fire worship of the Vedic tradition . It is a way of achieving harmony with the gods, nature, and the universe by offering sacrifices in the fire .<br><br>
+                        The purpose of the yajna is to purify, increase positive energy, and achieve well-being and peace. The yajna is performed through chanting and rituals.</p>
                 </div>
             </div>
         </div>
     </div>
 </section>
+
 <?php include 'book-now.php'; ?>
 
 <section class="puja-details-section">
@@ -622,18 +701,24 @@
             <div class="row align-items-center">
                 <div class="col-lg-6">
                     <div class="image-wrapper">
-                        <img src="images/images/matrubhojan.jpeg" class="img-fluid main-ritual-img" alt="Vedic Ritual">
+                        <img src="images/images/yadnya-karm02.png" class="img-fluid main-ritual-img" alt="Vedic Ritual">
                     </div>
                 </div>
                 <div class="col-lg-6">
                     <div class="principle-content">
-                        <h2 class="accent-title">The right age for Upanayana Sanskar</h2>
-                        <p>There are many methods in Vedic marriage rituals (e.g. Brahma marriage, Gandharva marriage),
-                            but the main parts of a Brahminical marriage are the yajna and the Saptapadi.</p>
+                        <h2 class="pbmit-title">References from Vedic scriptures</h2>
                         <div class="samagri-container">
-                            <span class="samagri-box"> Brahmin – 8 years (8th year from conception) </span>
-                            <br><span class="samagri-box">Kshatriya – 11 years</span>
-                            <br><span class="samagri-box"> Vaishya – 12 years (as per Manusmriti 2.36)</span>
+                            <b>Rigveda, Yajurveda, Samaveda, Atharvaveda — The importance of sacrifice is mentioned in all the four Vedas.</b>
+                            <b>The rituals of various sacrifices are given in the texts like Manusmriti, Shatapatha Brahmana, and Katyayana Shrautasutra.</b>
+                            <b>  There are five types of Yajna  namely Devayagya, Pitriyagya, Rishiyagya, Athityagya and Bhootyagya .</b>
+                        </div><br>
+                        <h3 class="accent-title">The purpose of the sacrifice</h3>
+                        <div class="samagri-container">
+                            <span class="samagri-box">Maintaining the balance of creation</span>
+                            <span class="samagri-box">Environmental purification</span>
+                            <span class="samagri-box"> Appeasement of gods, sages, ancestors</span>
+                            <span class="samagri-box"> Personal and social welfare</span>
+                            <span class="samagri-box">Meditation for attaining salvation</span>
                         </div>
                     </div>
                 </div>
@@ -642,27 +727,50 @@
 
         <hr class="section-divider">
 
-        <section class="saptpadi-dynamic-section">
+        <section class="ritual-elements-section">
             <div class="container">
                 <div class="row align-items-center">
 
                     <div class="col-lg-6">
                         <div class="ritual-info-group">
-                            <h2 class="accent-title">References from Vedic scriptures</h2>
+                            <h2 class="accent-title"><i class="fas fa-fire-alt"></i>Main parts of the sacrifice</h2>
 
+                            <div class="ritual-intro-text">
+                                <p>According to Vedic tradition, Yajna is a highly disciplined and scriptural process. The following five major elements (limbs) are of particular importance for the completion of the Yajna:</p>
+                            </div>
 
                             <div class="vows-container">
-                                <span class="samagri-box"><i class="fas fa-leaf"></i>The Upanayana Sanskar is mentioned in Manusmriti, Grihya Sutras, and Dharma Shastras.</span>
-                                <span class="samagri-box"><i class="fas fa-heartbeat"></i> By wearing the Yajnopavit (Janeu), one obtains the right to chant the 'Gayatri Mantra'.</span>
-                                <span class="samagri-box"><i class="fas fa-coins"></i> Samaveda, Rigveda, Yajurveda – it is decided which branch to study.</span>
-                                <span class="samagri-box"><i class="fas fa-smile-beam"></i>The Guru gives the 'Savitri Upadesha' (Gayatri Mantra) to the disciple.</span>
+                                <div class="element-tag">
+                                    <span class="tag-title">Homkund / Yajnakund –   </span>
+                                    <span class="tag-desc">Where the fire is lit.</span>
+                                </div>
+
+                                <div class="element-tag">
+                                    <span class="tag-title">Yajna Fire –:</span>
+                                    <span class="tag-desc">Three types: Garhapatya, Ahavaniya, Dakshinagni.</span>
+                                </div>
+
+                                <div class="element-tag">
+                                    <span class="tag-title">Chanting –</span>
+                                    <span class="tag-desc">Recitation of Rich, Yajuh, Sama mantras.</span>
+                                </div>
+
+                                <div class="element-tag">
+                                    <span class="tag-title">Havishya / Sacrifice –</span>
+                                    <span class="tag-desc">Sajuk ghee, samidha (special wood), grains, medicinal plants.</span>
+                                </div>
+
+                                <div class="element-tag">
+                                    <span class="tag-title">Ritwik –</span>
+                                    <span class="tag-desc">Priestly class: Hotri, Adhvaryu, Uddatta, Brahma.</span>
+                                </div>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-lg-6">
-                        <div class="saptpadi-image-frame">
-                            <img src="images/images/upnayan02.png" class="img-fluid rounded-custom shadow-lg" alt="सप्तपदी विधी">
+                        <div class="ritual-image-frame">
+                            <img src="images/images/mantrache-mahtv.png" class="img-fluid rounded-custom shadow-lg" alt="यज्ञाची प्रमुख अंगे">
                             <div class="frame-decoration"></div>
                         </div>
                     </div>
@@ -673,53 +781,46 @@
 
         <div class="wedding-ritual-section mt-5">
             <h2 class="wedding-section-title text-center mb-5">
-                <i class="fas fa-scroll"></i>The process of ordination
+                <i class="fas fa-fire"></i>Process and sequence of the yajna ritual
             </h2>
 
             <div class="wedding-steps-grid">
 
                 <div class="wedding-step-card">
-                    <div class="wedding-step-icon"><i class="fas fa-pray"></i></div>
-                    <h3>Nandi Shraddha </h3>
-                    <p>To seek the grace of ancestors.</p>
+                    <div class="wedding-step-icon"><i class="fas fa-bullseye"></i></div>
+                    <h3>Resolution </h3>
+                    <p>stating the purpose of the sacrifice.</p>
                 </div>
 
                 <div class="wedding-step-card">
-                    <div class="wedding-step-icon"><i class="fas fa-place-of-worship"></i></div>
-                    <h3>Pavilion installation </h3>
-                    <p>Preparing a pure place for the sacrifice.</p>
+                    <div class="wedding-step-icon"><i class="fas fa-igniting"></i></div>
+                    <h3>Fire lighting</h3>
+                    <p>Ritual lighting of a fire.</p>
                 </div>
 
                 <div class="wedding-step-card">
-                    <div class="wedding-step-icon"><i class="fas fa-cut"></i></div>
-                    <h3>Child's hairiness </h3>
-                    <p>Cutting the hair of the disciple (or just keeping the crest).</p>
+                    <div class="wedding-step-icon"><i class="fas fa-vihara"></i></div>
+                    <h3>Invocation of Deity</h3>
+                    <p> Invocation of a specific deity through mantras.</p>
                 </div>
 
                 <div class="wedding-step-card">
-                    <div class="wedding-step-icon"><i class="fas fa-utensils"></i></div>
-                    <h3>Sacrifice</h3>
-                    <p>To wear a janve (three threads).</p>
+                    <div class="wedding-step-icon"><i class="fas fa-mortar-pestle"></i></div>
+                    <h3>Offering in the fire of sacrifice </h3>
+                    <p> Havishya – with chanting of mantras .</p>
                 </div>
 
                 <div class="wedding-step-card">
-                    <div class="wedding-step-icon"><i class="fas fa-om"></i></div>
-                    <h3>Gayatri Mantra Preaching </h3>
-                    <p>The Guru teaches the disciple the mantra.</p>
+                    <div class="wedding-step-icon"><i class="fas fa-sun"></i></div>
+                    <h3>Purnahuti</h3>
+                    <p>where the fire is lit.</p>
                 </div>
 
                 <div class="wedding-step-card">
-                    <div class="wedding-step-icon"><i class="fas fa-microphone-alt"></i></div>
-                    <h3>Almshouse </h3>
-                    <p>The disciple asks for alms at the behest of the Guru, to appease his ego.</p>
+                    <div class="wedding-step-icon"><i class="fas fa-dove"></i></div>
+                    <h3>Shantipath  </h3>
+                    <p>Prayer for the well-being of all beings in the world.</p>
                 </div>
-
-                <div class="wedding-step-card">
-                    <div class="wedding-step-icon"><i class="fas fa-hand-holding-heart"></i></div>
-                    <h3>Guru service and fasting –</h3>
-                    <p>A vow of celibacy.</p>
-                </div>
-
 
             </div>
         </div>
@@ -733,33 +834,49 @@
 
                     <div class="phi-content-col rules-bg">
                         <div class="content-padding">
-                            <h2 class="mini-title"><i class="fas fa-hand-holding-water"></i>Important rules</h2>
+                            <h2 class="mini-title"><i class="fas fa-hand-holding-water"></i>Benefits of sacrifice (from Vedic perspective)</h2>
                             <ul class="ritual-list">
-                                <li><i class="fas fa-check"></i> Observance of celibacy.</li>
-                                <li><i class="fas fa-check"></i> Speak the truth, exercise patience.</li>
-                                <li><i class="fas fa-check"></i> Obeying the Guru's word.</li>
-                                <li><i class="fas fa-check"></i>Swadhyaya (self-study).</li>
-                                <li><i class="fas fa-check"></i>Morning Remembrance, Evening Prayer.</li>
+                                <li><i class="fas fa-check"></i> Spiritual progress and the path to salvation.</li>
+                                <li><i class="fas fa-check"></i> Pollution in the atmosphere is destroyed.</li>
+                                <li><i class="fas fa-check"></i>Projection of energy for the welfare of living beings.</li>
+                                <li><i class="fas fa-check"></i> Improvement of mental and physical health.</li>
+                                <li><i class="fas fa-check"></i> Karma Shuddhi and Debt Redemption.</li>
+                            </ul><br>
+                            <h2 class="mini-title"><i class="fas fa-hand-holding-water"></i>Vedic significance</h2>
+                            <ul class="ritual-list">
+                                <li><i class="fas fa-check"></i>Yagya vai shreshtamam karma — Yagya is the best action (Bhagavadgita 4.23).</li>
+                                <li><i class="fas fa-check"></i> The gods are not satisfied without sacrifice.</li>
+                                <li><i class="fas fa-check"></i>It is through sacrifice that rain, food growth, and the cycle of creation proceed (Gita 3.14).</li>
                             </ul>
                         </div>
                     </div>
 
                     <div class="phi-content-col meaning-bg">
                         <div class="content-padding">
-                            <h2 class="mini-title"><i class="fas fa-lightbulb"></i> spiritual meaning</h2>
-                           <ul class="ritual-list">
-                        <li><i class="fas fa-check"></i> Purity of mind, speech, and body.</li>
-                        <li><i class="fas fa-check"></i> The beginning of self-realization.</li>
-                        <li><i class="fas fa-check"></i> The sacred relationship between disciple and guru.</li>
-
-                    </ul>
+                            <h2 class="mini-title"><i class="fas fa-lightbulb"></i> Types of Yagnas (Vedic Period)</h2>
+                            <div class="meaning-item">
+                                <h4>Nitya Yajna—</h4>
+                                <p>Sacrifices were performed daily (Agnihotra, Darsha Poornama, Agrayana).</p>
+                            </div>
+                            <div class="meaning-item">
+                                <h4>Kamya yajna —</h4>
+                                <p>For specific fruits (Putrakameshti, Sarvakameshti, Rajasuya, Ashwamedha).</p>
+                            </div>
+                            <div class="meaning-item">
+                                <h4>Propitiatory Sacrifice —</h4>
+                                <p>For the avoidance of sin.</p>
+                            </div>
+                            <div class="meaning-item">
+                                <h4>Social Sacrifice —</h4>
+                                <p>For public welfare (Public Satyanarayana Yagya, Rudrayagya, Durgayagya).</p>
+                            </div>
                         </div>
                     </div>
-                    
+
                 </div>
             </div>
         </div>
 
 </section>
 
-<?php include 'footer.php'; ?>
+<?php include 'english/footer.php'; ?>

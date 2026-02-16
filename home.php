@@ -1,10 +1,45 @@
 <?php include 'english/header.php'; ?>
-
-
 <!-- Page Content -->
 <div class="page-content demo-five">
 
 
+	<!--<section class="position-relative">-->
+	<!--    <div class="swiper-container demo">-->
+	<!--        <div class="swiper-wrapper">-->
+	<!--            <div class="swiper-slide">-->
+	<!--                      <div class="bg-img" style="background-image:url(images/guruji/arti.jpg); background-size:cover;">-->
+	<!--                         <div class="container">-->
+	<!--                      <div class="row"> -->
+	<!--                          <div class="col-12">-->
+	<!--                              <div class="banner-con">-->
+	<!--                                  <h1>Book Your Personalized Puja Online...</h1>-->
+	<!--                                  <p>Experience Divine Blessings from the Comfort of Your Home</p>-->
+	<!--                                  <a href="our-team.html" class="pbmit-btnn pbmit-btn-lg">Book Now</a>-->
+	<!--                              </div>-->
+	<!--                          </div>   -->
+	<!--                      </div>-->
+	<!--                  </div>-->
+	<!--              </div>-->
+	<!--            </div>-->
+	<!--                 <div class="swiper-slide">-->
+	<!--                      <div class="bg-img" style="background-image:url(images/guruji/arti.jpg); background-size:cover;">-->
+	<!--                         <div class="container">-->
+	<!--                      <div class="row"> -->
+	<!--                          <div class="col-12">-->
+	<!--                              <div class="banner-con">-->
+	<!--                                  <h1> Your Personalized Puja Online...</h1>-->
+	<!--                                  <p>Experience Divine Blessings from the Comfort of Your Home</p>-->
+	<!--                                  <a href="our-team.html" class="pbmit-btnn pbmit-btn-lg">Book Now</a>-->
+	<!--                              </div>-->
+	<!--                          </div>   -->
+	<!--                      </div>-->
+	<!--                  </div>-->
+	<!--              </div>-->
+	<!--            </div>-->
+	<!--        </div>-->
+	<!--         <div class="swiper-pagination text-center"></div>-->
+	<!--    </div>-->
+	<!--</section>-->
 
 
 
