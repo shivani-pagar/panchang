@@ -158,29 +158,21 @@
                     </a>
                 </li>
                 <!-- Language Dropdown -->
-   <li class="nav-item dropdown language-dropdown">
-    <a class="nav-link dropdown-toggle"
-       href="#"
-       role="button"
-       data-bs-toggle="dropdown"
-       aria-expanded="false">
-        <i class="fas fa-globe nav-icon"></i>
-        <span>Language</span>
-    </a>
-
-    <ul class="dropdown-menu">
-        <li>
-            <a href="index.php" class="dropdown-item">
-                Marathi (MR)
-            </a>
-        </li>
-        <li>
-            <a href="home.php" class="dropdown-item">
-                English (EN)
-            </a>
-        </li>
-    </ul>
-</li>
+  <li class="nav-item dropdown language-dropdown">
+                    <a href="#" class="nav-link">
+                        <i class="fas fa-globe nav-icon"></i>
+                        <span>MR</span>
+                    </a>
+                    <ul class="dropdown-menu">
+                         <li>
+                            <a href="home.php" class="dropdown-item">English (EN)</a>
+                        </li>
+                        <li>
+                            <a href="index.php" class="dropdown-item">Marathi (MR)</a>
+                        </li>
+                       
+                    </ul>
+                </li>
 
 
             <!-- Call to Action Button -->
