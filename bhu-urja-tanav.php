@@ -56,6 +56,8 @@
 
     /* Responsive for Mobile */
     @media (max-width: 768px) {
+
+        
         .mantra-ribbon {
             padding: 20px;
         }

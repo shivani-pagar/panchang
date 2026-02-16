@@ -163,9 +163,9 @@
 					</div>
 				</div>
 				<div class="col-lg-7">
-					<p class="text-muted fs-5 mb-0" style="border-left: 3px solid #c39b2e; padding-left: 20px;">
+					<!-- <p class="text-muted fs-5 mb-0" style="border-left: 3px solid #c39b2e; padding-left: 20px;">
 						कालसर्प दोष, पितृ दोष किंवा ग्रहदोष यामुळे जीवनात अडचणी, विलंब आणि मानसिक ताण येऊ शकतो. योग्य पद्धतीने केलेली महा मृत्युंजय जप, नवग्रह शांती, रुद्राभिषेक यांसारखी पूजा जीवनात सकारात्मक बदल, शांती आणि स्थैर्य आणते.
-					</p>
+					</p> -->
 				</div>
 			</div>
 
