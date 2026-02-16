@@ -535,7 +535,7 @@
         }
     }
 </style>
-<?php include 'header.php'; ?>
+<?php include 'english/header.php'; ?>
 <!-- Title Bar -->
 <div class="pbmit-title-bar-wrapper " style="background-image:url(images/guruji/ser-img/bgser.jpg);">
     <div class="container paddcon">
@@ -851,5 +851,4 @@
 </div>
 
 </section>
-
-<?php include 'footer.php'; ?>
+<?php include 'english/footer.php'; ?>

@@ -133,12 +133,12 @@
                             </a>
                             <ul class="dropdown-menu">
                                 <li><a href="vastu-consulting.php" class="dropdown-item">Vastu Consulting</a></li>
-                                <li><a href="bhumi-parikshan.php" class="dropdown-item">Land Survey</a></li>
-                                <li><a href="vastu-parikshan.php" class="dropdown-item">Architectural Examination</a></li>
-                                <li><a href="vastu-scanner.php" class="dropdown-item">Vastu Aura Scanner</a></li>
-                                <li><a href="bhu-urja-tanav.php" class="dropdown-item">Geo energy stress</a></li>
-                                <li><a href="vastu-yojana.php" class="dropdown-item">Vastu Plan</a></li>
-                                <li><a href="vastu-yantra.php" class="dropdown-item">Yantra and Crystal Remedies</a></li>
+                                <li><a href="land-survey.php" class="dropdown-item">Land Survey</a></li>
+                                <li><a href="architectural-examination.php" class="dropdown-item">Architectural Examination</a></li>
+                                <li><a href="vaastu-aura-scanner.php" class="dropdown-item">Vastu Aura Scanner</a></li>
+                                <li><a href="geopathic-stress.php" class="dropdown-item">Geo energy stress</a></li>
+                                <li><a href="vaastu-plan-designing.php" class="dropdown-item">Vastu Plan</a></li>
+                                <li><a href="yantra-and-crystal-upay-yojna-product.php" class="dropdown-item">Yantra and Crystal Remedies</a></li>
                             </ul>
                         </li>
                     </ul>
