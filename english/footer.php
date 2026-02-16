@@ -1,127 +1,117 @@
+<!-- CSS ============================================ -->
+<link rel="stylesheet" href="css/footer.css">
+
 <!-- footer -->
-<footer class="footer site-footer pbmit-bg-color-secondary" style="background-image:url(images/guruji/trbg.jpeg); background-size: cover; background-position: top center; background-attachment: fixed;">
-    <div class="pbmit-footer-widget-area">
+<footer class="veda-footer">
+    <div class="footer-top-border"></div>
+
+    <div class="pbmit-footer-widget-area py-6">
         <div class="container">
-            <div class="row">
-                <div class="col-md-4 col-lg-4">
-                    <div class="widget">
-                        <h2 class="widget-title text-white">Address</h2>
-                        <div class="textwidget">
-                            <p class="text-white">
-                                Panchang Vastu Associates<br>
-                                Shop No. 1, College Road, Baike Signal,<br>
-                                Shetkari Tea Behind,<br>
-                                Rupali Apartment, Nashik, Maharashtra<br>
-                                Pin 422005
-                            </p>
+            <div class="row g-5">
+                
+                <!-- Column 1 : Logo & name -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="widget footer-widget">
+                        <div class="footer-logo-simple">
+                            <img src="/images/guruji/panchang-vastu-logo.webp" alt="Panchang Vastu Logo" class="img-fluid">
+                            <div class="guruji-name">Sachin Joshi</div>
+                            <div class="guruji-title">Astrology · Vastu Expert</div>
+                            <div class="sanskrit-motto">“Success is born from determination”</div>
+                        </div>
+
+                        <div style="margin-top: 1.5rem; font-size: 0.9rem; color: #b4945a;">
+                            <i class="fas fa-om" style="margin-right: 8px;"></i> Vedic Guidance
                         </div>
                     </div>
                 </div>
-                
-                <div class="col-md-4 col-lg-4 text-center">
-    <div class="widget">
-        <h2 class="widget-title text-white">Contact Us</h2>
 
-        <div class="pbmit-footer-contact-info justify-content-center d-flex">
-            <div class="pbmit-footer-contact-info-inner">
-                <i class="themifyicon ti-mobile"></i>
-            </div>
-            <div class="pbmit-footer-contact-info-wrap text-white ms-2">
-                <strong>Phone:</strong><br>
-                <a href="tel:+919552095159" class="text-white">(+91) 95520 95159</a>
-            </div>
-        </div>
+                <!-- Column 2 : Contact -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="widget footer-widget">
+                        <h3 class="widget-title">Contact Us</h3>
+                        <div class="classic-divider"></div>
 
-        <div class="pbmit-social-links-wrapper mt-4">
-            <ul class="social-icons justify-content-center d-flex p-0">
-                <li class="mx-2"><a target="_blank" href="#"><i class="pbmit-base-icon-linkedin"></i></a></li>
-                <li class="mx-2"><a target="_blank" href="#"><i class="pbmit-base-icon-facebook"></i></a></li>
-                <li class="mx-2"><a target="_blank" href="#"><i class="pbmit-base-icon-instagram"></i></a></li>
-                <li class="mx-2"><a target="_blank" href="#"><i class="pbmit-base-icon-youtube"></i></a></li>
-            </ul>
-        </div>
-
-        <!-- Center Text -->
-        <div class="mt-4">
-            <p class="text-white mb-1 fw-bold">Success comes to resolution</p>
-            <p class="text-white">Panchang Vastu</p>
-        </div>
-
-    </div>
-</div>
-
-                
-                <div class="col-md-4 col-lg-4">
-                    <div class="widget">
-                        <h2 class="widget-title text-white">Useful Links</h2>
-                        <div class="textwidget">
-                            <ul class="text-white">
-                                <li><a href="about.php" class="text-white">About Us</a></li>
-                                <li><a href="#" class="text-white">Vedic Science</a></li>
-                                <li><a href="#" class="text-white">Astrology</a></li>
-                                <li><a href="#" class="text-white">Vastu Shastra</a></li>
-                            </ul>
+                        <div class="contact-item-classic">
+                            <i class="fas fa-phone-alt"></i>
+                            <div class="ci-text-classic">
+                                <span>Phone:</span>
+                                <a href="tel:+919552095159">+91 95520 95159</a>
+                            </div>
                         </div>
-                        
+
+                        <div class="contact-item-classic">
+                            <i class="fas fa-envelope"></i>
+                            <div class="ci-text-classic">
+                                <span>Email:</span>
+                                <a href="mailto:info@panchangvastu.com">info@panchangvastu.com</a>
+                            </div>
+                        </div>
+
+                        <div class="social-classic">
+                            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                        </div>
                     </div>
                 </div>
+
+                <!-- Column 3 : Important Links -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="widget footer-widget ps-lg-3">
+                        <h3 class="widget-title">Important Links</h3>
+                        <div class="classic-divider"></div>
+                        <ul class="veda-links-classic">
+                            <li><a href="about.php">About Us</a></li>
+                            <li><a href="services.php">Vedic Science</a></li>
+                            <li><a href="astrology.php">Astrology</a></li>
+                            <li><a href="vastu.php">Vastu Science</a></li>
+                            <li><a href="contact.php">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Column 4 : Address -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="widget footer-widget">
+                        <h3 class="widget-title">Address</h3>
+                        <div class="classic-divider"></div>
+                        <div class="address-elegant">
+                            <strong>Panchang Vastu Associates</strong><br>
+                            Shop No. 1, College Road, BYK Signal,<br>
+                            Behind Shetkari Tea Stall,<br>
+                            Rupali Apartment, Nashik, Maharashtra<br>
+                            Pin 422005
+                        </div>
+
+                        <div style="margin-top: 18px; color: #bda46b;">
+                            <i class="fas fa-map-pin" style="margin-right: 5px;"></i> Visit for Consultation & Blessings
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <hr class="footer-hr-light mt-5 mb-0">
+        </div>
+    </div>
+
+    <!-- bottom footer -->
+    <div class="footer-bottom-classic">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="copy-text-classic mb-0">
+                        © 2026 <strong style="color: #e9c886;">Panchang Vastu</strong> · All Rights Reserved
+                    </p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <span style="color: #9f8a63;">Developed by </span>
+                    <a href="#" style="color: #dbb671; font-weight: 600; text-decoration: none; border-bottom: 1px dotted #b78c4a;">
+                        Dotphi
+                    </a>
+                    <span style="color: #7a623b; margin-left: 6px;">◆ Vedic Technology</span>
+                </div>
             </div>
         </div>
     </div>
-    
-    <div class="pbmit-footer-bottom"> 
-        <div class="container">
-            <div class="pbmit-footer-text-inner text-center">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="pbmit-footer-copyright-text-area text-white">
-                            © 2026 Panchang Vastu. All Rights Reserved. 
-                            <span class="d-block d-md-inline">Designed & Developed by Dotphi</span>
-                        </div>
-                    </div>            
-                </div>
-            </div>    
-        </div>
-    </div>    
 </footer>
-<!-- footer End -->
-
-</div>
-<!-- page wrapper End -->
-
-<!-- JS ============================================ -->
-<!-- jQuery JS -->
-<script src="js/jquery.min.js"></script>
-<!-- Popper JS -->
-<script src="js/popper.min.js"></script>
-<!-- Bootstrap JS -->
-<script src="js/bootstrap.min.js"></script> 
-<!-- jquery Waypoints JS -->
-<script src="js/jquery.waypoints.min.js"></script>
-<!-- jquery Appear JS -->
-<script src="js/jquery.appear.js"></script>
-<!-- Numinate JS -->
-<script src="js/numinate.min.js"></script>
-<!-- Swiper JS -->
-<script src="js/swiper.min.js"></script>
-<!-- Magnific JS -->
-<script src="js/jquery.magnific-popup.min.js"></script>
-<!-- Circle Progress JS -->
-<script src="js/circle-progress.js"></script>  
-<!-- AOS -->
-<script src="js/aos.js"></script>
-<!-- Scripts JS -->
-<script src="js/scripts.js"></script>
-
-<script>
-    $(document).ready(function () {
-        // Ensure counter works when scrolling into view
-        $('.numinate').counterUp({
-            delay: 5,
-            time: 2000
-        });
-    });
-</script>
-
-</body>
-</html>

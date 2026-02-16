@@ -47,12 +47,20 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $errors[] = 'Please enter a valid 10-digit phone number.';
     }
 
+
     // Message validation
     if (empty($message)) {
         $errors[] = 'Message is required.';
     } elseif (strlen($message) < 3) {
         $errors[] = 'Message must be at least 3 characters.';
     }
+
+if($error=="")
+{
+    $page1 = $_POST['page'];
+    $to = "backupilogicx@gmail.com";
+    $subject = "Enquiry For ".$page1;
+
 
     // If there are validation errors, return them
     if (!empty($errors)) {

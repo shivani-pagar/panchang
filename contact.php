@@ -71,6 +71,7 @@
         flex-shrink: 0;
     }
 
+
     /* Small Action Button */
     .pbmit-btn-sm-classic {
         font-size: 0.8rem;
@@ -82,6 +83,7 @@
         padding-bottom: 3px;
         transition: 0.3s;
     }
+
 
     .pbmit-btn-sm-classic:hover {
         color: #FFB300;
@@ -169,6 +171,7 @@ include 'header.php';
                         <h2 class="pbmit-title display-6 fw-bold">आमच्याशी <strong style="color: #D32F2F;">संपर्क साधा</strong></h2>
                     </div>
 
+
                     <form method="post" id="contactForm" onsubmit="return false;">
                         <div class="row g-3">
                             <div id="form_response" class="col-md-12"></div>
@@ -195,6 +198,8 @@ include 'header.php';
 
                             <div class="col-md-12 text-center text-md-start">
                                 <button type="submit" id="submit_btn" class="pbmit-btn btn-classic-submit">
+
+                   
                                     <i class="form-btn-loader fa fa-circle-o-notch fa-spin fa-fw margin-bottom d-none"></i>
                                     <span class="btn-text">संदेश पाठवा</span>
                                     <i class="fas fa-paper-plane ms-2"></i>
@@ -285,7 +290,7 @@ include 'header.php';
             console.error("Contact form not found!");
             return;
         }
-        
+
         // Remove any existing event handlers and attach new one
         $contactForm.off('submit').on('submit', function(e) {
             e.preventDefault();
@@ -315,6 +320,7 @@ include 'header.php';
             if (name === "") {
                 showMessage('** कृपया आपले नाव प्रविष्ट करा **', 'error');
                 $("#name").focus();
+
                 return false;
             }
             
