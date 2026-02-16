@@ -99,8 +99,8 @@
                             </a>
                             <ul class="dropdown-menu">
                                 <li><a href="pooja.php" class="dropdown-item">पूजा</a></li>
-                                <li><a href="vedic_marriage.php" class="dropdown-item">वैदिक विवाह अभिषेक</a></li>
-                                <li><a href="sacred_thread_ceremony.php" class="dropdown-item">उपनयन संस्कार</a></li>
+                                <li><a href="vedic_vivah.php" class="dropdown-item">वैदिक विवाह अभिषेक</a></li>
+                                <li><a href="upanayan_sanskar.php" class="dropdown-item">उपनयन संस्कार</a></li>
                                 <li><a href="sacred_fire_ritual.php" class="dropdown-item">हवन अभिषेक</a></li>
                                 <li><a href="sacrifice.php" class="dropdown-item">अर्थ अभिषेक</a></li>
                                 <li><a href="solution.php" class="dropdown-item">समाधान</a></li>
