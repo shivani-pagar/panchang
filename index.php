@@ -26,9 +26,9 @@
 								</div>
 								<div class="col-12 col-md-4 col-lg-5 d-none d-md-block text-center">
 									<div class="image-frame-gold animate__animated animate__zoomIn animate__delay-1s">
-										<img src="images/homepage-1/bg03.png" class="img-fluid main-img-clean" alt="Vedic Guru">
+										<img src="images/homepage-1/hero-img.png" class="img-fluid main-img-clean" alt="Vedic Guru">
 										<div class="exp-badge-white">
-											<span class="num">१५+</span>
+											<span class="num">25 +</span>
 											<span class="txt">वर्षांचा अनुभव</span>
 										</div>
 									</div>
@@ -55,7 +55,7 @@
 								</div>
 								<div class="col-12 col-md-4 col-lg-5 d-none d-md-block text-center">
 									<div class="image-frame-gold">
-										<img src="images/homepage-1/bg03.png" class="img-fluid main-img-clean" alt="Astrology Expert">
+										<img src="images/homepage-1/hero-img.png" class="img-fluid main-img-clean" alt="Astrology Expert">
 									</div>
 								</div>
 							</div>
@@ -282,103 +282,379 @@
 
 	<!-- Testimonial Start -->
 	<section class="testimonial-contact-section py-5" style="background-color: #fffaf5; font-family: 'Mukta', sans-serif;">
-    <div class="container">
-        <div class="row g-5 align-items-center">
-            
-            <div class="col-lg-6">
-                <div class="testimonial-side pe-lg-4">
-                    <h4 class="text-orange fw-bold text-uppercase mb-2" style="color: #ff8c00; letter-spacing: 2px;">अभिप्राय</h4>
-                    <h2 class="display-6 fw-bold mb-4">आमच्यावर विश्वास ठेवणारे <br><span style="color: #ff8c00;">समाधानी ग्राहक</span></h2>
-                    
-                    <div class="swiper testimonial-swiper-mini">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <div class="testimonial-mini-card p-4 bg-white shadow-sm" style="border-radius: 15px; border-left: 5px solid #ff8c00;">
-                                    <div class="star-rating mb-2" style="color: #ffc107; font-size: 0.8rem;">
-                                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-                                    </div>
-                                    <p class="fs-6 italic" style="color: #555;">"सचिन गुरुजींनी सुचवलेल्या वास्तु बदलांमुळे आमच्या घरात खूप सकारात्मकता आली आहे. विना तोडफोड केलेले उपाय अत्यंत प्रभावी ठरले."</p>
-                                    <div class="d-flex align-items-center mt-3">
-                                        <img src="images/homepage-1/avatar/img-01.png" class="rounded-circle me-3" width="110" height="100">
-                                        <h3 class="fw-bold mb-0">अमोल सोनवणे, <span class="fw-normal text-muted">पुणे</span></h3>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="testimonial-mini-card p-4 bg-white shadow-sm" style="border-radius: 15px; border-left: 5px solid #ff8c00;">
-                                    <div class="star-rating mb-2" style="color: #ffc107; font-size: 0.8rem;">
-                                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-                                    </div>
-                                    <p class="fs-6 italic" style="color: #555;">"मुलीच्या लग्नाचे सर्व विधी गुरुजींनी अत्यंत शास्त्रोक्त पद्धतीने पार पाडले. मंत्रोच्चार आणि विधींचे महत्त्व त्यांनी खूप छान समजावून सांगितले."</p>
-                                    <div class="d-flex align-items-center mt-3">
-                                        <img src="images/homepage-1/avatar/img-02.png" class="rounded-circle me-3" width="110" height="100">
-                                        <h3 class="fw-bold mb-0">सौ. आशालता पाटील, <span class="fw-normal text-muted">नाशिक</span></h3>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-pagination mt-4 position-relative"></div>
-                    </div>
-                </div>
-            </div>
+		<div class="container">
+			<div class="row g-5 align-items-center">
 
-            <div class="col-lg-6">
-                <div class="contact-form-card p-5 bg-white shadow-lg" style="border-radius: 25px; border-top: 8px solid #ff8c00;">
-                    <h3 class="fw-bold mb-2">चर्चा करण्यासाठी संपर्क साधा</h3>
-                    <p class="text-muted mb-4">तुमच्या अडचणी सोडवण्यासाठी आजच आमच्याशी संपर्क साधा.</p>
-                    
-                    <form action="contact-process.php" method="POST">
-                        <div class="row g-3">
-                            <div class="col-md-6">
-                                <label class="form-label fw-bold">नाव</label>
-                                <input type="text" name="name" class="form-control custom-input" placeholder="तुमचे नाव" required>
-                            </div>
-                            <div class="col-md-6">
-                                <label class="form-label fw-bold">मोबाईल नंबर</label>
-                                <input type="tel" name="phone" class="form-control custom-input" placeholder="९१XXXXXXXX" required>
-                            </div>
-                            <div class="col-12">
-                                <label class="form-label fw-bold">सेवेचा प्रकार</label>
-                                <select name="service" class="form-select custom-input">
-                                    <option selected>निवडा...</option>
-                                    <option>वास्तु कन्सल्टिंग</option>
-                                    <option>ज्योतिष मार्गदर्शन</option>
-                                    <option>पूजा विधी</option>
-                                </select>
-                            </div>
-                            <div class="col-12">
-                                <label class="form-label fw-bold">संदेश</label>
-                                <textarea name="message" class="form-control custom-input" rows="3" placeholder="तुमची समस्या थोडक्यात लिहा..."></textarea>
-                            </div>
-                            <div class="col-12">
-                                <button type="submit" class="btn btn-orange w-100 py-3 mt-2 fw-bold text-uppercase">माहिती पाठवा</button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
+				<!-- Left Column: Testimonial -->
+				<div class="col-lg-6">
+					<div class="testimonial-side pe-lg-4">
+						<h4 class="text-orange fw-bold text-uppercase mb-2" style="color: #ff8c00; letter-spacing: 2px;">अभिप्राय</h4>
+						<h2 class="display-6 fw-bold mb-4">आमच्यावर विश्वास ठेवणारे <br><span style="color: #ff8c00;">समाधानी ग्राहक</span></h2>
 
-        </div>
-    </div>
-</section>
+						<div class="swiper testimonial-swiper-mini">
+							<div class="swiper-wrapper">
+								<!-- Testimonial 1 -->
+								<div class="swiper-slide">
+									<div class="testimonial-mini-card p-4 bg-white shadow-sm" style="border-radius: 15px; border-left: 5px solid #ff8c00;">
+										<div class="star-rating mb-2" style="color: #ffc107; font-size: 0.8rem;">
+											<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+										</div>
+										<p class="fs-6 italic" style="color: #555;">"सचिन गुरुजींनी सुचवलेल्या वास्तु बदलांमुळे आमच्या घरात खूप सकारात्मकता आली आहे. विना तोडफोड केलेले उपाय अत्यंत प्रभावी ठरले."</p>
+										<div class="d-flex align-items-center mt-3">
+											<img src="images/homepage-1/avatar/img-01.png" class="rounded-circle me-3" width="60" height="60" alt="avatar">
+											<h3 class="fw-bold mb-0">अमोल सोनवणे, <span class="fw-normal text-muted">पुणे</span></h3>
+										</div>
+									</div>
+								</div>
+								<!-- Testimonial 2 -->
+								<div class="swiper-slide">
+									<div class="testimonial-mini-card p-4 bg-white shadow-sm" style="border-radius: 15px; border-left: 5px solid #ff8c00;">
+										<div class="star-rating mb-2" style="color: #ffc107; font-size: 0.8rem;">
+											<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+										</div>
+										<p class="fs-6 italic" style="color: #555;">"मुलीच्या लग्नाचे सर्व विधी गुरुजींनी अत्यंत शास्त्रोक्त पद्धतीने पार पाडले. मंत्रोच्चार आणि विधींचे महत्त्व त्यांनी खूप छान समजावून सांगितले."</p>
+										<div class="d-flex align-items-center mt-3">
+											<img src="images/homepage-1/avatar/img-02.png" class="rounded-circle me-3" width="60" height="60" alt="avatar">
+											<h3 class="fw-bold mb-0">सौ. आशालता पाटील, <span class="fw-normal text-muted">नाशिक</span></h3>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- Swiper pagination -->
+							<div class="swiper-pagination mt-4 position-relative"></div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Right Column: Contact Form (exactly as second example) -->
+				<div class="col-lg-6">
+					<div class="contact-form-card p-5 bg-white shadow-lg" style="border-radius: 25px; border-top: 8px solid #ff8c00;">
+						<h3 class="fw-bold mb-2">चर्चा करण्यासाठी संपर्क साधा</h3>
+						<p class="text-muted mb-4">तुमच्या अडचणी सोडवण्यासाठी आजच आमच्याशी संपर्क साधा.</p>
+
+						<form method="post" id="contactForm">
+							<div class="row g-3">
+								<div id="form_response" class="col-md-12"></div>
+
+								<div class="col-md-6">
+									<label class="form-label fw-bold">नाव</label>
+									<input type="text" name="name" id="name" class="form-control classic-input" placeholder="तुमचे नाव" required>
+								</div>
+								<div class="col-md-6">
+									<label class="form-label fw-bold">ईमेल</label>
+									<input type="email" name="email" id="email" class="form-control classic-input" placeholder="तुमचा ईमेल" required>
+								</div>
+								<div class="col-md-6">
+									<label class="form-label fw-bold">मोबाईल नंबर</label>
+									<input type="tel" name="phone" id="phone" class="form-control classic-input" placeholder="९१XXXXXXXX" required>
+								</div>
+								<div class="col-md-6">
+									<label class="form-label fw-bold">सेवेचा प्रकार</label>
+									<select name="service" id="service" class="form-select classic-input" required>
+										<option value="" selected disabled>निवडा...</option>
+										<option>वास्तु कन्सल्टिंग</option>
+										<option>ज्योतिष मार्गदर्शन</option>
+										<option>पूजा विधी</option>
+									</select>
+								</div>
+								<div class="col-12">
+									<label class="form-label fw-bold">संदेश</label>
+									<textarea name="message" id="message" class="form-control classic-input" rows="3" placeholder="तुमची समस्या थोडक्यात लिहा..." required></textarea>
+								</div>
+
+								<!-- Hidden fields for complete URL information (same as second section) -->
+								<input type="hidden" name="Full_Domain" id="full_domain" value="<?php echo $fullDomain; ?>">
+								<input type="hidden" name="Full_URL" id="full_url" value="<?php echo $fullURL; ?>">
+								<input type="hidden" name="Page_Name" id="page_name" value="<?php echo $curPageName; ?>">
+								<input type="hidden" name="Protocol" id="protocol" value="<?php echo $protocol; ?>">
+
+								<div class="col-12">
+									<button type="submit" id="submit_btn" class="btn btn-orange w-100 h-70 py-3 mt-2 fw-bold text-uppercase" style="background: linear-gradient(45deg, #d3ad2f, #d3ad2f); border: none; color: white; border-radius: 50px; box-shadow: 0 10px 20px rgba(211, 47, 47, 0.2);">
+										<i class="form-btn-loader fa fa-circle-o-notch fa-spin fa-fw margin-bottom d-none"></i>
+										<span class="btn-orange">माहिती पाठवा</span>
+										<i class="fas fa-paper-plane ms-2"></i>
+									</button>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
 
 	<!-- Testimonial End -->
 
 </div>
 <!-- Page Content End -->
 
+<!--  Testpmonial Script -->
 <script>
-    var testimonialSwiperMini = new Swiper(".testimonial-swiper-mini", {
-        slidesPerView: 1,
-        spaceBetween: 20,
-        loop: true,
-        autoplay: {
-            delay: 4500,
-        },
-        pagination: {
-            el: ".swiper-pagination",
-            clickable: true,
-        },
-    });
+	var testimonialSwiperMini = new Swiper(".testimonial-swiper-mini", {
+		slidesPerView: 1,
+		spaceBetween: 20,
+		loop: true,
+		autoplay: {
+			delay: 4500,
+		},
+		pagination: {
+			el: ".swiper-pagination",
+			clickable: true,
+		},
+	});
 </script>
+
+
+<!--  Contact from Script -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script type="text/javascript">
+    // Wait for jQuery to be fully loaded
+    (function($) {
+        "use strict";
+
+        $(document).ready(function() {
+            console.log("Document ready - Contact form initialized");
+
+            // Make sure we're targeting the correct form
+            var $contactForm = $('#contactForm');
+            var $submitBtn = $('#submit_btn');
+            var $formResponse = $('#form_response');
+
+            if (!$contactForm.length) {
+                console.error("Contact form not found!");
+                return;
+            }
+
+            // Remove any existing event handlers and attach new one
+            $contactForm.off('submit').on('submit', function(e) {
+                e.preventDefault();
+                console.log("Form submitted - processing...");
+
+                // Get form values
+                var name = $('#name').val().trim();
+                var phone = $('#phone').val().trim();
+                var email = $('#email').val().trim();
+                var message = $('#message').val().trim();
+
+                console.log("Form values:", {
+                    name: name,
+                    phone: phone,
+                    email: email,
+                    message: message
+                });
+
+                // Project specific variables
+                var project_unique_code = "panchangvastu180";
+                var domain = "<?php echo $domain; ?>";
+                var url = "<?php echo $curPageName; ?>";
+
+                // Validation patterns
+                var email_regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+                var mobile_regex = /^\d{10}$/;
+
+                // Clear previous messages
+                $formResponse.removeClass('show success error').empty();
+
+                // SIMPLE NAME VALIDATION
+                if (name === "") {
+                    showMessage('** कृपया आपले नाव प्रविष्ट करा **', 'error');
+                    $("#name").focus();
+                    return false;
+                }
+
+                if (name.length < 2) {
+                    showMessage('** नाव किमान 2 अक्षरे असावी **', 'error');
+                    $("#name").focus();
+                    return false;
+                }
+
+                // Phone validation
+                if (phone === "") {
+                    showMessage('** कृपया मोबाईल नंबर प्रविष्ट करा **', 'error');
+                    $("#phone").focus();
+                    return false;
+                }
+
+                if (!mobile_regex.test(phone)) {
+                    showMessage('** कृपया वैध 10-अंकी मोबाईल नंबर प्रविष्ट करा **', 'error');
+                    $("#phone").focus();
+                    return false;
+                }
+
+                // Email validation
+                if (email === "") {
+                    showMessage('** कृपया ईमेल प्रविष्ट करा **', 'error');
+                    $("#email").focus();
+                    return false;
+                }
+
+                if (!email_regex.test(email)) {
+                    showMessage('** कृपया वैध ईमेल प्रविष्ट करा **', 'error');
+                    $("#email").focus();
+                    return false;
+                }
+
+                // Message validation
+                if (message === "") {
+                    showMessage('** कृपया आपला संदेश प्रविष्ट करा **', 'error');
+                    $("#message").focus();
+                    return false;
+                }
+
+                if (message.length < 3) {
+                    showMessage('** संदेश किमान 3 अक्षरे असावा **', 'error');
+                    $("#message").focus();
+                    return false;
+                }
+
+                // Disable button and show loading
+                $submitBtn.prop('disabled', true);
+                $('.form-btn-loader').removeClass('d-none');
+                $submitBtn.find('.btn-text').text('पाठवत आहे...');
+
+                // Prepare form data for PHP
+                var form = $('#contactForm')[0];
+                var formData = new FormData(form);
+
+                // Add extra required fields for PHP
+                formData.append("Project_Unique_Code", project_unique_code);
+                formData.append("Domain", domain);
+                formData.append("URL", url);
+
+                // Log what we're sending to PHP
+                console.log("Sending data to PHP:", {
+                    name: name,
+                    phone: phone,
+                    email: email,
+                    message: message
+                });
+
+                // 1) FIRST send to PHP email script
+                console.log("Sending to PHP email script...");
+
+                $.ajax({
+                    url: "contact_valid.php",
+                    type: "POST",
+                    data: formData,
+                    contentType: false,
+                    processData: false,
+                    timeout: 30000,
+
+                    success: function(response) {
+                        console.log("PHP Response:", response);
+
+                        // Check if PHP script returned success
+                        if (response.trim() === 'sent') {
+                            console.log("PHP success, now sending to Google Sheets...");
+
+                            // 2) THEN send to Google Sheets
+                            // Create a NEW FormData for Google Sheets with EXACT field names that Apps Script expects
+                            var sheetFormData = new FormData();
+
+                            // IMPORTANT: Use EXACT field names from your testDoPost function
+                            sheetFormData.append("Name", name); // Capital N
+                            sheetFormData.append("Email", email); // Capital E
+                            sheetFormData.append("Phone", phone); // Capital P
+                            sheetFormData.append("Comments", message); // Capital C - actual message
+                            sheetFormData.append("Subject", "Contact Form"); // Capital S
+                            sheetFormData.append("Message", "Contact Form"); // Capital M - fixed value
+                            sheetFormData.append("Domain", domain); // Capital D
+                            sheetFormData.append("URL", url); // URL (all caps)
+                            sheetFormData.append("Project_Unique_Code", project_unique_code); // Exact
+
+                            console.log("Sending to Google Sheets with EXACT field names:", {
+                                "Name": name,
+                                "Email": email,
+                                "Phone": phone,
+                                "Comments": message,
+                                "Subject": "Contact Form",
+                                "Message": "Contact Form",
+                                "Domain": domain,
+                                "URL": url,
+                                "Project_Unique_Code": project_unique_code
+                            });
+
+                            $.ajax({
+                                url: "https://script.google.com/macros/s/AKfycbz2r7iZUb-qftS2jZRSwtPUv6avKzx2cW7A80_XLpLuxK2SW8qwT8wARCP3uvQ3-dgX/exec",
+                                type: "POST",
+                                data: sheetFormData,
+                                contentType: false,
+                                processData: false,
+                                timeout: 30000,
+
+                                success: function(sheetResponse) {
+                                    console.log("Sheet Response:", sheetResponse);
+                                    showMessage('** धन्यवाद! आम्ही लवकरच तुमच्याशी संपर्क साधू **', 'success');
+                                    $contactForm[0].reset();
+                                },
+
+                                error: function(xhr, status, error) {
+                                    console.error("Sheet Error:", error, status);
+                                    console.error("Sheet XHR:", xhr);
+                                    // Still show success since PHP email was sent
+                                    showMessage('** धन्यवाद! तुमचा संदेश पाठवला गेला आहे **', 'success');
+                                    $contactForm[0].reset();
+                                },
+
+                                complete: function() {
+                                    // Re-enable button after Google Sheets completes
+                                    $submitBtn.prop('disabled', false);
+                                    $('.form-btn-loader').addClass('d-none');
+                                    $submitBtn.find('.btn-text').text('संदेश पाठवा');
+                                }
+                            });
+
+                        } else {
+                            // PHP script returned an error
+                            console.error("PHP Error Response:", response);
+                            showMessage('** त्रुटी: ' + response + ' **', 'error');
+
+                            // Re-enable button
+                            $submitBtn.prop('disabled', false);
+                            $('.form-btn-loader').addClass('d-none');
+                            $submitBtn.find('.btn-text').text('संदेश पाठवा');
+                        }
+                    },
+
+                    error: function(xhr, status, error) {
+                        console.error("PHP AJAX Error:", error, status);
+                        console.error("XHR Details:", xhr);
+                        showMessage('** सर्व्हर त्रुटी. कृपया पुन्हा प्रयत्न करा. **', 'error');
+
+                        // Re-enable button
+                        $submitBtn.prop('disabled', false);
+                        $('.form-btn-loader').addClass('d-none');
+                        $submitBtn.find('.btn-text').text('संदेश पाठवा');
+                    }
+                });
+
+                return false;
+            });
+
+            // Helper function to show messages
+            function showMessage(text, type) {
+                $formResponse
+                    .text(text)
+                    .removeClass('success error')
+                    .addClass('show ' + type);
+
+                // Auto hide after 10 seconds
+                setTimeout(function() {
+                    $formResponse.removeClass('show');
+                }, 10000);
+            }
+
+            // Also handle any other forms on the page
+            $('form').not('#contactForm').on('submit', function() {
+                console.log("Other form submitted - ignoring");
+                return true; // Allow other forms to submit normally
+            });
+
+        });
+
+    })(jQuery);
+</script>
+
+
 <?php include 'footer.php'; ?>

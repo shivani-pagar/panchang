@@ -622,7 +622,7 @@
             <div class="philosophy-card">
                 <div class="philosophy-flex">
                     <div class="phi-img-col">
-                        <img src="images/images/mantrache-mahtv.png" alt="Vedic Ritual">
+                        <img src="images/images/om-image.jpg" alt="Vedic Ritual">
                     </div>
 
                     <div class="phi-content-col">

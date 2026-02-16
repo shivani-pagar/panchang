@@ -643,7 +643,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-6">
                     <div class="image-wrapper">
-                        <img src="images/images/mantrache-mahtv.png" class="img-fluid main-ritual-img" alt="Vedic Ritual">
+                        <img src="images/images/mantrache-mahtv.jpg" class="img-fluid main-ritual-img" alt="Vedic Ritual">
                     </div>
                 </div>
                 <div class="col-lg-6">
@@ -753,7 +753,7 @@
 
                     <div class="col-lg-5">
                         <div class="saptpadi-image-frame">
-                            <img src="images/images/mantrache-mahtv.png" class="img-fluid rounded-custom shadow-lg" alt="आध्यात्मिक जीवन">
+                            <img src="images/images/mantrache-mahtv.jpg" class="img-fluid rounded-custom shadow-lg" alt="आध्यात्मिक जीवन">
                             <div class="frame-decoration"></div>
                         </div>
                     </div>

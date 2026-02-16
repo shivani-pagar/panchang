@@ -104,10 +104,20 @@
     box-shadow: 0 15px 30px rgba(255, 140, 0, 0.4);
 }
 
+
+@keyframes rotateWheel {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
 /* Images & Badges */
 .main-img-clean {
     max-height: 550px;
     filter: drop-shadow(0 20px 40px rgba(0, 0, 0, 0.15));
+    animation: rotateWheel 20s linear infinite;
 }
 
 .exp-badge-white {
