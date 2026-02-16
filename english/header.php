@@ -165,10 +165,10 @@
                     </a>
                     <ul class="dropdown-menu">
                         <li>
-                            <a href="../index.php" class="dropdown-item">Marathi (MR)</a>
+                            <a href="index.php" class="dropdown-item">Marathi (MR)</a>
                         </li>
                         <li>
-                            <a href="Home.php" class="dropdown-item">English (EN)</a>
+                            <a href="home.php" class="dropdown-item">English (EN)</a>
                         </li>
                     </ul>
                 </li>
