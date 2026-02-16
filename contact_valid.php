@@ -1,18 +1,11 @@
 <?php
-// Add error reporting for debugging (remove in production)
-error_reporting(E_ALL);
-ini_set('display_errors', 1);
-
-// Log all POST data for debugging
-error_log("Contact Valid POST Data: " . print_r($_POST, true));
-
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     // Get form data with correct field names based on your form
     $name     = trim($_POST['name'] ?? '');
     $user_email = trim($_POST['email'] ?? '');
     $phone    = trim($_POST['phone'] ?? '');
-    $subject  = trim($_POST['Subject'] ?? 'मराठी संपर्क फॉर्म');
+    $subject  = trim($_POST['Subject'] ?? 'Contact Form');
     $message  = trim($_POST['message'] ?? ''); // This is the actual message
 
     // Extra hidden fields
@@ -20,18 +13,18 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $url      = trim($_POST['URL'] ?? '');
     $project_unique_code = trim($_POST['Project_Unique_Code'] ?? '');
 
-    // Log received values
-    error_log("Received - Name: $name, Email: $user_email, Phone: $phone, Message: $message");
-
-    // Validation - SIMPLE validation
+    // Validation
     $errors = [];
 
-    // Name validation - just check if not empty
+    // Name validation - allow ANY language (including Marathi, Hindi, English, etc.)
     if (empty($name)) {
         $errors[] = 'Name is required.';
-    } elseif (strlen($name) < 2) {
-        $errors[] = 'Name must be at least 2 characters.';
-    }
+    } elseif (strlen($name) < 2 || strlen($name) > 100) {
+        $errors[] = 'Name must be between 2 and 100 characters.';
+    } 
+    // Note: In PHP, we don't need strict regex for names in different languages
+    // Just check if it's not empty and has reasonable length
+    // The mb_detect_encoding can be used if you want to check for specific character sets
 
     // Email validation
     if (empty($user_email)) {
@@ -47,36 +40,26 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $errors[] = 'Please enter a valid 10-digit phone number.';
     }
 
-
     // Message validation
     if (empty($message)) {
         $errors[] = 'Message is required.';
-    } elseif (strlen($message) < 3) {
-        $errors[] = 'Message must be at least 3 characters.';
+    } elseif (strlen($message) < 5) {
+        $errors[] = 'Message must be at least 5 characters long.';
     }
-
-if($error=="")
-{
-    $page1 = $_POST['page'];
-    $to = "backupilogicx@gmail.com";
-    $subject = "Enquiry For ".$page1;
-
 
     // If there are validation errors, return them
     if (!empty($errors)) {
-        $error_string = implode(' ', $errors);
-        error_log("Validation errors: $error_string");
-        echo $error_string;
+        echo implode(' ', $errors);
         exit;
     }
 
-    // Log successful validation
-    error_log("Validation passed for: $name");
+    // Log the submission for debugging (optional)
+    error_log("Contact form submission - Name: $name, Email: $user_email, Phone: $phone");
 
     // Admin emails - Update these with your email addresses
     $adminEmail1 = 'sales@dotphi.com';
     $adminEmail2 = 'backupilogicx@gmail.com';
-    $adminEmail3 = 'idhirajjoshi8080@gmail.com'; // Added your email for testing
+    $adminEmail3 = 'idhirajjoshi@gmail.com'; // Added third email
 
     // From email - use a proper email address
     $domainEmail = 'noreply@' . $_SERVER['HTTP_HOST'];
@@ -203,12 +186,6 @@ if($error=="")
     $sentToAdmin1 = @mail($adminEmail1, $adminSubject, $adminBody, $headers);
     $sentToAdmin2 = @mail($adminEmail2, $adminSubject, $adminBody, $headers);
     $sentToAdmin3 = @mail($adminEmail3, $adminSubject, $adminBody, $headers);
-
-    // Log email sending results
-    error_log("Email results - User: " . ($sentToUser ? 'Sent' : 'Failed') . 
-              ", Admin1: " . ($sentToAdmin1 ? 'Sent' : 'Failed') . 
-              ", Admin2: " . ($sentToAdmin2 ? 'Sent' : 'Failed') . 
-              ", Admin3: " . ($sentToAdmin3 ? 'Sent' : 'Failed'));
 
     // Check if at least one admin email was sent and user email was sent
     if ($sentToUser && ($sentToAdmin1 || $sentToAdmin2 || $sentToAdmin3)) {
