@@ -158,32 +158,34 @@
                     </a>
                 </li>
                 <!-- Language Dropdown -->
-  <li class="nav-item dropdown language-dropdown">
+                <li class="nav-item dropdown language-dropdown">
                     <a href="#" class="nav-link">
                         <i class="fas fa-globe nav-icon"></i>
                         <span>MR</span>
                     </a>
                     <ul class="dropdown-menu">
-                         <li>
+                        <li>
                             <a href="home.php" class="dropdown-item">English (EN)</a>
                         </li>
                         <li>
                             <a href="index.php" class="dropdown-item">Marathi (MR)</a>
                         </li>
-                       
+                        <li>
+                            <a href="index1.php" class="dropdown-item">Hindi (Hi)</a>
+                        </li>
                     </ul>
                 </li>
 
 
-            <!-- Call to Action Button -->
-            <div class="navbar-cta">
-                <a href="tel:+919890702222" class="cta-button">
-                    <div class="cta-icon">
-                        <i class="fas fa-phone-alt"></i>
-                    </div>
-                    <span>+91 95520 95159</span>
-                </a>
-            </div>
+                <!-- Call to Action Button -->
+                <div class="navbar-cta">
+                    <a href="tel:+919890702222" class="cta-button">
+                        <div class="cta-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <span>+91 95520 95159</span>
+                    </a>
+                </div>
         </nav>
     </div>
 </body>
