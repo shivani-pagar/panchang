@@ -26,7 +26,7 @@
 								</div>
 								<div class="col-12 col-md-4 col-lg-5 d-none d-md-block text-center">
 									<div class="image-frame-gold animate__animated animate__zoomIn animate__delay-1s">
-										<img src="images/homepage-1/bg03.png" class="img-fluid main-img-clean" alt="Vedic Guru">
+										<img src="images/homepage-1/hero-img.png" class="img-fluid main-img-clean" alt="Vedic Guru">
 										<div class="exp-badge-white">
 											<span class="num">15+</span>
 											<span class="txt">Years of experience</span>
@@ -55,7 +55,7 @@
 								</div>
 								<div class="col-12 col-md-4 col-lg-5 d-none d-md-block text-center">
 									<div class="image-frame-gold">
-										<img src="images/homepage-1/bg03.png" class="img-fluid main-img-clean" alt="Astrology Expert">
+										<img src="images/homepage-1/hero-img.png" class="img-fluid main-img-clean" alt="Astrology Expert">
 									</div>
 								</div>
 							</div>

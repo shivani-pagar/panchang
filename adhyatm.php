@@ -487,7 +487,7 @@
             <!--		<aside class="widget post-list">-->
             <!--			<div class="all-post-list">-->
             <!--				<ul>-->
-            <!--					<li><a href="services-details.html">  Kalsarp Yog Puja </a></li>-->
+            <!--					<li><a href="services-details.html">  Panchang VastuPuja </a></li>-->
             <!--					<li class="post-active"><a href="services-details.html"> Rudrabhisek </a></li>-->
             <!--					<li><a href="services-details.html">  Mahamrityunjay  pooja  </a></li>-->
             <!--					<li><a href="services-details.html"> Pitru dosh  </a></li>-->

@@ -7,22 +7,23 @@
                     <div class="pbmit-title-bar-content-inner">
                         <div class="pbmit-tbar">
                             <div class="pbmit-tbar-inner container">
-                                <h1 class="pbmit-tbar-title">गॅलरी</h1>
+                                <h1 class="pbmit-tbar-title">चित्र व चित्रफीत</h1>
                             </div>
                         </div>
                         <div class="pbmit-breadcrumb">
                             <div class="pbmit-breadcrumb-inner">
                                 <span><a title="" href="index.php" class="home"><span>मुख्यपृष्ठ</span></a></span>
                                 <span class="sep">-</span>
-                                <span><span class="post-root post post-post current-item">गॅलरी</span></span>
+                                <span><span class="post-root post post-post current-item">चित्र व चित्रफीत</span></span>
                             </div>
                         </div>
                     </div>
                 </div>
                 <?php include 'sachin_guruji.php'; ?>
             </div>
-            <?php include 'inner-form.php'; ?>
+           
         </div>
+         <?php include 'inner-form.php'; ?>
     </div>
 </div>
 

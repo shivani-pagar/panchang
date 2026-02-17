@@ -17,7 +17,7 @@
                                     <div class="hero-content">
                                         <span class="badge mb-3 custom-badge animate__animated animate__fadeInDown">प्राचीन भारतीय ज्ञान</span>
                                         <h1 class="hero-title-clean animate__animated animate__fadeInLeft">सनातन वैदिक <br><span class="highlight-text">परंपराएँ और आशीर्वाद</span></h1>
-                                        <p class="hero-desc-clean animate__animated animate__fadeInLeft animate__delay-1s">शुद्ध मंत्र जाप और प्राचीन वैदिक रीति-रिवाजों से अपने जीवन की समस्याओं का समाधान करें। अपने घर में दिव्य चेतना का अनुभव करें।</p>
+                                        <p class="hero-desc-clean animate__animated animate__fadeInLeft animate__delay-1s"> प्राचीन वैदिक रीति-रिवाजों से अपने जीवन की समस्याओं का समाधान करें। अपने घर में दिव्य चेतना का अनुभव करें।</p>
                                         <div class="hero-btns-clean animate__animated animate__fadeInUp animate__delay-1s">
                                             <a href="#book" class="btn-orange">एक अनुष्ठान बुक करें</a>
                                             <a href="tel:+91XXXXXXXXXX" class="btn-outline-orange ml-md-3">चर्चा करना</a>
@@ -26,7 +26,7 @@
                                 </div>
                                 <div class="col-12 col-md-4 col-lg-5 d-none d-md-block text-center">
                                     <div class="image-frame-gold animate__animated animate__zoomIn animate__delay-1s">
-                                        <img src="images/homepage-1/bg03.png" class="img-fluid main-img-clean" alt="Vedic Guru">
+                                        <img src="images/homepage-1/hero-img.png" class="img-fluid main-img-clean" alt="Vedic Guru">
                                         <div class="exp-badge-white">
                                             <span class="num">१५+</span>
                                             <span class="txt">वर्षों का अनुभव</span>
@@ -55,7 +55,7 @@
                                 </div>
                                 <div class="col-12 col-md-4 col-lg-5 d-none d-md-block text-center">
                                     <div class="image-frame-gold">
-                                        <img src="images/homepage-1/bg03.png" class="img-fluid main-img-clean" alt="Astrology Expert">
+                                        <img src="images/homepage-1/hero-img.png" class="img-fluid main-img-clean" alt="Astrology Expert">
                                     </div>
                                 </div>
                             </div>

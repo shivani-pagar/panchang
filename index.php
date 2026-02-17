@@ -17,7 +17,7 @@
 									<div class="hero-content">
 										<span class="badge mb-3 custom-badge animate__animated animate__fadeInDown">प्राचीन भारतीय विद्या</span>
 										<h1 class="hero-title-clean animate__animated animate__fadeInLeft">सनातन वैदिक <br><span class="highlight-text">परंपरा व आशीर्वाद</span></h1>
-										<p class="hero-desc-clean animate__animated animate__fadeInLeft animate__delay-1s">तुमच्या आयुष्यातील संकटांचे निवारण शुद्ध मंत्रोच्चार आणि प्राचीन वैदिक विधींद्वारे करा. अनुभवा दैवी चैतन्य तुमच्याच घरी.</p>
+										<p class="hero-desc-clean animate__animated animate__fadeInLeft animate__delay-1s">तुमच्या आयुष्यातील संकटांचे निवारण आणि प्राचीन वैदिक विधींद्वारे करा. अनुभवा दैवी चैतन्य तुमच्याच घरी.</p>
 										<div class="hero-btns-clean animate__animated animate__fadeInUp animate__delay-1s">
 											<a href="#book" class="btn-orange">विधी बुक करा</a>
 											<a href="tel:+91XXXXXXXXXX" class="btn-outline-orange ml-md-3">चर्चा करा</a>
@@ -96,7 +96,7 @@
 
 			<div class="row mb-5">
 				<div class="col-12 text-center">
-					<div class="heading-wrapper">
+					<div classa="heading-wrapper">
 
 						<h2 class="display-6 fw-bold text-dark">आमच्याबद्दल</h2>
 						<div class="title-line mx-auto"></div>
@@ -163,9 +163,7 @@
 					</div>
 				</div>
 				<div class="col-lg-7">
-					<!-- <p class="text-muted fs-5 mb-0" style="border-left: 3px solid #c39b2e; padding-left: 20px;">
-						कालसर्प दोष, पितृ दोष किंवा ग्रहदोष यामुळे जीवनात अडचणी, विलंब आणि मानसिक ताण येऊ शकतो. योग्य पद्धतीने केलेली महा मृत्युंजय जप, नवग्रह शांती, रुद्राभिषेक यांसारखी पूजा जीवनात सकारात्मक बदल, शांती आणि स्थैर्य आणते.
-					</p> -->
+					
 				</div>
 			</div>
 
@@ -226,122 +224,107 @@
 
 	<!-- Testimonial Start -->
 	<section class="testimonial-contact-section py-5" style="background-color: #fffaf5; font-family: 'Mukta', sans-serif;">
-		<div class="container">
-			<div class="row g-5 align-items-center">
+    <div class="container">
+        <div class="row g-5 align-items-center">
+            
+            <!-- Left Column: Testimonial -->
+            <div class="col-lg-6">
+                <div class="testimonial-side pe-lg-4">
+                    <h4 class="text-orange fw-bold text-uppercase mb-2" style="color: #ff8c00; letter-spacing: 2px;">अभिप्राय</h4>
+                    <h2 class="display-6 fw-bold mb-4">आमच्यावर विश्वास ठेवणारे <br><span style="color: #ff8c00;">समाधानी ग्राहक</span></h2>
+                    
+                    <div class="swiper testimonial-swiper-mini">
+                        <div class="swiper-wrapper">
+                            <!-- Testimonial 1 -->
+                            <div class="swiper-slide">
+                                <div class="testimonial-mini-card p-4 bg-white shadow-sm" style="border-radius: 15px; border-left: 5px solid #ff8c00;">
+                                    <div class="star-rating mb-2" style="color: #ffc107; font-size: 0.8rem;">
+                                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                    </div>
+                                    <p class="fs-6 italic" style="color: #555;">"सचिन गुरुजींनी सुचवलेल्या वास्तु बदलांमुळे आमच्या घरात खूप सकारात्मकता आली आहे. विना तोडफोड केलेले उपाय अत्यंत प्रभावी ठरले."</p>
+                                    <div class="d-flex align-items-center mt-3">
+                                        <img src="images/homepage-1/avatar/img-01.png" class="rounded-circle me-3" width="60" height="60" alt="avatar">
+                                        <h3 class="fw-bold mb-0">अमोल सोनवणे, <span class="fw-normal text-muted">पुणे</span></h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Testimonial 2 -->
+                            <div class="swiper-slide">
+                                <div class="testimonial-mini-card p-4 bg-white shadow-sm" style="border-radius: 15px; border-left: 5px solid #ff8c00;">
+                                    <div class="star-rating mb-2" style="color: #ffc107; font-size: 0.8rem;">
+                                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                    </div>
+                                    <p class="fs-6 italic" style="color: #555;">"मुलीच्या लग्नाचे सर्व विधी गुरुजींनी अत्यंत शास्त्रोक्त पद्धतीने पार पाडले. मंत्रोच्चार आणि विधींचे महत्त्व त्यांनी खूप छान समजावून सांगितले."</p>
+                                    <div class="d-flex align-items-center mt-3">
+                                        <img src="images/homepage-1/avatar/img-02.png" class="rounded-circle me-3" width="60" height="60" alt="avatar">
+                                        <h3 class="fw-bold mb-0">सौ. आशालता पाटील, <span class="fw-normal text-muted">नाशिक</span></h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Swiper pagination -->
+                        <div class="swiper-pagination mt-4 position-relative"></div>
+                    </div>
+                </div>
+            </div>
 
+            <!-- Right Column: Contact Form (exactly as second example) -->
+            <div class="col-lg-6">
+                <div class="contact-form-card p-5 bg-white shadow-lg" style="border-radius: 25px; border-top: 8px solid #ff8c00;">
+                    <h3 class="fw-bold mb-2">चर्चा करण्यासाठी संपर्क साधा</h3>
+                    <p class="text-muted mb-4">तुमच्या अडचणी सोडवण्यासाठी आजच आमच्याशी संपर्क साधा.</p>
+                    
+                    <form method="post" id="contactForm">
+                        <div class="row g-3">
+                            <div id="form_response" class="col-md-12"></div>
 
-				<!-- Left Column: Testimonial -->
+                            <div class="col-md-6">
+                                <label class="form-label fw-bold">नाव</label>
+                                <input type="text" name="name" id="name" class="form-control classic-input" placeholder="तुमचे नाव" required>
+                            </div>
+                            <div class="col-md-6">
+                                <label class="form-label fw-bold">ईमेल</label>
+                                <input type="email" name="email" id="email" class="form-control classic-input" placeholder="तुमचा ईमेल" required>
+                            </div>
+                            <div class="col-md-6">
+                                <label class="form-label fw-bold">मोबाईल नंबर</label>
+                                <input type="tel" name="phone" id="phone" class="form-control classic-input" placeholder="९१XXXXXXXX" required>
+                            </div>
+                            <div class="col-md-6">
+                                <label class="form-label fw-bold">सेवेचा प्रकार</label>
+                                <select name="service" id="service" class="form-select classic-input" required>
+                                    <option value="" selected disabled>निवडा...</option>
+                                    <option>वास्तु कन्सल्टिंग</option>
+                                    <option>ज्योतिष मार्गदर्शन</option>
+                                    <option>पूजा विधी</option>
+                                </select>
+                            </div>
+                            <div class="col-12">
+                                <label class="form-label fw-bold">संदेश</label>
+                                <textarea name="message" id="message" class="form-control classic-input" rows="3" placeholder="तुमची समस्या थोडक्यात लिहा..." required></textarea>
+                            </div>
 
+                            <!-- Hidden fields for complete URL information (same as second section) -->
+                            <input type="hidden" name="Full_Domain" id="full_domain" value="<?php echo $fullDomain; ?>">
+                            <input type="hidden" name="Full_URL" id="full_url" value="<?php echo $fullURL; ?>">
+                            <input type="hidden" name="Page_Name" id="page_name" value="<?php echo $curPageName; ?>">
+                            <input type="hidden" name="Protocol" id="protocol" value="<?php echo $protocol; ?>">
 
-				<div class="col-lg-6">
-					<div class="testimonial-side pe-lg-4">
-						<h4 class="text-orange fw-bold text-uppercase mb-2" style="color: #ff8c00; letter-spacing: 2px;">अभिप्राय</h4>
-						<h2 class="display-6 fw-bold mb-4">आमच्यावर विश्वास ठेवणारे <br><span style="color: #ff8c00;">समाधानी ग्राहक</span></h2>
+                            <div class="col-12">
+                                <button type="submit" id="submit_btn" class="btn btn-orange w-100 py-3 mt-2 fw-bold text-uppercase" style="background: linear-gradient(45deg, #D32F2F, #B71C1C); border: none; color: white; border-radius: 50px; box-shadow: 0 10px 20px rgba(211, 47, 47, 0.2);">
+                                    <i class="form-btn-loader fa fa-circle-o-notch fa-spin fa-fw margin-bottom d-none"></i>
+                                    <span class="btn-text">माहिती पाठवा</span>
+                                    <i class="fas fa-paper-plane ms-2"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
 
-						<div class="swiper testimonial-swiper-mini">
-							<div class="swiper-wrapper">
-
-								<!-- Testimonial 1 -->
-
-								<div class="swiper-slide">
-									<div class="testimonial-mini-card p-4 bg-white shadow-sm" style="border-radius: 15px; border-left: 5px solid #ff8c00;">
-										<div class="star-rating mb-2" style="color: #ffc107; font-size: 0.8rem;">
-											<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-										</div>
-										<p class="fs-6 italic" style="color: #555;">"सचिन गुरुजींनी सुचवलेल्या वास्तु बदलांमुळे आमच्या घरात खूप सकारात्मकता आली आहे. विना तोडफोड केलेले उपाय अत्यंत प्रभावी ठरले."</p>
-										<div class="d-flex align-items-center mt-3">
-
-											<img src="images/homepage-1/avatar/img-01.png" class="rounded-circle me-3" width="60" height="60" alt="avatar">
-
-											<h3 class="fw-bold mb-0">अमोल सोनवणे, <span class="fw-normal text-muted">पुणे</span></h3>
-										</div>
-									</div>
-								</div>
-								<!-- Testimonial 2 -->
-                
-								<div class="swiper-slide">
-									<div class="testimonial-mini-card p-4 bg-white shadow-sm" style="border-radius: 15px; border-left: 5px solid #ff8c00;">
-										<div class="star-rating mb-2" style="color: #ffc107; font-size: 0.8rem;">
-											<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-										</div>
-										<p class="fs-6 italic" style="color: #555;">"मुलीच्या लग्नाचे सर्व विधी गुरुजींनी अत्यंत शास्त्रोक्त पद्धतीने पार पाडले. मंत्रोच्चार आणि विधींचे महत्त्व त्यांनी खूप छान समजावून सांगितले."</p>
-										<div class="d-flex align-items-center mt-3">
-
-											<img src="images/homepage-1/avatar/img-02.png" class="rounded-circle me-3" width="60" height="60" alt="avatar">
-
-											<h3 class="fw-bold mb-0">सौ. आशालता पाटील, <span class="fw-normal text-muted">नाशिक</span></h3>
-										</div>
-									</div>
-								</div>
-							</div>
-
-							<!-- Swiper pagination -->
-
-							<div class="swiper-pagination testimonial-pagination mt-4 position-relative"></div>
-						</div>
-					</div>
-				</div>
-
-				<!-- Right Column: Contact Form (exactly as second example) -->
-
-				<div class="col-lg-6">
-					<div class="contact-form-card p-5 bg-white shadow-lg" style="border-radius: 25px; border-top: 8px solid #ff8c00;">
-						<h3 class="fw-bold mb-2">चर्चा करण्यासाठी संपर्क साधा</h3>
-						<p class="text-muted mb-4">तुमच्या अडचणी सोडवण्यासाठी आजच आमच्याशी संपर्क साधा.</p>
-
-						<form method="post" id="contactForm">
-							<div class="row g-3">
-								<div id="form_response" class="col-md-12"></div>
-
-								<div class="col-md-6">
-									<label class="form-label fw-bold">नाव</label>
-									<input type="text" name="name" id="name" class="form-control classic-input" placeholder="तुमचे नाव" required>
-								</div>
-								<div class="col-md-6">
-									<label class="form-label fw-bold">ईमेल</label>
-									<input type="email" name="email" id="email" class="form-control classic-input" placeholder="तुमचा ईमेल" required>
-								</div>
-								<div class="col-md-6">
-									<label class="form-label fw-bold">मोबाईल नंबर</label>
-									<input type="tel" name="phone" id="phone" class="form-control classic-input" placeholder="९१XXXXXXXX" required>
-								</div>
-								<div class="col-md-6">
-									<label class="form-label fw-bold">सेवेचा प्रकार</label>
-									<select name="service" id="service" class="form-select classic-input" required>
-										<option value="" selected disabled>निवडा...</option>
-										<option>वास्तु कन्सल्टिंग</option>
-										<option>ज्योतिष मार्गदर्शन</option>
-										<option>पूजा विधी</option>
-									</select>
-								</div>
-								<div class="col-12">
-									<label class="form-label fw-bold">संदेश</label>
-
-									<textarea name="message" id="message" class="form-control classic-input" rows="3" placeholder="तुमची समस्या थोडक्यात लिहा..." required></textarea>
-								</div>
-
-								<!-- Hidden fields for complete URL information (same as second section) -->
-								<input type="hidden" name="Full_Domain" id="full_domain" value="<?php echo $fullDomain; ?>">
-								<input type="hidden" name="Full_URL" id="full_url" value="<?php echo $fullURL; ?>">
-								<input type="hidden" name="Page_Name" id="page_name" value="<?php echo $curPageName; ?>">
-								<input type="hidden" name="Protocol" id="protocol" value="<?php echo $protocol; ?>">
-
-								<div class="col-12">
-									<button type="submit" id="submit_btn" class="btn btn-orange w-100 h-70 py-3 mt-2 fw-bold text-uppercase" style="background: linear-gradient(45deg, #d3ad2f, #d3ad2f); border: none; color: white; border-radius: 50px; box-shadow: 0 10px 20px rgba(211, 47, 47, 0.2);">
-										<i class="form-btn-loader fa fa-circle-o-notch fa-spin fa-fw margin-bottom d-none"></i>
-										<span class="btn-text">माहिती पाठवा</span>
-										<i class="fas fa-paper-plane ms-2"></i>
-									</button>
-
-								</div>
-							</div>
-						</form>
-					</div>
-				</div>
-
-			</div>
-		</div>
-	</section>
+        </div>
+    </div>
+</section>
 
 	<!-- Testimonial End -->
 

@@ -28,8 +28,8 @@
 
 .slide-two {
     background:
-        linear-gradient(90deg, rgba(255, 255, 255, 0.95) 30%, rgba(255, 255, 255, 0.4) 100%),
-        url('../images/homepage-1/bg01.jpeg');
+         linear-gradient(90deg, rgba(255, 255, 255, 0.95) 30%, rgba(255, 255, 255, 0.4) 100%),
+        url('../images/homepage-1/bg05.jpg');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -466,3 +466,130 @@
 .testimonial-swiper-mini .swiper-pagination-bullet-active {
     background: #ff8c00 !important;
 }
+
+
+/* contatct Form */
+
+.classic-input {
+        background-color: #fdfdfd !important;
+        border: 1px solid #eee !important;
+        padding: 15px 20px !important;
+        border-radius: 12px !important;
+        font-size: 0.95rem;
+        transition: all 0.3s ease;
+        margin-bottom: 5px;
+    }
+
+    .classic-input:focus {
+        background-color: #fff !important;
+        border-color: #FFB300 !important;
+        box-shadow: 0 5px 15px rgba(255, 179, 0, 0.1) !important;
+    }
+
+    /* Submit Button Custom Styling */
+    .btn-classic-submit {
+        background: linear-gradient(45deg, #D32F2F, #B71C1C);
+        color: #fff !important;
+        border: none;
+        padding: 15px 40px;
+        border-radius: 50px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        box-shadow: 0 10px 20px rgba(211, 47, 47, 0.2);
+        transition: 0.3s ease;
+        cursor: pointer;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .btn-classic-submit:hover:not(:disabled) {
+        transform: translateY(-3px);
+        box-shadow: 0 15px 25px rgba(211, 47, 47, 0.4);
+        background: linear-gradient(45deg, #B71C1C, #D32F2F);
+    }
+
+    .btn-classic-submit:disabled {
+        opacity: 0.7;
+        cursor: not-allowed;
+    }
+
+    /* Info Card Styling */
+    .classic-info-card {
+        border-radius: 15px;
+        border: 1px solid #f1f1f1;
+        transition: all 0.3s ease;
+        border-left: 4px solid #FFB300;
+    }
+
+    .classic-info-card:hover {
+        transform: translateX(5px);
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05) !important;
+    }
+
+    /* Info Icon Box */
+    .info-icon-box {
+        width: 50px;
+        height: 50px;
+        background: #FFF3E0;
+        color: #D32F2F;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        font-size: 1.2rem;
+        flex-shrink: 0;
+    }
+
+
+    /* Small Action Button */
+    .pbmit-btn-sm-classic {
+        font-size: 0.8rem;
+        font-weight: 700;
+        color: #D32F2F;
+        text-transform: uppercase;
+        text-decoration: none;
+        border-bottom: 2px solid #FFB300;
+        padding-bottom: 3px;
+        transition: 0.3s;
+    }
+
+
+    .pbmit-btn-sm-classic:hover {
+        color: #FFB300;
+    }
+
+    /* Message styling */
+    #form_response {
+        padding: 10px 15px;
+        border-radius: 8px;
+        font-weight: 500;
+        display: none;
+    }
+
+    #form_response.show {
+        display: block;
+    }
+
+    #form_response.success {
+        background-color: #d4edda;
+        color: #155724;
+        border: 1px solid #c3e6cb;
+    }
+
+    #form_response.error {
+        background-color: #f8d7da;
+        color: #721c24;
+        border: 1px solid #f5c6cb;
+    }
+
+    /* Responsive Fixes */
+    @media (max-width: 991px) {
+        .contact-form-wrapper {
+            padding: 30px 20px;
+        }
+
+        .contact-info-sidebar {
+            margin-top: 30px;
+        }
+    }

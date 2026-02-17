@@ -240,8 +240,8 @@ include 'header.php';
                                 <label class="form-label fw-bold">मोबाईल नंबर</label>
                                 <input type="tel" name="phone" id="phone" class="form-control classic-input" placeholder="९१XXXXXXXX" required>
                             </div>
-                            <div class="col-md-6">
-                                <label class="form-label fw-bold">सेवेचा प्रकार</label>
+                            <div class="col-md-6 ">
+                                <label class="form-label fw-bold ">सेवेचा प्रकार</label>
                                 <select name="service" id="service" class="form-select classic-input" required>
                                     <option value="" selected disabled>निवडा...</option>
                                     <option>वास्तु कन्सल्टिंग</option>
