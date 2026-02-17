@@ -520,7 +520,7 @@
                         </div>
                         <div class="pbmit-breadcrumb">
                             <div class="pbmit-breadcrumb-inner">
-                                <span><a title="" href="index.php" class="home"><span>Home</span></a></span>
+                                <span><a title="" href="index1.php" class="home"><span>Home</span></a></span>
                                 <span class="sep">-</span>
                                 <span><span class="post-root post post-post current-item">उपनयन संस्कार</span></span>
                             </div>
@@ -532,7 +532,7 @@
 
 
             </div>
-               <?php include 'inner-form.php'; ?>
+            <?php include 'inner-form.php'; ?>
         </div>
     </div>
 </div>
@@ -597,14 +597,14 @@
             <div class="col-md-6 col-lg-6">
                 <div class="service-details">
                     <h3 class="pbmit-title">उपनयन संस्कार</h3>
-                    <p>उपनयन संस्कार (उपनयन = जवळ नेणे; संस्कार = शुद्धिकरण व घडवणूक) हा वैदिक परंपरेतील एक महत्त्वाचा संस्कार आहे, ज्याला यज्ञोपवीत संस्कार किंवा मुनिब्राह्मण संस्कार असेही म्हणतात. हा संस्कार मूलावर वेदाध्ययनाचा अधिकार प्रदान करतो आणि तो द्विजत्व (दुसरा जन्म) प्राप्त करतो असे मानले जाते.</p>
+                    <p>उपनयन संस्कार (उपनयन = निकट लाना; संस्कार = शुद्धिकरण और निर्माण) वैदिक परंपरा का एक महत्वपूर्ण अनुष्ठान है, जिसे यज्ञोपवीत संस्कार या मुनिब्रह्म संस्कार के नाम से भी जाना जाता है। यह अनुष्ठान बालक को वेदों का अध्ययन करने का अधिकार प्रदान करता है और माना जाता है कि इससे उसे द्विजत्व (द्वितीय जन्म) प्राप्त होता है।</p>
                 </div>
                 <div class="service-details">
-                    <h3 class="pbmit-title">उपनयन संस्काराचा अर्थ व महत्त्व</h3>
-                    <p>उप + नयन = गुरुच्या जवळ नेणे.</p>
-                    <p>शिष्याला वेदाध्ययनासाठी व ब्रह्मचर्याश्रमात प्रवेश देणारा संस्कार.</p>
-                    <p>द्विज’ म्हणजे दुसऱ्यांदा जन्मलेला — पहिला जन्म आई-वडिलांकडून, दुसरा जन्म गुरुंकडून (ज्ञानाचा).</p>
-                    <p>उपनयन झाल्यावर शिष्य ब्रह्मचर्य पाळतो, स्वाध्याय करतो, गुरुसेवा करतो.</p>
+                    <h3 class="pbmit-title">उपनयन संस्कार का मतलब और महत्व</h3>
+                    <p>उप + नयन = गुरु के पास लाना।</p>
+                    <p>वह संस्कार जो शिष्य को वैदिक अध्ययन और ब्रह्मचर्य आश्रम में प्रवेश देता है।</p>
+                    <p>'द्विज' का मतलब है दूसरा जन्म — पहला जन्म माता-पिता से होता है, दूसरा जन्म गुरु (ज्ञान का) से होता है।</p>
+                    <p>उपनयन के बाद, शिष्य ब्रह्मचर्य का पालन करता है, सेल्फ-स्टडी करता है, और गुरु की सेवा करता है।</p>
                 </div>
             </div>
         </div>
@@ -612,25 +612,7 @@
 </section>
 
 
-<section class="py-5"
-    style="background-image: url(images/guruji/ser-img/ctcbgg.jpg);
-       height: 300px;
-       width: 100%;
-       background-size: cover;
-       background-position: center;">
-
-    <div class="container">
-        <div class="row justify-content-end">
-            <div class="col-md-6">
-                <div>
-                    <h2>उपनयन संस्काराची योग्य वय</h2>
-                    <p>ब्राह्मण – ८ वर्षे (गर्भधारणेपासून ८वा वर्ष)</p>
-                    <a href="contact.php" class="pbmit-btnn pbmit-btn-lg">पूजेसाठी नोंदणी करा</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+<?php include 'book-now-hindi.php'; ?>
 
 <section class="puja-details-section">
     <div class="container">
@@ -644,12 +626,12 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="principle-content">
-                        <h2 class="accent-title">उपनयन संस्काराची योग्य वय</h2>
-                        <p>वैदिक विवाह संस्कारात अनेक पद्धती आहेत (उदा. ब्रह्मविवाह, गंधर्वविवाह), पण ब्राह्मणधर्मप्रणीत विवाहात यज्ञ आणि सप्तपदी हे मुख्य भाग आहेत.</p>
+                        <h2 class="accent-title">उपनयन संस्कार की सही उम्र</h2>
+                        <p>वैदिक विवाह संस्कारों में कई तरीके हैं (जैसे ब्रह्म विवाह, गंधर्व विवाह), लेकिन ब्राह्मण विवाह के मुख्य भाग यज्ञ और सप्तपदी हैं।</p>
                         <div class="samagri-container">
-                            <span class="samagri-box"> ब्राह्मण – ८ वर्षे (गर्भधारणेपासून ८वा वर्ष) </span>
-                            <br><span class="samagri-box">क्षत्रिय – ११ वर्षे (गर्भधारणेपासून ८वा वर्ष)</span>
-                            <br><span class="samagri-box"> वैश्य – १२ वर्षे (मनुस्मृती २.३६ नुसार)</span>
+                            <span class="samagri-box"> ब्राह्मण - 8 वर्ष (गर्भाधान से 8वां वर्ष)</span>
+                            <br><span class="samagri-box">क्षत्रिय – 11 साल (गर्भधारण से 8वां साल)</span>
+                            <br><span class="samagri-box">वैश्य – 12 साल (मनुस्मृति 2.36 के अनुसार)</span>
                         </div>
                     </div>
                 </div>
@@ -664,17 +646,17 @@
 
                     <div class="col-lg-6">
                         <div class="ritual-info-group">
-                            <h2 class="accent-title">वैदिक शास्त्रांतील संदर्भ</h2>
+                            <h2 class="accent-title">वैदिक ग्रंथों से संदर्भ</h2>
 
                             <div class="saptpadi-intro-text">
-                                <p>सप्तपदी हा हिंदू विवाहाचा सर्वात पवित्र आणि कायदेशीरदृष्ट्या महत्त्वाचा विधी आहे. अग्निसाक्षीत वर-वधू सात पावले चालतात आणि प्रत्येक पावलावर संसाराच्या समृद्धीसाठी विशिष्ट संकल्प करतात:</p>
+                                <p>सप्तपदी हिंदू शादी की सबसे पवित्र और कानूनी तौर पर ज़रूरी रस्म है। दूल्हा-दुल्हन अग्नि की साक्षी में सात कदम चलते हैं, और हर कदम पर दुनिया की खुशहाली के लिए खास संकल्प लेते हैं:</p>
                             </div>
 
                             <div class="vows-container">
-                                <span class="samagri-box"><i class="fas fa-leaf"></i> उपनयन संस्काराचा उल्लेख मनुस्मृती, गृह्यसूत्रे, धर्मशास्त्रे यामध्ये आहे.</span>
-                                <span class="samagri-box"><i class="fas fa-heartbeat"></i> यज्ञोपवीत (जानेऊ) धारण करून ‘गायत्री मंत्र’ चा अधिकार प्राप्त होतो.</span>
-                                <span class="samagri-box"><i class="fas fa-coins"></i> सामवेद, ऋग्वेद, यजुर्वेद – कोणत्या शाखेचा अभ्यास करायचा हे ठरवले जाते.</span>
-                                <span class="samagri-box"><i class="fas fa-smile-beam"></i> गुरु शिष्याला ‘सावित्री उपदेश’ (गायत्री मंत्र) देतो.</span>
+                                <span class="samagri-box"><i class="fas fa-leaf"></i>उपनयन संस्कार का उल्लेख मनुस्मृति, गृह्य सूत्र और धर्म शास्त्रों में मिलता है।</span>
+                                <span class="samagri-box"><i class="fas fa-heartbeat"></i> यज्ञोपवीत (जनेऊ) धारण करने से व्यक्ति को 'गायत्री मंत्र' का जाप करने का अधिकार प्राप्त होता है।</span>
+                                <span class="samagri-box"><i class="fas fa-coins"></i> सामवेद, ऋग्वेद, यजुर्वेद – इनमें से किस शाखा का अध्ययन करना है, यह तय किया जाता है।</span>
+                                <span class="samagri-box"><i class="fas fa-smile-beam"></i> गुरु शिष्य को 'सावित्री उपदेश' (गायत्री मंत्र) देते हैं।</span>
                             </div>
                         </div>
                     </div>
@@ -692,7 +674,7 @@
 
         <div class="wedding-ritual-section mt-5">
             <h2 class="wedding-section-title text-center mb-5">
-                <i class="fas fa-scroll"></i> उपनयन संस्कार विधी (Upanayan Rituals)
+                <i class="fas fa-scroll"></i>दीक्षा की प्रक्रिया
             </h2>
 
             <div class="wedding-steps-grid">
@@ -700,49 +682,49 @@
                 <div class="wedding-step-card">
                     <div class="wedding-step-icon"><i class="fas fa-pray"></i></div>
                     <h3>नंदी श्राद्ध</h3>
-                    <p>विधी निर्विघ्न पार पडण्यासाठी आणि पूर्वजांची कृपा प्राप्त करण्यासाठी श्राद्ध विधी व पूजन करणे.</p>
+                    <p>अनुष्ठानों को सुचारू रूप से चलाने और पूर्वजों की कृपा पाने के लिए श्राद्ध अनुष्ठान और पूजा करें।</p>
                 </div>
 
                 <div class="wedding-step-card">
                     <div class="wedding-step-icon"><i class="fas fa-place-of-worship"></i></div>
                     <h3>मंडप स्थापना</h3>
-                    <p>यज्ञ आणि मुख्य संस्कारासाठी पवित्र वेदी तयार करून शुद्ध स्थान निश्चित करणे.</p>
+                    <p>बलिदान और मुख्य अनुष्ठानों के लिए एक पवित्र वेदी तैयार करके एक शुद्ध स्थान तय करना।</p>
                 </div>
 
                 <div class="wedding-step-card">
                     <div class="wedding-step-icon"><i class="fas fa-cut"></i></div>
-                    <h3>केशवपन विधी</h3>
-                    <p>शिष्याचे केस काढून शुद्धी करणे (शिखा ठेवून), जे नवीन आध्यात्मिक जीवनाचे प्रतीक आहे.</p>
+                    <h3>केशवपन विधि</h3>
+                    <p>शिष्य के बाल काटकर शुद्धिकरण (शिक्षा रखना), जो नए आध्यात्मिक जीवन का प्रतीक है।</p>
                 </div>
 
                 <div class="wedding-step-card">
                     <div class="wedding-step-icon"><i class="fas fa-utensils"></i></div>
                     <h3>मातृ भोजन</h3>
-                    <p>संस्कारापूर्वी बटूने आपल्या मातेसोबत केलेले शेवटचे कौटुंबिक जेवण, ज्यानंतर गुरुगृही प्रयाण होते.</p>
+                    <p>संस्कार से पहले शिष्य अपनी माँ के साथ आखिरी पारिवारिक भोजन करता है, जिसके बाद वह गुरु के घर जाता है।</p>
                 </div>
 
                 <div class="wedding-step-card">
                     <div class="wedding-step-icon"><i class="fas fa-om"></i></div>
                     <h3>यज्ञोपवीतधारण</h3>
-                    <p>वैदिक परंपरेनुसार तीन सुतांचे 'जानवे' परिधान करणे, जे कर्तव्य आणि ज्ञानाचे प्रतीक आहे.</p>
+                    <p>वैदिक परंपरा के अनुसार तीन धागों का 'जनेवा' पहनना, जो एक कर्तव्य है और यह ज्ञान का प्रतीक है।</p>
                 </div>
 
                 <div class="wedding-step-card">
                     <div class="wedding-step-icon"><i class="fas fa-microphone-alt"></i></div>
-                    <h3>गायत्री मंत्र उपदेश</h3>
-                    <p>गुरु शिष्याच्या कानात पवित्र गायत्री मंत्राचा उपदेश करून त्याला विद्याभ्यासास प्रवृत्त करतात.</p>
+                    <h3>गायत्री मंत्र का उपदेश</h3>
+                    <p>गुरु शिष्य के कानों में पवित्र गायत्री मंत्र का उपदेश देकर उसे पढ़ाई करने के लिए प्रेरित करते हैं।</p>
                 </div>
 
                 <div class="wedding-step-card">
                     <div class="wedding-step-icon"><i class="fas fa-hand-holding-heart"></i></div>
-                    <h3>भिक्षाटन विधी</h3>
-                    <p>शिष्य गुरुच्या आज्ञेनुसार भिक्षा मागतो, ज्यामुळे मनातील अहंकार शमून नम्रता निर्माण होते.</p>
+                    <h3>भिक्षाटन अनुष्ठान</h3>
+                    <p>शिष्य गुरु की आज्ञा के अनुसार भिक्षा मांगता है, जिससे मन में अहंकार कम होता है और विनम्रता आती है।</p>
                 </div>
 
                 <div class="wedding-step-card">
                     <div class="wedding-step-icon"><i class="fas fa-user-shield"></i></div>
-                    <h3>गुरुसेवा व व्रतधारण</h3>
-                    <p>ब्रह्मचर्य पालनाची प्रतिज्ञा घेऊन गुरुच्या मार्गदर्शनाखाली ज्ञानार्जन करण्याचा संकल्प करणे.</p>
+                    <h3> गुरु सेवा और उपवास</h3>
+                    <p>गुरु का ब्रह्मचर्य व्रत, मार्गदर्शन में ज्ञान प्राप्त करने का संकल्प लेना।</p>
                 </div>
 
             </div>
@@ -757,13 +739,13 @@
 
                     <div class="phi-content-col rules-bg">
                         <div class="content-padding">
-                            <h2 class="mini-title"><i class="fas fa-hand-holding-water"></i> महत्त्वाचे नियम</h2>
+                            <h2 class="mini-title"><i class="fas fa-hand-holding-water"></i> ज़रूरी नियम</h2>
                             <ul class="ritual-list">
-                                <li><i class="fas fa-check"></i> ब्रह्मचर्याचे पालन</li>
-                                <li><i class="fas fa-check"></i> सत्य बोलणे, संयम राखणे</li>
-                                <li><i class="fas fa-check"></i> गुरुचे वचन पाळणे</li>
-                                <li><i class="fas fa-check"></i> स्वाध्याय (स्वतःचा अभ्यास)</li>
-                                <li><i class="fas fa-check"></i> प्रातःस्मरण व संध्यावंदन</li>
+                                <li><i class="fas fa-check"></i> ब्रह्मचर्य का पालन</li>
+                                <li><i class="fas fa-check"></i> सच बोलना, संयम रखना</li>
+                                <li><i class="fas fa-check"></i> गुरु का वादा निभाना</li>
+                                <li><i class="fas fa-check"></i> स्वाध्याय (सेल्फ़ स्टडी)</li>
+                                <li><i class="fas fa-check"></i> सुबह का स्मरण और शाम की प्रार्थना</li>
                             </ul>
                         </div>
                     </div>
@@ -772,16 +754,16 @@
                         <div class="content-padding">
                             <h2 class="mini-title"><i class="fas fa-lightbulb"></i> आध्यात्मिक अर्थ</h2>
                             <div class="meaning-item">
-                                <h4>मन, वाणी, शरीराची शुद्धी</h4>
-                                <p>हा संस्कार बटूला शारीरिक आणि मानसिक स्तरावर शुद्ध करून विद्यार्जनासाठी तयार करतो.</p>
+                                <h4>मन, वाणी, शरीर की शुद्धि</h4>
+                                <p>यह संस्कार शिष्य को शारीरिक और मानसिक रूप से शुद्ध करके सीखने के लिए तैयार करता है।</p>
                             </div>
                             <div class="meaning-item">
-                                <h4>आत्मसाक्षात्काराचा प्रारंभ</h4>
-                                <p>गायत्री मंत्राच्या उपदेशासह शिष्याच्या आध्यात्मिक प्रवासाची खरी सुरुवात होते.</p>
+                                <h4>आत्म-साक्षात्कार की शुरुआत</h4>
+                                <p>शिष्य की आध्यात्मिक यात्रा की असली शुरुआत गायत्री मंत्र के उपदेश से होती है।</p>
                             </div>
                             <div class="meaning-item">
-                                <h4>शिष्य आणि गुरु यांचे पवित्र नाते</h4>
-                                <p>गुरु शिष्याला अंधारातून प्रकाशाकडे (अज्ञानाकडून ज्ञानाकडे) नेण्याची जबाबदारी घेतात.</p>
+                                <h4>शिष्य और गुरु के बीच पवित्र रिश्ता</h4>
+                                <p>गुरु शिष्य को अंधेरे से रोशनी की ओर (अज्ञान से अंधकार की ओर) ले जाने की ज़िम्मेदारी लेता है ज्ञान).</p>
                             </div>
                         </div>
                     </div>

@@ -556,7 +556,7 @@
 
 
 			</div>
-		   <?php include 'inner-form.php'; ?>
+			<?php include 'inner-form.php'; ?>
 		</div>
 	</div>
 </div>
@@ -690,7 +690,7 @@
 
 		<hr class="section-divider">
 
-		
+
 
 </section>
 
