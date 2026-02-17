@@ -111,13 +111,13 @@
 
                         <!-- Astrology -->
                         <li class="dropdown-submenu">
-                            <a href="astrologies.php" class="dropdown-item">
+                            <a href="jyotish_shastra.php" class="dropdown-item">
                                 <i class="fas fa-star me-2"></i> ज्योतिष शास्त्र
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a href="astrology.php" class="dropdown-item">ज्योतिष शास्त्र</a></li>
-                                <li><a href="numerology.php" class="dropdown-item">अंक ज्योतिष</a></li>
-                                <li><a href="reiki.php" class="dropdown-item">रेकी</a></li>
+                                <li><a href="jyotishh.php" class="dropdown-item">ज्योतिष शास्त्र</a></li>
+                                <li><a href="ank_jyotish.php" class="dropdown-item">अंक ज्योतिष</a></li>
+                                <li><a href="rekii.php" class="dropdown-item">रेकी</a></li>
                                 <li><a href="dowsing_pendulum.php" class="dropdown-item">डाउजिंग पेंडुलम</a></li>
                                 <li><a href="crystal-hiling.php" class="dropdown-item">क्रिस्टल हीलिंग</a></li>
                                 <li><a href="gemology.php" class="dropdown-item">जेमोलॉजी</a></li>
