@@ -639,7 +639,7 @@
         }
     }
 </style>
-<?php include 'header.php'; ?>
+<?php include 'hindi/header.php'; ?>
 <!-- Title Bar -->
 <div class="pbmit-title-bar-wrapper " style="background-image:url(images/guruji/ser-img/bgser.jpg);">
     <div class="container paddcon">
@@ -654,7 +654,7 @@
                         </div>
                         <div class="pbmit-breadcrumb">
                             <div class="pbmit-breadcrumb-inner">
-                                <span><a title="" href="index.php" class="home"><span>Home</span></a></span>
+                                <span><a title="" href="index1.php" class="home"><span>Home</span></a></span>
                                 <span class="sep">-</span>
                                 <span><span class="post-root post post-post current-item">यंत्र आणि क्रिस्टल उपाय योजना</span></span>
                             </div>
@@ -1143,4 +1143,4 @@
 
 </section>
 
-<?php include 'footer.php'; ?>
+<?php include 'hindi/footer.php'; ?>
