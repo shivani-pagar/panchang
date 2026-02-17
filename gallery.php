@@ -21,9 +21,8 @@
                 </div>
                 <?php include 'sachin_guruji.php'; ?>
             </div>
-           
+            <?php include 'inner-form.php'; ?>
         </div>
-         <?php include 'inner-form.php'; ?>
     </div>
 </div>
 
