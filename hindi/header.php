@@ -111,34 +111,34 @@
 
                         <!-- Astrology -->
                         <li class="dropdown-submenu">
-                            <a href="astrologies.php" class="dropdown-item">
+                            <a href="jyotish_shastra.php" class="dropdown-item">
                                 <i class="fas fa-star me-2"></i> ज्योतिष शास्त्र
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a href="astrology.php" class="dropdown-item">ज्योतिष शास्त्र</a></li>
-                                <li><a href="numerology.php" class="dropdown-item">अंक ज्योतिष</a></li>
-                                <li><a href="reiki.php" class="dropdown-item">रेकी</a></li>
-                                <li><a href="dowsing_pendulum.php" class="dropdown-item">डाउजिंग पेंडुलम</a></li>
-                                <li><a href="crystal-hiling.php" class="dropdown-item">क्रिस्टल हीलिंग</a></li>
-                                <li><a href="gemology.php" class="dropdown-item">जेमोलॉजी</a></li>
-                                <li><a href="rudrakshh.php" class="dropdown-item">रुद्राक्ष</a></li>
-                                <li><a href="worship_products.php" class="dropdown-item">पूजा एवं उत्पाद</a></li>
+                                <li><a href="jyotishh.php" class="dropdown-item">ज्योतिष शास्त्र</a></li>
+                                <li><a href="ank_jyotish.php" class="dropdown-item">अंक ज्योतिष</a></li>
+                                <li><a href="rekii.php" class="dropdown-item">रेकी</a></li>
+                                <li><a href="d-pendulum.php" class="dropdown-item">डाउजिंग पेंडुलम</a></li>
+                                <li><a href="crystal_hiling.php" class="dropdown-item">क्रिस्टल हीलिंग</a></li>
+                                <li><a href="jemology.php" class="dropdown-item">जेमोलॉजी</a></li>
+                                <li><a href="rudrakshhh.php" class="dropdown-item">रुद्राक्ष</a></li>
+                                <li><a href="puja_utpad.php" class="dropdown-item">पूजा एवं उत्पाद</a></li>
                             </ul>
                         </li>
 
                         <!-- Vastu Shastra -->
                         <li class="dropdown-submenu">
-                            <a href="consulting.php" class="dropdown-item">
+                            <a href="vaastu-shastra.php" class="dropdown-item">
                                 <i class="fas fa-home me-2"></i> वास्तु शास्त्र
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a href="vaastu-consulting.php" class="dropdown-item">वास्तु शास्त्र</a></li>
-                                <li><a href="land-survey.php" class="dropdown-item">भूमि सर्वेक्षण</a></li>
-                                <li><a href="architectural-examination.php" class="dropdown-item">वास्तुकला परीक्षा</a></li>
-                                <li><a href="vaastu-aura-scanner.php" class="dropdown-item">वास्तु आभा स्कैनर</a></li>
-                                <li><a href="geopathic-stress.php" class="dropdown-item">भू ऊर्जा तनाव</a></li>
-                                <li><a href="vaastu-plan-designing.php" class="dropdown-item">वास्तु योजना</a></li>
-                                <li><a href="yantra-and-crystal-upay-yojna-product.php" class="dropdown-item">यंत्र एवं क्रिस्टल समाधान</a></li>
+                                <li><a href="vaastu-consulting-hindi.php" class="dropdown-item">वास्तु शास्त्र</a></li>
+                                <li><a href="bhumi-sarvekshan.php" class="dropdown-item">भूमि सर्वेक्षण</a></li>
+                                <li><a href="vaastu-parikshan.php" class="dropdown-item">वास्तुकला परीक्षा</a></li>
+                                <li><a href="vaastu-or-scanner.php" class="dropdown-item">वास्तु आभा स्कैनर</a></li>
+                                <li><a href="bhu-tanav.php" class="dropdown-item">भू ऊर्जा तनाव</a></li>
+                                <li><a href="vaastu-yojna.php" class="dropdown-item">वास्तु योजना</a></li>
+                                <li><a href="yantra-or-crystal-samadhan.php" class="dropdown-item">यंत्र एवं क्रिस्टल समाधान</a></li>
                             </ul>
                         </li>
                     </ul>
