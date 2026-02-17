@@ -118,11 +118,11 @@
                                 <li><a href="jyotishh.php" class="dropdown-item">ज्योतिष शास्त्र</a></li>
                                 <li><a href="ank_jyotish.php" class="dropdown-item">अंक ज्योतिष</a></li>
                                 <li><a href="rekii.php" class="dropdown-item">रेकी</a></li>
-                                <li><a href="dowsing_pendulum.php" class="dropdown-item">डाउजिंग पेंडुलम</a></li>
-                                <li><a href="crystal-hiling.php" class="dropdown-item">क्रिस्टल हीलिंग</a></li>
-                                <li><a href="gemology.php" class="dropdown-item">जेमोलॉजी</a></li>
-                                <li><a href="rudrakshh.php" class="dropdown-item">रुद्राक्ष</a></li>
-                                <li><a href="worship_products.php" class="dropdown-item">पूजा एवं उत्पाद</a></li>
+                                <li><a href="d-pendulum.php" class="dropdown-item">डाउजिंग पेंडुलम</a></li>
+                                <li><a href="crystal_hiling.php" class="dropdown-item">क्रिस्टल हीलिंग</a></li>
+                                <li><a href="jemology.php" class="dropdown-item">जेमोलॉजी</a></li>
+                                <li><a href="rudrakshhh.php" class="dropdown-item">रुद्राक्ष</a></li>
+                                <li><a href="puja_utpad.php" class="dropdown-item">पूजा एवं उत्पाद</a></li>
                             </ul>
                         </li>
 
