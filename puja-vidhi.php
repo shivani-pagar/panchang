@@ -1,88 +1,4 @@
 <style>
-    /* Title Bar Base */
-    .premium-title-bar-v2 {
-        padding: 60px 0 40px 0;
-        background-size: cover;
-        background-position: center;
-    }
-
-    .pbmit-title-bar-wrapper {
-    background-image: url('images/guruji/ser-img/bgser.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-    /* Header Styling */
-    .service-hero-title {
-        font-size: 3.8rem;
-        font-weight: 900;
-        color: #3E2723;
-    }
-
-    .text-red {
-        color: #D32F2F;
-    }
-
-    .hero-divider {
-        width: 80px;
-        height: 4px;
-        background: #FFB300;
-        margin-top: 10px;
-    }
-
-    .service-hero-desc {
-        font-size: 1.1rem;
-        color: #555;
-        line-height: 1.6;
-        max-width: 90%;
-    }
-
-    /* Floating Image */
-    .floating-hero-img {
-        max-height: 330px;
-        width: 400px;
-        filter: drop-shadow(0 15px 30px rgba(211, 47, 47, 0.2));
-        animation: floatAnim 5s ease-in-out infinite;
-    }
-
-    @keyframes floatAnim {
-
-        0%,
-        100% {
-            transform: translateY(0);
-        }
-
-        50% {
-            transform: translateY(-15px);
-        }
-    }
-
-    /* Full Width Form Styling */
-    .full-width-form-container {
-
-        padding: 20px;
-        border-radius: 20px;
-        box-shadow: 0 15px 40px rgba(0, 0, 0, 0.08);
-        border: 1px solid #ffe0b2;
-        border-top: 5px solid #D32F2F;
-        margin-top: -20px;
-
-    }
-
-    /* Form horizontal adjustment (If inner-form.php uses row) */
-    .full-width-form-container .row {
-        align-items: center;
-    }
-
-    .full-width-form-container h2.pbmit-titlee {
-        font-size: 1.1rem !important;
-        text-transform: uppercase;
-        color: #D32F2F;
-        margin: 0;
-        text-align: left;
-    }
-
     /* Overall Section Styling */
     .puja-details-section {
         padding: 60px 0;
@@ -158,7 +74,7 @@
 
     /* Ritual Info Groups */
     .ritual-header {
-        color: #ffa621;
+        color: #d32f2f;
         /* More professional red */
         font-weight: 800;
         font-size: 1.8rem;
@@ -435,42 +351,36 @@
 </style>
 <?php include 'header.php'; ?>
 <!-- Title Bar -->
-<div class="pbmit-title-bar-wrapper premium-title-bar-v2" style="  background-repeat: no-repeat; background: transparent; background-image: url('images/guruji/ser-img/bgser.jpg');">
-
-    <div class="container">
-
-        <div class="row align-items-center pb-5">
-            <div class="col-md-7 animate__animated animate__fadeInLeft">
-                <div class="pbmit-breadcrumb mb-3">
-                    <div class="pbmit-breadcrumb-inner">
-                        <span><a title="" href="index.php" class="home">Home</a></span>
-                        <span class="sep"><i class="fas fa-angle-right"></i></span>
-                        <span><span class="current-item">Puja Vidhi</span></span>
+<div class="pbmit-title-bar-wrapper " style="background-image:url(images/guruji/ser-img/bgser.jpg);">
+    <div class="container paddcon">
+        <div class="row align-items-center">
+            <div class="col-md-7 col-lg-7">
+                <div class="pbmit-title-bar-content">
+                    <div class="pbmit-title-bar-content-inner">
+                        <div class="pbmit-tbar">
+                            <div class="pbmit-tbar-inner container">
+                                <h1 class="pbmit-tbar-title">पूजा विधी</h1>
+                            </div>
+                        </div>
+                        <div class="pbmit-breadcrumb">
+                            <div class="pbmit-breadcrumb-inner">
+                                <span><a title="" href="index.php" class="home"><span>Home</span></a></span>
+                                <span class="sep">-</span>
+                                <span><span class="post-root post post-post current-item">Puja Vidhi</span></span>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <h1 class="service-hero-title">पूजा <span style="color: #d38105;">विधी</span></h1>
-                <div class="hero-divider"></div>
+
                 <?php include 'sachin_guruji.php'; ?>
-            </div>
 
-            <div class="col-md-5 text-center animate__animated animate__zoomIn">
-                <div class="hero-image-wrap">
-                    <img src="images\InnerPages\pujavidhi.png" class="img-fluid floating-hero-img" alt="Puja Vidhi">
-                </div>
+
             </div>
+              <?php include 'inner-form.php'; ?>
         </div>
-
-        <div class="row">
-            <div class="col-12 animate__animated animate__fadeInUp">
-                <div class="full-width-form-container">
-                    <?php include 'inner-form.php'; ?>
-                </div>
-            </div>
-        </div>
-
     </div>
 </div>
-
+<!-- Title Bar End-->
 <!-- Title Bar End-->
 <div class="mantra-ribbon-container">
     <div class="mantra-ribbon">
@@ -493,7 +403,7 @@
             <!--		<aside class="widget post-list">-->
             <!--			<div class="all-post-list">-->
             <!--				<ul>-->
-            <!--					<li><a href="services-details.html">  Panchang VastuPuja </a></li>-->
+            <!--					<li><a href="services-details.html">  Kalsarp Yog Puja </a></li>-->
             <!--					<li class="post-active"><a href="services-details.html"> Rudrabhisek </a></li>-->
             <!--					<li><a href="services-details.html">  Mahamrityunjay  pooja  </a></li>-->
             <!--					<li><a href="services-details.html"> Pitru dosh  </a></li>-->
