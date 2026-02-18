@@ -3,29 +3,29 @@
         <form method="post" id="innerForm">
             <div class="row">
                 <div class="col-md-12">
-                    <h2 class="pbmit-titlee">for more information contact us</h2>
+                    <h2 class="pbmit-titlee">अधिक जानकारी के लिए हमसे संपर्क करें</h2>
                 </div>
 
                 <div id="inner_check" class="col-md-12"></div>
 
                 <div class="col-md-12">
-                    <input type="text" name="inner_name" id="inner_name" class="form-control" placeholder="Your Name" required>
+                    <input type="text" name="inner_name" id="inner_name" class="form-control" placeholder="आपका नाम" required>
                 </div>
 
                 <div class="col-md-12">
-                    <input type="tel" name="inner_phone" id="inner_phone" class="form-control" placeholder="Phone" required>
+                    <input type="tel" name="inner_phone" id="inner_phone" class="form-control" placeholder="फ़ोन" required>
                 </div>
 
                 <div class="col-md-12">
-                    <input type="email" name="inner_email" id="inner_email" class="form-control" placeholder="Email" required>
+                    <input type="email" name="inner_email" id="inner_email" class="form-control" placeholder="ईमेल" required>
                 </div>
 
                 <div class="col-md-12">
-                    <input type="text" name="inner_subject" id="inner_subject" class="form-control" placeholder="Subject" required>
+                    <input type="text" name="inner_subject" id="inner_subject" class="form-control" placeholder="विषय" required>
                 </div>
 
                 <div class="col-md-12">
-                    <textarea name="inner_message" id="inner_message" rows="3" class="form-control" placeholder="Your Message" style="display:none;">Enquiry from inner form</textarea>
+                    <textarea name="inner_message" id="inner_message" rows="3" class="form-control" placeholder="आपका संदेश" style="display:none;">Enquiry from inner form</textarea>
                 </div>
 
                 <!-- Hidden fields for Google Sheets (matching your Apps Script expectations) -->
@@ -42,7 +42,7 @@
                 <div class="col-md-12">
                     <button type="submit" id="inner_btn_submit" class="pbmit-btn w-100">
                         <i class="form-btn-loader fa fa-circle-o-notch fa-spin fa-fw margin-bottom d-none"></i>
-                        Send Message
+                        मेसेज भेजें
                     </button>
                 </div>
             </div>
@@ -73,25 +73,25 @@ $(document).ready(function(){
 
         // Validation
         if(name == "" || !name.match(name_regex)) {
-            $('#inner_check').html('** Please Enter your Name **').css("color", "red");
+            $('#inner_check').html('** कृपया अपना नाम दर्ज करें**').css("color", "red");
             $("#inner_name").focus();
             return false;
         }
 
         if(phone == "" || !phone.match(mobile_regex)) {
-            $('#inner_check').html('** Please Enter Valid 10-digit Phone No **').css("color", "red");
+            $('#inner_check').html('** कृपया वैध 10 अंकों का फ़ोन नंबर दर्ज करें **').css("color", "red");
             $("#inner_phone").focus();
             return false;
         }
 
         if(email == "" || !email_regex.test(email)) {
-            $('#inner_check').html('** Please Enter Valid Email **').css("color", "red");
+            $('#inner_check').html('** कृपया वैध ईमेल दर्ज करें **').css("color", "red");
             $("#inner_email").focus();
             return false;
         }
 
         if(subject == "") {
-            $('#inner_check').html('** Please Enter Subject **').css("color", "red");
+            $('#inner_check').html('** कृपया विषय दर्ज करें **').css("color", "red");
             $("#inner_subject").focus();
             return false;
         }

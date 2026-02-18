@@ -11,7 +11,7 @@
                 <div>
                     <h2>Book your puja today.</h2>
                     <p>Register easily for your sacred ceremony and receive divine blessings.</p>
-                    <a href="contact.php" class="pbmit-btnn pbmit-btn-lg">Book Now</a>
+                    <a href="contact-us.php" class="pbmit-btnn pbmit-btn-lg">Book Now</a>
 
 
                 </div>

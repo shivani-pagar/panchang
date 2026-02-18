@@ -612,12 +612,9 @@
                         </div>
                     </div>
                 </div>
-
-                <?php include 'sachin_guruji.php'; ?>
-
-
+                <?php include 'sachin_guruji_hindi.php'; ?>
             </div>
-            <?php include 'inner-form.php'; ?>
+            <?php include 'inner-form-hindi.php'; ?>
         </div>
     </div>
 </div>
@@ -827,46 +824,46 @@
                 <div class="philosophy-flex">
 
                     <div class="phi-content-col rules-bg">
-    <div class="content-padding">
-        <h2 class="mini-title"><i class="fas fa-hand-holding-water"></i>यज्ञ के फायदे (वैदिक दृष्टि से)</h2>
-        <ul class="ritual-list">
-            <li><i class="fas fa-check"></i> आध्यात्मिक प्रगति और मोक्ष का मार्ग।</li>
-            <li><i class="fas fa-check"></i> वातावरण की अशुद्धता समाप्त होती है।</li>
-            <li><i class="fas fa-check"></i> जीवों के कल्याण के लिए ऊर्जा का प्रक्षेपण।</li>
-            <li><i class="fas fa-check"></i> मानसिक और शारीरिक स्वास्थ्य में वृद्धि।</li>
-            <li><i class="fas fa-check"></i> कर्मशुद्धि और ऋणमोचन।</li>
-        </ul><br>
-        <h2 class="mini-title"><i class="fas fa-hand-holding-water"></i>वैदिक महत्त्व</h2>
-        <ul class="ritual-list">
-            <li><i class="fas fa-check"></i>यज्ञो वै श्रेष्ठतमं कर्म — यज्ञ श्रेष्ठ कर्म है (भगवद्गीता ४.२३)।</li>
-            <li><i class="fas fa-check"></i> यज्ञ के बिना देवता संतुष्ट नहीं होते।</li>
-            <li><i class="fas fa-check"></i> यज्ञ से वर्षा, अन्न वृद्धि और सृष्टि चक्र चलता है (गीता ३.१४)।</li>
-        </ul>
-    </div>
-</div>
+                        <div class="content-padding">
+                            <h2 class="mini-title"><i class="fas fa-hand-holding-water"></i>यज्ञ के फायदे (वैदिक दृष्टि से)</h2>
+                            <ul class="ritual-list">
+                                <li><i class="fas fa-check"></i> आध्यात्मिक प्रगति और मोक्ष का मार्ग।</li>
+                                <li><i class="fas fa-check"></i> वातावरण की अशुद्धता समाप्त होती है।</li>
+                                <li><i class="fas fa-check"></i> जीवों के कल्याण के लिए ऊर्जा का प्रक्षेपण।</li>
+                                <li><i class="fas fa-check"></i> मानसिक और शारीरिक स्वास्थ्य में वृद्धि।</li>
+                                <li><i class="fas fa-check"></i> कर्मशुद्धि और ऋणमोचन।</li>
+                            </ul><br>
+                            <h2 class="mini-title"><i class="fas fa-hand-holding-water"></i>वैदिक महत्त्व</h2>
+                            <ul class="ritual-list">
+                                <li><i class="fas fa-check"></i>यज्ञो वै श्रेष्ठतमं कर्म — यज्ञ श्रेष्ठ कर्म है (भगवद्गीता ४.२३)।</li>
+                                <li><i class="fas fa-check"></i> यज्ञ के बिना देवता संतुष्ट नहीं होते।</li>
+                                <li><i class="fas fa-check"></i> यज्ञ से वर्षा, अन्न वृद्धि और सृष्टि चक्र चलता है (गीता ३.१४)।</li>
+                            </ul>
+                        </div>
+                    </div>
 
 
-                  <div class="phi-content-col meaning-bg">
-    <div class="content-padding">
-        <h2 class="mini-title"><i class="fas fa-lightbulb"></i> यज्ञ के प्रकार (वैदिक काल में)</h2>
-        <div class="meaning-item">
-            <h4>नित्य यज्ञ —</h4>
-            <p>प्रतिदिन किए जाने वाले यज्ञ (अग्निहोत्र, दर्शपूर्णिमा, अग्रायण)।</p>
-        </div>
-        <div class="meaning-item">
-            <h4>काम्य यज्ञ —</h4>
-            <p>विशेष फल प्राप्ति के लिए (पुत्रकामेष्टी, सर्वकामेष्टी, राजसूय, अश्वमेध)।</p>
-        </div>
-        <div class="meaning-item">
-            <h4>प्रायश्चित्त यज्ञ —</h4>
-            <p>पापों के प्रायश्चित के लिए।</p>
-        </div>
-        <div class="meaning-item">
-            <h4>सामाजिक यज्ञ —</h4>
-            <p>जनकल्याण के लिए (सार्वजनिक सत्यनारायण यज्ञ, रुद्रयज्ञ, दुर्गायज्ञ)।</p>
-        </div>
-    </div>
-</div>
+                    <div class="phi-content-col meaning-bg">
+                        <div class="content-padding">
+                            <h2 class="mini-title"><i class="fas fa-lightbulb"></i> यज्ञ के प्रकार (वैदिक काल में)</h2>
+                            <div class="meaning-item">
+                                <h4>नित्य यज्ञ —</h4>
+                                <p>प्रतिदिन किए जाने वाले यज्ञ (अग्निहोत्र, दर्शपूर्णिमा, अग्रायण)।</p>
+                            </div>
+                            <div class="meaning-item">
+                                <h4>काम्य यज्ञ —</h4>
+                                <p>विशेष फल प्राप्ति के लिए (पुत्रकामेष्टी, सर्वकामेष्टी, राजसूय, अश्वमेध)।</p>
+                            </div>
+                            <div class="meaning-item">
+                                <h4>प्रायश्चित्त यज्ञ —</h4>
+                                <p>पापों के प्रायश्चित के लिए।</p>
+                            </div>
+                            <div class="meaning-item">
+                                <h4>सामाजिक यज्ञ —</h4>
+                                <p>जनकल्याण के लिए (सार्वजनिक सत्यनारायण यज्ञ, रुद्रयज्ञ, दुर्गायज्ञ)।</p>
+                            </div>
+                        </div>
+                    </div>
 
                 </div>
             </div>

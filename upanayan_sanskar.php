@@ -528,11 +528,9 @@
                     </div>
                 </div>
 
-                <?php include 'sachin_guruji.php'; ?>
-
-
+                <?php include 'sachin_guruji_hindi.php'; ?>
             </div>
-            <?php include 'inner-form.php'; ?>
+            <?php include 'inner-form-hindi.php'; ?>
         </div>
     </div>
 </div>
@@ -542,39 +540,7 @@
 <section class="mainsection">
     <div class="container">
         <div class="row align-items-center">
-            <!--<div class="col-lg-4 service-left-col order-2 order-lg-1">-->
-            <!--	<aside class="service-sidebar">-->
-            <!--		<aside class="widget post-list">-->
-            <!--			<div class="all-post-list">-->
-            <!--				<ul>-->
-            <!--					<li><a href="services-details.html">  Panchang VastuPuja </a></li>-->
-            <!--					<li class="post-active"><a href="services-details.html"> Rudrabhisek </a></li>-->
-            <!--					<li><a href="services-details.html">  Mahamrityunjay  pooja  </a></li>-->
-            <!--					<li><a href="services-details.html"> Pitru dosh  </a></li>-->
-            <!--					<li><a href="services-details.html"> Navgrah shaanti  </a></li>-->
-            <!--				</ul>-->
-            <!--			</div>-->
-            <!--		</aside>-->
-            <!--		<aside class="widget post-list">-->
-            <!--			<div class="textwidget">-->
-            <!--				<div class="single-service-contact">-->
-            <!--					<div class="single-service-contact-inner">-->
-            <!--						<span><i class="pbmit-moversco-business-icon-headset"></i></span>-->
-            <!--						<h3>For More Details<br> Call Us</h3>-->
-            <!--						<ul class="ctc">-->
-            <!--							<li>-->
-            <!--								<i class="pbmit-base-icon-phone"></i> <a href="tel:+91 9890702222">-->
-            <!--								    +91 9890702222-->
-            <!--								</a> -->
-            <!--							</li>-->
-
-            <!--						</ul>-->
-            <!--					</div>-->
-            <!--				</div>-->
-            <!--			</div>-->
-            <!--		</aside>-->
-            <!--	</aside>-->
-            <!--</div>-->
+           
             <div class="mantra-ribbon-container">
                 <div class="mantra-ribbon">
                     <div class="mantra-icon-left"><i class="fas fa-om"></i></div>

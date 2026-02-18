@@ -164,10 +164,10 @@ include 'hindi/header.php';
                     </div>
                 </div>
 
-                <?php include 'sachin_guruji.php'; ?>
+                <?php include 'sachin_guruji_hindi.php'; ?>
             </div>
 
-            <?php include 'inner-form.php'; ?>
+            <?php include 'inner-form-hindi.php'; ?>
 
         </div>
     </div>
