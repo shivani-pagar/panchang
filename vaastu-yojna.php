@@ -864,4 +864,4 @@
 
 </section>
 
-<?php include 'footer.php'; ?>
+<?php include 'hindi/footer.php'; ?>
