@@ -611,26 +611,7 @@
     </div>
 </section>
 
-
-<section class="py-5"
-    style="background-image: url(images/guruji/ser-img/ctcbgg.jpg);
-       height: 300px;
-       width: 100%;
-       background-size: cover;
-       background-position: center;">
-
-    <div class="container">
-        <div class="row justify-content-end">
-            <div class="col-md-6">
-                <div>
-                    <h2>उपनयन संस्काराची योग्य वय</h2>
-                    <p>ब्राह्मण – ८ वर्षे (गर्भधारणेपासून ८वा वर्ष)</p>
-                    <a href="contact.php" class="pbmit-btnn pbmit-btn-lg">पूजेसाठी नोंदणी करा</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+<?php include 'book-now-marathi.php'; ?>
 
 <section class="puja-details-section">
     <div class="container">

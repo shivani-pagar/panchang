@@ -1143,4 +1143,4 @@
 
 </section>
 
-<?php include 'hindi/footer.php'; ?>
+<?php include 'hindi/footer.php'; ?>    

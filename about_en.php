@@ -590,8 +590,7 @@
                                 <div class="mantra-icon"><i class="fas fa-om"></i></div>
                                 <div class="mantra-content">
                                     <p class="sanskrit-shlok-small">
-                                        “I do not desire a kingdom nor heaven nor rebirth I desire the destruction of the sufferings of living beings tormented by misery
-                                    </p>
+“न त्वहं कामये राज्यम्। न स्वर्ग न पुनर्भवम् ।। कामये दुःखतप्तानाम् । प्राणिनाम् आर्तिनाशनम् ।।                                    </p>
                                     <p class="shlok-meaning-small">
                                         <strong>Meaning:</strong> "I have no desire for the kingdom, nor for heaven nor for rebirth (salvation). I have only one desire – to remove the suffering of all human beings who are suffering."
                                     </p>
