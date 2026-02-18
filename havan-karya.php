@@ -83,11 +83,9 @@
                     </div>
                 </div>
 
-                <?php include 'sachin_guruji.php'; ?>
-
-
+                <?php include 'sachin_guruji_marathi.php'; ?>
             </div>
-           <?php include 'inner-form.php'; ?>
+            <?php include 'inner-form-marathi.php'; ?>
         </div>
     </div>
 </div>

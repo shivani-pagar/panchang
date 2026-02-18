@@ -627,11 +627,11 @@
                     </div>
                 </div>
 
-                <?php include 'sachin_guruji.php'; ?>
+                <?php include 'sachin_guruji_marathi.php'; ?>
 
 
             </div>
-            <?php include 'inner-form.php'; ?>
+            <?php include 'inner-form-marathi.php'; ?>
         </div>
     </div>
 </div>
@@ -850,7 +850,7 @@
 
                         <h3>प्रमुख ग्रंथ</h3>
                         <div class="samagri-container">
-                             <span class="samagri-box">बृहज्जातक (वराहमिहिर) </span>
+                            <span class="samagri-box">बृहज्जातक (वराहमिहिर) </span>
                             <span class="samagri-box">फलदीपिका </span>
                             <span class="samagri-box">पाराशर होरा शास्त्र</span><br>
                             <span class="samagri-box"> सारावली</span>
@@ -867,23 +867,23 @@
                 </div>
 
 
-                
+
             </div>
             <div class="phi-content-col meaning-bg">
-                    <div class="content-padding">
-                        <h2 class="mini-title"><i class="fas fa-lightbulb"></i> ज्योतिषावर टीका व शास्त्रीय दृष्टीकोन</h2>
-                        <div class="meaning-item d-flex justify-content-center">
+                <div class="content-padding">
+                    <h2 class="mini-title"><i class="fas fa-lightbulb"></i> ज्योतिषावर टीका व शास्त्रीय दृष्टीकोन</h2>
+                    <div class="meaning-item d-flex justify-content-center">
 
-                            <p>अनेक शास्त्रज्ञ ज्योतिषाला अंधश्रद्धा मानतात कारण त्याचे वैज्ञानिक आधार कमी आहेत. मात्र, भारतीय समाजात याचे सांस्कृतिक महत्त्व प्रचंड आहे, विशेषतः लग्न, मुहूर्त व नक्षत्र विचारा</p>
-                        </div>
-
+                        <p>अनेक शास्त्रज्ञ ज्योतिषाला अंधश्रद्धा मानतात कारण त्याचे वैज्ञानिक आधार कमी आहेत. मात्र, भारतीय समाजात याचे सांस्कृतिक महत्त्व प्रचंड आहे, विशेषतः लग्न, मुहूर्त व नक्षत्र विचारा</p>
                     </div>
+
                 </div>
+            </div>
         </div>
-        
+
     </section>
 
-    
+
 
 </section>
 
