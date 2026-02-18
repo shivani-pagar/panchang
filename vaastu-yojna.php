@@ -529,7 +529,7 @@
         }
     }
 </style>
-<?php include 'header.php'; ?>
+<?php include 'hindi/header.php'; ?>
 <!-- Title Bar -->
 <div class="pbmit-title-bar-wrapper " style="background-image:url(images/guruji/ser-img/bgser.jpg);">
     <div class="container paddcon">
@@ -552,11 +552,9 @@
                     </div>
                 </div>
 
-                <?php include 'sachin_guruji.php'; ?>
-
-
+                <?php include 'sachin_guruji_hindi.php'; ?>
             </div>
-            <?php include 'inner-form.php'; ?>
+            <?php include 'inner-form-hindi.php'; ?>
         </div>
     </div>
 </div>
@@ -864,4 +862,4 @@
 
 </section>
 
-<?php include 'footer.php'; ?>
+<?php include 'hindi/footer.php'; ?>

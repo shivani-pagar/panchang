@@ -11,7 +11,7 @@
                 <div>
                     <h2>आज ही अपनी पूजा बुक करें।</h2>
                     <p>अपने पवित्र अनुष्ठान के लिए आसानी से पंजीकरण करें और दिव्य आशीर्वाद प्राप्त करें।</p>
-                    <a href="contact.php" class="pbmit-btnn pbmit-btn-lg">अभी बुक करें</a>
+                    <a href="contact_us.php" class="pbmit-btnn pbmit-btn-lg">अभी बुक करें</a>
                 </div>
             </div>
         </div>

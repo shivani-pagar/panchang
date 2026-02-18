@@ -6,7 +6,7 @@
     <!-- IMPORTANT: Add FontAwesome for icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Panchang Vastu – Expert Vastu Shastra Consultant in India </title>
+    <title>पंचांग वास्तू – भारतातील तज्ञ वास्तुशास्त्र सल्लागार</title>
     <meta name="robots" content="noindex, follow">
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
