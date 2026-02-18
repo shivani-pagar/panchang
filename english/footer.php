@@ -16,7 +16,7 @@
                             <img src="images/guruji/panchang-vastu-logo.webp" alt="Panchang Vastu Logo" class="img-fluid">
                             <div class="guruji-name">Sachin Joshi</div>
                             <div class="guruji-title">Astrology · Vastu Expert</div>
-                            <div class="sanskrit-motto">“Success is born from determination”</div>
+                            <div class="sanskrit-motto">“संकल्पात् जायते सिद्धि”</div>
                         </div>
 
                         <div style="margin-top: 1.5rem; font-size: 0.9rem; color: #b4945a;">

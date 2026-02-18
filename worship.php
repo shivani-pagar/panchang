@@ -386,8 +386,7 @@
         <div class="mantra-icon-left"><i class="fas fa-om"></i></div>
         <div class="mantra-text-content">
             <p class="sanskrit-shlok">
-                Pushtipate Namastubhya Namah Shankarasoonve ॥ Brahmabhutaya Devaya Sarvasiddhipradaya to ॥
-            </p>
+                पुष्टिपते नमस्तुभ्यं नमः शंकरसूनवे ॥ ब्रम्हभूताय देवाय सर्वसिद्धिप्रदाय ते ॥ </p>
 
         </div>
         <div class="mantra-icon-right"><i class="fas fa-om"></i></div>

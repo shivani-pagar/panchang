@@ -135,8 +135,7 @@
 
 						<div class="quote-box">
 							<p>
-								“Sankalpāt jayate siddhi” — Success is born from determination. We are fully dedicated to guiding you on the path to harmony, peace and success in every aspect of your life.
-							</p>
+“संकल्पात जायते सिद्धी” — यश हे दृढनिश्चयातूनच जन्माला येते. तुमच्या जीवनाच्या प्रत्येक पैलूमध्ये सुसंवाद, शांती आणि यशाच्या मार्गावर योग्य मार्गदर्शन करण्यासाठी आम्ही पूर्णपणे समर्पित आहोत.							</p>
 						</div>
 
 						<a href="about.php" class="btn-modern-about">
@@ -164,7 +163,7 @@
 				</div>
 				<div class="col-lg-7">
 					<p class="text-muted fs-5 mb-0" style="border-left: 3px solid #c39b2e; padding-left: 20px;">
-						Kaal Sarp Dosha, Pitru Dosha or Graha Dosha can cause difficulties, delays and mental stress in life. Properly performed pujas like Maha Mrityunjay Japa, Navagraha Shanti, Rudrabhishek bring positive changes, peace and stability in life. </p>
+						 Pitru Dosha or Graha Dosha can cause difficulties, delays and mental stress in life. Properly performed pujas like Maha Mrityunjay Japa, Navagraha Shanti, Rudrabhishek bring positive changes, peace and stability in life. </p>
 				</div>
 			</div>
 

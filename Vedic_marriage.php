@@ -96,9 +96,7 @@
         <div class="mantra-icon-left"><i class="fas fa-om"></i></div>
         <div class="mantra-text-content">
             <p class="sanskrit-shlok">
-                Marginal Caste Abhidhe Namakhya with Niskramen Cha and Channashanam Karmach |
-                Chudakhyam vratbandhako ऽpyath chaturvedavratanam purah | Keshanta: savisargak:
-                parinayah syat shodshi karmanam ||
+                गर्भाधानमतश्च पुंसवनकं सीमन्तजाताभिधे | नामाख्यं सह निष्क्रमेण च तथा चान्नाशनं कर्मच | चूडाख्यं व्रतबन्धकोऽप्यथ चतुर्वेदव्रतानां पुरः | केशान्तः सविसर्गक:परिणयः स्यात षोडशी कर्मणाम् ||
             </p>
 
         </div>
@@ -244,12 +242,6 @@
                                 <span class="samagri-box"><i class="fas fa-unity"></i> Unity</span>
                             </div>
 
-                            <div class="vow-conclusion">
-                                <div class="info-icon-box">
-                                    <i class="fas fa-check-circle"></i>
-                                    <span>A marriage is considered complete only after these seven steps.</span>
-                                </div>
-                            </div>
                         </div>
                     </div>
 
